@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 # import data from excel file
 try:
-    hw = pd.ExcelFile('Level at floodings.xlsx')
+    hw = pd.ExcelFile('floodings.xlsx')
     hw1993 = hw.parse('HW1993')
     hw1995 = hw.parse('HW1995')
     hw2013 = hw.parse('HW2013')
