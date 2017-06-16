@@ -21,9 +21,9 @@ logging.basicConfig(filename='floodpred.log', level=logging.DEBUG)
 
 
 if __name__ == '__main__':
-    waterlevel = input("Input the current waterlevel in format ex. 300.0")
-    time = input("Input the current time in format e.g. 10.0 (for 10AM)")
-    hours = input("Input the predicting hours in format e.g. 8.0 (for 8 hours)")
+    waterlevel = float(input("Input the current waterlevel ex. 300.0: "))
+    time = float(input("Input the current time e.g. 10.0 (for 10AM): "))
+    hours = float(input("Input the predicting hours e.g. 8.0 (for 8 hours): "))
 
     if (type(waterlevel) and type(time) and type(hours) is float):
         kwargs = {"waterlevel": waterlevel, "time_now": time,
