@@ -215,6 +215,7 @@ class DownloadImg(object):
             try:
                 savepath = os.path.join(self.save_location, name)
                 with open(savepath, 'wb') as code:
+                    self.logger.info(".... Starting download")
                     c = pycurl.Curl()
                     c.setopt(c.URL, link.replace('\n', ''))
                     c.setopt(c.WRITEDATA, code)
@@ -232,8 +233,9 @@ class DownloadImg(object):
                 connection = urllib2.urlopen(req)
             except urllib2.HTTPError as e:
                 # Error codes in range 400, 599
-                self.logger.error('error code %d', e.code)
-                self.logger.error('read error code %d', e.read())
+                self.logger.error('error code %d, Message: %s', e.code,
+                                  e.strerror)
+                sys.exit()
             finally:
                 self.logger.info('Status OK')
             return connection
