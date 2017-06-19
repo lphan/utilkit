@@ -58,7 +58,11 @@ class FloodPred(object):
 
         self.start_idx = 0
         self.middle_idx = 0
+        # self.middle_idx = self._convFloatTime(self.time_now)
+
         self.end_idx = 0
+
+        self.result = 0
 
     """
     Inititialize values for waterlevel
@@ -87,6 +91,11 @@ class FloodPred(object):
 
         self.gyr_list_left = []
         self.gyr_list_right = []
+
+        self.roc = []       # rate of change by days from 0:00 to 24:00
+        self.x_roc = []
+        self.y_roc = []
+        self.list_roc = []
 
     # TODO: review norm-techniques of z-score & min-max
     # TODO: make normalization as an option for hwall-data and classified-data
@@ -167,36 +176,14 @@ class FloodPred(object):
         self.green_array = np.asarray(self.green_array)
 
     """
-    Calculate Average Mean Value of water level at every single timepoint
-    """
-    def calAvrMeanValues(self):
-        self.subset = hwall[['Zeit', 'W normed']]
-
-        # Lists group names and index labels for group membership
-        df = pd.DataFrame(self.subset)
-
-        gd = df.groupby(['Zeit'])
-        for k in gd:
-            self.mean_ax.append(k[0])
-            self.mean_ay.append(k[1].values[:, 1].mean())
-
-    """
     Calculate Mean Value of water level at every single timepoint
     """
     def calMeanValue(self):
         def groupbyresult(data_array):
-            temp = []
-            for elem in data_array:
-                temp.append((elem[1], elem[3]))
-            temp = np.asarray(temp)
-            temp_result = []
-            for x in sorted(np.unique(temp[..., 0])):
-                temp_result.append((x,
-                                    temp[np.where(temp[..., 0] == x)][..., 1]))
-            result = []
-            for elem in temp_result:
-                result.append((elem[0], elem[1].mean()))
-            return result
+            temp = np.asarray([(elem[1], elem[3]) for elem in data_array])
+            temp_result = [(x, temp[np.where(temp[..., 0] == x)][..., 1])
+                           for x in sorted(np.unique(temp[..., 0]))]
+            return [(elem[0], elem[1].mean()) for elem in temp_result]
 
         self.red_result = np.asarray(groupbyresult(self.red_array))
         self.yellow_result = np.asarray(groupbyresult(self.yellow_array))
@@ -292,24 +279,24 @@ class FloodPred(object):
             print ("Yellow Zone")
             self._processZone(l1=1/4, l2=1/4, l3=1/4, m=1/4, r1=1/4, r2=1/4,
                               r3=1/4)
-            self._task_lspm()
+            self._task_lspm(self.x_final_list, self.y_final_list)
         elif self.waterlevel_now > self.max_wy:     # red zone
             print ("Red Zone")
             self._processZone(l1=0, l2=1/10, l3=9/10, m=1/10, r1=0, r2=1/10,
                               r3=9/10)
-            self._task_lspm()
+            self._task_lspm(self.x_final_list, self.y_final_list)
         else:   # green zone
             print ("Green zone")
             self._processZone(l1=9/11, l2=1/11, l3=1/11, m=1/11, r1=9/11,
                               r2=1/11, r3=1/11)
-            self._task_lspm()
+            self._task_lspm(self.x_final_list, self.y_final_list)
 
     """
     Find coefficient a, b and the corresponding linear equation
     Apply: (Non)Linear Least Square Polynomial Fit
     """
-    def _task_lspm(self):
-        # find result with smallest error
+    def _task_lspm(self, data_x, data_y):
+        # find result among equations with different degree with smallest error
         def findresult(results):
             mi = results[0]
             te = results[0][0]  # initial first element with error
@@ -319,19 +306,16 @@ class FloodPred(object):
                     mi = i      # element with better smaller error
             return mi
 
-        # try different degrees (=1, =2, =3) for (non)-linear equations
-        # self.result = np.around(np.polyfit(self.x_final_list,
-        #                         self.y_final_list, degree), decimals = 3)
         degree = [1, 2, 3]
         final = []  # contain list of errors measured by every degree
         for dg in degree:
-            self.result = np.polyfit(self.x_final_list, self.y_final_list, dg)
+            self.result = np.polyfit(data_x, data_y, dg)
             temp = self.test_waterlevel(self.time_now, self.waterlevel_now)
             final.append((temp, self.result))
 
         self.result = findresult(final)[1]
 
-        pred_time = self.x_final_list[len(self.x_final_list)-1]
+        pred_time = data_x[len(data_x)-1]
         # self.pred_waterlevel = self.result[0]*pred_time + self.result[1]
         self.pred_waterlevel = np.polyval(self.result, pred_time)
 
@@ -423,9 +407,10 @@ class FloodPred(object):
         print ("-> Waterlevel data in yellow {}".format(self.wy))
         print ("-> Waterlevel data in green {}".format(self.wg))
         print ("type of red_array: ", type(self.red_array))
-        print ("test first element of red_array: ", self.red_array[0][0])
-        print ("test second element of red_array: ", self.red_array[0][1])
-        print ("test third element of red_array: ", self.red_array[0][2])
+        if len(self.red_array) > 0:
+            print ("test first element of red_array: ", self.red_array[0][0])
+            print ("test second element of red_array: ", self.red_array[0][1])
+            print ("test third element of red_array: ", self.red_array[0][2])
 
         print ("red array ", len(self.red_array))               # 1686
         print ("yellow array ", len(self.yellow_array))         # 13254
@@ -433,6 +418,14 @@ class FloodPred(object):
         print ("non distributed ", len(self.non_distributed))   # 0
         print (len(hwall))                                      # 17043
         print (type(self.red_array))                            # numpy ndarray
+
+        print ("\n --------- Function rateofchange")
+        print (self.roc)
+        print (type(self.roc))
+        print (len(self.roc))       # currently 181 days
+
+        print ("Rate of change: ", self.roc)
+        print ("Length of list of rate_of_change: ", self.list_roc)     # < 181
 
         print ("\n --------- Function calAvrMeanValue")
         print (self.mean_ax)
@@ -461,11 +454,51 @@ class FloodPred(object):
         print ("y_coord :", self.y_coord)
 
         print ("\n --------- Function _task_lspm")
+        print ("\n --------- Method 1:")
         print ("Length time x-coord {}".format(len(self.x_final_list)))
         print ("Length waterlevel y-coord {}".format(len(self.y_final_list)))
         print ("Time data x-coord {}".format(self.x_final_list))
         print ("Waterlevel data y-coord {}".format(self.y_final_list))
         print ("Coefficients = {}\n".format(self.result))
+
+        print ("\n --------- Method 2:")
+        print ("Length time x-coord {}".format(len(self.mean_ax)))
+        print ("Length waterlevel y-coord {}".format(len(self.mean_y)))
+        print ("Time data x-coord {}".format(self.mean_ax))
+        print ("Waterlevel data y-coord {}".format(self.mean_y))
+        print ("Coefficients = {}\n".format(self.result))
+
+    """
+    Visualization rate of changes
+    """
+    def _visualroc(self):
+        plt.xlabel('Time from 0:00 to 24:00')
+        plt.ylabel('High water level (normalized)')
+
+        # Visual all days (total: 181 days)
+        for r in self.roc:
+            plt.plot(r[1].values[:, 1], r[1].values[:, 3], color='blue',
+                     marker='.')
+        plt.show()
+
+    def _visualmeanroc(self):
+        plt.xlabel('Time from 0:00 to 24:00')
+        plt.ylabel('High water level (normalized)')
+
+        for lr in self.list_roc:
+            plt.plot(lr[1].values[:, 1], lr[1].values[:, 3], color='blue',
+                     marker='.')
+
+        # Visualize the mean value
+        if (len(self.mean_ax) > 0 and len(self.mean_ay) > 0):
+            plt.plot(self.mean_ax, self.mean_ay, color='red', marker='.',
+                     label='Average Mean Value')
+
+        # TODO: Visualize the predicting water level at predicting time
+
+        # TODO: Visualize the current water level at time_now
+
+        plt.show()
 
     """
     Visualization
@@ -504,11 +537,6 @@ class FloodPred(object):
                     label='Warning level')
         plt.scatter(g_ax, g_ay, color='Green', marker='.', label='Safe level')
 
-        # Visualize the mean value
-        if (len(self.mean_ax) > 0 and len(self.mean_ay) > 0):
-            plt.plot(self.mean_ax, self.mean_ay, color='blue', marker='.',
-                     label='Average Mean Value')
-
         if (len(self.x_coord) > 0 and len(self.y_coord) > 0):
             plt.plot(self.x_coord, self.y_coord, color='blue',
                      marker='.', label='Average priotized Mean Value')
@@ -526,11 +554,69 @@ class FloodPred(object):
         plt.legend(loc='upper left')
         plt.show()
 
+    # ------------------------------------------------------------------ #
+    #                               Method 2
+    # ------------------------------------------------------------------ #
+
+    """
+    Classify 'rate of changes' waterlevel by days from 0:00 to 24:00
+    """
+    def rateofchange(self):
+        df = pd.DataFrame(hwall)
+        self.roc = df.groupby(['Datum'])
+        self.list_roc = np.asarray(self._findcritiquepoint())
+
+    def _findcritiquepoint(self):
+        temp = []
+        wln = np.around(self.waterlevel_now, decimals=1)
+
+        for r in self.roc:
+            [temp.append(r) for sub_roc in r[1].values
+             if (self._convTimeFloat(sub_roc[1]) == self.time_now and
+                 wln == np.around(sub_roc[3], decimals=1))]
+
+        return temp
+
+    """
+    Calculate Average Mean Value of water level at every single timepoint
+    In combination with rate of change
+    """
+    def calAvrMeanValues(self):
+        def validate(length_day_idx):
+            return length_day_idx == MAX_LENGTH_IDX
+
+        t = [lr[1].values[:, 1] for lr in self.list_roc]
+        for elem in t:
+            if not validate(len(elem)):
+                print ("ALARM - Data for current parameters is not sufficient given")
+                print ("\n Requirement for method 2 is that all data for all time-points from 0:00 to 24:00 must be given, total length: 96")
+                print ("\n However, there are only: ", len(elem), "data points given")
+                print (elem)
+                print ("\n Please try again with different parameters or choose method 1 to run calculation\n")
+                self.mean_ax = []    # reset mean_ax to empty list
+                import sys
+                sys.exit()
+            else:
+                self.mean_ax = elem  # assign 96 datatime-point
+
+        temp = np.asarray([lr[1].values[:, 3] for lr in self.list_roc])
+        transpose = temp.transpose()
+        self.mean_ay = [elem.mean() for elem in transpose]
+
+        # print (self.mean_ax)
+        # for elem in self.mean_ax:
+        #     print (self._convTimeFloat(elem))
+
+        # self._task_lspm([self._convTimeFloat(elem)
+        #                  for elem in self.mean_ax], self.mean_ay)
+
+    """
+    Call method 1 to calculate water level
+    """
     def dotask(self):
         self.init_data()
         self.normalizedata()
         self.classifydata()
-        # fp.calAvrMeanValues()
         self.calMeanValue()
         self.lspm()
         self._printOut()  # used for tracking information (debugging)
@@ -541,6 +627,25 @@ class FloodPred(object):
         print (" \n **************************************\n")
 
         self._visualize()
+
+    """
+    Call method 2 based on rate of changes of water level
+    """
+    def dotaskroc(self):
+        self.init_data()
+        self.normalizedata()
+        self.rateofchange()
+        self.calAvrMeanValues()
+
+        print (" \n **************************************  ")
+        # self.test_waterlevel(self.time_now, self.waterlevel_now)
+        # self.showResult()
+        print (" \n **************************************\n")
+
+        # fp._visualroc()
+        # fp._visualmeanroc()
+        # fp._printOut()
+
 
 """
     lspm(waterlevel, hour in float, next predicting hours)
@@ -563,7 +668,8 @@ if __name__ == '__main__':
         print ("predict_hours can be max at 12")
     else:
         fp = FloodPred(waterlevel_now, start_time, predict_hours)
-        fp.dotask()
+        # fp.dotask()
+        fp.dotaskroc()
 
     # TODO: write test to try all combination of all coefficients l1, l2, l3,
     # r1, r2, r3 and find out the best combination so that the testresult
