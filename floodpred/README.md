@@ -37,4 +37,8 @@ run this file first to install all dependencies
 
 ### Run the script 
 ------------------
-- python3 floodpred.py
+- Call CLI
+    > python3 start.py 
+
+- Call script directly
+    > python3 floodpred.py
