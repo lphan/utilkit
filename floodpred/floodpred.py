@@ -603,12 +603,8 @@ class FloodPred(object):
         transpose = temp.transpose()
         self.mean_ay = [elem.mean() for elem in transpose]
 
-        # print (self.mean_ax)
-        # for elem in self.mean_ax:
-        #     print (self._convTimeFloat(elem))
-
-        # self._task_lspm([self._convTimeFloat(elem)
-        #                  for elem in self.mean_ax], self.mean_ay)
+        self._task_lspm([self._convTimeFloat(elem)
+                         for elem in self.mean_ax], self.mean_ay)
 
     """
     Call method 1 to calculate water level
@@ -622,7 +618,7 @@ class FloodPred(object):
         self._printOut()  # used for tracking information (debugging)
 
         print (" \n **************************************  ")
-        self.test_waterlevel(self.time_now, self.waterlevel_now)
+        # self.test_waterlevel(self.time_now, self.waterlevel_now)
         self.showResult()
         print (" \n **************************************\n")
 
@@ -638,13 +634,13 @@ class FloodPred(object):
         self.calAvrMeanValues()
 
         print (" \n **************************************  ")
-        # self.test_waterlevel(self.time_now, self.waterlevel_now)
-        # self.showResult()
+        self.test_waterlevel(self.time_now, self.waterlevel_now)
+        self.showResult()
         print (" \n **************************************\n")
 
-        # fp._visualroc()
-        # fp._visualmeanroc()
-        # fp._printOut()
+        # # self._visualroc()
+        self._visualmeanroc()
+        # self._printOut()
 
 
 """
@@ -654,7 +650,7 @@ class FloodPred(object):
         next predicting hours   (eg. 8)
 """
 if __name__ == '__main__':
-    waterlevel_now = 400.0
+    waterlevel_now = 600.0
     start_time = 10.0       # TODO: WHAT IF start_time in float 2.15, 2.30, 2.45
     predict_hours = 8
 
@@ -667,9 +663,13 @@ if __name__ == '__main__':
     if predict_hours > 12:
         print ("predict_hours can be max at 12")
     else:
+        # Call method 1
         fp = FloodPred(waterlevel_now, start_time, predict_hours)
-        # fp.dotask()
-        fp.dotaskroc()
+        fp.dotask()
+
+        # Call method 2
+        fp2 = FloodPred(waterlevel_now, start_time, predict_hours)
+        fp2.dotaskroc()
 
     # TODO: write test to try all combination of all coefficients l1, l2, l3,
     # r1, r2, r3 and find out the best combination so that the testresult

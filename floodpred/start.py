@@ -28,8 +28,9 @@ if __name__ == '__main__':
     if (type(waterlevel) and type(time) and type(hours) is float):
         kwargs = {"waterlevel": waterlevel, "time_now": time,
                   "time_predict": hours}
-        # fp1 = FloodPred(**kwargs)
-        # fp1.dotask()     # Method 1
+        fp1 = FloodPred(**kwargs)
+        fp1.dotask()     # Method 1
+
         fp2 = FloodPred(**kwargs)
         fp2.dotaskroc()  # Method 2
     else:
