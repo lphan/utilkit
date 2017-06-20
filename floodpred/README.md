@@ -4,7 +4,7 @@ Flood prediction by analyzing dataset of waterlevel and applying linear models
  
 ### Script Design
 ----------------- 
-(1) Level\ at\ floodings.xlsx
+(1) floodings.xlsx
 - This file contains the basic data measured, will be used for analyzing and prediction
 
 (2) floodpred.py

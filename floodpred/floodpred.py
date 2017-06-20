@@ -47,6 +47,10 @@ class FloodPred(object):
         self.mean_y = []
         self.mean_r = []
 
+        self.start_idx = 0
+        self.middle_idx = 0
+        self.end_idx = 0
+
         self.x_final_list = []
         self.y_final_list = []
         self.x_coord = []
@@ -55,12 +59,6 @@ class FloodPred(object):
 
         self.pred_time = 0
         self.pred_waterlevel = 0
-
-        self.start_idx = 0
-        self.middle_idx = 0
-        # self.middle_idx = self._convFloatTime(self.time_now)
-
-        self.end_idx = 0
 
         self.result = 0
 
@@ -110,22 +108,6 @@ class FloodPred(object):
         # print (hwall.values[:, 2])
 
         '''
-        Apply z-score normalizing
-        '''
-        # print ("standard deviation", np.std(hwall.values[:, 2]))
-        # print ("mean value ", self.wy)
-        # print ("max value ", self.wr)
-        # print ("min value ", self.wg)
-        # print (abs(hwall.values[:, 2] - self.wy))
-        # hwallz = abs(hwall.values[:, 2] - self.wy)/np.std(hwall.values[:, 2])
-        # # for hwz in hwallz:
-        # #     print (hwz)
-        # print (len(hwallz))
-        # print ("mean value after normalizing", hwallz.mean())
-        # print ("max after normalizing ", hwallz.max())
-        # print ("min after normalizing ", hwallz.min())
-
-        '''
         Apply min-max normalizing with pre-defined boundary [0, 1]
         '''
         # hwallmima = (hwall.values[:, 2] - self.wg)/(self.wr-self.wg)
@@ -144,6 +126,22 @@ class FloodPred(object):
         # print (len(hwallmima))
         # add new normalied data to original data
         hwall['W normed'] = hwallmima
+
+        '''
+        Optional: apply z-score normalizing
+        '''
+        # print ("standard deviation", np.std(hwall.values[:, 2]))
+        # print ("mean value ", self.wy)
+        # print ("max value ", self.wr)
+        # print ("min value ", self.wg)
+        # print (abs(hwall.values[:, 2] - self.wy))
+        # hwallz = abs(hwall.values[:, 2] - self.wy)/np.std(hwall.values[:, 2])
+        # # for hwz in hwallz:
+        # #     print (hwz)
+        # print (len(hwallz))
+        # print ("mean value after normalizing", hwallz.mean())
+        # print ("max after normalizing ", hwallz.max())
+        # print ("min after normalizing ", hwallz.min())
 
         # update data manually
         self.wr = hwallmima.max()
@@ -219,25 +217,23 @@ class FloodPred(object):
                                                      self.time_predict)
         self.middle_idx = self._convFloatTime(self.time_now)
 
-        for (idg, elem_g) in \
-                enumerate(self.green_result[self.start_idx:self.middle_idx]):
-            g_list_left.append(elem_g)
-        for (idg, elem_y) in \
-                enumerate(self.yellow_result[self.start_idx:self.middle_idx]):
-            y_list_left.append(elem_y)
-        for (idg, elem_r) in \
-                enumerate(self.red_result[self.start_idx:self.middle_idx]):
-            r_list_left.append(elem_r)
+        g_list_left = [elem_g for (idg, elem_g) in
+                       enumerate(self.green_result[self.start_idx:self.middle_idx])]
 
-        for (idg, elem_g) in \
-                enumerate(self.green_result[self.middle_idx:self.end_idx+1]):
-            g_list_right.append(elem_g)
-        for (idg, elem_y) in \
-                enumerate(self.yellow_result[self.middle_idx:self.end_idx+1]):
-            y_list_right.append(elem_y)
-        for (idg, elem_r) in \
-                enumerate(self.red_result[self.middle_idx:self.end_idx+1]):
-            r_list_right.append(elem_r)
+        y_list_left = [elem_y for (idg, elem_y) in
+                       enumerate(self.yellow_result[self.start_idx:self.middle_idx])]
+
+        r_list_left = [elem_r for (idg, elem_r) in
+                       enumerate(self.red_result[self.start_idx:self.middle_idx])]
+
+        g_list_right = [elem_g for (idg, elem_g) in
+                        enumerate(self.green_result[self.middle_idx:self.end_idx+1])]
+
+        y_list_right = [elem_y for (idg, elem_y) in
+                        enumerate(self.yellow_result[self.middle_idx:self.end_idx+1])]
+
+        r_list_right = [elem_r for (idg, elem_r) in
+                        enumerate(self.red_result[self.middle_idx:self.end_idx+1])]
 
         self.gyr_list_left = np.dstack((g_list_left, y_list_left, r_list_left))
         self.gyr_list_right = np.dstack((g_list_right, y_list_right,
@@ -618,7 +614,7 @@ class FloodPred(object):
         self._printOut()  # used for tracking information (debugging)
 
         print (" \n **************************************  ")
-        # self.test_waterlevel(self.time_now, self.waterlevel_now)
+        self.test_waterlevel(self.time_now, self.waterlevel_now)
         self.showResult()
         print (" \n **************************************\n")
 
@@ -638,10 +634,17 @@ class FloodPred(object):
         self.showResult()
         print (" \n **************************************\n")
 
-        # # self._visualroc()
         self._visualmeanroc()
-        # self._printOut()
+        self._printOut()
 
+    """
+    Call this task to visual all history data
+    """
+    def dovisual(self):
+        self.init_data()
+        self.normalizedata()
+        self.rateofchange()
+        self._visualroc()
 
 """
     lspm(waterlevel, hour in float, next predicting hours)
@@ -650,7 +653,7 @@ class FloodPred(object):
         next predicting hours   (eg. 8)
 """
 if __name__ == '__main__':
-    waterlevel_now = 600.0
+    waterlevel_now = 450.0
     start_time = 10.0       # TODO: WHAT IF start_time in float 2.15, 2.30, 2.45
     predict_hours = 8
 
@@ -670,6 +673,7 @@ if __name__ == '__main__':
         # Call method 2
         fp2 = FloodPred(waterlevel_now, start_time, predict_hours)
         fp2.dotaskroc()
+        fp2.dovisual()
 
     # TODO: write test to try all combination of all coefficients l1, l2, l3,
     # r1, r2, r3 and find out the best combination so that the testresult
