@@ -2,6 +2,7 @@ __author__ = 'Long Phan'
 
 import pandas as pd
 import numpy as np
+from scipy.optimize import curve_fit
 import matplotlib.pyplot as plt
 
 # import data from excel file
@@ -190,7 +191,8 @@ class FloodPred(object):
         self.max_wy = self.yellow_array[:, 3].max()
         self.min_wy = self.yellow_array[:, 3].min()
 
-    def _processZone(self, l1, l2, l3, m,  r1, r2, r3):
+    def _processZone(self, coefficient):
+        l1, l2, l3, m,  r1, r2, r3 = coefficient
         g_list_left, y_list_left, r_list_left, g_list_right, y_list_right, \
             r_list_right = [], [], [], [], [], []
 
@@ -270,21 +272,23 @@ class FloodPred(object):
         '''
         Calculate mean_value for every time_point (see: function calMeanValue)
         '''
-        # TODO: pass parameters l1, l2, l3, r1, r2, r3 as type-dict
+        coeff = np.array([[1/4, 1/4, 1/4, 1/4, 1/4, 1/4, 1/4],
+                          [0, 1/10, 9/10, 1/10, 0, 1/10, 9/10],
+                          [9/11, 1/11, 1/11, 1/11, 9/11, 1/11, 1/11]])
+
+        print ("COEFF ---------------------> ", coeff[0])
+
         if (self.min_wy <= self.waterlevel_now <= self.max_wy):  # yellow zone
             print ("Yellow Zone")
-            self._processZone(l1=1/4, l2=1/4, l3=1/4, m=1/4, r1=1/4, r2=1/4,
-                              r3=1/4)
+            self._processZone(coeff[0])
             self._task_lspm(self.x_final_list, self.y_final_list)
         elif self.waterlevel_now > self.max_wy:     # red zone
             print ("Red Zone")
-            self._processZone(l1=0, l2=1/10, l3=9/10, m=1/10, r1=0, r2=1/10,
-                              r3=9/10)
+            self._processZone(coeff[1])
             self._task_lspm(self.x_final_list, self.y_final_list)
         else:   # green zone
             print ("Green zone")
-            self._processZone(l1=9/11, l2=1/11, l3=1/11, m=1/11, r1=9/11,
-                              r2=1/11, r3=1/11)
+            self._processZone(coeff[2])
             self._task_lspm(self.x_final_list, self.y_final_list)
 
     """
@@ -302,6 +306,9 @@ class FloodPred(object):
                     mi = i      # element with better smaller error
             return mi
 
+        def func(x, a, b):
+            return a*x+b
+
         degree = [1, 2, 3]
         final = []  # contain list of errors measured by every degree
         for dg in degree:
@@ -314,6 +321,14 @@ class FloodPred(object):
         pred_time = data_x[len(data_x)-1]
         # self.pred_waterlevel = self.result[0]*pred_time + self.result[1]
         self.pred_waterlevel = np.polyval(self.result, pred_time)
+
+        # Optional: ------------ Try curve_fit from scipy ------------------
+        popt, pcov = curve_fit(func, data_x, data_y)
+        scipy_result = np.polyval(popt, pred_time)
+        # print ("........... scipy curve_fit", popt)
+        print ("The predicting result with scipy ", scipy_result)
+        print ("Result in cm is {} "
+               .format(self._convertnormreal(scipy_result)))
 
     """
     Convert the normalized value into real value in cm
