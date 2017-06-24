@@ -113,36 +113,11 @@ class FloodPred(object):
         '''
         # hwallmima = (hwall.values[:, 2] - self.wg)/(self.wr-self.wg)
         hwallmima = self._convertrealnorm(hwall.values[:, 2])
-        # print (len(hwallmima))
-        # print (hwallmima.max())  # pre-defined: 1
-        # print (hwallmima.min())  # pre-defined: 0
-        # print (hwallmima.mean())
-        # print (hwallmima)
-
-        # print (hwall[['W [cm]']])
-        # print (type(hwall))
-        # print (type(hwall.values[:, 2]))
-        # print (type(hwallmima))
-        # print (len(hwall.values[:, 2]))
-        # print (len(hwallmima))
-        # add new normalied data to original data
         hwall['W normed'] = hwallmima
 
         '''
         Optional: apply z-score normalizing
         '''
-        # print ("standard deviation", np.std(hwall.values[:, 2]))
-        # print ("mean value ", self.wy)
-        # print ("max value ", self.wr)
-        # print ("min value ", self.wg)
-        # print (abs(hwall.values[:, 2] - self.wy))
-        # hwallz = abs(hwall.values[:, 2] - self.wy)/np.std(hwall.values[:, 2])
-        # # for hwz in hwallz:
-        # #     print (hwz)
-        # print (len(hwallz))
-        # print ("mean value after normalizing", hwallz.mean())
-        # print ("max after normalizing ", hwallz.max())
-        # print ("min after normalizing ", hwallz.min())
 
         # update data manually
         self.wr = hwallmima.max()
@@ -276,18 +251,14 @@ class FloodPred(object):
                           [0, 1/10, 9/10, 1/10, 0, 1/10, 9/10],
                           [9/11, 1/11, 1/11, 1/11, 9/11, 1/11, 1/11]])
 
-        print ("COEFF ---------------------> ", coeff[0])
-
         if (self.min_wy <= self.waterlevel_now <= self.max_wy):  # yellow zone
             print ("Yellow Zone")
             self._processZone(coeff[0])
             self._task_lspm(self.x_final_list, self.y_final_list)
         elif self.waterlevel_now > self.max_wy:     # red zone
-            print ("Red Zone")
             self._processZone(coeff[1])
             self._task_lspm(self.x_final_list, self.y_final_list)
         else:   # green zone
-            print ("Green zone")
             self._processZone(coeff[2])
             self._task_lspm(self.x_final_list, self.y_final_list)
 
@@ -323,6 +294,7 @@ class FloodPred(object):
         self.pred_waterlevel = np.polyval(self.result, pred_time)
 
         # Optional: ------------ Try curve_fit from scipy ------------------
+        # Result by 'curve_fit' is nearly the same with numpy.polyfit degree=1
         popt, pcov = curve_fit(func, data_x, data_y)
         scipy_result = np.polyval(popt, pred_time)
         # print ("........... scipy curve_fit", popt)
@@ -483,6 +455,7 @@ class FloodPred(object):
     Visualization rate of changes
     """
     def _visualroc(self):
+        fig = plt.figure()
         plt.xlabel('Time from 0:00 to 24:00')
         plt.ylabel('High water level (normalized)')
 
@@ -490,9 +463,14 @@ class FloodPred(object):
         for r in self.roc:
             plt.plot(r[1].values[:, 1], r[1].values[:, 3], color='blue',
                      marker='.')
+
+        fig.savefig('figures/Figure3_waterlevelalldays.png', dpi=fig.dpi)
+
         plt.show()
 
     def _visualmeanroc(self):
+        fig = plt.figure()
+
         plt.xlabel('Time from 0:00 to 24:00')
         plt.ylabel('High water level (normalized)')
 
@@ -505,9 +483,7 @@ class FloodPred(object):
             plt.plot(self.mean_ax, self.mean_ay, color='red', marker='.',
                      label='Average Mean Value')
 
-        # TODO: Visualize the predicting water level at predicting time
-
-        # TODO: Visualize the current water level at time_now
+        fig.savefig('figures/Figure2_waterlevelroc.png', dpi=fig.dpi)
 
         plt.show()
 
@@ -515,6 +491,8 @@ class FloodPred(object):
     Visualization
     """
     def _visualize(self):
+        fig = plt.figure()
+
         r_ax = []
         r_ay = []
         for elem in self.red_array:
@@ -563,6 +541,8 @@ class FloodPred(object):
                     color='Orange', marker='X', label='The current water level')
 
         plt.legend(loc='upper left')
+
+        fig.savefig('figures/Figure1_waterlevel.png', dpi=fig.dpi)
         plt.show()
 
     # ------------------------------------------------------------------ #
@@ -672,12 +652,6 @@ if __name__ == '__main__':
     start_time = 10.0       # TODO: WHAT IF start_time in float 2.15, 2.30, 2.45
     predict_hours = 8
 
-    # Input parameters (Yelllow zone, Red zone, Green zone)
-    # l1=1/4, l2=1/4, l3=1/4, m=1/4, r1=1/4, r2=1/4, r3=1/4
-    # l1=0, l2=1/10, l3=9/10, m=1/10, r1=0, r2=1/10, r3=9/10
-    # l1=9/11, l2=1/11, l3=1/11, m=1/11, r1=9/11, r2=1/11, r3=1/11
-    # params = {"redzone":[{}], "yellowzone":[{}], "greenzone":[{}]}
-
     if predict_hours > 12:
         print ("predict_hours can be max at 12")
     else:
@@ -688,6 +662,8 @@ if __name__ == '__main__':
         # Call method 2
         fp2 = FloodPred(waterlevel_now, start_time, predict_hours)
         fp2.dotaskroc()
+
+        # Visual all data
         fp2.dovisual()
 
     # TODO: write test to try all combination of all coefficients l1, l2, l3,

@@ -8,7 +8,7 @@ Flood prediction by analyzing dataset of waterlevel and applying linear models
 - This file contains the basic data measured, will be used for analyzing and prediction
 
 (2) floodpred.py
-- This file contains core-functions to parse excel file "Level\ at\ floodings.xlsx"
+- This file contains core-functions to parse excel file "floodings.xlsx"
 
 (3) start.py
 - This file is a start-script, contains parameters (path to textfile and save location), input by Users.
