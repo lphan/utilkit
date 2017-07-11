@@ -23,7 +23,6 @@ except IOError as e:
 
 
 class FloodPred(object):
-
     def __init__(self, waterlevel, time_now, time_predict):
         self.waterlevel_now = waterlevel
         self.time_now = time_now
@@ -95,6 +94,8 @@ class FloodPred(object):
         self.coeff_gyr = []
 
         self.subset = hwall[['Zeit', 'W [cm]']]
+        self.timeaxis = [t[0] for t in
+                         pd.DataFrame(hwall[['Zeit']]).groupby(['Zeit'])]
 
         self.gyr_list_left = []
         self.gyr_list_right = []
@@ -171,6 +172,7 @@ class FloodPred(object):
                            for x in sorted(np.unique(temp[..., 0]))]
             result = [(elem[0], elem[1].mean())
                       for elem in temp_result]
+            print ("RESULT calMeanValue ", result)
             return [(result[i][0],
                      result[i][1] * number_datapoint[i][1] / self.total_gyr[i])
                     for i in range(96)]
@@ -182,19 +184,16 @@ class FloodPred(object):
                                                       self.number_yellow))
         self.green_result = np.asarray(groupbyresult(self.green_array,
                                                      self.number_green))
-
+        print ("NUMBER GREEN", self.number_green)
+        print ("GREEN RESULT", self.green_result)
         self.max_wy = self.yellow_array[:, 3].max()
         self.min_wy = self.yellow_array[:, 3].min()
 
-    def _processZone(self):
-        '''
-        ---- l1, l2, l3, m, r1, r2, r3 ----
-        green_left, yellow_left, red_left, middle_point,
-        green_right, yellow_right, red_right
-        '''
-        # l1, l2, l3, m,  r1, r2, r3 = coefficient
-        m = 1/4  # keep current_water level as converged point
+        self._processZone()
 
+    def _processZone(self):
+        # m = 1/4  # keep current_water level as converged point
+        m = 0
         g_list_left, y_list_left, r_list_left, g_list_right, y_list_right, \
             r_list_right = [], [], [], [], [], []
 
@@ -219,40 +218,52 @@ class FloodPred(object):
             self.end_idx = [self._convTimeFloat(elem[0]) for elem in
                             self.green_result].index(self.time_now +
                                                      self.time_predict)
-        self.middle_idx = self._convFloatTime(self.time_now)
+        self.middle_idx = [self._convTimeFloat(elem)
+                           for elem in self.timeaxis].index(self.time_now)
 
         g_list_left = [elem_g for (idg, elem_g) in
-                       enumerate(self.green_result[self.start_idx:self.middle_idx])]
+                       enumerate(self.green_result
+                                 [self.start_idx:self.middle_idx])]
 
         y_list_left = [elem_y for (idg, elem_y) in
-                       enumerate(self.yellow_result[self.start_idx:self.middle_idx])]
+                       enumerate(self.yellow_result
+                                 [self.start_idx:self.middle_idx])]
 
         r_list_left = [elem_r for (idg, elem_r) in
-                       enumerate(self.red_result[self.start_idx:self.middle_idx])]
+                       enumerate(self.red_result
+                                 [self.start_idx:self.middle_idx])]
 
         g_list_right = [elem_g for (idg, elem_g) in
-                        enumerate(self.green_result[self.middle_idx:self.end_idx+1])]
+                        enumerate(self.green_result
+                                  [self.middle_idx:self.end_idx])]
 
         y_list_right = [elem_y for (idg, elem_y) in
-                        enumerate(self.yellow_result[self.middle_idx:self.end_idx+1])]
+                        enumerate(self.yellow_result
+                                  [self.middle_idx:self.end_idx])]
 
         r_list_right = [elem_r for (idg, elem_r) in
-                        enumerate(self.red_result[self.middle_idx:self.end_idx+1])]
+                        enumerate(self.red_result
+                                  [self.middle_idx:self.end_idx])]
 
         self.gyr_list_left = np.dstack((g_list_left, y_list_left, r_list_left))
         self.gyr_list_right = np.dstack((g_list_right, y_list_right,
                                          r_list_right))
+        print (self.timeaxis)
+        print (self.start_idx, self.middle_idx, self.end_idx)
+        print ("g_list_left", g_list_left)
+        print ("y_list_left", y_list_left)
+        print ("r_list_left", r_list_left)
+        print ("gyr_list_left", self.gyr_list_left)
+        print ("gyr_list_right", self.gyr_list_right)
 
         gyr_list = np.concatenate((self.gyr_list_left, self.gyr_list_right),
                                   axis=0)
 
         # final result list of value at every single timepoint
-        self.x_final_list = [self._convTimeFloat(elem[0][0])
-                             for elem in gyr_list]
+        self.x_final_list = [elem[0][0] for elem in gyr_list]
+
         count = 1
         for elem in self.gyr_list_left:
-            self.x_coord.append(elem[0][0])
-            # value = union of (green + yellow + red)* prioritized Position
             value = (elem[1][0] + elem[1][1] + elem[1][2] +
                      m*self.waterlevel_now) * (count) / len(self.gyr_list_left)
             self.y_final_list.append(value)
@@ -260,12 +271,128 @@ class FloodPred(object):
             count = count + 1
 
         for elem in self.gyr_list_right:
-            self.x_coord.append(elem[0][0])
             value = (elem[1][0] + elem[1][1] + elem[1][2] +
                      m*self.waterlevel_now)  # *(count)/len(self.gyr_list_right)
             self.y_final_list.append(value)
             self.y_coord.append(value)
             count = count - 1
+
+    """
+    Calculate Mean Value wrt current water level at every single timepoint
+    """
+    def calMeanValue_prio(self):
+        def calculateResult(dataset):
+            # lenX/sum* value + lenX-1/sum*value + ...
+            print (dataset[0])
+            print ("LENGTH FIRST DATA ELEMENT: ", len(dataset[0]))
+            temp_sum = sum([i for i in range(1, len(dataset[0])+1)])
+            print ("TEMP SUM: ", temp_sum)
+            print ("First data value: ", dataset[0][0][0])
+            result = 0
+            final_result = []
+            j = 0
+
+            for i in range(96):
+                for elem in dataset[i]:
+                    sum_denominator = sum([k for k in
+                                           range(1, self.total_gyr[i]+1)])
+                    print ("Nominator: ", self.total_gyr[i]-j)
+                    print ("Sum_denominator: ", sum_denominator)
+                    print ("elem[0]", elem[0])
+                    temp_result = (self.total_gyr[i]-j)*elem[0]/sum_denominator
+                    print ("TEMP_RESULT", temp_result)
+                    print ("WATERLEVEL_NOW", self.waterlevel_now)
+                    result = result + temp_result
+                    j = j + 1
+                    # j = j + 1/sum_denominator
+                    # j = j + 1/self.total_gyr[i]
+
+                '''
+                Force mean_result go through the current waterlevel by
+                increasing the ratio between waterlevel_now and mean_result
+                '''
+                # result = (result + self.waterlevel_now)/2
+                # result = 2/3*result + 1/3*self.waterlevel_now
+                # result = 2/3*self.waterlevel_now + 1/3*result
+                # result = 4/5*self.waterlevel_now + 1/5*result
+                # result = 9/10*self.waterlevel_now + 1/10*result
+                # result = 99/100*self.waterlevel_now + 1/100*result
+                # result = 999/1000*self.waterlevel_now + 1/1000*result
+                result = (self.total_gyr[i] - 1) / self.total_gyr[i] * \
+                    self.waterlevel_now + (1/self.total_gyr[i]) * result
+                # LIMIT: result= 9999/10000*self.waterlevel_now + 1/10000*result
+
+                final_result.append(result)
+                result = 0
+                j = 0
+            return final_result
+
+        self._findWaterlevel()
+        sortedwl = self._findAllPoints()
+        waterlevel_result = np.asarray(calculateResult(sortedwl))
+        print ("Waterlevel_result: ", waterlevel_result)
+        print (len(waterlevel_result))
+        print ("Sortedwl: ", sortedwl)
+        self._processZone_prio(waterlevel_result)
+
+    def _processZone_prio(self, waterlevel):
+        # TODO: self.green_result
+        if (self.time_now - self.time_predict < 0) and \
+                (self.time_now + self.time_predict > 24):
+            self.start_idx = 0
+            self.end_idx = MAX_LENGTH_IDX
+        elif (self.time_now + self.time_predict > 23.45):
+            self.start_idx = [self._convTimeFloat(elem) for elem in
+                              self.timeaxis].index(self.time_now -
+                                                   self.time_predict)
+            self.end_idx = MAX_LENGTH_IDX
+        elif (self.time_now - self.time_predict < 0):
+            self.start_idx = 0
+            self.end_idx = [self._convTimeFloat(elem) for elem in
+                            self.timeaxis].index(self.time_now +
+                                                 self.time_predict)
+        else:
+            self.start_idx = [self._convTimeFloat(elem) for elem in
+                              self.timeaxis].index(self.time_now -
+                                                   self.time_predict)
+            self.end_idx = [self._convTimeFloat(elem) for elem in
+                            self.timeaxis].index(self.time_now +
+                                                 self.time_predict)
+        self.middle_idx = [self._convTimeFloat(elem) for elem in
+                           self.timeaxis].index(self.time_now)
+
+        print (self.start_idx, self.middle_idx, self.end_idx)
+
+        list_left = [elem for (idg, elem) in
+                     enumerate(waterlevel[self.start_idx:self.middle_idx])]
+        list_right = [elem for (idg, elem) in
+                      enumerate(waterlevel[self.middle_idx:self.end_idx])]
+
+        list_lr = np.concatenate((list_left, list_right), axis=0)
+        print ("Concatenated list: ", list_lr)
+        print (len(list_lr))
+        print (type(list_lr))
+
+        self.x_final_list = [t for (idg, t) in
+                             enumerate(self.timeaxis
+                                       [self.start_idx:self.end_idx])]
+
+        count = 1
+        print ("LIST LEFT ..............", len(list_left))
+        for elem in list_left:
+            value = (elem * (len(list_left) - count)) / len(list_left)
+            # value = elem
+            self.y_final_list.append(value)
+            count = count - 1/(len(list_left))
+        print (len(self.y_final_list))
+
+        print ("LIST RIGHT .............", len(list_right))
+        # count = 0
+        for elem in list_right:
+            value = (elem * (len(list_right) + count)) / len(list_right)
+            # value = elem
+            self.y_final_list.append(value)
+            count = count + 1/(len(list_right))
 
     """
     Least square polynomial fit method
@@ -274,21 +401,11 @@ class FloodPred(object):
         '''
         Calculate mean_value for every time_point (see: function calMeanValue)
         '''
-        # coeff = np.array([[1/4, 1/4, 1/4, 1/4, 1/4, 1/4, 1/4],
-        #                   [0, 1/10, 9/10, 1/10, 0, 1/10, 9/10],
-        #                   [9/11, 1/11, 1/11, 1/11, 9/11, 1/11, 1/11]])
-        self._processZone()
-        self._task_lspm(self.x_final_list, self.y_final_list)
-
-        # if (self.min_wy <= self.waterlevel_now <= self.max_wy):  # yellow zone
-        #     self._processZone(coeff[0])
-        #     self._task_lspm(self.x_final_list, self.y_final_list)
-        # elif self.waterlevel_now > self.max_wy:     # red zone
-        #     self._processZone(coeff[1])
-        #     self._task_lspm(self.x_final_list, self.y_final_list)
-        # else:   # green zone
-        #     self._processZone(coeff[2])
-        #     self._task_lspm(self.x_final_list, self.y_final_list)
+        print ("self.x_final_list: ", self.x_final_list)
+        print ("self.y_final_list: ", self.y_final_list)
+        print (len(self.x_final_list), len(self.y_final_list))
+        self._task_lspm([self._convTimeFloat(time)
+                         for time in self.x_final_list], self.y_final_list)
 
     """
     Find coefficient a, b and the corresponding linear equation
@@ -308,6 +425,8 @@ class FloodPred(object):
         def func(x, a, b):
             return a*x+b
 
+        print (data_x)
+        print (data_y)
         degree = [1, 2, 3]
         final = []  # contain list of errors measured by every degree
         for dg in degree:
@@ -331,6 +450,120 @@ class FloodPred(object):
         print ("Result in cm is {} "
                .format(self._convertnormreal(scipy_result)))
 
+    # ------------------------------------------------------------------ #
+    #             Improve Method 1 by optimizing coefficients
+    # ------------------------------------------------------------------ #
+    """
+    Find total number of points for every water level at every single timepoint
+    """
+    def _findWaterlevel(self):
+        def groupbyresult(data_array):
+            temp = np.asarray([(elem[1], elem[3]) for elem in data_array])
+            temp_result = [(x, temp[np.where(temp[..., 0] == x)][..., 1])
+                           for x in sorted(np.unique(temp[..., 0]))]
+            return [(elem[0], len(elem[1])) for elem in temp_result]
+
+        self.number_red = np.asarray(groupbyresult(self.red_array))
+        self.number_yellow = np.asarray(groupbyresult(self.yellow_array))
+        self.number_green = np.asarray(groupbyresult(self.green_array))
+
+        # print ("RED_RESULT ", self.number_red)
+        # print ("YELLOW_RESULT ", self.number_yellow)
+        # print ("GREEN_RESULT ", self.number_green)
+
+        # print (self.number_green[0][0])
+        # print (self.number_green[0][1])
+        self.total_gyr = [self.number_green[i][1] + self.number_yellow[i][1] +
+                          self.number_red[i][1] for i in range(96)]
+
+        print ("---------- TOTAL GYR: ", self.total_gyr)
+        # print (len(self.total_gyr))
+
+        # Create list of tuple [(green/total, yellow/total, red/total)] for all
+        # time point from 0:00 to 23:45
+        self.coeff_gyr = [(self.number_green[i][1]/self.total_gyr[i],
+                           self.number_yellow[i][1]/self.total_gyr[i],
+                           self.number_red[i][1]/self.total_gyr[i])
+                          for i in range(96)]
+        # print ("\nCoefficients ", self.coeff_gyr)
+
+    """
+    Find all points at every time points, sorted wrt. current water level
+    """
+    def _findAllPoints(self):
+        # TODO: apply map & lambda (closure) to this function
+        df = pd.DataFrame(hwall[['Zeit', 'W normed']])
+        troc = df.groupby(['Zeit'])
+
+        # Sort water level wrt. current water level
+        sortedwl = []
+        for elem in troc:
+            sortedwl.append(sorted([(e[1], abs(e[1]-self.waterlevel_now))
+                            for e in elem[1].values], key=lambda te: te[1]))
+
+        # print ("0:00", sortedwl[0])
+        # print ("0:15", sortedwl[1])
+        # print (len(sortedwl))
+        # print (len(troc))
+        # print ("Current water level input:", self.waterlevel_now)
+        return sortedwl
+
+    # ------------------------------------------------------------------ #
+    # Method 2:
+    # Sort and visual all water level on days closest to current water level
+    # ------------------------------------------------------------------ #
+    """
+    Classify 'rate of changes' waterlevel by days from 0:00 to 24:00
+    """
+    def rateofchange(self):
+        df = pd.DataFrame(hwall)
+        self.roc = df.groupby(['Datum'])
+        self.list_roc = np.asarray(self._findcritiquepoint())
+
+    def _findcritiquepoint(self):
+        temp = []
+        wln = np.around(self.waterlevel_now, decimals=1)
+
+        for r in self.roc:
+            [temp.append(r) for sub_roc in r[1].values
+             if (self._convTimeFloat(sub_roc[1]) == self.time_now and
+                 wln == np.around(sub_roc[3], decimals=1))]
+
+        return temp
+
+    """
+    Calculate Average Mean Value of water level at every single timepoint
+    In combination with rate of change
+    """
+    def calAvrMeanValues(self):
+        def validate(length_day_idx):
+            return length_day_idx == MAX_LENGTH_IDX
+
+        t = [lr[1].values[:, 1] for lr in self.list_roc]
+        for elem in t:
+            if not validate(len(elem)):
+                print ("ALARM - Data for current parameters is not sufficient")
+                print ("\n Data points from 0:00 to 24:00 need total 96 points")
+                print ("\n However, there are only ", len(elem), "data points")
+                print (elem)
+                print ("\n Please try again with different parameters")
+                print ("\n or choose method 1 to run calculation\n")
+                self.mean_ax = []    # reset mean_ax to empty list
+                import sys
+                sys.exit()
+            else:
+                self.mean_ax = elem  # assign 96 datatime-point
+
+        temp = np.asarray([lr[1].values[:, 3] for lr in self.list_roc])
+        transpose = temp.transpose()
+        self.mean_ay = [elem.mean() for elem in transpose]
+
+        self._task_lspm([self._convTimeFloat(elem)
+                         for elem in self.mean_ax], self.mean_ay)
+
+    # --------------------------------------------------------------
+    #                       HELP FUNCTIONS
+    # --------------------------------------------------------------
     """
     Convert the normalized value into real value in cm
     """
@@ -353,24 +586,9 @@ class FloodPred(object):
     Return index of 'Time in float' in range from 0:00 to 24:00
     """
     def _convFloatTime(self, time):
-        '''
-        Middle_idx should be idx of start_time (time_now)
-        function should return idx
-        '''
-        if len(self.green_result) == 96:
-            self.idx = self.green_result
-        elif len(self.yellow_result) == 96:
-            self.idx = self.yellow_result
-        elif len(self.red_result) == 96:
-            self.idx = self.red_result
-        else:
-            print ("Data is not sufficient to calculate")
-            print ("list is empty ", self.idx)
-            import sys
-            sys.exit
-        timeidx = [self._convTimeFloat(elem[0])
-                   for elem in self.idx].index(time)
-        return timeidx
+        timeidx = [self._convTimeFloat(elem)
+                   for elem in self.timeaxis].index(time)
+        return self.timeaxis[timeidx]
 
     """
     Show the final result in normalized format (bet. 0 and 1) and in cm
@@ -557,118 +775,24 @@ class FloodPred(object):
 
         fig.savefig('figures/Figure1_classifiedwaterlevel.png', dpi=fig.dpi)
 
-        if (len(self.x_coord) > 0 and len(self.y_coord) > 0):
-            plt.plot(self.x_coord, self.y_coord, color='blue',
+        if (len(self.x_final_list) > 0 and len(self.y_final_list) > 0):
+            plt.plot(self.x_final_list, self.y_final_list, color='blue',
                      marker='.', label='Average priotized Mean Value')
 
         # Visualize the predicting water level
         if (self.pred_waterlevel > 0):
-            self.pred_time = self.x_coord[len(self.x_coord)-1]
+            self.pred_time = self.x_final_list[len(self.x_final_list)-1]
             plt.plot(self.pred_time, self.pred_waterlevel, color='black',
                      marker='X', label='The predicting water level')
 
         # Visualize the current water level at time_now
-        plt.scatter(self.idx[self.middle_idx][0], self.waterlevel_now,
+        plt.scatter(self._convFloatTime(self.time_now), self.waterlevel_now,
                     color='Orange', marker='X', label='The current water level')
 
         plt.legend(loc='upper left')
 
         fig.savefig('figures/Figure2_predictedwaterlevel.png', dpi=fig.dpi)
         plt.show()
-
-    # ------------------------------------------------------------------ #
-    #                               Method 2
-    # ------------------------------------------------------------------ #
-    """
-    Classify 'rate of changes' waterlevel by days from 0:00 to 24:00
-    """
-    def rateofchange(self):
-        df = pd.DataFrame(hwall)
-        self.roc = df.groupby(['Datum'])
-        self.list_roc = np.asarray(self._findcritiquepoint())
-
-    def _findcritiquepoint(self):
-        temp = []
-        wln = np.around(self.waterlevel_now, decimals=1)
-
-        for r in self.roc:
-            [temp.append(r) for sub_roc in r[1].values
-             if (self._convTimeFloat(sub_roc[1]) == self.time_now and
-                 wln == np.around(sub_roc[3], decimals=1))]
-
-        return temp
-
-    """
-    Calculate Average Mean Value of water level at every single timepoint
-    In combination with rate of change
-    """
-    def calAvrMeanValues(self):
-        def validate(length_day_idx):
-            return length_day_idx == MAX_LENGTH_IDX
-
-        t = [lr[1].values[:, 1] for lr in self.list_roc]
-        for elem in t:
-            if not validate(len(elem)):
-                print ("ALARM - Data for current parameters is not sufficient")
-                print ("\n Data points from 0:00 to 24:00 need total 96 points")
-                print ("\n However, there are only ", len(elem), "data points")
-                print (elem)
-                print ("\n Please try again with different parameters")
-                print ("\n or choose method 1 to run calculation\n")
-                self.mean_ax = []    # reset mean_ax to empty list
-                import sys
-                sys.exit()
-            else:
-                self.mean_ax = elem  # assign 96 datatime-point
-
-        temp = np.asarray([lr[1].values[:, 3] for lr in self.list_roc])
-        transpose = temp.transpose()
-        self.mean_ay = [elem.mean() for elem in transpose]
-
-        self._task_lspm([self._convTimeFloat(elem)
-                         for elem in self.mean_ax], self.mean_ay)
-
-    # ------------------------------------------------------------------ #
-    #             Improve Method 2 by optimizing coefficients
-    #
-    # TODO: coeff = [number_green/total_points, number_yellow/total_points,
-    #                number_red/total_points]
-    # ------------------------------------------------------------------ #
-
-    # CALCULATE BASED on Coefficients
-    """
-    Find total number of points for every water level at every single timepoint
-    """
-    def _findWaterlevel(self):
-        def groupbyresult(data_array):
-            temp = np.asarray([(elem[1], elem[3]) for elem in data_array])
-            temp_result = [(x, temp[np.where(temp[..., 0] == x)][..., 1])
-                           for x in sorted(np.unique(temp[..., 0]))]
-            return [(elem[0], len(elem[1])) for elem in temp_result]
-
-        self.number_red = np.asarray(groupbyresult(self.red_array))
-        self.number_yellow = np.asarray(groupbyresult(self.yellow_array))
-        self.number_green = np.asarray(groupbyresult(self.green_array))
-
-        # print ("RED_RESULT ", self.number_red)
-        # print ("YELLOW_RESULT ", self.number_yellow)
-        # print ("GREEN_RESULT ", self.number_green)
-
-        # print (self.number_green[0][0])
-        # print (self.number_green[0][1])
-        self.total_gyr = [self.number_green[i][1] + self.number_yellow[i][1] +
-                          self.number_red[i][1] for i in range(96)]
-
-        # print ("TOTAL GYR ", self.total_gyr)
-        # print (len(self.total_gyr))
-
-        # Create list of tuple [(green/total, yellow/total, red/total)] for all
-        # time point from 0:00 to 23:45
-        self.coeff_gyr = [(self.number_green[i][1]/self.total_gyr[i],
-                           self.number_yellow[i][1]/self.total_gyr[i],
-                           self.number_red[i][1]/self.total_gyr[i])
-                          for i in range(96)]
-        # print ("\nCoefficients ", self.coeff_gyr)
 
     """
     Call method 1 to calculate water level
@@ -677,8 +801,13 @@ class FloodPred(object):
         self.init_data()
         self.normalizedata()
         self.classifydata()
-        self.calMeanValue()
+
+        # self.calMeanValue()
+        self.calMeanValue_prio()
+
         self.lspm()
+
+        # TODO: replace _printOut with logging
         # self._printOut()  # used for tracking information (debugging)
 
         print ("\n **************************************  ")
@@ -721,9 +850,12 @@ class FloodPred(object):
         next predicting hours   (eg. 8)
 """
 if __name__ == '__main__':
-    waterlevel_now = 600.0
-    start_time = 3.0       # TODO: WHAT IF start_time in float 2.15, 2.30, 2.45
-    predict_hours = 8
+    # TODO:
+    #   write a loop to start waterlevel_now from Green 300 to Red 700,
+    #   with step_size 100
+    waterlevel_now = 750.0
+    start_time = 10.0       # TODO: WHAT IF start_time in float 2.15, 2.30, 2.45
+    predict_hours = 12
 
     if predict_hours > 12:
         print ("predict_hours can be max at 12")
@@ -744,3 +876,5 @@ if __name__ == '__main__':
     # should have the best error estimate
     # TODO: improve function test_waterlevel with using pytest, nose (assert)
     # TODO: apply dask module for parallel computing
+    # TODO: restructure & refactoring the code into multiple files by applying
+    # inheritance
