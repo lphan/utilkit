@@ -64,7 +64,8 @@ if __name__ == '__main__':
             fp2 = FloodPred(**kwargs)
             fp2.dotaskroc()  # Method 2
 
-            fp2.dovisual()  # Visual history data
+            fp3 = FloodPred(**kwargs)
+            fp3.dovisual()  # Visual history data
 
         else:
             logging.info("Quit...")
