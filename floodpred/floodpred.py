@@ -94,7 +94,7 @@ class FloodPred(object):
         self.number_green = []
         self.total_gyr = 0
 
-        self.coeff_gyr = []
+        # self.coeff_gyr = []
 
         self.subset = hwall[['Zeit', 'W [cm]']]
         self.timeaxis = [t[0] for t in
@@ -420,7 +420,7 @@ class FloodPred(object):
 
         # print (data_x)
         # print (data_y)
-        degree = [1, 2, 3]
+        degree = [1, 2]
         final = []  # contain list of errors measured by every degree
         for dg in degree:
             self.result = np.polyfit(data_x, data_y, dg)
@@ -466,17 +466,16 @@ class FloodPred(object):
         # print (len(self.total_gyr))
         # Create list of tuple [(green/total, yellow/total, red/total)] for all
         # time point from 0:00 to 23:45
-        self.coeff_gyr = [(self.number_green[i][1]/self.total_gyr[i],
-                           self.number_yellow[i][1]/self.total_gyr[i],
-                           self.number_red[i][1]/self.total_gyr[i])
-                          for i in range(96)]
+        # self.coeff_gyr = [(self.number_green[i][1]/self.total_gyr[i],
+        #                    self.number_yellow[i][1]/self.total_gyr[i],
+        #                    self.number_red[i][1]/self.total_gyr[i])
+        #                   for i in range(96)]
         # print ("\nCoefficients ", self.coeff_gyr)
 
     """
     Find all points at every time points, sorted wrt. current water level
     """
     def _findAllPoints(self):
-        # TODO: apply map & lambda (closure) to this function
         df = pd.DataFrame(hwall[['Zeit', 'W normed']])
         troc = df.groupby(['Zeit'])
 
