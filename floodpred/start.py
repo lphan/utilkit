@@ -14,7 +14,8 @@ __author__ = 'Long Phan'
 '''
 Description: Input basic parameters to predict water level in next hours
 '''
-from floodpred import FloodPred
+# from floodpred import dotask, dotaskroc, dovisual
+import floodpred
 import logging
 logging.basicConfig(filename='floodpred.log', level=logging.DEBUG)
 
@@ -31,41 +32,33 @@ if __name__ == '__main__':
                          Others to quit: \
                          "))
     if (type(waterlevel) and type(time) and type(hours) is float):
-        kwargs = {"waterlevel": waterlevel, "time_now": time,
-                  "time_predict": hours}
+        kwargs = {"waterlevel_now": waterlevel, "start_time": time,
+                  "predict_hours": hours}
         if (method == 1):
             logging.info("Input '1', run first method")
-            fp1 = FloodPred(**kwargs)
-            fp1.dotask()     # Method 1
+            floodpred.dotask(**kwargs)     # Method 1
 
         elif (method == 2):
             logging.info("Input '2', run second method")
-            fp2 = FloodPred(**kwargs)
-            fp2.dotaskroc()  # Method 2
+            floodpred.dotaskroc(**kwargs)  # Method 2
 
         elif (method == 3):
             logging.info("Input '3', run both methods")
-            fp1 = FloodPred(**kwargs)
-            fp1.dotask()     # Method 1
+            floodpred.dotask(**kwargs)     # Method 1
 
-            fp2 = FloodPred(**kwargs)
-            fp2.dotaskroc()  # Method 2
+            floodpred.dotaskroc(**kwargs)  # Method 2
 
         elif (method == 4):
             logging.info("Input '4', run visual history data")
-            fp = FloodPred(**kwargs)
-            fp.dovisual()
+            floodpred.dovisual(**kwargs)
 
         elif (method == 5):
             logging.info("Input '5', run all methods")
-            fp1 = FloodPred(**kwargs)
-            fp1.dotask()     # Method 1
+            floodpred.dotask(**kwargs)     # Method 1
 
-            fp2 = FloodPred(**kwargs)
-            fp2.dotaskroc()  # Method 2
+            floodpred.dotaskroc(**kwargs)  # Method 2
 
-            fp3 = FloodPred(**kwargs)
-            fp3.dovisual()  # Visual history data
+            floodpred.dovisual(**kwargs)   # Visual history data
 
         else:
             logging.info("Quit...")
