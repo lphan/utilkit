@@ -187,7 +187,7 @@ class FloodPred(object):
         print (".....-> Result in cm is {}"
                .format(self._convertnormreal(testResult)))
         print ("\n.....Error estimate difference is {}"
-               .format(abs(waterlevel_now - testResult)))
+               .format(abs(self.waterlevel_now - testResult)))
         print (".....Error in cm is {}"
                .format(abs(self._convertnormreal(waterlevel_now)
                            - self._convertnormreal(testResult))))
@@ -424,7 +424,6 @@ def dotask(waterlevel_now, start_time, predict_hours):
     # ap._printOut()  # used for tracking information (debugging)
 
     print ("\n **************************************  ")
-    ap.test_waterlevel(start_time, waterlevel_now)
     ap.showResult()
     ap.showArtificialResult()
     print ("\n **************************************\n")
@@ -447,7 +446,6 @@ def dotaskroc(waterlevel_now, start_time, predict_hours):
     # ap._printOut()  # used for tracking information (debugging)
 
     print (" \n **************************************  ")
-    ap.test_waterlevel(start_time, waterlevel_now)
     ap.showResult()
     ap.showArtificialResult()
     print (" \n **************************************\n")
@@ -480,16 +478,18 @@ logging.basicConfig(filename='floodpred.log', level=logging.DEBUG)
 
 
 if __name__ == '__main__':
-    waterlevel = float(input("Input the current waterlevel e.g. 450.0: "))
-    time = float(input("Input the current time e.g. 10.0 (for 10AM): "))
-    hours = float(input("Input the predicting hours e.g. 8.0 (for 8 hours): "))
-    method = float(input("Choose '1' to start method 1, \
-                         choose '2' to start method 2, \
-                         choose '3' to start both methods, \
-                         choose '4' to visual history data, \
-                         choose '5' to run all methods, \
-                         Others to quit: \
-                         "))
+    try:
+        waterlevel = float(input("Input the current waterlevel e.g. 450.0: "))
+        time = float(input("Input the current time e.g. 10.0 (for 10AM): "))
+        hours = float(input("Input the predicting hours e.g. 8.0 (for 8 hours): "))
+        method = float(input("Choose '1' to start method 1, '2' to start method 2, \
+                         '3' to start both methods, '4' to visual history data,\
+                         '5' to run all methods, Others to quit: "))
+    except ValueError:
+        logging.info("Wrong type, Quit...")
+        import sys
+        sys.exit()
+
     if (type(waterlevel) and type(time) and type(hours) is float):
         kwargs = {"waterlevel_now": waterlevel, "start_time": time,
                   "predict_hours": hours}
@@ -521,9 +521,8 @@ if __name__ == '__main__':
 
         else:
             logging.info("Quit...")
-    else:
-        logging.warning('Wrong type, please input data again')
-        # logging.info(type(waterlevel), type(time), type(hours))
+    # else:
+    #    logging.warning('Wrong type, please input data again')
 
     # TODO: improve function test_waterlevel with using pytest, nose (assert)
     # TODO: apply dask module for parallel computing
