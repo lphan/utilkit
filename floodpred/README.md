@@ -1,5 +1,5 @@
 
-Flood prediction by analyzing dataset of waterlevel and applying linear models 
+Flood prediction  
 =
  
 ### Script Design
