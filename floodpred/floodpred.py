@@ -187,7 +187,7 @@ class FloodPred(object):
         print (".....-> Result in cm is {}"
                .format(self._convertnormreal(testResult)))
         print ("\n.....Error estimate difference is {}"
-               .format(abs(self.waterlevel_now - testResult)))
+               .format(abs(waterlevel_now - testResult)))
         print (".....Error in cm is {}"
                .format(abs(self._convertnormreal(waterlevel_now)
                            - self._convertnormreal(testResult))))
