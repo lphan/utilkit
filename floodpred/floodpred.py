@@ -472,27 +472,58 @@ def dovisual(waterlevel_now, start_time, predict_hours):
         waterlevel in float type between 0 and 1 (eg. 0.1)
         hour in float with step-time is 0.15    (eg. 10.15)
         next predicting hours   (eg. 8)
+Description: Input basic parameters to predict water level in next hours
 """
+
+import logging
+logging.basicConfig(filename='floodpred.log', level=logging.DEBUG)
+
+
 if __name__ == '__main__':
-    # TODO:
-    #   write a loop to start waterlevel_now from Green 300 to Red 700,
-    #   with step_size 100
-    waterlevel_now = 700.0
-    start_time = 11.0       # TODO: WHAT IF start_time in float 2.15, 2.30, 2.45
-    predict_hours = 8
+    waterlevel = float(input("Input the current waterlevel e.g. 450.0: "))
+    time = float(input("Input the current time e.g. 10.0 (for 10AM): "))
+    hours = float(input("Input the predicting hours e.g. 8.0 (for 8 hours): "))
+    method = float(input("Choose '1' to start method 1, \
+                         choose '2' to start method 2, \
+                         choose '3' to start both methods, \
+                         choose '4' to visual history data, \
+                         choose '5' to run all methods, \
+                         Others to quit: \
+                         "))
+    if (type(waterlevel) and type(time) and type(hours) is float):
+        kwargs = {"waterlevel_now": waterlevel, "start_time": time,
+                  "predict_hours": hours}
+        if (method == 1):
+            logging.info("Input '1', run first method")
+            dotask(**kwargs)     # Method 1
 
-    if predict_hours > 12:
-        print ("predict_hours can be max at 12")
+        elif (method == 2):
+            logging.info("Input '2', run second method")
+            dotaskroc(**kwargs)  # Method 2
+
+        elif (method == 3):
+            logging.info("Input '3', run both methods")
+            dotask(**kwargs)     # Method 1
+
+            dotaskroc(**kwargs)  # Method 2
+
+        elif (method == 4):
+            logging.info("Input '4', run visual history data")
+            dovisual(**kwargs)
+
+        elif (method == 5):
+            logging.info("Input '5', run all methods")
+            dotask(**kwargs)     # Method 1
+
+            dotaskroc(**kwargs)  # Method 2
+
+            dovisual(**kwargs)   # Visual history data
+
+        else:
+            logging.info("Quit...")
     else:
-        # --------- Call method 1
-        dotask(waterlevel_now, start_time, predict_hours)
-
-        # --------- Call method 2
-        # Step1: Visual all days (Total: 181 days)
-        dovisual(waterlevel_now, start_time, predict_hours)
-
-        # Step2: Sort out the needed data
-        dotaskroc(waterlevel_now, start_time, predict_hours)
+        logging.warning('Wrong type, please input data again')
+        # logging.info(type(waterlevel), type(time), type(hours))
 
     # TODO: improve function test_waterlevel with using pytest, nose (assert)
     # TODO: apply dask module for parallel computing
