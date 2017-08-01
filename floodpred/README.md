@@ -20,7 +20,7 @@ Flood prediction
 - This file contains history parameters input, will be used for user interface
 
 (6) setup.py
-run this file first to install all dependencies
+- This file helps to install all dependencies
 
 (7) floodpred.log
 - This file contains basic log informations
