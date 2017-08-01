@@ -6,30 +6,10 @@ import matplotlib.pyplot as plt
 from data import pd, hwall
 import predict
 
-# import io
-# For Python 2+3 and with unicode (Hint Source: stackoverflow)
-try:
-    to_unicode = unicode
-except:
-    to_unicode = str
-
 import datetime
 dt = datetime.datetime.now().strftime("%Y-%m-%d_%H%M%S")
 
 from pathlib import Path
-
-# TODO: create json-file to store parameters waterlevel, time_now, time_predict
-# and path to figures
-# data = {"date_time": dt, "data": {"waterlevel_now": "", "start_time": "",
-#                                   "predict_hours": ""}}
-
-# Write JSON file
-# import json
-# TODO: check if file data.json exist, yes and load and add new data.
-# No, create new one.
-# with io.open('data.json', 'w', encoding='utf8') as outfile:
-#     f = json.dumps(data, indent=4, sort_keys=True, ensure_ascii=False)
-#     outfile.write(to_unicode(f))
 
 
 class FloodPred(object):
@@ -177,12 +157,6 @@ class FloodPred(object):
                    for elem in self.timeaxis].index(time)
         return self.timeaxis[timeidx]
 
-    # """
-    # Return all figure_names
-    # """
-    # def getFigureNames(self):
-    #     return self.figname1, self.figname2, self.figname3, self.figname4
-
     """
     Show the final result in normalized format (bet. 0 and 1) and in cm
     """
@@ -198,8 +172,6 @@ class FloodPred(object):
     computed_current water level
     """
     def showArtificialResult(self):
-        # print (self.waterlevel_now)
-        # print (self.pred_waterlevel)
         if (self.pred_waterlevel < self.waterlevel_now):
             self.ar_result = self._convertnormreal(self.pred_waterlevel) + \
                 self.error
@@ -471,7 +443,6 @@ def dotask(waterlevel_now, start_time, predict_hours):
     ap._visualize()
     updatecsv(waterlevel_now, start_time, predict_hours, ap.figname2)
 
-
 """
 Call method 2 based on rate of changes of water level
 """
@@ -523,10 +494,6 @@ def updatecsv(waterlevel_now, start_time, predict_hours, figname):
             write.writerow([waterlevel_now] + [start_time] + [predict_hours] +
                            [figname] + [dt])
 
-        # IDEA: convert it to a list, then merge with new one
-        # add path to all figures, and update csv-file
-        # create java-wui to load data from this csv-file and display
-        # them on screen
     else:
         print ("FILE DOES NOT EXIST")
 

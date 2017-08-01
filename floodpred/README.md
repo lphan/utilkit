@@ -8,13 +8,25 @@ Flood prediction
 - This file contains the basic data measured, will be used for analyzing and prediction
 
 (2) floodpred.py
-- This file contains core-functions to parse excel file "floodings.xlsx"
+- This file contains help-functions and visualization functions
 
-(3) start.py
-- This file is a start-script, contains parameters (path to textfile and save location), input by Users.
+(3) data.py
+- This file contains import-data from excel
 
-(4) setup.py
+(4) predict.py
+- This file contains core-function to predict waterlevel
+
+(5) data.csv
+- This file contains history parameters input, will be used for user interface
+
+(6) setup.py
 run this file first to install all dependencies
+
+(7) floodpred.log
+- This file contains basic log informations
+
+(8) Folder Doc
+- This folder contains documentations about this program
 
 ### Preparation
 ---------------
@@ -37,5 +49,5 @@ run this file first to install all dependencies
 
 ### Run the script 
 ------------------
-- Call CLI
+- Call program
     > python3 floodpred.py
