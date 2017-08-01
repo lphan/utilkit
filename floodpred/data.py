@@ -3,6 +3,7 @@ import pandas as pd
 # import data from excel file (4 time slots 1993, 1995, 2013, 2016)
 # Data can be updated manually via Excel-file & update import lines accordingly
 try:
+    print ("Starting to import data ...")
     hw = pd.ExcelFile('floodings.xlsx')
     hw1993 = hw.parse('HW1993')
     hw1995 = hw.parse('HW1995')

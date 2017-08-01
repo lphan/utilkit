@@ -1,9 +1,35 @@
 __author__ = 'Long Phan'
 
+import csv
 import numpy as np
 import matplotlib.pyplot as plt
 from data import pd, hwall
 import predict
+
+# import io
+# For Python 2+3 and with unicode (Hint Source: stackoverflow)
+try:
+    to_unicode = unicode
+except:
+    to_unicode = str
+
+import datetime
+dt = datetime.datetime.now().strftime("%Y-%m-%d_%H%M%S")
+
+from pathlib import Path
+
+# TODO: create json-file to store parameters waterlevel, time_now, time_predict
+# and path to figures
+# data = {"date_time": dt, "data": {"waterlevel_now": "", "start_time": "",
+#                                   "predict_hours": ""}}
+
+# Write JSON file
+# import json
+# TODO: check if file data.json exist, yes and load and add new data.
+# No, create new one.
+# with io.open('data.json', 'w', encoding='utf8') as outfile:
+#     f = json.dumps(data, indent=4, sort_keys=True, ensure_ascii=False)
+#     outfile.write(to_unicode(f))
 
 
 class FloodPred(object):
@@ -49,6 +75,11 @@ class FloodPred(object):
         self.error = 0
         self.ar_result = 0
 
+        self.figname1 = ""
+        self.figname2 = ""
+        self.figname3 = ""
+        self.figname4 = ""
+
     """
     Inititialize values for waterlevel
     """
@@ -91,8 +122,9 @@ class FloodPred(object):
         self.y_roc = []
         self.list_roc = []
 
-    # TODO: review norm-techniques of z-score & min-max
-    # TODO: make normalization as an option for hwall-data and classified-data
+    # TODO:
+    # review norm-techniques of z-score & min-max
+    # make normalization as an option for hwall-data and classified-data
     """
     Normalizing Data using Min-Max method
     Optional: Z-score method
@@ -144,6 +176,12 @@ class FloodPred(object):
         timeidx = [self._convTimeFloat(elem)
                    for elem in self.timeaxis].index(time)
         return self.timeaxis[timeidx]
+
+    # """
+    # Return all figure_names
+    # """
+    # def getFigureNames(self):
+    #     return self.figname1, self.figname2, self.figname3, self.figname4
 
     """
     Show the final result in normalized format (bet. 0 and 1) and in cm
@@ -306,8 +344,8 @@ class FloodPred(object):
         for r in self.roc:
             plt.plot(r[1].values[:, 1], r[1].values[:, 3], color='blue',
                      marker='.')
-
-        fig.savefig('figures/Figure3_waterlevelalldays.png', dpi=fig.dpi)
+        self.figname3 = 'figures/Figure3_waterlevelalldays_'+dt+'.png'
+        fig.savefig(self.figname3, dpi=fig.dpi)
 
         plt.show()
 
@@ -336,7 +374,8 @@ class FloodPred(object):
             plt.plot(self.mean_ax, self.mean_ay, color='red', marker='.',
                      label='Average Mean Value')
         plt.legend(loc='upper left')
-        fig.savefig('figures/Figure4_waterlevelroc.png', dpi=fig.dpi)
+        self.figname4 = 'figures/Figure4_waterlevelroc_'+dt+'.png'
+        fig.savefig(self.figname4, dpi=fig.dpi)
 
         plt.show()
 
@@ -378,8 +417,8 @@ class FloodPred(object):
         plt.scatter(y_ax, y_ay, color='Yellow', marker='.',
                     label='Warning level')
         plt.scatter(g_ax, g_ay, color='Green', marker='.', label='Safe level')
-
-        fig.savefig('figures/Figure1_classifiedwaterlevel.png', dpi=fig.dpi)
+        self.figname1 = 'figures/Figure1_classifiedwaterlevel_'+dt+'.png'
+        fig.savefig(self.figname1, dpi=fig.dpi)
 
         if (len(self.x_final_list) > 0 and len(self.y_final_list) > 0):
             plt.plot(self.x_final_list, self.y_final_list, color='blue',
@@ -400,9 +439,10 @@ class FloodPred(object):
                     color='Orange', marker='X', label='The current water level')
 
         plt.legend(loc='upper left')
-
-        fig.savefig('figures/Figure2_predictedwaterlevel.png', dpi=fig.dpi)
+        self.figname2 = 'figures/Figure2_predictedwaterlevel_'+dt+'.png'
+        fig.savefig(self.figname2, dpi=fig.dpi)
         plt.show()
+
 
 """
 Call method 1 to calculate water level
@@ -429,6 +469,8 @@ def dotask(waterlevel_now, start_time, predict_hours):
     print ("\n **************************************\n")
 
     ap._visualize()
+    updatecsv(waterlevel_now, start_time, predict_hours, ap.figname2)
+
 
 """
 Call method 2 based on rate of changes of water level
@@ -451,6 +493,7 @@ def dotaskroc(waterlevel_now, start_time, predict_hours):
     print (" \n **************************************\n")
 
     ap._visualmeanroc()
+    updatecsv(waterlevel_now, start_time, predict_hours, ap.figname4)
 
 """
 Call this task to visual all history data
@@ -464,6 +507,35 @@ def dovisual(waterlevel_now, start_time, predict_hours):
     ap.normalizedata()
     ap.rateofchange()
     ap._visualroc()
+    updatecsv(waterlevel_now, start_time, predict_hours, ap.figname3)
+
+
+def updatecsv(waterlevel_now, start_time, predict_hours, figname):
+
+    mf = Path("./data.csv")
+    if mf.is_file():
+        print ("FILE EXIST")
+
+        # update csv-file by adding new parameters
+        with open('data.csv', 'a') as csvfile:
+            write = csv.writer(csvfile, delimiter=' ', quotechar='|',
+                               quoting=csv.QUOTE_MINIMAL)
+            write.writerow([waterlevel_now] + [start_time] + [predict_hours] +
+                           [figname] + [dt])
+
+        # IDEA: convert it to a list, then merge with new one
+        # add path to all figures, and update csv-file
+        # create java-wui to load data from this csv-file and display
+        # them on screen
+    else:
+        print ("FILE DOES NOT EXIST")
+
+        # create csv_file
+        with open('data.csv', 'w', newline='') as csvfile:
+            write = csv.writer(csvfile, delimiter=' ', quotechar='|',
+                               quoting=csv.QUOTE_MINIMAL)
+            write.writerow([waterlevel_now] + [start_time] + [predict_hours] +
+                           [figname] + [dt])
 
 """
     lspm(waterlevel, hour in float, next predicting hours)
@@ -481,10 +553,12 @@ if __name__ == '__main__':
     try:
         waterlevel = float(input("Input the current waterlevel e.g. 450.0: "))
         time = float(input("Input the current time e.g. 10.0 (for 10AM): "))
-        hours = float(input("Input the predicting hours e.g. 8.0 (for 8 hours): "))
-        method = float(input("Choose '1' to start method 1, '2' to start method 2, \
-                         '3' to start both methods, '4' to visual history data,\
-                         '5' to run all methods, Others to quit: "))
+        hours = float(input("Input the predict hours e.g. 8.0 (for 8 hours): "))
+        method = float(input("Choose '1' to start method 1, \
+                             '2' to start method 2, \
+                             '3' to start both methods, \
+                             '4' to visual history data,\
+                             '5' to run all methods, Others to quit: "))
     except ValueError:
         logging.info("Wrong type, Quit...")
         import sys
@@ -493,6 +567,9 @@ if __name__ == '__main__':
     if (type(waterlevel) and type(time) and type(hours) is float):
         kwargs = {"waterlevel_now": waterlevel, "start_time": time,
                   "predict_hours": hours}
+
+        data = {"date_time": dt, "data": kwargs}
+
         if (method == 1):
             logging.info("Input '1', run first method")
             dotask(**kwargs)     # Method 1
@@ -521,8 +598,6 @@ if __name__ == '__main__':
 
         else:
             logging.info("Quit...")
-    # else:
-    #    logging.warning('Wrong type, please input data again')
 
     # TODO: improve function test_waterlevel with using pytest, nose (assert)
     # TODO: apply dask module for parallel computing
