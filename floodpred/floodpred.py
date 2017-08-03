@@ -316,8 +316,8 @@ class FloodPred(object):
         for r in self.roc:
             plt.plot(r[1].values[:, 1], r[1].values[:, 3], color='blue',
                      marker='.')
-        self.figname3 = 'figures/Figure3_waterlevelalldays_'+dt+'.png'
-        fig.savefig(self.figname3, dpi=fig.dpi)
+        self.figname3 = 'figures/Figure3_waterlevelalldays_'+dt
+        fig.savefig(self.figname3+'.png', dpi=fig.dpi)
 
         plt.show()
 
@@ -346,8 +346,8 @@ class FloodPred(object):
             plt.plot(self.mean_ax, self.mean_ay, color='red', marker='.',
                      label='Average Mean Value')
         plt.legend(loc='upper left')
-        self.figname4 = 'figures/Figure4_waterlevelroc_'+dt+'.png'
-        fig.savefig(self.figname4, dpi=fig.dpi)
+        self.figname4 = 'figures/Figure4_waterlevelroc_'+dt
+        fig.savefig(self.figname4+'.png', dpi=fig.dpi)
 
         plt.show()
 
@@ -389,8 +389,8 @@ class FloodPred(object):
         plt.scatter(y_ax, y_ay, color='Yellow', marker='.',
                     label='Warning level')
         plt.scatter(g_ax, g_ay, color='Green', marker='.', label='Safe level')
-        self.figname1 = 'figures/Figure1_classifiedwaterlevel_'+dt+'.png'
-        fig.savefig(self.figname1, dpi=fig.dpi)
+        self.figname1 = 'figures/Figure1_classifiedwaterlevel_'+dt
+        fig.savefig(self.figname1+'.png', dpi=fig.dpi)
 
         if (len(self.x_final_list) > 0 and len(self.y_final_list) > 0):
             plt.plot(self.x_final_list, self.y_final_list, color='blue',
@@ -411,8 +411,8 @@ class FloodPred(object):
                     color='Orange', marker='X', label='The current water level')
 
         plt.legend(loc='upper left')
-        self.figname2 = 'figures/Figure2_predictedwaterlevel_'+dt+'.png'
-        fig.savefig(self.figname2, dpi=fig.dpi)
+        self.figname2 = 'figures/Figure2_predictedwaterlevel_'+dt
+        fig.savefig(self.figname2+'.png', dpi=fig.dpi)
         plt.show()
 
 
@@ -482,24 +482,19 @@ def dovisual(waterlevel_now, start_time, predict_hours):
 
 
 def updatecsv(waterlevel_now, start_time, predict_hours, figname):
-
-    mf = Path("./data.csv")
+    pathcsv = "./floodpred-wui/src/main/java/META-INF/data.csv"
+    mf = Path(pathcsv)
     if mf.is_file():
-        print ("FILE EXIST")
-
         # update csv-file by adding new parameters
-        with open('data.csv', 'a') as csvfile:
-            write = csv.writer(csvfile, delimiter=' ', quotechar='|',
+        with open(pathcsv, 'a') as csvfile:
+            write = csv.writer(csvfile, delimiter=',', quotechar='|',
                                quoting=csv.QUOTE_MINIMAL)
             write.writerow([waterlevel_now] + [start_time] + [predict_hours] +
                            [figname] + [dt])
-
     else:
-        print ("FILE DOES NOT EXIST")
-
         # create csv_file
-        with open('data.csv', 'w', newline='') as csvfile:
-            write = csv.writer(csvfile, delimiter=' ', quotechar='|',
+        with open(pathcsv, 'w', newline='') as csvfile:
+            write = csv.writer(csvfile, delimiter=',', quotechar='|',
                                quoting=csv.QUOTE_MINIMAL)
             write.writerow([waterlevel_now] + [start_time] + [predict_hours] +
                            [figname] + [dt])
@@ -518,10 +513,10 @@ logging.basicConfig(filename='floodpred.log', level=logging.DEBUG)
 
 if __name__ == '__main__':
     try:
-        waterlevel = float(input("Input the current waterlevel e.g. 450.0: "))
-        time = float(input("Input the current time e.g. 10.0 (for 10AM): "))
-        hours = float(input("Input the predict hours e.g. 8.0 (for 8 hours): "))
-        method = float(input("Choose '1' to start method 1, \
+        waterlevel = int(input("Input the current waterlevel e.g. 450 (for 450cm): "))
+        time = int(input("Input the current time e.g. 10 (for 10AM): "))
+        hours = int(input("Input the predict hours e.g. 8 (for 8 hours): "))
+        method = int(input("Choose '1' to start method 1, \
                              '2' to start method 2, \
                              '3' to start both methods, \
                              '4' to visual history data,\
@@ -531,7 +526,7 @@ if __name__ == '__main__':
         import sys
         sys.exit()
 
-    if (type(waterlevel) and type(time) and type(hours) is float):
+    if (type(waterlevel) and type(time) and type(hours) is int):
         kwargs = {"waterlevel_now": waterlevel, "start_time": time,
                   "predict_hours": hours}
 
