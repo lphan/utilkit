@@ -1,15 +1,16 @@
 __author__ = 'Long Phan'
 
-import csv
+# import csv
 import numpy as np
 import matplotlib.pyplot as plt
-from data import pd, hwall
 import predict
-
+import logging
 import datetime
-dt = datetime.datetime.now().strftime("%Y-%m-%d_%H%M%S")
-
+from data import pd, hwall
 from pathlib import Path
+
+dt = datetime.datetime.now().strftime("%Y-%m-%d_%H%M%S")
+logging.basicConfig(filename='floodpred.log', level=logging.DEBUG)
 
 
 class FloodPred(object):
@@ -443,6 +444,7 @@ def dotask(waterlevel_now, start_time, predict_hours):
     ap._visualize()
     updatecsv(waterlevel_now, start_time, predict_hours, ap.figname2)
 
+
 """
 Call method 2 based on rate of changes of water level
 """
@@ -466,6 +468,7 @@ def dotaskroc(waterlevel_now, start_time, predict_hours):
     ap._visualmeanroc()
     updatecsv(waterlevel_now, start_time, predict_hours, ap.figname4)
 
+
 """
 Call this task to visual all history data
 """
@@ -484,20 +487,54 @@ def dovisual(waterlevel_now, start_time, predict_hours):
 def updatecsv(waterlevel_now, start_time, predict_hours, figname):
     pathcsv = "./floodpred-wui/src/main/java/META-INF/data.csv"
     mf = Path(pathcsv)
+
+    # Convert data to data_frame and use to_csv, add figure name to df
+    dt = pd.to_datetime('now')
+    # ts = pd.DatetimeIndex([dt])
+    # date = datetime.datetime.now().strftime("%Y-%m-%d")
+    # df = pd.DataFrame({'date_time': [dt],
+    #                    'waterlevel_now': [waterlevel_now],
+    #                    'start_time': [start_time],
+    #                    'predict_hours': [predict_hours],
+    #                    'figure_name': [figname]
+    #                    })
+    df = pd.DataFrame([[dt, waterlevel_now, start_time, predict_hours,
+                       figname]], columns=['datetime', 'waterlevel_now',
+                                           'start_time', 'predict_hours',
+                                           'figure_name']).set_index('datetime')
+
     if mf.is_file():
         # update csv-file by adding new parameters
         with open(pathcsv, 'a') as csvfile:
-            write = csv.writer(csvfile, delimiter=',', quotechar='|',
-                               quoting=csv.QUOTE_MINIMAL)
-            write.writerow([waterlevel_now] + [start_time] + [predict_hours] +
-                           [figname] + [dt])
+            df.to_csv(csvfile, header=None, encoding='utf-8')
+
+        # with open(pathcsv, 'a') as csvfile:
+        #     write = csv.writer(csvfile, delimiter=',', quotechar='|',
+        #                        quoting=csv.QUOTE_MINIMAL)
+        #     write.writerow([waterlevel_now] + [start_time] + [predict_hours] +
+        #                    [figname] + [dt])
+
     else:
-        # create csv_file
-        with open(pathcsv, 'w', newline='') as csvfile:
-            write = csv.writer(csvfile, delimiter=',', quotechar='|',
-                               quoting=csv.QUOTE_MINIMAL)
-            write.writerow([waterlevel_now] + [start_time] + [predict_hours] +
-                           [figname] + [dt])
+        # create new csv_file
+        df.to_csv(pathcsv, header=None, encoding='utf-8')
+
+        # with open(pathcsv, 'w', newline='') as csvfile:
+        #     write = csv.writer(csvfile, delimiter=',', quotechar='|',
+        #                        quoting=csv.QUOTE_MINIMAL)
+        #     write.writerow([waterlevel_now] + [start_time] + [predict_hours] +
+        #                    [figname] + [dt])
+
+
+def updatedb():
+    import dbconn
+    pathcsv = "./floodpred-wui/src/main/java/META-INF/data.csv"
+    mf = Path(pathcsv)
+    if mf.is_file():
+        dbconn.import_data(pathcsv)
+        dbconn.read_data()
+    else:
+        logging.info("File data csv does not exist")
+
 
 """
     lspm(waterlevel, hour in float, next predicting hours)
@@ -507,30 +544,27 @@ def updatecsv(waterlevel_now, start_time, predict_hours, figname):
 Description: Input basic parameters to predict water level in next hours
 """
 
-import logging
-logging.basicConfig(filename='floodpred.log', level=logging.DEBUG)
-
 
 if __name__ == '__main__':
     try:
-        waterlevel = int(input("Input the current waterlevel e.g. 450 (for 450cm): "))
-        time = int(input("Input the current time e.g. 10 (for 10AM): "))
-        hours = int(input("Input the predict hours e.g. 8 (for 8 hours): "))
+        waterlevel_now = int(input("Input the current waterlevel e.g. 450 (for 450cm): "))
+        start_time = int(input("Input the current time e.g. 10 (for 10AM): "))
+        predict_hours = int(input("Input the predict hours e.g. 8 (for 8 hours): "))
         method = int(input("Choose '1' to start method 1, \
-                             '2' to start method 2, \
-                             '3' to start both methods, \
-                             '4' to visual history data,\
-                             '5' to run all methods, Others to quit: "))
+                           '2' to start method 2, \
+                           '3' to start both methods, \
+                           '4' to visual history data,\
+                           '5' to run all methods,\
+                           '6' to update database, Others to quit: "))
+
     except ValueError:
         logging.info("Wrong type, Quit...")
         import sys
         sys.exit()
 
-    if (type(waterlevel) and type(time) and type(hours) is int):
-        kwargs = {"waterlevel_now": waterlevel, "start_time": time,
-                  "predict_hours": hours}
-
-        data = {"date_time": dt, "data": kwargs}
+    if (type(waterlevel_now) and type(start_time) and type(predict_hours) is int):
+        kwargs = {'start_time': start_time, 'waterlevel_now': waterlevel_now,
+                  'predict_hours': predict_hours}
 
         if (method == 1):
             logging.info("Input '1', run first method")
@@ -557,6 +591,9 @@ if __name__ == '__main__':
             dotaskroc(**kwargs)  # Method 2
 
             dovisual(**kwargs)   # Visual history data
+
+        elif (method == 6):
+            updatedb()
 
         else:
             logging.info("Quit...")

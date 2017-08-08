@@ -405,12 +405,17 @@ class Predict(FloodPred):
         def validate(length_day_idx):
             return length_day_idx == MAX_LENGTH_IDX
 
+        print ("------------------------------------")
+        self.list_roc = [lr for lr in self.list_roc
+                         if validate(len(lr[1].values))]
+
         t = [lr[1].values[:, 1] for lr in self.list_roc]
         for elem in t:
             if not validate(len(elem)):
+                # it means list of days at this time point is empty
                 print ("ALARM - Data for current parameters is not sufficient")
                 print ("\n Data points from 0:00 to 24:00 need total 96 points")
-                print ("\n However, there are only ", len(elem), "data points")
+                print ("\n There are", len(elem), " data point(s)")
                 print (elem)
                 print ("\n Please try again with different parameters")
                 print ("\n or choose method 1 to run calculation\n")
