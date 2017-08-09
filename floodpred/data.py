@@ -19,11 +19,12 @@ try:
         csv_data = read_csv(pathcsv, header=None).values
         hwall = hw1993.append(hw1995).append(hw2013).append(hw2016)
         # print (len(hwall))
-
         # Convert data from csv into Timestamp- and Datetime-format
         # and append new data to hwall
         # TODO: error 1 data point, can not run method 2
         for data in csv_data:
+            # print (type(data[0]))
+            # print (data[0])
             timestamp = pd.Timestamp(data[0], tz=None)
             time = datetime.time(data[2])
             add_data = pd.DataFrame([[timestamp, time, data[1]]],

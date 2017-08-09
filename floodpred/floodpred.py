@@ -9,14 +9,13 @@ import datetime
 from data import pd, hwall
 from pathlib import Path
 
-dt = datetime.datetime.now().strftime("%Y-%m-%d_%H%M%S")
+dt = datetime.datetime.now().strftime("%Y-%m-%d %H%M%S")
+
 logging.basicConfig(filename='floodpred.log', level=logging.DEBUG)
 
 
 class FloodPred(object):
 
-    # result = 0
-    # ar_result = 0
     def __init__(self, waterlevel, time_now, time_predict):
         self.waterlevel_now = waterlevel
         self.time_now = time_now
@@ -432,7 +431,6 @@ def dotask(waterlevel_now, start_time, predict_hours):
     ap.normalizedata()
     ap.classifydata()
 
-    # or choose calMeanValue()
     ap.calMeanValue_prio()
     ap.lspm()
 
@@ -499,10 +497,10 @@ def updatecsv(waterlevel_now, start_time, predict_hours, figname, result,
     mf = Path(pathcsv)
 
     # Convert data to data_frame and use to_csv, add figure name to df
-    dt = pd.to_datetime('now')
-
+    # dt = pd.to_datetime('now')    # get wrong time, 2 hour earlier
     # ts = pd.DatetimeIndex([dt])
-    # date = datetime.datetime.now().strftime("%Y-%m-%d")
+    # dt = datetime.datetime.now().strftime("%Y-%m-%d %H%M%S")
+    # print (dt)
     # df = pd.DataFrame({'date_time': [dt],
     #                    'waterlevel_now': [waterlevel_now],
     #                    'start_time': [start_time],
