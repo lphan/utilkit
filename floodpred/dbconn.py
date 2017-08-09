@@ -7,7 +7,8 @@ db = client.floodpred
 
 
 # Load all data from csv-file, overwrite/ update the old data either
-# Data in CSV-file is the origin data, data in database will be an copy
+# Data in CSV-file is the origin data, data in database will be synchronized as
+# a copy
 def import_data(filepath):
     mg_client = pymongo.MongoClient('localhost', 27017)
 
@@ -15,6 +16,7 @@ def import_data(filepath):
     db_name = mg_client['floodpred']
 
     # collection name
+    # TODO: create collection name if it does not exist
     coll_name = 'floodpred'
     db_cm = db_name[coll_name]
 
@@ -47,10 +49,12 @@ def import_data(filepath):
     for elem in data.values:
         temp = {'datetime': elem[0], 'waterlevel_now': elem[1],
                 'start_time': elem[2], 'predict_hours': elem[3],
-                'figure_name': elem[4]}
+                'figure_name': elem[4], 'predict_result': elem[5],
+                'artificial_result': elem[6]}
         df = pd.DataFrame([temp],
                           columns=['datetime', 'waterlevel_now', 'start_time',
-                                   'predict_hours', 'figure_name'])
+                                   'predict_hours', 'figure_name',
+                                   'predict_result', 'artificial_result'])
         data_json = json.loads(df.to_json(orient='records'))
 
         # insert json-data into database
@@ -72,6 +76,6 @@ def read_data():
 
 
 if __name__ == "__main__":
-    filepath = 'floodpred-wui/src/main/java/META-INF/data.csv'
+    filepath = './floodpred-wui/src/main/webapp/META-INF/data.csv'
     import_data(filepath)
     read_data()

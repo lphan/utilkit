@@ -20,7 +20,7 @@ Flood prediction
 - This file contains history parameters input, will be used for user interface
 
 (6) dbconn.py 
-- This file contains function to synchronize data from csv-file and database Mongo
+- This file contains function to synchronize data from csv-file and database MongoDB (e.g. data table 'floodpred' will be created)
 
 (7) setup.py
 - This file helps to install all dependencies

@@ -14,6 +14,9 @@ logging.basicConfig(filename='floodpred.log', level=logging.DEBUG)
 
 
 class FloodPred(object):
+
+    # result = 0
+    # ar_result = 0
     def __init__(self, waterlevel, time_now, time_predict):
         self.waterlevel_now = waterlevel
         self.time_now = time_now
@@ -442,7 +445,8 @@ def dotask(waterlevel_now, start_time, predict_hours):
     print ("\n **************************************\n")
 
     ap._visualize()
-    updatecsv(waterlevel_now, start_time, predict_hours, ap.figname2)
+    updatecsv(waterlevel_now, start_time, predict_hours, ap.figname2,
+              ap._convertnormreal(ap.pred_waterlevel), ap.ar_result)
 
 
 """
@@ -466,7 +470,8 @@ def dotaskroc(waterlevel_now, start_time, predict_hours):
     print (" \n **************************************\n")
 
     ap._visualmeanroc()
-    updatecsv(waterlevel_now, start_time, predict_hours, ap.figname4)
+    updatecsv(waterlevel_now, start_time, predict_hours, ap.figname4,
+              ap._convertnormreal(ap.pred_waterlevel), ap.ar_result)
 
 
 """
@@ -481,15 +486,21 @@ def dovisual(waterlevel_now, start_time, predict_hours):
     ap.normalizedata()
     ap.rateofchange()
     ap._visualroc()
-    updatecsv(waterlevel_now, start_time, predict_hours, ap.figname3)
+
+    updatecsv(waterlevel_now, start_time, predict_hours, ap.figname3,
+              ap._convertnormreal(ap.pred_waterlevel), ap.ar_result)
 
 
-def updatecsv(waterlevel_now, start_time, predict_hours, figname):
-    pathcsv = "./floodpred-wui/src/main/java/META-INF/data.csv"
+# TODO: update result and artificial result either
+# TODO: apply decorator to search for result before starting computing
+def updatecsv(waterlevel_now, start_time, predict_hours, figname, result,
+              ar_result):
+    pathcsv = "./floodpred-wui/src/main/webapp/META-INF/data.csv"
     mf = Path(pathcsv)
 
     # Convert data to data_frame and use to_csv, add figure name to df
     dt = pd.to_datetime('now')
+
     # ts = pd.DatetimeIndex([dt])
     # date = datetime.datetime.now().strftime("%Y-%m-%d")
     # df = pd.DataFrame({'date_time': [dt],
@@ -498,10 +509,12 @@ def updatecsv(waterlevel_now, start_time, predict_hours, figname):
     #                    'predict_hours': [predict_hours],
     #                    'figure_name': [figname]
     #                    })
-    df = pd.DataFrame([[dt, waterlevel_now, start_time, predict_hours,
-                       figname]], columns=['datetime', 'waterlevel_now',
-                                           'start_time', 'predict_hours',
-                                           'figure_name']).set_index('datetime')
+
+    df = pd.DataFrame([[dt, waterlevel_now, start_time, predict_hours, figname,
+                        result, ar_result]],
+                      columns=['datetime', 'waterlevel_now', 'start_time',
+                               'predict_hours', 'figure_name', 'predict_result',
+                               'artificial_result']).set_index('datetime')
 
     if mf.is_file():
         # update csv-file by adding new parameters
@@ -527,7 +540,7 @@ def updatecsv(waterlevel_now, start_time, predict_hours, figname):
 
 def updatedb():
     import dbconn
-    pathcsv = "./floodpred-wui/src/main/java/META-INF/data.csv"
+    pathcsv = "./floodpred-wui/src/main/webapp/META-INF/data.csv"
     mf = Path(pathcsv)
     if mf.is_file():
         dbconn.import_data(pathcsv)
@@ -556,13 +569,12 @@ if __name__ == '__main__':
                            '4' to visual history data,\
                            '5' to run all methods,\
                            '6' to update database, Others to quit: "))
-
     except ValueError:
         logging.info("Wrong type, Quit...")
         import sys
         sys.exit()
 
-    if (type(waterlevel_now) and type(start_time) and type(predict_hours) is int):
+    if type(waterlevel_now) and type(start_time) and type(predict_hours) is int:
         kwargs = {'start_time': start_time, 'waterlevel_now': waterlevel_now,
                   'predict_hours': predict_hours}
 
