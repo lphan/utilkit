@@ -1,6 +1,5 @@
 import numpy as np
 from floodpred import FloodPred
-# import floodpred
 from scipy.optimize import curve_fit
 from data import pd, hwall, MAX_LENGTH_IDX
 
@@ -57,8 +56,6 @@ class Predict(FloodPred):
                                                       self.number_yellow))
         self.green_result = np.asarray(groupbyresult(self.green_array,
                                                      self.number_green))
-        # print ("NUMBER GREEN", self.number_green)
-        # print ("GREEN RESULT", self.green_result)
         self.max_wy = self.yellow_array[:, 3].max()
         self.min_wy = self.yellow_array[:, 3].min()
 
@@ -119,13 +116,6 @@ class Predict(FloodPred):
         self.gyr_list_left = np.dstack((g_list_left, y_list_left, r_list_left))
         self.gyr_list_right = np.dstack((g_list_right, y_list_right,
                                          r_list_right))
-        # print (self.timeaxis)
-        # print (self.start_idx, self.middle_idx, self.end_idx)
-        # print ("g_list_left", g_list_left)
-        # print ("y_list_left", y_list_left)
-        # print ("r_list_left", r_list_left)
-        # print ("gyr_list_left", self.gyr_list_left)
-        # print ("gyr_list_right", self.gyr_list_right)
 
         gyr_list = np.concatenate((self.gyr_list_left, self.gyr_list_right),
                                   axis=0)
@@ -152,12 +142,6 @@ class Predict(FloodPred):
     """
     def calMeanValue_prio(self):
         def calculateResult(dataset):
-            # lenX/sum* value + lenX-1/sum*value + ...
-            # print (dataset[0])
-            # print ("LENGTH FIRST DATA ELEMENT: ", len(dataset[0]))
-            # temp_sum = sum([i for i in range(1, len(dataset[0])+1)])
-            # print ("TEMP SUM: ", temp_sum)
-            # print ("First data value: ", dataset[0][0][0])
             result = 0
             final_result = []
             j = 0  # the further the timepoint is, the less affection it is
@@ -207,9 +191,6 @@ class Predict(FloodPred):
         self._findWaterlevel()
         sortedwl = self._findAllPoints()
         waterlevel_result = np.asarray(calculateResult(sortedwl))
-        # print ("Waterlevel_result: ", waterlevel_result)
-        # print (len(waterlevel_result))
-        # print ("Sortedwl: ", sortedwl)
         self._processZone_prio(waterlevel_result)
 
     def _processZone_prio(self, waterlevel):
@@ -243,9 +224,6 @@ class Predict(FloodPred):
                       enumerate(waterlevel[self.middle_idx:self.end_idx])]
 
         # list_lr = np.concatenate((list_left, list_right), axis=0)
-        # print ("Concatenated list: ", list_lr)
-        # print (len(list_lr))
-        # print (type(list_lr))
 
         self.x_final_list = [t for (idg, t) in
                              enumerate(self.timeaxis
@@ -301,8 +279,6 @@ class Predict(FloodPred):
         def func(x, a, b):
             return a*x+b
 
-        # print (data_x)
-        # print (data_y)
         degree = [1, 2]
         final = []  # contain list of errors measured by every degree
         for dg in degree:
@@ -346,14 +322,12 @@ class Predict(FloodPred):
         self.total_gyr = [self.number_green[i][1] + self.number_yellow[i][1] +
                           self.number_red[i][1] for i in range(96)]
 
-        # print (len(self.total_gyr))
         # Create list of tuple [(green/total, yellow/total, red/total)] for all
         # time point from 0:00 to 23:45
         # self.coeff_gyr = [(self.number_green[i][1]/self.total_gyr[i],
         #                    self.number_yellow[i][1]/self.total_gyr[i],
         #                    self.number_red[i][1]/self.total_gyr[i])
         #                   for i in range(96)]
-        # print ("\nCoefficients ", self.coeff_gyr)
 
     """
     Find all points at every time points, sorted wrt. current water level

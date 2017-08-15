@@ -21,47 +21,27 @@ class FloodPred(object):
         self.time_now = time_now
         self.time_predict = time_predict
 
-        self.water_red = 0
-        self.water_green = 0
-        self.water_yellow = 0
+        self.water_red, self.water_green, self.water_yellow = 0, 0, 0
 
-        self.wr = 0
-        self.wg = 0
-        self.wy = 0
+        self.wr, self.wg, self.wy = 0, 0, 0
 
-        self.red_array = []
-        self.green_array = []
-        self.yellow_array = []
+        self.red_array, self.green_array, self.yellow_array = [], [], []
         self.non_distributed = []   # stored values undistributed
 
-        self.mean_ax = []
-        self.mean_ay = []
+        self.mean_ax, self.mean_ay = [], []
 
-        self.mean_g = []
-        self.mean_y = []
-        self.mean_r = []
+        self.mean_g, self.mean_y, self.mean_r = [], [], []
 
-        self.start_idx = 0
-        self.middle_idx = 0
-        self.end_idx = 0
+        self.start_idx, self.middle_idx, self.end_idx = 0, 0, 0
 
         self.x_final_list = []      # contain list of time axis from 0:00-24:00
         self.y_final_list = []      # contain mean-value
 
-        self.x_coord = []
-        self.y_coord = []
+        self.x_coord, self.y_coord = [], []
         self.idx = []
 
-        self.pred_waterlevel = 0
-
-        self.result = 0
-        self.error = 0
-        self.ar_result = 0
-
-        self.figname1 = ""
-        self.figname2 = ""
-        self.figname3 = ""
-        self.figname4 = ""
+        self.figname1, self.figname2, self.figname3, self.figname4 = "", "", \
+            "", ""
 
     """
     Inititialize values for waterlevel
@@ -79,17 +59,17 @@ class FloodPred(object):
         # normalize waterlevel
         self.waterlevel_now = self._convertrealnorm(self.waterlevel_now)
 
-        self.max_wy = 0     # used for comparing with current water level
-        self.min_wy = 0     # ...
+        self.max_wy, self.min_wy = 0, 0  # comparing with current water level
 
-        self.red_result = []
-        self.yellow_result = []
-        self.green_result = []
+        self.red_result, self.yellow_result, self.green_result = [], [], []
 
-        self.number_red = []
-        self.number_yellow = []
-        self.number_green = []
+        self.number_red, self.number_yellow, self.number_green = [], [], []
+
         self.total_gyr = 0
+        self.pred_waterlevel = 0
+        self.result = 0
+        self.error = 0
+        self.ar_result = 0
 
         # self.coeff_gyr = []
 
@@ -97,13 +77,10 @@ class FloodPred(object):
         self.timeaxis = [t[0] for t in
                          pd.DataFrame(hwall[['Zeit']]).groupby(['Zeit'])]
 
-        self.gyr_list_left = []
-        self.gyr_list_right = []
+        self.gyr_list_left, self.gyr_list_right = [], []
 
-        self.roc = []       # rate of change by days from 0:00 to 24:00
-        self.x_roc = []
-        self.y_roc = []
-        self.list_roc = []
+        # rate of change by days from 0:00 to 24:00
+        self.roc, self.x_roc, self.y_roc, self.list_roc = [], [], [], []
 
     # TODO:
     # review norm-techniques of z-score & min-max
