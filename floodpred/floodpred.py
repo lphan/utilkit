@@ -82,6 +82,9 @@ class FloodPred(object):
         # rate of change by days from 0:00 to 24:00
         self.roc, self.x_roc, self.y_roc, self.list_roc = [], [], [], []
 
+        self.datetime = dt.split()[0]+'_'+dt.split()[1]
+        self.imagepath = './wui/src/main/webapp/resources/images/'
+
     # TODO:
     # review norm-techniques of z-score & min-max
     # make normalization as an option for hwall-data and classified-data
@@ -296,8 +299,8 @@ class FloodPred(object):
         for r in self.roc:
             plt.plot(r[1].values[:, 1], r[1].values[:, 3], color='blue',
                      marker='.')
-        self.figname3 = 'figures/Figure3_waterlevelalldays_'+dt
-        fig.savefig(self.figname3+'.png', dpi=fig.dpi)
+        self.figname3 = 'Figure3_waterlevelalldays_'+self.datetime
+        fig.savefig(self.imagepath+self.figname3+'.png', dpi=fig.dpi)
 
         plt.show()
 
@@ -326,8 +329,8 @@ class FloodPred(object):
             plt.plot(self.mean_ax, self.mean_ay, color='red', marker='.',
                      label='Average Mean Value')
         plt.legend(loc='upper left')
-        self.figname4 = 'figures/Figure4_waterlevelroc_'+dt
-        fig.savefig(self.figname4+'.png', dpi=fig.dpi)
+        self.figname4 = 'Figure4_waterlevelroc_'+self.datetime
+        fig.savefig(self.imagepath+self.figname4+'.png', dpi=fig.dpi)
 
         plt.show()
 
@@ -369,8 +372,8 @@ class FloodPred(object):
         plt.scatter(y_ax, y_ay, color='Yellow', marker='.',
                     label='Warning level')
         plt.scatter(g_ax, g_ay, color='Green', marker='.', label='Safe level')
-        self.figname1 = 'figures/Figure1_classifiedwaterlevel_'+dt
-        fig.savefig(self.figname1+'.png', dpi=fig.dpi)
+        self.figname1 = 'Figure1_classifiedwaterlevel_'+self.datetime
+        fig.savefig(self.imagepath+self.figname1+'.png', dpi=fig.dpi)
 
         if (len(self.x_final_list) > 0 and len(self.y_final_list) > 0):
             plt.plot(self.x_final_list, self.y_final_list, color='blue',
@@ -391,8 +394,8 @@ class FloodPred(object):
                     color='Orange', marker='X', label='The current water level')
 
         plt.legend(loc='upper left')
-        self.figname2 = 'figures/Figure2_predictedwaterlevel_'+dt
-        fig.savefig(self.figname2+'.png', dpi=fig.dpi)
+        self.figname2 = 'Figure2_predictedwaterlevel_'+self.datetime
+        fig.savefig(self.imagepath+self.figname2+'.png', dpi=fig.dpi)
         plt.show()
 
 
@@ -420,7 +423,7 @@ def dotask(waterlevel_now, start_time, predict_hours):
     print ("\n **************************************\n")
 
     ap._visualize()
-    updatecsv(waterlevel_now, start_time, predict_hours, ap.figname2,
+    updatecsv(waterlevel_now, start_time, predict_hours, ap.figname2+'.png',
               ap._convertnormreal(ap.pred_waterlevel), ap.ar_result)
 
 
@@ -445,7 +448,7 @@ def dotaskroc(waterlevel_now, start_time, predict_hours):
     print (" \n **************************************\n")
 
     ap._visualmeanroc()
-    updatecsv(waterlevel_now, start_time, predict_hours, ap.figname4,
+    updatecsv(waterlevel_now, start_time, predict_hours, ap.figname4+'.png',
               ap._convertnormreal(ap.pred_waterlevel), ap.ar_result)
 
 
@@ -462,7 +465,7 @@ def dovisual(waterlevel_now, start_time, predict_hours):
     ap.rateofchange()
     ap._visualroc()
 
-    updatecsv(waterlevel_now, start_time, predict_hours, ap.figname3,
+    updatecsv(waterlevel_now, start_time, predict_hours, ap.figname3+'.png',
               ap._convertnormreal(ap.pred_waterlevel), ap.ar_result)
 
 
@@ -470,7 +473,7 @@ def dovisual(waterlevel_now, start_time, predict_hours):
 # TODO: apply decorator to search for result before starting computing
 def updatecsv(waterlevel_now, start_time, predict_hours, figname, result,
               ar_result):
-    pathcsv = "./floodpred-wui/src/main/webapp/META-INF/data.csv"
+    pathcsv = "./wui/src/main/webapp/resources/data.csv"
     mf = Path(pathcsv)
 
     # Convert data to data_frame and use to_csv, add figure name to df
@@ -515,7 +518,7 @@ def updatecsv(waterlevel_now, start_time, predict_hours, figname, result,
 
 def updatedb():
     import dbconn
-    pathcsv = "./floodpred-wui/src/main/webapp/META-INF/data.csv"
+    pathcsv = "./wui/src/main/webapp/resources/data.csv"
     mf = Path(pathcsv)
     if mf.is_file():
         dbconn.import_data(pathcsv)

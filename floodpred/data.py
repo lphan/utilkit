@@ -13,7 +13,7 @@ try:
     hw2013 = hw.parse('HW2013')
     hw2016 = hw.parse('HW2016')
 
-    pathcsv = "./floodpred-wui/src/main/webapp/META-INF/data.csv"
+    pathcsv = "./wui/src/main/webapp/META-INF/data.csv"
     mf = Path(pathcsv)
     if mf.is_file():
         csv_data = read_csv(pathcsv, header=None).values

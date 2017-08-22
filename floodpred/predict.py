@@ -44,7 +44,6 @@ class Predict(FloodPred):
                            for x in sorted(np.unique(temp[..., 0]))]
             result = [(elem[0], elem[1].mean())
                       for elem in temp_result]
-            # print ("RESULT calMeanValue ", result)
             return [(result[i][0],
                      result[i][1] * number_datapoint[i][1] / self.total_gyr[i])
                     for i in range(96)]
@@ -230,7 +229,6 @@ class Predict(FloodPred):
                                        [self.start_idx:self.end_idx])]
 
         count = 1
-        # print ("LIST LEFT ..............", len(list_left))
         for elem in list_left:
             # The further the time, the less affection it is
             # value = (elem * (len(list_left) - count)) / len(list_left)
@@ -240,7 +238,6 @@ class Predict(FloodPred):
             self.y_final_list.append(value)
             count = count - 1/(len(list_left))
 
-        # print ("LIST RIGHT .............", len(list_right))
         count = 0     # as option
         for elem in list_right:
             # The further the time, the higher is the tendenz of water level

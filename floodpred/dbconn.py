@@ -76,6 +76,6 @@ def read_data():
 
 
 if __name__ == "__main__":
-    filepath = './floodpred-wui/src/main/webapp/META-INF/data.csv'
+    filepath = './wui/src/main/webapp/resources/data.csv'
     import_data(filepath)
     read_data()
