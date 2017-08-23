@@ -192,100 +192,111 @@ class FloodPred(object):
     Print out value of all important variables, functions for purpose debugging
     """
     def _printOut(self):
-        print ("\n --------- Function normalizedata")
-        print ("All Data before normalizing: ", hwall.values[:, 2])
+        logging.info(dt)
+        logging.info("\n --------- Function normalizedata \n")
+        logging.info("All Data before normalizing: %s", str(hwall.values[:, 2]))
 
-        print ("\n --------- Function init_data")
-        print ("Data imported from Excel file", hwall.values)
-        print ("Highest water level ", hwall.values[:, 2].max())
-        print ("Lowest water level ", hwall.values[:, 2].min())
+        logging.info("\n --------- Function init_data \n")
+        logging.info("Data imported from Excel file %s", str(hwall.values))
+        logging.info("Highest water level %s", str(hwall.values[:, 2].max()))
+        logging.info("Lowest water level %s", str(hwall.values[:, 2].min()))
 
-        print ("\n --------- Function classifyData")
-        print ("RED_ARRAY ", self.red_array)
-        print ("YELLOW_ARRAY ", self.yellow_array)
-        print ("GREEN_ARRAY ", self.green_array)
+        logging.info("\n --------- Function classifyData \n")
+        logging.info("RED_ARRAY %s", str(self.red_array))
+        logging.info("YELLOW_ARRAY %s", str(self.yellow_array))
+        logging.info("GREEN_ARRAY %s", str(self.green_array))
 
-        print ("-> Waterlevel data in red {}".format(self.wr))
-        print ("-> Waterlevel data in yellow {}".format(self.wy))
-        print ("-> Waterlevel data in green {}".format(self.wg))
-        print ("type of red_array: ", type(self.red_array))
+        logging.info("-> Waterlevel data in red {%s}", str(self.wr))
+        logging.info("-> Waterlevel data in yellow {%s}", str(self.wy))
+        logging.info("-> Waterlevel data in green {%s}", str(self.wg))
+        logging.info("type of red_array: %s", type(self.red_array))
         if len(self.red_array) > 0:
-            print ("test first element of red_array: ", self.red_array[0][0])
-            print ("test second element of red_array: ", self.red_array[0][1])
-            print ("test third element of red_array: ", self.red_array[0][2])
+            logging.info("test first element of red_array: %s",
+                         str(self.red_array[0][0]))
+            logging.info("test second element of red_array: %s",
+                         str(self.red_array[0][1]))
+            logging.info("test third element of red_array: %s",
+                         str(self.red_array[0][2]))
 
-        print ("red array ", len(self.red_array))               # 1686
-        print ("yellow array ", len(self.yellow_array))         # 13254
-        print ("green array ", len(self.green_array))           # 2103
-        print ("non distributed ", len(self.non_distributed))   # 0
-        print (len(hwall))                                      # 17043
-        print (type(self.red_array))                            # numpy ndarray
+        logging.info("red array %d", len(self.red_array))               # 1686
+        logging.info("yellow array %d", len(self.yellow_array))         # 13254
+        logging.info("green array %d", len(self.green_array))           # 2103
+        logging.info("non distributed %d", len(self.non_distributed))   # 0
+        logging.info(len(hwall))                                      # 17043
+        logging.info(type(self.red_array))                      # numpy ndarray
 
-        print ("\n --------- Function rateofchange (Method 2)")
-        print (self.roc)
-        print (type(self.roc))
-        print (len(self.roc))       # currently 181 days
+        logging.info("\n --------- Function rateofchange (Method 2)")
+        logging.info(self.roc)
+        logging.info(type(self.roc))
+        logging.info(len(self.roc))       # currently 181 days
 
-        print ("Rate of change: ", self.roc)
-        print ("Length of list of rate_of_change: ", self.list_roc)     # < 181
+        logging.info("Rate of change: ")
+        logging.info(self.roc)
+        logging.info("Length of list of rate_of_change: %s", str(self.list_roc))
 
-        print ("\n --------- Function calAvrMeanValue")
-        print (self.mean_ax)
-        print (self.mean_ay)
-        print (len(self.mean_ax))
-        print (len(self.mean_ay))
+        logging.info("\n --------- Function calAvrMeanValue \n")
+        logging.info(self.mean_ax)
+        logging.info(self.mean_ay)
+        logging.info(len(self.mean_ax))
+        logging.info(len(self.mean_ay))
 
-        print ("\n --------- Function calMeanValue")
-        print ("Red_Zone (normed): ", self.water_red)
+        logging.info("\n --------- Function calMeanValue \n")
+        logging.info("Red_Zone (normed): %s", str(self.water_red))
         # boundary between yellow_zone and red_zone
-        print ("\nMax Yellow_Zone (normed): ", self.max_wy)
-        print (".... in cm: ", self._convertnormreal(self.max_wy))
+        logging.info("\nMax Yellow_Zone (normed): %s", str(self.max_wy))
+        logging.info(".... in cm: %d", self._convertnormreal(self.max_wy))
         # boundary between green_zone and yellow_zone
-        print ("Min Yellow_Zone (normalized): ", self.min_wy)
-        print (".... in cm: ", self._convertnormreal(self.min_wy))
-        print ("\nGreen_Zone (normed): ", self.water_green)
+        logging.info("Min Yellow_Zone (normalized): %s", str(self.min_wy))
+        logging.info(".... in cm: %d", self._convertnormreal(self.min_wy))
+        logging.info("\nGreen_Zone (normed): %s", str(self.water_green))
 
-        print ("\n --------- Function _process_Zone")
-        print ("Indexing: {} {} {}"
-               .format(self.start_idx, self.middle_idx, self.end_idx))
-        print ("Length left list: ", len(self.gyr_list_left),
-               "Length right list: ", len(self.gyr_list_right))
-        print ("LEFT ", self.gyr_list_left)
-        print ("RIGHT ", self.gyr_list_right)
+        logging.info("\n --------- Function _process_Zone \n")
+        logging.info("Indexing: {%d} {%d} {%d}",
+                     self.start_idx, self.middle_idx, self.end_idx)
+        logging.info("Length left list: %d ", len(self.gyr_list_left))
+        logging.info("Length right list: %d ", len(self.gyr_list_right))
+        logging.info("LEFT %s", str(self.gyr_list_left))
+        logging.info("RIGHT %s", str(self.gyr_list_right))
 
-        print ("\n --------- Function _findWaterlevel")
-        print ("RED_RESULT ", self.number_red)
-        print ("YELLOW_RESULT ", self.number_yellow)
-        print ("GREEN_RESULT ", self.number_green)
-        print (self.number_green[0][0])
-        print (self.number_green[0][1])
-        print ("TOTAL GYR: ", self.total_gyr)
+        logging.info("\n --------- Function _findWaterlevel \n")
+        logging.info("RED_RESULT: ")
+        logging.info(self.number_red)
+        logging.info("----------")
+        logging.info("YELLOW_RESULT: ")
+        logging.info(self.number_yellow)
+        logging.info("----------")
+        logging.info("GREEN_RESULT: ")
+        logging.info(self.number_green)
+        logging.info(self.number_green[0][0])
+        logging.info(self.number_green[0][1])
+        logging.info("TOTAL GYR: %s ", str(self.total_gyr))
 
-        print ("\n --------- Function _process_Zone_prio")
-        print (self.start_idx, self.middle_idx, self.end_idx)
+        logging.info("\n --------- Function _process_Zone_prio \n")
+        logging.info(str(self.start_idx) + str(" ") + str(self.middle_idx)
+                     + str(" ") + str(self.end_idx))
 
-        print ("\n --------- Function Visualization")
-        print ("x_coord :", self.x_coord)
-        print ("y_coord :", self.y_coord)
+        logging.info("\n --------- Function Visualization \n")
+        logging.info("x_coord: %s ", str(self.x_coord))
+        logging.info("y_coord: %s ", str(self.y_coord))
 
-        print ("\n --------- Function _task_lspm")
-        print ("self.x_final_list: ", self.x_final_list)
-        print ("self.y_final_list: ", self.y_final_list)
-        print (len(self.x_final_list), len(self.y_final_list))
+        logging.info("\n --------- Function _task_lspm \n")
+        logging.info("self.x_final_list: %s", str(self.x_final_list))
+        logging.info("self.y_final_list: %s", str(self.y_final_list))
+        logging.info("%d %d", len(self.x_final_list), len(self.y_final_list))
 
-        print ("\n --------- Method 1:")
-        print ("Length time x-coord {}".format(len(self.x_final_list)))
-        print ("Length waterlevel y-coord {}".format(len(self.y_final_list)))
-        print ("Time data x-coord {}".format(self.x_final_list))
-        print ("Waterlevel data y-coord {}".format(self.y_final_list))
-        print ("Coefficients = {}\n".format(self.result))
+        logging.info("\n --------- Method 1: \n")
+        logging.info("Length time x-coord %d", len(self.x_final_list))
+        logging.info("Length waterlevel y-coord %d", len(self.y_final_list))
+        logging.info("Time data x-coord %s", str(self.x_final_list))
+        logging.info("Waterlevel data y-coord {%s}", str(self.y_final_list))
+        logging.info("Coefficients = {%s}\n", str(self.result))
 
-        print ("\n --------- Method 2:")
-        print ("Length time x-coord {}".format(len(self.mean_ax)))
-        print ("Length waterlevel y-coord {}".format(len(self.mean_y)))
-        print ("Time data x-coord {}".format(self.mean_ax))
-        print ("Waterlevel data y-coord {}".format(self.mean_y))
-        print ("Coefficients = {}\n".format(self.result))
+        logging.info("\n --------- Method 2: \n")
+        logging.info("Length time x-coord {%d}", len(self.mean_ax))
+        logging.info("Length waterlevel y-coord {%d}", len(self.mean_y))
+        logging.info("Time data x-coord {%s}", str(self.mean_ax))
+        logging.info("Waterlevel data y-coord {%s}", str(self.mean_y))
+        logging.info("Coefficients = {%s}\n", str(self.result))
 
     """
     Visualization rate of changes
@@ -302,7 +313,7 @@ class FloodPred(object):
         self.figname3 = 'Figure3_waterlevelalldays_'+self.datetime
         fig.savefig(self.imagepath+self.figname3+'.png', dpi=fig.dpi)
 
-        plt.show()
+        # plt.show()
 
     def _visualmeanroc(self):
         fig = plt.figure()
@@ -332,7 +343,7 @@ class FloodPred(object):
         self.figname4 = 'Figure4_waterlevelroc_'+self.datetime
         fig.savefig(self.imagepath+self.figname4+'.png', dpi=fig.dpi)
 
-        plt.show()
+        # plt.show()
 
     """
     Visualization
@@ -396,7 +407,7 @@ class FloodPred(object):
         plt.legend(loc='upper left')
         self.figname2 = 'Figure2_predictedwaterlevel_'+self.datetime
         fig.savefig(self.imagepath+self.figname2+'.png', dpi=fig.dpi)
-        plt.show()
+        # plt.show()
 
 
 """
@@ -415,7 +426,7 @@ def dotask(waterlevel_now, start_time, predict_hours):
     ap.lspm()
 
     # TODO: replace _printOut with logging
-    # ap._printOut()  # used for tracking information (debugging)
+    ap._printOut()  # used for tracking information (debugging)
 
     print ("\n **************************************  ")
     ap.showResult()
@@ -521,7 +532,7 @@ def updatedb():
     pathcsv = "./wui/src/main/webapp/resources/data.csv"
     mf = Path(pathcsv)
     if mf.is_file():
-        dbconn.import_data(pathcsv)
+        dbconn.updateMongoDB(pathcsv)
         dbconn.read_data()
     else:
         logging.info("File data csv does not exist")

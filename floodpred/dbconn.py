@@ -9,7 +9,7 @@ db = client.floodpred
 # Load all data from csv-file, overwrite/ update the old data either
 # Data in CSV-file is the origin data, data in database will be synchronized as
 # a copy
-def import_data(filepath):
+def updateMongoDB(filepath):
     mg_client = pymongo.MongoClient('localhost', 27017)
 
     # database name
@@ -63,6 +63,11 @@ def import_data(filepath):
         db_cm.insert(data_json)
 
 
+# TODO: sync data between MongoDB and CSV-file
+def syncMongoCSV():
+    pass
+
+
 # Read data from MongoDB out
 def read_data():
     try:
@@ -77,5 +82,5 @@ def read_data():
 
 if __name__ == "__main__":
     filepath = './wui/src/main/webapp/resources/data.csv'
-    import_data(filepath)
+    updateMongoDB(filepath)
     read_data()
