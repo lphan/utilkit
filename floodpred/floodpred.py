@@ -11,7 +11,7 @@ from pathlib import Path
 
 dt = datetime.datetime.now().strftime("%Y-%m-%d %H%M%S")
 
-logging.basicConfig(filename='floodpred.log', level=logging.DEBUG)
+logging.basicConfig(filename='./log/floodpred'+dt+'.log', level=logging.DEBUG)
 
 
 class FloodPred(object):
@@ -149,12 +149,11 @@ class FloodPred(object):
         print ("Result in cm is {} "
                .format(self._convertnormreal(self.pred_waterlevel)))
 
-    """
-    Show (Artificial) result by approximating the predict_result with the
-    truncation error between the current water level and
-    computed_current water level
-    """
-    def showArtificialResult(self):
+        '''
+        Show (Artificial) result by approximating the predict_result with the
+        truncation error between the current water level and
+        computed_current water level
+        '''
         if (self.pred_waterlevel < self.waterlevel_now):
             self.ar_result = self._convertnormreal(self.pred_waterlevel) + \
                 self.error
@@ -191,7 +190,7 @@ class FloodPred(object):
     """
     Print out value of all important variables, functions for purpose debugging
     """
-    def _printOut(self):
+    def _loggingOut(self):
         logging.info(dt)
         logging.info("\n --------- Function normalizedata \n")
         logging.info("All Data before normalizing: %s", str(hwall.values[:, 2]))
@@ -267,8 +266,6 @@ class FloodPred(object):
         logging.info("----------")
         logging.info("GREEN_RESULT: ")
         logging.info(self.number_green)
-        logging.info(self.number_green[0][0])
-        logging.info(self.number_green[0][1])
         logging.info("TOTAL GYR: %s ", str(self.total_gyr))
 
         logging.info("\n --------- Function _process_Zone_prio \n")
@@ -297,6 +294,26 @@ class FloodPred(object):
         logging.info("Time data x-coord {%s}", str(self.mean_ax))
         logging.info("Waterlevel data y-coord {%s}", str(self.mean_y))
         logging.info("Coefficients = {%s}\n", str(self.result))
+
+        logging.info("The predicting water level is {%f} ",
+                     self.pred_waterlevel)
+        logging.info("Result in cm is {%d} ",
+                     self._convertnormreal(self.pred_waterlevel))
+
+        '''
+        Show (Artificial) result by approximating the predict_result with the
+        truncation error between the current water level and
+        computed_current water level
+        '''
+        if (self.pred_waterlevel < self.waterlevel_now):
+            self.ar_result = self._convertnormreal(self.pred_waterlevel) + \
+                self.error
+        else:
+            self.ar_result = self._convertnormreal(self.pred_waterlevel) - \
+                self.error
+        logging.info("(Artificial) Result: {%f}",
+                     self._convertrealnorm(self.ar_result))
+        logging.info("(Artificial) Result in cm: {%d}", self.ar_result)
 
     """
     Visualization rate of changes
@@ -425,13 +442,11 @@ def dotask(waterlevel_now, start_time, predict_hours):
     ap.calMeanValue_prio()
     ap.lspm()
 
-    # TODO: replace _printOut with logging
-    ap._printOut()  # used for tracking information (debugging)
+    ap._loggingOut()  # used for tracking information (debugging)
 
-    print ("\n **************************************  ")
-    ap.showResult()
-    ap.showArtificialResult()
-    print ("\n **************************************\n")
+    # print ("\n **************************************  ")
+    # ap.showResult()
+    # print ("\n **************************************\n")
 
     ap._visualize()
     updatecsv(waterlevel_now, start_time, predict_hours, ap.figname2+'.png',
@@ -451,12 +466,11 @@ def dotaskroc(waterlevel_now, start_time, predict_hours):
     ap.rateofchange()
     ap.calAvrMeanValues()
 
-    # ap._printOut()  # used for tracking information (debugging)
+    ap._loggingOut()  # used for tracking information (debugging)
 
-    print (" \n **************************************  ")
-    ap.showResult()
-    ap.showArtificialResult()
-    print (" \n **************************************\n")
+    # print (" \n **************************************  ")
+    # ap.showResult()
+    # print (" \n **************************************\n")
 
     ap._visualmeanroc()
     updatecsv(waterlevel_now, start_time, predict_hours, ap.figname4+'.png',
