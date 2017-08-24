@@ -1,6 +1,6 @@
 import numpy as np
 from floodpred import FloodPred
-from scipy.optimize import curve_fit
+# from scipy.optimize import curve_fit
 from data import pd, hwall, MAX_LENGTH_IDX
 
 
@@ -291,13 +291,13 @@ class Predict(FloodPred):
 
         # Optional: ------------ Try curve_fit from scipy ------------------
         # Result by 'curve_fit' is nearly the same with numpy.polyfit degree=1
-        popt, pcov = curve_fit(func, data_x, data_y)
-        scipy_result = np.polyval(popt, pred_time)
+        # popt, pcov = curve_fit(func, data_x, data_y)
+        # scipy_result = np.polyval(popt, pred_time)
 
-        # print ("........... scipy curve_fit", popt)
-        print ("The predicting result with scipy ", scipy_result)
-        print ("Result in cm is {} "
-               .format(self._convertnormreal(scipy_result)))
+        # # print ("........... scipy curve_fit", popt)
+        # print ("The predicting result with scipy ", scipy_result)
+        # print ("Result in cm is {} "
+        #        .format(self._convertnormreal(scipy_result)))
 
     # ------------------------------------------------------------------ #
     #             Improve Method 1 by optimizing coefficients

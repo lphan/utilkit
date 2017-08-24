@@ -142,6 +142,7 @@ class FloodPred(object):
 
     """
     Show the final result in normalized format (bet. 0 and 1) and in cm
+    Function is deprecated since results are saved in log-file
     """
     def showResult(self):
         print ("\nThe predicting water level is {} "
@@ -169,22 +170,22 @@ class FloodPred(object):
     Result will be compared with the input waterlevel_now
     """
     def test_waterlevel(self, time, waterlevel_now):
-        print ("\nTesting by input current time to calculate the waterlevel")
+        logging.info("\n ------------ Tracking computing of waterlevel -------")
+        logging.info("Testing by input current time ")
         testResult = np.polyval(self.result, time)
         # testResult = self.result[0]*time + self.result[1]
-        print (".....The current waterlevel is {}".format(waterlevel_now))
-        print (".....-> Result in cm is {}"
-               .format(self._convertnormreal(waterlevel_now)))
-        print ("\n.....The recalculated water level is {}".format(testResult))
-        print (".....-> Result in cm is {}"
-               .format(self._convertnormreal(testResult)))
-        print ("\n.....Error estimate difference is {}"
-               .format(abs(waterlevel_now - testResult)))
-        print (".....Error in cm is {}"
-               .format(abs(self._convertnormreal(waterlevel_now)
-                           - self._convertnormreal(testResult))))
+        logging.info(".....The current waterlevel is {%s}", str(waterlevel_now))
+        logging.info(".....-> Result in cm is {%d}",
+                     self._convertnormreal(waterlevel_now))
+        logging.info(".....The recalculated water level is {%f}",
+                     testResult)
+        logging.info(".....-> Result in cm is {%d}",
+                     self._convertnormreal(testResult))
+        logging.info(".....Error estimate difference is {%f}",
+                     abs(waterlevel_now - testResult))
         error = abs(self._convertnormreal(waterlevel_now)
                     - self._convertnormreal(testResult))
+        logging.info(".....Error in cm is {%d}", error)
         return error
 
     """
@@ -505,7 +506,6 @@ def updatecsv(waterlevel_now, start_time, predict_hours, figname, result,
     # dt = pd.to_datetime('now')    # get wrong time, 2 hour earlier
     # ts = pd.DatetimeIndex([dt])
     # dt = datetime.datetime.now().strftime("%Y-%m-%d %H%M%S")
-    # print (dt)
     # df = pd.DataFrame({'date_time': [dt],
     #                    'waterlevel_now': [waterlevel_now],
     #                    'start_time': [start_time],
