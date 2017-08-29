@@ -561,6 +561,26 @@ Description: Input basic parameters to predict water level in next hours
 """
 
 
+def run(self):
+    mf = Path("./javparam.json")
+
+    # TODO: open file json-file to read all parameters and pass them to function
+    if (mf.is_file()):
+        print ("javparam.json is here")
+        logging.info("Input '5', run all methods")
+        dotask(**kwargs)     # Method 1
+
+        dotaskroc(**kwargs)  # Method 2
+
+        dovisual(**kwargs)   # Visual history data
+        updatedb()           # update database
+        import sys
+        sys.exit()
+    else:
+        print ("javparam.son does not exist ... QUIT!")
+        import sys
+        sys.exit()
+
 if __name__ == '__main__':
     try:
         waterlevel_now = int(input("Input the current waterlevel e.g. 450 (for 450cm): "))

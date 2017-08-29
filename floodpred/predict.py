@@ -376,7 +376,6 @@ class Predict(FloodPred):
         def validate(length_day_idx):
             return length_day_idx == MAX_LENGTH_IDX
 
-        print ("------------------------------------")
         self.list_roc = [lr for lr in self.list_roc
                          if validate(len(lr[1].values))]
 
