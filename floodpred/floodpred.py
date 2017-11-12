@@ -369,29 +369,14 @@ class FloodPred(object):
     def _visualize(self):
         fig = plt.figure()
 
-        r_ax = []
-        r_ay = []
-        for elem in self.red_array:
-            r_ax.append(elem[1])
-            r_ay.append(elem[3])
-        r_ax = np.asarray(r_ax)
-        r_ay = np.asarray(r_ay)
+        r_ax = np.asarray([elem[1] for elem in self.red_array])
+        r_ay = np.asarray([elem[3] for elem in self.red_array])
 
-        y_ax = []
-        y_ay = []
-        for elem in self.yellow_array:
-            y_ax.append(elem[1])
-            y_ay.append(elem[3])
-        y_ax = np.asarray(y_ax)
-        y_ay = np.asarray(y_ay)
+        y_ax = np.asarray([elem[1] for elem in self.yellow_array])
+        y_ay = np.asarray([elem[3] for elem in self.yellow_array])
 
-        g_ax = []
-        g_ay = []
-        for elem in self.green_array:
-            g_ax.append(elem[1])
-            g_ay.append(elem[3])
-        g_ax = np.asarray(g_ax)
-        g_ay = np.asarray(g_ay)
+        g_ax = np.asarray([elem[1] for elem in self.green_array])
+        g_ay = np.asarray([elem[3] for elem in self.green_array])
 
         plt.xlabel('Time from 0:00 to 24:00')
         plt.ylabel('High water level (normalized)')

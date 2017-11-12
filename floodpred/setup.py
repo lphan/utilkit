@@ -3,8 +3,9 @@
 from setuptools import setup
 
 long_description = open("README.md").read()
-install_requires = ['xlrd>=1.0.0', 'pandas>=0.19.2', 'numpy>=1.12.1'
-                    'matplotlib>=2.0.0']
+install_requires = ['xlrd>=1.0.0', 'pandas>=0.19.2', 'numpy>=1.12.1',
+                    'matplotlib>=2.0.0', 'pymongo>=3.5.1',
+                    'mongoengine>=0.13.0']
 
 setup(
     name="floodpred",
