@@ -10,6 +10,7 @@ db = client.floodpred
 # Data in CSV-file is the origin data, data in database will be synchronized as
 # a copy
 def updateMongoDB(filepath):
+    # connect to Database Host at 'localhost', port 27017
     mg_client = pymongo.MongoClient('localhost', 27017)
 
     # database name

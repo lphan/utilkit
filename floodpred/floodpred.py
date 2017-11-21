@@ -326,7 +326,7 @@ class FloodPred(object):
 
         # Visual all days (total: 181 days)
         for r in self.roc:
-            plt.plot(r[1].values[:, 1], r[1].values[:, 3], color='blue',
+            plt.plot([str(rv) for rv in r[1].values[:, 1]], r[1].values[:, 3], color='blue',
                      marker='.')
         self.figname3 = 'Figure3_waterlevelalldays_'+self.datetime
         fig.savefig(self.imagepath+self.figname3+'.png', dpi=fig.dpi)
@@ -340,8 +340,29 @@ class FloodPred(object):
         plt.ylabel('High water level (normalized)')
 
         for lr in self.list_roc:
-            plt.plot(lr[1].values[:, 1], lr[1].values[:, 3], color='blue',
-                     marker='.')
+            # datetime.time does not work in matplotlib, need to convert value datetime.time to str (float)
+            # matplotlib only accept format datetime.datetime, or list of (number or str)
+            x = [str(item) for item in lr[1].values[:, 1]]
+
+            # need a hack to work around with datetime.time
+            # my_day = datetime.date(2017, 11, 21)
+            # x_dt = [datetime.datetime.combine(my_day, t) for t in x]
+            # labels = [str(item).split(' ')[1] for item in x_dt]           
+            # print (labels)
+            # plt.xticks(x_dt, labels, rotation='vertical')
+
+            y = lr[1].values[:, 3]
+ 
+            # TESTING Code: matplotlib only works with datetime.datetime object 
+            # x = [datetime.datetime.now() + datetime.timedelta(hours=i) for i in range(12)]
+            # x = np.array([str(datetime.time(i, 0)) for i in range(24)])
+            # y = [i+random.gauss(0,1) for i,_ in enumerate(x)]
+            # print (x, y)
+            # print ((type(x[0]), type(y[0])), (len(x), len(y)))
+               
+            plt.plot(x, y, color='blue', marker='.')
+        plt.gcf().autofmt_xdate()
+
 
         # Visualize the current water level at time_now
         plt.scatter(self._convFloatTime(self.time_now), self.waterlevel_now,
@@ -382,10 +403,10 @@ class FloodPred(object):
         plt.ylabel('High water level (normalized)')
 
         # Visualize the classified water level
-        plt.scatter(r_ax, r_ay, color='Red', marker='.', label='Alarm level')
-        plt.scatter(y_ax, y_ay, color='Yellow', marker='.',
+        plt.scatter([str(r) for r in r_ax], r_ay, color='Red', marker='.', label='Alarm level')
+        plt.scatter([str(y) for y in y_ax], y_ay, color='Yellow', marker='.',
                     label='Warning level')
-        plt.scatter(g_ax, g_ay, color='Green', marker='.', label='Safe level')
+        plt.scatter([str(g) for g in g_ax], g_ay, color='Green', marker='.', label='Safe level')
         self.figname1 = 'Figure1_classifiedwaterlevel_'+self.datetime
         fig.savefig(self.imagepath+self.figname1+'.png', dpi=fig.dpi)
 
@@ -408,6 +429,8 @@ class FloodPred(object):
                     color='Orange', marker='X', label='The current water level')
 
         plt.legend(loc='upper left')
+        plt.gcf().autofmt_xdate()
+
         self.figname2 = 'Figure2_predictedwaterlevel_'+self.datetime
         fig.savefig(self.imagepath+self.figname2+'.png', dpi=fig.dpi)
         # plt.show()
