@@ -1,27 +1,41 @@
-
-Download Images 
+Download Media Files (images, video files, documents) 
 =
- 
-### Script Design
+
+### Others
+(1) start.py
+- This file is a start-script, contains parameters (path to textfile and save location), input by Users.
+
+(2) setup.py
+- This file is used to install all dependencies using python3 setup.py install
+
+(3) log folder
+- This folder contains all logging-information of all activities
+
+
+### Images
 ----------------- 
 (1) downloadImg2.py 
 - This file contains core-functions to parse textfile.txt and download images from links.
 
-(2) start.py
-- This file is a start-script, contains parameters (path to textfile and save location), input by Users.
-
-(3) multiDownloadImg.py
-- download images from webpage
-
-(3) textfile.txt
+(2) textfile.txt
 - All images delivered from the links inside this file are only used for functional testing purpose of the script. All these images currently already have public access and their copyright belong to the owner of website/ links where images have been uploaded.
 
-(4) multiDownloadYT.py
+
+### (Youtube) Video files
+(1) multiDownloadImg.py
+- download images from webpage
+
+(2) multiDownloadYT.py
 - download files from youtube
 
-(5) txt/youtube.txt
+(3) txt/youtube.txt
 - Create file youtube.txt (ex. touch youtube.txt) and copy all video-urls into this file (one line one url) 
 (ex. youtube.com and copy video-url & paste here)
+
+
+### (Documents) 
+(1) tbd...
+ 
 
 ### Preparation
 ---------------
