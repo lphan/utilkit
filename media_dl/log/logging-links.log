@@ -1,0 +1,433 @@
+2016-10-22 22:30:28,884 - downloadImg -                                             INFO     Logger: logging downloadImg-links activated
+2016-10-22 22:30:28,884 - downloadImg -                                             INFO     Logger: Starting download images
+2016-10-22 22:30:28,887 - downloadImg -                                             INFO     Init DownloadImg
+2016-10-22 22:30:28,891 - downloadImg -                                             INFO     Validation link: (0) httsp://download.com/text/file.jpg
+
+2016-10-22 22:30:28,894 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2016-10-22 22:30:28,900 - downloadImg -                                             INFO     Validation link: (1) http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2016-10-22 22:30:28,904 - downloadImg -                                             INFO     ......... Result: Valid link 
+2016-10-22 22:30:28,908 - downloadImg -                                             INFO     links = ['http://pic2.pbsrc.com/footer/footer-pintrest.png\n']
+2016-10-22 22:30:29,061 - downloadImg -                                             INFO     Status OK
+2016-10-22 22:30:29,065 - downloadImg -                                             INFO     File Download: http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2016-10-22 22:30:29,067 - downloadImg -                                             INFO     File Format: image/png
+2016-10-22 22:30:29,070 - downloadImg -                                             INFO     File Size: 998
+2016-10-22 22:30:29,073 - downloadImg -                                             INFO     Last-Modified: Wed, 06 May 2015 19:31:01 GMT
+2016-10-25 13:19:54,108 - downloadImg -                                             INFO     Logger: logging downloadImg-links activated
+2016-10-25 13:19:54,111 - downloadImg -                                             INFO     Logger: Starting download images
+2016-10-25 13:19:54,114 - downloadImg -                                             INFO     Init DownloadImg
+2016-10-25 13:19:54,127 - downloadImg -                                             INFO     Validation link: (0) http://www.schlafsack-fabrik.de/templates/hammer/img/spacer.gif,image/gif,332,"Thu, 24 Oct 2013 08:49:00 GMT"
+
+2016-10-25 13:19:54,130 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2016-10-25 13:19:54,137 - downloadImg -                                             INFO     Validation link: (1) http://www.schlafsack-fabrik.de/images/product_images/thumbnail_images/3_0.jpg,image/jpeg,8899,"Sat, 30 Nov 2013 16:47:51 GMT"
+
+2016-10-25 13:19:54,143 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2016-10-25 13:19:54,147 - downloadImg -                                             INFO     Validation link: (2) http://www.schlafsack-fabrik.de/images/product_images/thumbnail_images/11_0.jpg,image/jpeg,10489,"Fri, 10 Jan 2014 15:23:53 GMT"
+
+2016-10-25 13:19:54,151 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2016-10-25 13:19:54,155 - downloadImg -                                             INFO     Validation link: (3) http://www.schlafsack-fabrik.de/images/product_images/thumbnail_images/23_0.jpg,image/jpeg,7058,"Wed, 05 Feb 2014 12:57:28 GMT"
+
+2016-10-25 13:19:54,160 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2016-10-25 13:19:54,166 - downloadImg -                                             INFO     Validation link: (4) http://www.schlafsack-fabrik.de/images/product_images/thumbnail_images/2_0.jpg,image/jpeg,8369,"Sat, 11 Jan 2014 09:25:36 GMT"
+
+2016-10-25 13:19:54,172 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2016-10-25 13:19:54,177 - downloadImg -                                             INFO     Validation link: (5) http://www.schlafsack-fabrik.de/images/product_images/thumbnail_images/19_0.jpg,image/jpeg,9798,"Sat, 11 Jan 2014 09:20:49 GMT"
+
+2016-10-25 13:19:54,182 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2016-10-25 13:19:54,186 - downloadImg -                                             INFO     Validation link: (6) http://www.schlafsack-fabrik.de/images/product_images/thumbnail_images/4_0.jpg,image/jpeg,7065,"Sat, 30 Nov 2013 17:00:22 GMT"
+
+2016-10-25 13:19:54,192 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2016-10-25 13:19:54,198 - downloadImg -                                             INFO     Validation link: (7) http://www.schlafsack-fabrik.de/images/product_images/thumbnail_images/24_0.jpg,image/jpeg,11407,"Wed, 05 Feb 2014 14:36:47 GMT"
+
+2016-10-25 13:19:54,202 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2016-10-25 13:19:54,207 - downloadImg -                                             INFO     Validation link: (8) http://www.schlafsack-fabrik.de/images/product_images/thumbnail_images/17_0.jpg,image/jpeg,9646,"Sat, 11 Jan 2014 09:06:27 GMT"
+
+2016-10-25 13:19:54,213 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2016-10-25 13:19:54,217 - downloadImg -                                             INFO     Validation link: (9) http://www.schlafsack-fabrik.de/images/product_images/thumbnail_images/41_0.jpg,image/jpeg,8431,"Wed, 12 Feb 2014 08:40:42 GMT"
+
+2016-10-25 13:19:54,222 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2016-10-25 13:19:54,227 - downloadImg -                                             INFO     Validation link: (10) http://www.schlafsack-fabrik.de/images/product_images/thumbnail_images/27_0.jpg,image/jpeg,7792,"Wed, 05 Feb 2014 17:13:02 GMT"
+
+2016-10-25 13:19:54,231 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2016-10-25 13:19:54,239 - downloadImg -                                             WARNING  No valid links to download
+2017-01-13 15:37:56,834 - downloadImg -                                             INFO     Logger: logging downloadImg-links activated
+2017-01-13 15:37:56,835 - downloadImg -                                             INFO     Logger: Starting download images
+2017-01-13 15:37:56,839 - downloadImg -                                             INFO     Init DownloadImg
+2017-01-13 15:37:56,844 - downloadImg -                                             INFO     Validation link: (0) httsp://download.com/text/file.jpg
+
+2017-01-13 15:37:56,850 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-01-13 15:37:56,855 - downloadImg -                                             INFO     Validation link: (1) http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 15:37:56,861 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-01-13 15:46:51,577 - downloadImg -                                             INFO     Logger: logging downloadImg-links activated
+2017-01-13 15:46:51,578 - downloadImg -                                             INFO     Logger: Starting download images
+2017-01-13 15:46:51,581 - downloadImg -                                             INFO     Init DownloadImg
+2017-01-13 15:46:51,586 - downloadImg -                                             INFO     Validation link: (0) httsp://download.com/text/file.jpg
+
+2017-01-13 15:46:51,590 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-01-13 15:46:51,594 - downloadImg -                                             INFO     Validation link: (1) http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 15:46:51,600 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-01-13 15:46:51,612 - downloadImg -                                             INFO     links = http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 15:46:51,625 - downloadImg -                                             INFO     Status OK
+2017-01-13 15:49:19,837 - downloadImg -                                             INFO     Logger: logging downloadImg-links activated
+2017-01-13 15:49:19,837 - downloadImg -                                             INFO     Logger: Starting download images
+2017-01-13 15:49:19,841 - downloadImg -                                             INFO     Init DownloadImg
+2017-01-13 15:49:19,847 - downloadImg -                                             INFO     Validation link: (0) httsp://download.com/text/file.jpg
+
+2017-01-13 15:49:19,854 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-01-13 15:49:19,860 - downloadImg -                                             INFO     Validation link: (1) http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 15:49:19,864 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-01-13 15:49:19,868 - downloadImg -                                             INFO     links = ['http://pic2.pbsrc.com/footer/footer-pintrest.png\n']
+2017-01-13 15:49:21,155 - downloadImg -                                             INFO     Status OK
+2017-01-13 15:49:21,170 - downloadImg -                                             INFO     File Download: http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 15:49:21,183 - downloadImg -                                             INFO     File Format: image/png
+2017-01-13 15:49:21,194 - downloadImg -                                             INFO     File Size: 998
+2017-01-13 15:49:21,204 - downloadImg -                                             INFO     Last-Modified: Wed, 06 May 2015 19:31:01 GMT
+2017-01-13 15:50:59,479 - downloadImg -                                             INFO     Logger: logging downloadImg-links activated
+2017-01-13 15:50:59,479 - downloadImg -                                             INFO     Logger: Starting download images
+2017-01-13 15:50:59,483 - downloadImg -                                             INFO     Init DownloadImg
+2017-01-13 15:50:59,487 - downloadImg -                                             INFO     Validation link: (0) httsp://download.com/text/file.jpg
+
+2017-01-13 15:50:59,490 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-01-13 15:50:59,493 - downloadImg -                                             INFO     Validation link: (1) http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 15:50:59,497 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-01-13 15:50:59,508 - downloadImg -                                             INFO     links = http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 15:50:59,517 - downloadImg -                                             INFO     Status OK
+2017-01-13 15:51:32,678 - downloadImg -                                             INFO     Logger: logging downloadImg-links activated
+2017-01-13 15:51:32,678 - downloadImg -                                             INFO     Logger: Starting download images
+2017-01-13 15:51:32,681 - downloadImg -                                             INFO     Init DownloadImg
+2017-01-13 15:51:32,686 - downloadImg -                                             INFO     Validation link: (0) httsp://download.com/text/file.jpg
+
+2017-01-13 15:51:32,690 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-01-13 15:51:32,696 - downloadImg -                                             INFO     Validation link: (1) http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 15:51:32,702 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-01-13 15:51:32,716 - downloadImg -                                             INFO     links = http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 15:51:32,724 - downloadImg -                                             INFO     Status OK
+2017-01-13 15:51:50,746 - downloadImg -                                             INFO     Logger: logging downloadImg-links activated
+2017-01-13 15:51:50,746 - downloadImg -                                             INFO     Logger: Starting download images
+2017-01-13 15:51:50,750 - downloadImg -                                             INFO     Init DownloadImg
+2017-01-13 15:51:50,754 - downloadImg -                                             INFO     Validation link: (0) httsp://download.com/text/file.jpg
+
+2017-01-13 15:51:50,758 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-01-13 15:51:50,762 - downloadImg -                                             INFO     Validation link: (1) http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 15:51:50,768 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-01-13 15:51:50,778 - downloadImg -                                             INFO     links = http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 15:51:50,788 - downloadImg -                                             INFO     Status OK
+2017-01-13 15:52:05,011 - downloadImg -                                             INFO     Logger: logging downloadImg-links activated
+2017-01-13 15:52:05,012 - downloadImg -                                             INFO     Logger: Starting download images
+2017-01-13 15:52:05,016 - downloadImg -                                             INFO     Init DownloadImg
+2017-01-13 15:52:05,021 - downloadImg -                                             INFO     Validation link: (0) httsp://download.com/text/file.jpg
+
+2017-01-13 15:52:05,027 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-01-13 15:52:05,033 - downloadImg -                                             INFO     Validation link: (1) http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 15:52:05,040 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-01-13 15:52:05,052 - downloadImg -                                             INFO     links = http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 15:52:05,061 - downloadImg -                                             INFO     Status OK
+2017-01-13 15:52:40,845 - downloadImg -                                             INFO     Logger: logging downloadImg-links activated
+2017-01-13 15:52:40,846 - downloadImg -                                             INFO     Logger: Starting download images
+2017-01-13 15:52:40,850 - downloadImg -                                             INFO     Init DownloadImg
+2017-01-13 15:52:40,855 - downloadImg -                                             INFO     Validation link: (0) httsp://download.com/text/file.jpg
+
+2017-01-13 15:52:40,861 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-01-13 15:52:40,867 - downloadImg -                                             INFO     Validation link: (1) http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 15:52:40,871 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-01-13 15:52:40,892 - downloadImg -                                             INFO     links = http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 15:52:40,897 - downloadImg -                                             INFO     Status OK
+2017-01-13 15:54:15,304 - downloadImg -                                             INFO     Logger: logging downloadImg-links activated
+2017-01-13 15:54:15,304 - downloadImg -                                             INFO     Logger: Starting download images
+2017-01-13 15:54:15,308 - downloadImg -                                             INFO     Init DownloadImg
+2017-01-13 15:54:15,312 - downloadImg -                                             INFO     Validation link: (0) httsp://download.com/text/file.jpg
+
+2017-01-13 15:54:15,326 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-01-13 15:54:15,334 - downloadImg -                                             INFO     Validation link: (1) http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 15:54:15,341 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-01-13 15:54:15,351 - downloadImg -                                             INFO     links = http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 15:54:15,359 - downloadImg -                                             INFO     Status OK
+2017-01-13 15:54:41,319 - downloadImg -                                             INFO     Logger: logging downloadImg-links activated
+2017-01-13 15:54:41,320 - downloadImg -                                             INFO     Logger: Starting download images
+2017-01-13 15:54:41,323 - downloadImg -                                             INFO     Init DownloadImg
+2017-01-13 15:54:41,328 - downloadImg -                                             INFO     Validation link: (0) httsp://download.com/text/file.jpg
+
+2017-01-13 15:54:41,333 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-01-13 15:54:41,338 - downloadImg -                                             INFO     Validation link: (1) http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 15:54:41,343 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-01-13 15:54:41,357 - downloadImg -                                             INFO     links = http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 15:54:41,366 - downloadImg -                                             INFO     Status OK
+2017-01-13 15:55:21,462 - downloadImg -                                             INFO     Logger: logging downloadImg-links activated
+2017-01-13 15:55:21,462 - downloadImg -                                             INFO     Logger: Starting download images
+2017-01-13 15:55:21,466 - downloadImg -                                             INFO     Init DownloadImg
+2017-01-13 15:55:21,471 - downloadImg -                                             INFO     Validation link: (0) httsp://download.com/text/file.jpg
+
+2017-01-13 15:55:21,477 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-01-13 15:55:21,484 - downloadImg -                                             INFO     Validation link: (1) http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 15:55:21,490 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-01-13 15:55:21,503 - downloadImg -                                             INFO     links = http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 15:55:21,513 - downloadImg -                                             INFO     Status OK
+2017-01-13 15:56:37,001 - downloadImg -                                             INFO     Logger: logging downloadImg-links activated
+2017-01-13 15:56:37,001 - downloadImg -                                             INFO     Logger: Starting download images
+2017-01-13 15:56:37,005 - downloadImg -                                             INFO     Init DownloadImg
+2017-01-13 15:56:37,009 - downloadImg -                                             INFO     Validation link: (0) httsp://download.com/text/file.jpg
+
+2017-01-13 15:56:37,013 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-01-13 15:56:37,018 - downloadImg -                                             INFO     Validation link: (1) http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 15:56:37,023 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-01-13 15:56:37,034 - downloadImg -                                             INFO     links = http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 15:56:37,041 - downloadImg -                                             INFO     Status OK
+2017-01-13 15:59:08,307 - downloadImg -                                             INFO     Logger: logging downloadImg-links activated
+2017-01-13 15:59:08,308 - downloadImg -                                             INFO     Logger: Starting download images
+2017-01-13 15:59:08,311 - downloadImg -                                             INFO     Init DownloadImg
+2017-01-13 15:59:08,315 - downloadImg -                                             INFO     Validation link: (0) httsp://download.com/text/file.jpg
+
+2017-01-13 15:59:08,319 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-01-13 15:59:08,324 - downloadImg -                                             INFO     Validation link: (1) http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 15:59:08,330 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-01-13 15:59:08,344 - downloadImg -                                             INFO     links = ['http://pic2.pbsrc.com/footer/footer-pintrest.png\n']
+2017-01-13 15:59:08,408 - downloadImg -                                             INFO     Status OK
+2017-01-13 15:59:08,412 - downloadImg -                                             INFO     File Download: http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 15:59:08,415 - downloadImg -                                             INFO     File Format: image/png
+2017-01-13 15:59:08,419 - downloadImg -                                             INFO     File Size: 998
+2017-01-13 15:59:08,424 - downloadImg -                                             INFO     Last-Modified: Wed, 06 May 2015 19:31:01 GMT
+2017-01-13 15:59:22,044 - downloadImg -                                             INFO     Logger: logging downloadImg-links activated
+2017-01-13 15:59:22,045 - downloadImg -                                             INFO     Logger: Starting download images
+2017-01-13 15:59:22,049 - downloadImg -                                             INFO     Init DownloadImg
+2017-01-13 15:59:22,053 - downloadImg -                                             INFO     Validation link: (0) httsp://download.com/text/file.jpg
+
+2017-01-13 15:59:22,059 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-01-13 15:59:22,067 - downloadImg -                                             INFO     Validation link: (1) http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 15:59:22,071 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-01-13 15:59:22,083 - downloadImg -                                             INFO     links = ['http://pic2.pbsrc.com/footer/footer-pintrest.png\n']
+2017-01-13 15:59:22,183 - downloadImg -                                             INFO     Status OK
+2017-01-13 15:59:22,196 - downloadImg -                                             INFO     File Download: http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 15:59:22,207 - downloadImg -                                             INFO     File Format: image/png
+2017-01-13 15:59:22,220 - downloadImg -                                             INFO     File Size: 998
+2017-01-13 15:59:22,230 - downloadImg -                                             INFO     Last-Modified: Wed, 06 May 2015 19:31:01 GMT
+2017-01-13 16:02:23,173 - downloadImg -                                             INFO     Logger: logging downloadImg-links activated
+2017-01-13 16:02:23,174 - downloadImg -                                             INFO     Logger: Starting download images
+2017-01-13 16:02:23,178 - downloadImg -                                             INFO     Init DownloadImg
+2017-01-13 16:02:23,183 - downloadImg -                                             INFO     Validation link: (0) httsp://download.com/text/file.jpg
+
+2017-01-13 16:02:23,191 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-01-13 16:02:23,197 - downloadImg -                                             INFO     Validation link: (1) http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 16:02:23,202 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-01-13 16:02:23,223 - downloadImg -                                             INFO     links = ['http://pic2.pbsrc.com/footer/footer-pintrest.png\n']
+2017-01-13 16:02:23,263 - downloadImg -                                             INFO     Status OK
+2017-01-13 16:02:23,270 - downloadImg -                                             INFO     File Download: http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 16:02:23,276 - downloadImg -                                             INFO     File Format: image/png
+2017-01-13 16:02:23,282 - downloadImg -                                             INFO     File Size: 998
+2017-01-13 16:02:23,289 - downloadImg -                                             INFO     Last-Modified: Wed, 06 May 2015 19:31:01 GMT
+2017-01-13 16:02:50,845 - downloadImg -                                             INFO     Logger: logging downloadImg-links activated
+2017-01-13 16:02:50,845 - downloadImg -                                             INFO     Logger: Starting download images
+2017-01-13 16:02:50,849 - downloadImg -                                             INFO     Init DownloadImg
+2017-01-13 16:02:50,853 - downloadImg -                                             INFO     Validation link: (0) httsp://download.com/text/file.jpg
+
+2017-01-13 16:02:50,857 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-01-13 16:02:50,861 - downloadImg -                                             INFO     Validation link: (1) http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 16:02:50,867 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-01-13 16:02:50,877 - downloadImg -                                             INFO     1
+2017-01-13 16:02:50,878 - downloadImg -                                             INFO     1
+2017-01-13 16:02:50,890 - downloadImg -                                             INFO     links = ['http://pic2.pbsrc.com/footer/footer-pintrest.png\n']
+2017-01-13 16:02:50,915 - downloadImg -                                             INFO     Status OK
+2017-01-13 16:02:50,921 - downloadImg -                                             INFO     File Download: http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 16:02:50,926 - downloadImg -                                             INFO     File Format: image/png
+2017-01-13 16:02:50,929 - downloadImg -                                             INFO     File Size: 998
+2017-01-13 16:02:50,933 - downloadImg -                                             INFO     Last-Modified: Wed, 06 May 2015 19:31:01 GMT
+2017-01-13 16:02:50,969 - downloadImg -                                             INFO     0
+2017-01-13 16:03:10,666 - downloadImg -                                             INFO     Logger: logging downloadImg-links activated
+2017-01-13 16:03:10,667 - downloadImg -                                             INFO     Logger: Starting download images
+2017-01-13 16:03:10,671 - downloadImg -                                             INFO     Init DownloadImg
+2017-01-13 16:03:10,675 - downloadImg -                                             INFO     Validation link: (0) httsp://download.com/text/file.jpg
+
+2017-01-13 16:03:10,678 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-01-13 16:03:10,683 - downloadImg -                                             INFO     Validation link: (1) http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 16:03:10,688 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-01-13 16:03:10,710 - downloadImg -                                             INFO     links = ['http://pic2.pbsrc.com/footer/footer-pintrest.png\n']
+2017-01-13 16:03:17,858 - downloadImg -                                             INFO     Status OK
+2017-01-13 16:03:17,873 - downloadImg -                                             INFO     File Download: http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 16:03:17,894 - downloadImg -                                             INFO     File Format: image/png
+2017-01-13 16:03:17,909 - downloadImg -                                             INFO     File Size: 998
+2017-01-13 16:03:17,917 - downloadImg -                                             INFO     Last-Modified: Wed, 06 May 2015 19:31:01 GMT
+2017-01-13 16:06:52,502 - downloadImg -                                             INFO     Logger: logging downloadImg-links activated
+2017-01-13 16:06:52,503 - downloadImg -                                             INFO     Logger: Starting download images
+2017-01-13 16:06:52,506 - downloadImg -                                             INFO     Init DownloadImg
+2017-01-13 16:06:52,510 - downloadImg -                                             INFO     Validation link: (0) httsp://download.com/text/file.jpg
+
+2017-01-13 16:06:52,514 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-01-13 16:06:52,519 - downloadImg -                                             INFO     Validation link: (1) http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 16:06:52,525 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-01-13 16:06:52,541 - downloadImg -                                             INFO     links = ['http://pic2.pbsrc.com/footer/footer-pintrest.png\n']
+2017-01-13 16:06:52,574 - downloadImg -                                             INFO     Status OK
+2017-01-13 16:06:52,579 - downloadImg -                                             INFO     File Download: http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 16:06:52,585 - downloadImg -                                             INFO     File Format: image/png
+2017-01-13 16:06:52,588 - downloadImg -                                             INFO     File Size: 998
+2017-01-13 16:06:52,592 - downloadImg -                                             INFO     Last-Modified: Wed, 06 May 2015 19:31:01 GMT
+2017-01-13 16:07:31,679 - downloadImg -                                             INFO     Logger: logging downloadImg-links activated
+2017-01-13 16:07:31,680 - downloadImg -                                             INFO     Logger: Starting download images
+2017-01-13 16:07:31,683 - downloadImg -                                             INFO     Init DownloadImg
+2017-01-13 16:07:31,688 - downloadImg -                                             INFO     Validation link: (0) httsp://download.com/text/file.jpg
+
+2017-01-13 16:07:31,692 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-01-13 16:07:31,696 - downloadImg -                                             INFO     Validation link: (1) http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 16:07:31,701 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-01-13 16:07:31,712 - downloadImg -                                             INFO     links = ['http://pic2.pbsrc.com/footer/footer-pintrest.png\n']
+2017-01-13 16:07:31,741 - downloadImg -                                             INFO     Status OK
+2017-01-13 16:07:31,745 - downloadImg -                                             INFO     File Download: http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-01-13 16:07:31,753 - downloadImg -                                             INFO     File Format: image/png
+2017-01-13 16:07:31,758 - downloadImg -                                             INFO     File Size: 998
+2017-01-13 16:07:31,763 - downloadImg -                                             INFO     Last-Modified: Wed, 06 May 2015 19:31:01 GMT
+2017-06-17 11:12:53,334 - downloadImg -                                             INFO     Logger: logging downloadImg-links activated
+2017-06-17 11:12:53,334 - downloadImg -                                             INFO     Logger: Starting download images
+2017-06-17 11:12:53,339 - downloadImg -                                             INFO     Init DownloadImg
+2017-06-17 11:12:53,344 - downloadImg -                                             INFO     Validation link: (0) httsp://download.com/text/file.jpg
+
+2017-06-17 11:12:53,348 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-06-17 11:12:53,355 - downloadImg -                                             INFO     Validation link: (1) http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-06-17 11:12:53,363 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-06-17 11:12:53,380 - downloadImg -                                             INFO     links = ['http://pic2.pbsrc.com/footer/footer-pintrest.png\n']
+2017-06-17 11:12:53,739 - downloadImg -                                             INFO     Status OK
+2017-06-17 11:12:53,745 - downloadImg -                                             INFO     File Download: http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-06-17 11:12:53,751 - downloadImg -                                             INFO     File Format: image/png
+2017-06-17 11:12:53,756 - downloadImg -                                             INFO     File Size: 998
+2017-06-17 11:12:53,762 - downloadImg -                                             INFO     Last-Modified: Wed, 06 May 2015 19:31:01 GMT
+2017-06-17 11:47:13,574 - downloadImg -                                             INFO     Logger: logging downloadImg-links activated
+2017-06-17 11:47:13,577 - downloadImg -                                             INFO     Logger: Starting download images
+2017-06-17 11:47:13,581 - downloadImg -                                             INFO     Init DownloadImg
+2017-06-17 11:47:13,587 - downloadImg -                                             INFO     Validation link: (0) httsp://download.com/text/file.jpg
+
+2017-06-17 11:47:13,591 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-06-17 11:47:13,597 - downloadImg -                                             INFO     Validation link: (1) http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-06-17 11:47:13,605 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-06-17 11:47:13,609 - downloadImg -                                             INFO     Validation link: (2) http://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Festungsplan.von.Luxemburg.jpg/250px-Festungsplan.von.Luxemburg.jpg
+
+2017-06-17 11:47:13,614 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-06-17 11:47:13,626 - downloadImg -                                             INFO     links = ['http://pic2.pbsrc.com/footer/footer-pintrest.png\n']
+2017-06-17 11:47:13,949 - downloadImg -                                             INFO     Status OK
+2017-06-17 11:47:13,959 - downloadImg -                                             INFO     File Download: http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-06-17 11:47:13,969 - downloadImg -                                             INFO     File Format: image/png
+2017-06-17 11:47:13,978 - downloadImg -                                             INFO     File Size: 998
+2017-06-17 11:47:13,983 - downloadImg -                                             INFO     Last-Modified: Wed, 06 May 2015 19:31:01 GMT
+2017-06-17 11:47:14,255 - downloadImg -                                             INFO     links = ['http://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Festungsplan.von.Luxemburg.jpg/250px-Festungsplan.von.Luxemburg.jpg\n']
+2017-06-17 11:47:14,380 - downloadImg -                                             INFO     Status OK
+2017-06-17 11:47:14,395 - downloadImg -                                             INFO     File Download: http://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Festungsplan.von.Luxemburg.jpg/250px-Festungsplan.von.Luxemburg.jpg
+
+2017-06-17 11:47:14,407 - downloadImg -                                             INFO     File Format: image/jpeg
+2017-06-17 11:47:14,417 - downloadImg -                                             INFO     File Size: 27930
+2017-06-17 11:47:14,422 - downloadImg -                                             INFO     Last-Modified: Mon, 13 Oct 2014 15:48:07 GMT
+2017-06-17 11:47:55,783 - downloadImg -                                             INFO     Logger: logging downloadImg-links activated
+2017-06-17 11:47:55,784 - downloadImg -                                             INFO     Logger: Starting download images
+2017-06-17 11:47:55,788 - downloadImg -                                             INFO     Init DownloadImg
+2017-06-17 11:47:55,793 - downloadImg -                                             INFO     Validation link: (0) httsp://download.com/text/file.jpg
+
+2017-06-17 11:47:55,797 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-06-17 11:47:55,801 - downloadImg -                                             INFO     Validation link: (1) http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-06-17 11:47:55,807 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-06-17 11:47:55,816 - downloadImg -                                             INFO     Validation link: (2) http://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Festungsplan.von.Luxemburg.jpg/250px-Festungsplan.von.Luxemburg.jpg
+
+2017-06-17 11:47:55,819 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-06-17 11:47:55,837 - downloadImg -                                             INFO     links = ['http://pic2.pbsrc.com/footer/footer-pintrest.png\n']
+2017-06-17 11:47:56,103 - downloadImg -                                             INFO     Status OK
+2017-06-17 11:47:56,110 - downloadImg -                                             INFO     File Download: http://pic2.pbsrc.com/footer/footer-pintrest.png
+
+2017-06-17 11:47:56,117 - downloadImg -                                             INFO     File Format: image/png
+2017-06-17 11:47:56,124 - downloadImg -                                             INFO     File Size: 998
+2017-06-17 11:47:56,134 - downloadImg -                                             INFO     Last-Modified: Wed, 06 May 2015 19:31:01 GMT
+2017-06-17 11:47:56,424 - downloadImg -                                             INFO     links = ['http://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Festungsplan.von.Luxemburg.jpg/250px-Festungsplan.von.Luxemburg.jpg\n']
+2017-06-17 11:47:56,547 - downloadImg -                                             INFO     Status OK
+2017-06-17 11:47:56,556 - downloadImg -                                             INFO     File Download: http://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Festungsplan.von.Luxemburg.jpg/250px-Festungsplan.von.Luxemburg.jpg
+
+2017-06-17 11:47:56,567 - downloadImg -                                             INFO     File Format: image/jpeg
+2017-06-17 11:47:56,576 - downloadImg -                                             INFO     File Size: 27930
+2017-06-17 11:47:56,584 - downloadImg -                                             INFO     Last-Modified: Mon, 13 Oct 2014 15:48:07 GMT
+2017-06-21 18:48:30,971 - downloadImg -                                             INFO     Logger: logging downloadImg-links activated
+2017-06-21 18:48:30,974 - downloadImg -                                             INFO     Logger: Starting download images
+2017-06-21 18:48:30,979 - downloadImg -                                             INFO     Init DownloadImg
+2017-06-21 18:48:30,984 - downloadImg -                                             INFO     Validation link: (0) https://svn.uni-koblenz.de/ist/javaee-sose17/allgroups/tss-project/models/Contract%20Status.png
+
+2017-06-21 18:48:30,990 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-06-21 18:48:30,996 - downloadImg -                                             INFO     Validation link: (1) https://svn.uni-koblenz.de/ist/javaee-sose17/allgroups/tss-project/models/Example%20Contracts.png
+
+2017-06-21 18:48:31,003 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-06-21 18:48:31,010 - downloadImg -                                             INFO     Validation link: (2) https://svn.uni-koblenz.de/ist/javaee-sose17/allgroups/tss-project/models/TSS%20Domain%20Model.png
+
+2017-06-21 18:48:31,015 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-06-21 18:48:31,021 - downloadImg -                                             INFO     Validation link: (3) https://svn.uni-koblenz.de/ist/javaee-sose17/allgroups/tss-project/models/TSS%20Use%20Cases.png
+
+2017-06-21 18:48:31,026 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-06-21 18:48:31,030 - downloadImg -                                             INFO     Validation link: (4) https://svn.uni-koblenz.de/ist/javaee-sose17/allgroups/tss-project/models/TSS-Model.asta
+
+2017-06-21 18:48:31,036 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-06-21 18:48:31,041 - downloadImg -                                             INFO     Validation link: (5) https://svn.uni-koblenz.de/ist/javaee-sose17/allgroups/tss-project/models/Timesheet%20Status.png
+2017-06-21 18:48:31,047 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-06-21 18:48:31,070 - downloadImg -                                             INFO     links = ['https://svn.uni-koblenz.de/ist/javaee-sose17/allgroups/tss-project/models/Example%20Contracts.png\n']
+2017-06-21 18:48:31,064 - downloadImg -                                             INFO     links = ['https://svn.uni-koblenz.de/ist/javaee-sose17/allgroups/tss-project/models/Contract%20Status.png\n']
+2017-06-21 18:48:31,130 - downloadImg -                                             ERROR    error code 401, Message: None
+2017-06-21 18:48:31,134 - downloadImg -                                             INFO     Status OK
+2017-06-21 18:48:31,136 - downloadImg -                                             ERROR    error code 401, Message: None
+2017-06-21 18:48:31,143 - downloadImg -                                             INFO     Status OK
+2017-06-21 18:49:12,304 - downloadImg -                                             INFO     Logger: logging downloadImg-links activated
+2017-06-21 18:49:12,305 - downloadImg -                                             INFO     Logger: Starting download images
+2017-06-21 18:49:12,309 - downloadImg -                                             INFO     Init DownloadImg
+2017-06-21 18:49:12,313 - downloadImg -                                             INFO     Validation link: (0) https://svn.uni-koblenz.de/ist/javaee-sose17/allgroups/tss-project/models/Contract%20Status.png
+
+2017-06-21 18:49:12,317 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-06-21 18:49:12,323 - downloadImg -                                             INFO     Validation link: (1) https://svn.uni-koblenz.de/ist/javaee-sose17/allgroups/tss-project/models/Example%20Contracts.png
+
+2017-06-21 18:49:12,329 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-06-21 18:49:12,335 - downloadImg -                                             INFO     Validation link: (2) https://svn.uni-koblenz.de/ist/javaee-sose17/allgroups/tss-project/models/TSS%20Domain%20Model.png
+
+2017-06-21 18:49:12,341 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-06-21 18:49:12,346 - downloadImg -                                             INFO     Validation link: (3) https://svn.uni-koblenz.de/ist/javaee-sose17/allgroups/tss-project/models/TSS%20Use%20Cases.png
+
+2017-06-21 18:49:12,350 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-06-21 18:49:12,358 - downloadImg -                                             INFO     Validation link: (4) https://svn.uni-koblenz.de/ist/javaee-sose17/allgroups/tss-project/models/TSS-Model.asta
+
+2017-06-21 18:49:12,361 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-06-21 18:49:12,365 - downloadImg -                                             INFO     Validation link: (5) https://svn.uni-koblenz.de/ist/javaee-sose17/allgroups/tss-project/models/Timesheet%20Status.png
+2017-06-21 18:49:12,371 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-06-21 18:49:12,384 - downloadImg -                                             INFO     links = ['https://svn.uni-koblenz.de/ist/javaee-sose17/allgroups/tss-project/models/Example%20Contracts.png\n']
+2017-06-21 18:49:12,384 - downloadImg -                                             INFO     links = ['https://svn.uni-koblenz.de/ist/javaee-sose17/allgroups/tss-project/models/Contract%20Status.png\n']
+2017-06-21 18:49:12,432 - downloadImg -                                             ERROR    error code 401, Message: None
+2017-06-21 18:49:12,434 - downloadImg -                                             ERROR    error code 401, Message: None
+2017-06-21 18:49:12,437 - downloadImg -                                             INFO     Status OK
+2017-06-21 18:49:12,437 - downloadImg -                                             INFO     Status OK

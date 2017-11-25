@@ -1,0 +1,172 @@
+2016-10-22 22:30:39,171 - downloadImg -                                             INFO     Logger: logging downloadImg-url activated
+2016-10-22 22:30:39,172 - downloadImg -                                             INFO     Logger: Starting download image
+2016-10-22 22:30:39,175 - downloadImg -                                             INFO     Init DownloadImg
+2016-10-22 22:30:39,178 - downloadImg -                                             INFO     ......... Result: Valid link 
+2016-10-22 22:30:39,182 - downloadImg -                                             INFO     links = ['http://www.schlafsack-fabrik.de/images/product_images/thumbnail_images/41_0.jpg']
+2016-10-22 22:30:39,369 - downloadImg -                                             INFO     Status OK
+2016-10-22 22:30:39,379 - downloadImg -                                             INFO     File Download: http://www.schlafsack-fabrik.de/images/product_images/thumbnail_images/41_0.jpg
+2016-10-22 22:30:39,389 - downloadImg -                                             INFO     File Format: image/jpeg
+2016-10-22 22:30:39,418 - downloadImg -                                             INFO     File Size: 8431
+2016-10-22 22:30:39,423 - downloadImg -                                             INFO     Last-Modified: Wed, 12 Feb 2014 08:40:42 GMT
+2017-06-17 11:20:18,677 - downloadImg -                                             INFO     Logger: logging downloadImg-url activated
+2017-06-17 11:20:18,680 - downloadImg -                                             INFO     Logger: Starting download image
+2017-06-17 11:20:18,684 - downloadImg -                                             INFO     Init DownloadImg
+2017-06-17 11:20:18,690 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-06-17 11:20:29,093 - downloadImg -                                             INFO     Logger: logging downloadImg-url activated
+2017-06-17 11:20:29,094 - downloadImg -                                             INFO     Logger: Starting download image
+2017-06-17 11:20:29,097 - downloadImg -                                             INFO     Init DownloadImg
+2017-06-17 11:20:29,101 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-06-17 11:20:37,051 - downloadImg -                                             INFO     Logger: logging downloadImg-url activated
+2017-06-17 11:20:37,052 - downloadImg -                                             INFO     Logger: Starting download image
+2017-06-17 11:20:37,055 - downloadImg -                                             INFO     Init DownloadImg
+2017-06-17 11:20:37,059 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-06-17 11:21:12,089 - downloadImg -                                             INFO     Logger: logging downloadImg-url activated
+2017-06-17 11:21:12,090 - downloadImg -                                             INFO     Logger: Starting download image
+2017-06-17 11:21:12,093 - downloadImg -                                             INFO     Init DownloadImg
+2017-06-17 11:21:12,097 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-06-17 11:21:41,611 - downloadImg -                                             INFO     Logger: logging downloadImg-url activated
+2017-06-17 11:21:41,611 - downloadImg -                                             INFO     Logger: Starting download image
+2017-06-17 11:21:41,616 - downloadImg -                                             INFO     Init DownloadImg
+2017-06-17 11:21:41,620 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-06-17 11:21:50,728 - downloadImg -                                             INFO     Logger: logging downloadImg-url activated
+2017-06-17 11:21:50,728 - downloadImg -                                             INFO     Logger: Starting download image
+2017-06-17 11:21:50,732 - downloadImg -                                             INFO     Init DownloadImg
+2017-06-17 11:21:50,735 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-06-17 11:22:00,277 - downloadImg -                                             INFO     Logger: logging downloadImg-url activated
+2017-06-17 11:22:00,277 - downloadImg -                                             INFO     Logger: Starting download image
+2017-06-17 11:22:00,281 - downloadImg -                                             INFO     Init DownloadImg
+2017-06-17 11:22:00,284 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-06-17 11:22:06,139 - downloadImg -                                             INFO     Logger: logging downloadImg-url activated
+2017-06-17 11:22:06,140 - downloadImg -                                             INFO     Logger: Starting download image
+2017-06-17 11:22:06,144 - downloadImg -                                             INFO     Init DownloadImg
+2017-06-17 11:22:06,148 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-06-17 11:23:19,551 - downloadImg -                                             INFO     Logger: logging downloadImg-url activated
+2017-06-17 11:23:19,552 - downloadImg -                                             INFO     Logger: Starting download image
+2017-06-17 11:23:19,556 - downloadImg -                                             INFO     Init DownloadImg
+2017-06-17 11:23:19,560 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-06-17 11:23:46,632 - downloadImg -                                             INFO     Logger: logging downloadImg-url activated
+2017-06-17 11:23:46,632 - downloadImg -                                             INFO     Logger: Starting download image
+2017-06-17 11:23:46,636 - downloadImg -                                             INFO     Init DownloadImg
+2017-06-17 11:23:46,639 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-06-17 11:23:51,436 - downloadImg -                                             INFO     Logger: logging downloadImg-url activated
+2017-06-17 11:23:51,436 - downloadImg -                                             INFO     Logger: Starting download image
+2017-06-17 11:23:51,440 - downloadImg -                                             INFO     Init DownloadImg
+2017-06-17 11:23:51,443 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-06-17 11:24:15,331 - downloadImg -                                             INFO     Logger: logging downloadImg-url activated
+2017-06-17 11:24:15,332 - downloadImg -                                             INFO     Logger: Starting download image
+2017-06-17 11:24:15,336 - downloadImg -                                             INFO     Init DownloadImg
+2017-06-17 11:24:15,339 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-06-17 11:25:17,350 - downloadImg -                                             INFO     Logger: logging downloadImg-url activated
+2017-06-17 11:25:17,350 - downloadImg -                                             INFO     Logger: Starting download image
+2017-06-17 11:25:17,354 - downloadImg -                                             INFO     Init DownloadImg
+2017-06-17 11:25:17,357 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-06-17 11:25:59,940 - downloadImg -                                             INFO     Logger: logging downloadImg-url activated
+2017-06-17 11:25:59,941 - downloadImg -                                             INFO     Logger: Starting download image
+2017-06-17 11:25:59,944 - downloadImg -                                             INFO     Init DownloadImg
+2017-06-17 11:25:59,948 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-06-17 11:25:59,955 - downloadImg -                                             INFO     links = ['http://i487.photobucket.com/albums/rr237/Ikdere/turtle-wallpaper-1152x864.jpg']
+2017-06-17 11:26:00,474 - downloadImg -                                             INFO     Status OK
+2017-06-17 11:26:00,488 - downloadImg -                                             INFO     File Download: http://i487.photobucket.com/albums/rr237/Ikdere/turtle-wallpaper-1152x864.jpg
+2017-06-17 11:26:00,494 - downloadImg -                                             INFO     File Format: image/jpeg
+2017-06-17 11:26:00,498 - downloadImg -                                             INFO     File Size: 123250
+2017-06-17 11:26:00,503 - downloadImg -                                             INFO     Last-Modified: Tue, 02 Dec 2008 11:30:23 GMT
+2017-06-17 11:29:12,583 - downloadImg -                                             INFO     Logger: logging downloadImg-url activated
+2017-06-17 11:29:12,583 - downloadImg -                                             INFO     Logger: Starting download image
+2017-06-17 11:29:12,587 - downloadImg -                                             INFO     Init DownloadImg
+2017-06-17 11:29:12,591 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-06-17 11:29:12,595 - downloadImg -                                             INFO     links = ['http://www.luxembourg.public.lu/en//../../inspiring_luxembourg/pictures/homepage/10-inspiring_n.jpg']
+2017-06-17 11:29:12,693 - downloadImg -                                             ERROR    error code 404
+2017-06-17 11:29:12,708 - downloadImg -                                             INFO     Status OK
+2017-06-17 11:31:08,652 - downloadImg -                                             INFO     Logger: logging downloadImg-url activated
+2017-06-17 11:31:08,653 - downloadImg -                                             INFO     Logger: Starting download image
+2017-06-17 11:31:08,657 - downloadImg -                                             INFO     Init DownloadImg
+2017-06-17 11:31:08,662 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-06-17 11:31:08,666 - downloadImg -                                             INFO     links = ['http://www.luxembourg.public.lu/en//../../inspiring_luxembourg/pictures/homepage/10-inspiring_n.jpg']
+2017-06-17 11:31:08,788 - downloadImg -                                             ERROR    error code 404, Message: None
+2017-06-17 11:31:08,793 - downloadImg -                                             INFO     Status OK
+2017-06-17 11:41:11,852 - downloadImg -                                             INFO     Logger: logging downloadImg-url activated
+2017-06-17 11:41:11,853 - downloadImg -                                             INFO     Logger: Starting download image
+2017-06-17 11:41:11,857 - downloadImg -                                             INFO     Init DownloadImg
+2017-06-17 11:41:11,862 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-06-17 11:41:11,866 - downloadImg -                                             INFO     links = ['http://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Festungsplan.von.Luxemburg.jpg/250px-Festungsplan.von.Luxemburg.jpg']
+2017-06-17 11:41:11,983 - downloadImg -                                             INFO     Status OK
+2017-06-17 11:41:11,988 - downloadImg -                                             INFO     File Download: http://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Festungsplan.von.Luxemburg.jpg/250px-Festungsplan.von.Luxemburg.jpg
+2017-06-17 11:41:11,992 - downloadImg -                                             INFO     File Format: image/jpeg
+2017-06-17 11:41:11,997 - downloadImg -                                             INFO     File Size: 27930
+2017-06-17 11:41:12,001 - downloadImg -                                             INFO     Last-Modified: Mon, 13 Oct 2014 15:48:07 GMT
+2017-06-17 11:41:35,117 - downloadImg -                                             INFO     Logger: logging downloadImg-url activated
+2017-06-17 11:41:35,118 - downloadImg -                                             INFO     Logger: Starting download image
+2017-06-17 11:41:35,122 - downloadImg -                                             INFO     Init DownloadImg
+2017-06-17 11:41:35,126 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-06-17 11:41:35,129 - downloadImg -                                             INFO     links = ['http://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Festungsplan.von.Luxemburg.jpg/250px-Festungsplan.von.Luxemburg.jpg']
+2017-06-17 11:41:35,249 - downloadImg -                                             INFO     Status OK
+2017-06-17 11:41:35,258 - downloadImg -                                             INFO     File Download: http://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Festungsplan.von.Luxemburg.jpg/250px-Festungsplan.von.Luxemburg.jpg
+2017-06-17 11:41:35,268 - downloadImg -                                             INFO     File Format: image/jpeg
+2017-06-17 11:41:35,278 - downloadImg -                                             INFO     File Size: 27930
+2017-06-17 11:41:35,287 - downloadImg -                                             INFO     Last-Modified: Mon, 13 Oct 2014 15:48:07 GMT
+2017-06-17 11:42:10,321 - downloadImg -                                             INFO     Logger: logging downloadImg-url activated
+2017-06-17 11:42:10,321 - downloadImg -                                             INFO     Logger: Starting download image
+2017-06-17 11:42:10,325 - downloadImg -                                             INFO     Init DownloadImg
+2017-06-17 11:42:10,329 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-06-17 11:42:10,333 - downloadImg -                                             INFO     links = ['http://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Festungsplan.von.Luxemburg.jpg/250px-Festungsplan.von.Luxemburg.jpg']
+2017-06-17 11:42:10,453 - downloadImg -                                             INFO     Status OK
+2017-06-17 11:42:10,458 - downloadImg -                                             INFO     File Download: http://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Festungsplan.von.Luxemburg.jpg/250px-Festungsplan.von.Luxemburg.jpg
+2017-06-17 11:42:10,461 - downloadImg -                                             INFO     File Format: image/jpeg
+2017-06-17 11:42:10,466 - downloadImg -                                             INFO     File Size: 27930
+2017-06-17 11:42:10,470 - downloadImg -                                             INFO     Last-Modified: Mon, 13 Oct 2014 15:48:07 GMT
+2017-06-17 11:42:34,772 - downloadImg -                                             INFO     Logger: logging downloadImg-url activated
+2017-06-17 11:42:34,772 - downloadImg -                                             INFO     Logger: Starting download image
+2017-06-17 11:42:34,776 - downloadImg -                                             INFO     Init DownloadImg
+2017-06-17 11:42:34,780 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-06-17 11:42:34,784 - downloadImg -                                             INFO     links = ['http://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Festungsplan.von.Luxemburg.jpg/250px-Festungsplan.von.Luxemburg.jpg']
+2017-06-17 11:42:34,903 - downloadImg -                                             INFO     Status OK
+2017-06-17 11:42:34,916 - downloadImg -                                             INFO     File Download: http://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Festungsplan.von.Luxemburg.jpg/250px-Festungsplan.von.Luxemburg.jpg
+2017-06-17 11:42:34,923 - downloadImg -                                             INFO     File Format: image/jpeg
+2017-06-17 11:42:34,927 - downloadImg -                                             INFO     File Size: 27930
+2017-06-17 11:42:34,933 - downloadImg -                                             INFO     Last-Modified: Mon, 13 Oct 2014 15:48:07 GMT
+2017-06-17 11:43:50,283 - downloadImg -                                             INFO     Logger: logging downloadImg-url activated
+2017-06-17 11:43:50,284 - downloadImg -                                             INFO     Logger: Starting download image
+2017-06-17 11:43:50,288 - downloadImg -                                             INFO     Init DownloadImg
+2017-06-17 11:43:50,292 - downloadImg -                                             WARNING  ......... Result: NOT valid 
+2017-06-17 11:45:15,905 - downloadImg -                                             INFO     Logger: logging downloadImg-url activated
+2017-06-17 11:45:15,905 - downloadImg -                                             INFO     Logger: Starting download image
+2017-06-17 11:45:15,909 - downloadImg -                                             INFO     Init DownloadImg
+2017-06-17 11:45:15,913 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-06-17 11:45:15,917 - downloadImg -                                             INFO     links = ['http://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Festungsplan.von.Luxemburg.jpg/250px-Festungsplan.von.Luxemburg.jpg']
+2017-06-17 11:45:16,109 - downloadImg -                                             INFO     Status OK
+2017-06-17 11:45:16,120 - downloadImg -                                             INFO     File Download: http://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Festungsplan.von.Luxemburg.jpg/250px-Festungsplan.von.Luxemburg.jpg
+2017-06-17 11:45:16,131 - downloadImg -                                             INFO     File Format: image/jpeg
+2017-06-17 11:45:16,139 - downloadImg -                                             INFO     File Size: 27930
+2017-06-17 11:45:16,145 - downloadImg -                                             INFO     Last-Modified: Mon, 13 Oct 2014 15:48:07 GMT
+2017-06-17 11:49:10,200 - downloadImg -                                             INFO     Logger: logging downloadImg-url activated
+2017-06-17 11:49:10,201 - downloadImg -                                             INFO     Logger: Starting download image
+2017-06-17 11:49:10,205 - downloadImg -                                             INFO     Init DownloadImg
+2017-06-17 11:49:10,208 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-06-17 11:49:10,212 - downloadImg -                                             INFO     links = ['http://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Festungsplan.von.Luxemburg.jpg/250px-Festungsplan.von.Luxemburg.jpg']
+2017-06-17 11:49:10,458 - downloadImg -                                             INFO     Status OK
+2017-06-17 11:49:10,473 - downloadImg -                                             INFO     File Download: http://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Festungsplan.von.Luxemburg.jpg/250px-Festungsplan.von.Luxemburg.jpg
+2017-06-17 11:49:10,481 - downloadImg -                                             INFO     File Format: image/jpeg
+2017-06-17 11:49:10,488 - downloadImg -                                             INFO     File Size: 27930
+2017-06-17 11:49:10,492 - downloadImg -                                             INFO     Last-Modified: Mon, 13 Oct 2014 15:48:07 GMT
+2017-06-17 11:53:55,344 - downloadImg -                                             INFO     Logger: logging downloadImg-url activated
+2017-06-17 11:53:55,345 - downloadImg -                                             INFO     Logger: Starting download image
+2017-06-17 11:53:55,348 - downloadImg -                                             INFO     Init DownloadImg
+2017-06-17 11:53:55,352 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-06-17 11:53:55,356 - downloadImg -                                             INFO     links = ['http://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Festungsplan.von.Luxemburg.jpg/250px-Festungsplan.von.Luxemburg.jpg']
+2017-06-17 11:53:55,468 - downloadImg -                                             INFO     Status OK
+2017-06-17 11:53:55,479 - downloadImg -                                             INFO     File Download: http://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Festungsplan.von.Luxemburg.jpg/250px-Festungsplan.von.Luxemburg.jpg
+2017-06-17 11:53:55,485 - downloadImg -                                             INFO     File Format: image/jpeg
+2017-06-17 11:53:55,491 - downloadImg -                                             INFO     File Size: 27930
+2017-06-17 11:53:55,497 - downloadImg -                                             INFO     Last-Modified: Mon, 13 Oct 2014 15:48:07 GMT
+2017-06-17 11:53:55,507 - downloadImg -                                             INFO     .... Starting download
+2017-06-17 11:54:09,960 - downloadImg -                                             INFO     Logger: logging downloadImg-url activated
+2017-06-17 11:54:09,960 - downloadImg -                                             INFO     Logger: Starting download image
+2017-06-17 11:54:09,964 - downloadImg -                                             INFO     Init DownloadImg
+2017-06-17 11:54:09,968 - downloadImg -                                             INFO     ......... Result: Valid link 
+2017-06-17 11:54:09,972 - downloadImg -                                             INFO     links = ['http://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Festungsplan.von.Luxemburg.jpg/250px-Festungsplan.von.Luxemburg.jpg']
+2017-06-17 11:54:10,089 - downloadImg -                                             INFO     Status OK
+2017-06-17 11:54:10,104 - downloadImg -                                             INFO     File Download: http://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Festungsplan.von.Luxemburg.jpg/250px-Festungsplan.von.Luxemburg.jpg
+2017-06-17 11:54:10,113 - downloadImg -                                             INFO     File Format: image/jpeg
+2017-06-17 11:54:10,121 - downloadImg -                                             INFO     File Size: 27930
+2017-06-17 11:54:10,128 - downloadImg -                                             INFO     Last-Modified: Mon, 13 Oct 2014 15:48:07 GMT
+2017-06-17 11:54:10,133 - downloadImg -                                             INFO     .... Starting download
