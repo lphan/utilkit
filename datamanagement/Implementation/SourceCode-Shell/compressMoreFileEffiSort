@@ -1,0 +1,63 @@
+#!/bin/bash
+# ------------------------------------------------2Verbesserungsansatz --------------------------------------------------#
+#				mit Speicheranforderung X, komprimiert die Datei bis X erfüllt ist. 			 |
+# 					 Sortieren Funktion bevor Komprimierung 					 |
+#				Auflisten alle Dateien aus Input Pfade ( mit command ls)				 |
+# -----------------------------------------------------------------------------------------------------------------------#
+
+#read -p "Bedarf nach freier Speicherkapazität : " memRe
+#read -p "Pfade von Collection / Datei zur Komprimierung : " Path
+echo " .......... Komprimierungsprozess beginn ............ "
+
+# ------------------------------------------------------- BEGIN Programm -------------------------------------------------
+
+memRe=1500000
+Path="/home/irobot/Desktop/FTPSource/home/irods/FTPResc2/"
+
+# Schritt 1 : Listet Datei nacheinander und weist die Größe der Datei dem Variable zu und gibt sie aus.
+
+declare -i win
+win=0
+
+declare -i origsize
+declare -i zipsize
+
+# find . -type f -exec du -sb {} \; | sort -nr
+#$fileset= `find $Path -iname '*.*' | du -k | sort -nr	
+
+temp='.gz'
+
+# Sort with find 
+fileset=`find $Path -type f -exec du -sb {} \; | sort -nr |cut -f 2`
+for f in $fileset
+do
+	if test $win -lt $memRe
+		then
+			echo "FileName : $f"
+	# get origsize
+			let origsize=`stat -c "%s" $f`
+			echo "  Original Size = $origsize "
+	# zip file with gzip
+			gzip $f
+	# get zipsize
+			echo "  New Zip Name : $f$temp"
+			let zipsize=`stat -c "%s" $f$temp`
+			echo "  Zip Size = $zipsize " 
+	# calculate size of won memory capacity
+			let "win += origsize - zipsize"
+			echo "  Win : $win"
+			let sumfile++
+	fi
+done
+
+if test $win -lt $memRe 
+	then	
+		let "fehlt = memRe - win"
+		echo "Leider, $win freie Speicherkapazität geschafft. Es fehlt noch $fehlt Byte"
+		echo "Anzahl der ZipFile : $sumfile"
+	else 
+		echo "Glückwunsch,$win freie Speicherkapazität gewonnen. "
+		echo "Anzahl der ZipFile : $sumfile"
+fi
+
+

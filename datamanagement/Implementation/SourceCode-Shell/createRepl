@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# create Replication 20 Files from StorageResc2/Storage3 to GridResc2 
+declare -i i=0
+
+echo "create Replication 20 Files from StorageResc2/Storage3 into GridResc2"
+while [[ $((++i)) -le 20 ]]; do
+/home/irobot/Desktop/iRODS/clients/icommands/bin/./irepl /tempZone2/home/irods/StorageResc2/Storage3/storage3-$i.txt -R 'GridResc2' -S 'StorageResc2'
+done
+
+i=20
+echo "create Replication 20 Files from StorageResc2/Storage3 into FTPResc2"
+while [[ $((++i)) -le 40 ]]; do
+# create Replication 20 Files from StorageResc2/Storage3 to FTPResc2
+/home/irobot/Desktop/iRODS/clients/icommands/bin/./irepl /tempZone2/home/irods/StorageResc2/Storage3/storage3-$i.txt -R 'FTPResc2' -S 'StorageResc2'
+done
+echo "Operation completed"

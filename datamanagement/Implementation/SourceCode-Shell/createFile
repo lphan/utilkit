@@ -1,0 +1,23 @@
+#!/bin/bash
+read -p "Wieviel Dateien werden erzeugt ? " files
+echo " .......... Creating prozess begins ............ "
+
+# create file with command : > filename
+declare -i i=0
+declare -i j=0
+text='Hallo World'
+while [[ $((++i)) -le $files ]]; do
+	echo > /home/irobot/Desktop/BackupFile/StorageResc2/Storage2/storage2-$i.st$i
+	echo "file storage2-$i.st$i has been created"
+done
+
+while [[ $j -le $files ]]; do	
+# insert text into file with command : echo text >> filename
+	echo "insert content for file storage2-$j.$j"
+	echo $text >> /home/irobot/Desktop/BackupFile/StorageResc2/Storage2/storage2-$j.st$j
+	text=$text' ''HalloWorld-StorageResc2-Storage2-MediumFile'
+	let j++
+done
+
+
+

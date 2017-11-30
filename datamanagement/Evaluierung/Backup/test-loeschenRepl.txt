@@ -1,0 +1,122 @@
+File with Namme archiv1-112.ar112 has copy at FTPResc2
+---> The replica of file archiv1-112.ar112 at StorageResc2 is deleted
+---> Win free memory : 2589
+File with Namme archiv1-118.ar118 has copy at FTPResc2
+---> The replica of file archiv1-118.ar118 at StorageResc2 is deleted
+---> Win free memory : 2727
+File with Namme archiv1-119.ar119 has copy at FTPResc2
+---> The replica of file archiv1-119.ar119 at StorageResc2 is deleted
+---> Win free memory : 2750
+File with Namme archiv1-121.ar121 has copy at FTPResc2
+---> The replica of file archiv1-121.ar121 at StorageResc2 is deleted
+---> Win free memory : 2796
+File with Namme archiv1-128.ar128 has copy at FTPResc2
+---> The replica of file archiv1-128.ar128 at StorageResc2 is deleted
+---> Win free memory : 2957
+File with Namme archiv1-140.ar140 has copy at FTPResc2
+---> The replica of file archiv1-140.ar140 at StorageResc2 is deleted
+---> Win free memory : 3233
+File with Namme archiv1-143.ar143 has copy at FTPResc2
+---> The replica of file archiv1-143.ar143 at StorageResc2 is deleted
+---> Win free memory : 3302
+File with Namme archiv1-151.ar151 has copy at FTPResc2
+---> The replica of file archiv1-151.ar151 at StorageResc2 is deleted
+---> Win free memory : 3486
+File with Namme archiv1-153.ar153 has copy at FTPResc2
+---> The replica of file archiv1-153.ar153 at StorageResc2 is deleted
+---> Win free memory : 3532
+File with Namme archiv1-16.ar16 has copy at FTPResc2
+---> The replica of file archiv1-16.ar16 at StorageResc2 is deleted
+---> Win free memory : 381
+File with Namme archiv1-168.ar168 has copy at FTPResc2
+---> The replica of file archiv1-168.ar168 at StorageResc2 is deleted
+---> Win free memory : 3877
+File with Namme archiv1-170.ar170 has copy at FTPResc2
+---> The replica of file archiv1-170.ar170 at StorageResc2 is deleted
+---> Win free memory : 3923
+File with Namme archiv1-175.ar175 has copy at FTPResc2
+---> The replica of file archiv1-175.ar175 at StorageResc2 is deleted
+---> Win free memory : 4038
+File with Namme archiv1-177.ar177 has copy at FTPResc2
+---> The replica of file archiv1-177.ar177 at StorageResc2 is deleted
+---> Win free memory : 4084
+File with Namme archiv1-179.ar179 has copy at FTPResc2
+---> The replica of file archiv1-179.ar179 at StorageResc2 is deleted
+---> Win free memory : 4130
+File with Namme archiv1-184.ar184 has copy at FTPResc2
+---> The replica of file archiv1-184.ar184 at StorageResc2 is deleted
+---> Win free memory : 4245
+File with Namme archiv1-187.ar187 has copy at FTPResc2
+---> The replica of file archiv1-187.ar187 at StorageResc2 is deleted
+---> Win free memory : 4314
+File with Namme archiv1-196.ar196 has copy at FTPResc2
+---> The replica of file archiv1-196.ar196 at StorageResc2 is deleted
+---> Win free memory : 4521
+File with Namme archiv1-206.ar206 has copy at FTPResc2
+---> The replica of file archiv1-206.ar206 at StorageResc2 is deleted
+---> Win free memory : 4751
+File with Namme archiv1-207.ar207 has copy at FTPResc2
+---> The replica of file archiv1-207.ar207 at StorageResc2 is deleted
+---> Win free memory : 4774
+File with Namme archiv1-211.ar211 has copy at FTPResc2
+---> The replica of file archiv1-211.ar211 at StorageResc2 is deleted
+---> Win free memory : 4866
+File with Namme storage2-0.st0 has copy at GridResc2
+---> The replica of file storage2-0.st0 at StorageResc2 is deleted
+---> Win free memory : 12
+File with Namme storage2-10.st10 has copy at GridResc2
+---> The replica of file storage2-10.st10 at StorageResc2 is deleted
+---> Win free memory : 453
+File with Namme storage2-107.st107 has copy at GridResc2
+---> The replica of file storage2-107.st107 at StorageResc2 is deleted
+---> Win free memory : 4721
+File with Namme storage2-13.st13 has copy at GridResc2
+---> The replica of file storage2-13.st13 at StorageResc2 is deleted
+---> Win free memory : 585
+File with Namme storage2-130.st130 has copy at GridResc2
+---> The replica of file storage2-130.st130 at StorageResc2 is deleted
+---> Win free memory : 5733
+File with Namme storage2-150.st150 has copy at GridResc2
+---> The replica of file storage2-150.st150 at StorageResc2 is deleted
+---> Win free memory : 6613
+File with Namme storage2-176.st176 has copy at GridResc2
+---> The replica of file storage2-176.st176 at StorageResc2 is deleted
+---> Win free memory : 7757
+File with Namme storage2-189.st189 has copy at GridResc2
+---> The replica of file storage2-189.st189 at StorageResc2 is deleted
+---> Win free memory : 8329
+File with Namme storage2-193.st193 has copy at GridResc2
+---> The replica of file storage2-193.st193 at StorageResc2 is deleted
+---> Win free memory : 8505
+File with Namme storage2-195.st195 has copy at GridResc2
+---> The replica of file storage2-195.st195 at StorageResc2 is deleted
+---> Win free memory : 8593
+File with Namme storage2-197.st197 has copy at GridResc2
+---> The replica of file storage2-197.st197 at StorageResc2 is deleted
+---> Win free memory : 8681
+File with Namme storage2-211.st211 has copy at GridResc2
+---> The replica of file storage2-211.st211 at StorageResc2 is deleted
+---> Win free memory : 9297
+File with Namme storage2-231.st231 has copy at GridResc2
+---> The replica of file storage2-231.st231 at StorageResc2 is deleted
+---> Win free memory : 10177
+File with Namme storage2-240.st240 has copy at GridResc2
+---> The replica of file storage2-240.st240 at StorageResc2 is deleted
+---> Win free memory : 10573
+File with Namme storage2-245.st245 has copy at GridResc2
+---> The replica of file storage2-245.st245 at StorageResc2 is deleted
+---> Win free memory : 10793
+File with Namme storage2-247.st247 has copy at GridResc2
+---> The replica of file storage2-247.st247 at StorageResc2 is deleted
+---> Win free memory : 10881
+File with Namme storage2-25.st25 has copy at GridResc2
+---> The replica of file storage2-25.st25 at StorageResc2 is deleted
+---> Win free memory : 1113
+File with Namme storage2-57.st57 has copy at GridResc2
+---> The replica of file storage2-57.st57 at StorageResc2 is deleted
+---> Win free memory : 2521
+File with Namme storage2-84.st84 has copy at GridResc2
+---> The replica of file storage2-84.st84 at StorageResc2 is deleted
+---> Win free memory : 3709
+Sum of deleted files : 40
+Sum of free memory : 194322 Byte

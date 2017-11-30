@@ -1,0 +1,3005 @@
+ .......... Komprimierungsprozess beginn ............ 
+ *********************** 
+0 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-379.st379
+ -> Original Size = 16689 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-379.st379.gz
+ -> Zip Size = 153 
+ -> Win : 16536
+ *********************** 
+1 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-457.st457
+ -> Original Size = 20121 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-457.st457.gz
+ -> Zip Size = 163 
+ -> Win : 36494
+ *********************** 
+2 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-466.st466
+ -> Original Size = 20517 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-466.st466.gz
+ -> Zip Size = 165 
+ -> Win : 56846
+ *********************** 
+3 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-34.st34
+ -> Original Size = 1509 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-34.st34.gz
+ -> Zip Size = 94 
+ -> Win : 58261
+ *********************** 
+4 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-16.st16
+ -> Original Size = 717 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-16.st16.gz
+ -> Zip Size = 88 
+ -> Win : 58890
+ *********************** 
+5 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-200.st200
+ -> Original Size = 8813 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-200.st200.gz
+ -> Zip Size = 129 
+ -> Win : 67574
+ *********************** 
+6 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-20.st20
+ -> Original Size = 893 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-20.st20.gz
+ -> Zip Size = 90 
+ -> Win : 68377
+ *********************** 
+7 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-11.st11
+ -> Original Size = 497 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-11.st11.gz
+ -> Zip Size = 86 
+ -> Win : 68788
+ *********************** 
+8 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-19.st19
+ -> Original Size = 849 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-19.st19.gz
+ -> Zip Size = 89 
+ -> Win : 69548
+ *********************** 
+9 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-305.st305
+ -> Original Size = 13433 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-305.st305.gz
+ -> Zip Size = 143 
+ -> Win : 82838
+ *********************** 
+10 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-440.st440
+ -> Original Size = 19373 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-440.st440.gz
+ -> Zip Size = 160 
+ -> Win : 102051
+ *********************** 
+11 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-307.st307
+ -> Original Size = 13521 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-307.st307.gz
+ -> Zip Size = 144 
+ -> Win : 115428
+ *********************** 
+12 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-48.st48
+ -> Original Size = 2125 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-48.st48.gz
+ -> Zip Size = 100 
+ -> Win : 117453
+ *********************** 
+13 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-422.st422
+ -> Original Size = 18581 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-422.st422.gz
+ -> Zip Size = 158 
+ -> Win : 135876
+ *********************** 
+14 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-273.st273
+ -> Original Size = 12025 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-273.st273.gz
+ -> Zip Size = 140 
+ -> Win : 147761
+ *********************** 
+15 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-355.st355
+ -> Original Size = 15633 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-355.st355.gz
+ -> Zip Size = 150 
+ -> Win : 163244
+ *********************** 
+16 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-313.st313
+ -> Original Size = 13785 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-313.st313.gz
+ -> Zip Size = 145 
+ -> Win : 176884
+ *********************** 
+17 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-126.st126
+ -> Original Size = 5557 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-126.st126.gz
+ -> Zip Size = 122 
+ -> Win : 182319
+ *********************** 
+18 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-460.st460
+ -> Original Size = 20253 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-460.st460.gz
+ -> Zip Size = 164 
+ -> Win : 202408
+ *********************** 
+19 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-220.st220
+ -> Original Size = 9693 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-220.st220.gz
+ -> Zip Size = 133 
+ -> Win : 211968
+ *********************** 
+20 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-101.st101
+ -> Original Size = 4457 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-101.st101.gz
+ -> Zip Size = 119 
+ -> Win : 216306
+ *********************** 
+21 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-458.st458
+ -> Original Size = 20165 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-458.st458.gz
+ -> Zip Size = 162 
+ -> Win : 236309
+ *********************** 
+22 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-384.st384
+ -> Original Size = 16909 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-384.st384.gz
+ -> Zip Size = 154 
+ -> Win : 253064
+ *********************** 
+23 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-306.st306
+ -> Original Size = 13477 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-306.st306.gz
+ -> Zip Size = 143 
+ -> Win : 266398
+ *********************** 
+24 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-300.st300
+ -> Original Size = 13213 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-300.st300.gz
+ -> Zip Size = 142 
+ -> Win : 279469
+ *********************** 
+25 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-50.st50
+ -> Original Size = 2213 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-50.st50.gz
+ -> Zip Size = 100 
+ -> Win : 281582
+ *********************** 
+26 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-475.st475
+ -> Original Size = 20913 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-475.st475.gz
+ -> Zip Size = 165 
+ -> Win : 302330
+ *********************** 
+27 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-66.st66
+ -> Original Size = 2917 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-66.st66.gz
+ -> Zip Size = 107 
+ -> Win : 305140
+ *********************** 
+28 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-488.st488
+ -> Original Size = 21485 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-488.st488.gz
+ -> Zip Size = 167 
+ -> Win : 326458
+ *********************** 
+29 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-318.st318
+ -> Original Size = 14005 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-318.st318.gz
+ -> Zip Size = 146 
+ -> Win : 340317
+ *********************** 
+30 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-237.st237
+ -> Original Size = 10441 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-237.st237.gz
+ -> Zip Size = 135 
+ -> Win : 350623
+ *********************** 
+31 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-480.st480
+ -> Original Size = 21133 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-480.st480.gz
+ -> Zip Size = 166 
+ -> Win : 371590
+ *********************** 
+32 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-255.st255
+ -> Original Size = 11233 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-255.st255.gz
+ -> Zip Size = 138 
+ -> Win : 382685
+ *********************** 
+33 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-264.st264
+ -> Original Size = 11629 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-264.st264.gz
+ -> Zip Size = 138 
+ -> Win : 394176
+ *********************** 
+34 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-425.st425
+ -> Original Size = 18713 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-425.st425.gz
+ -> Zip Size = 159 
+ -> Win : 412730
+ *********************** 
+35 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-26.st26
+ -> Original Size = 1157 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-26.st26.gz
+ -> Zip Size = 92 
+ -> Win : 413795
+ *********************** 
+36 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-206.st206
+ -> Original Size = 9077 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-206.st206.gz
+ -> Zip Size = 130 
+ -> Win : 422742
+ *********************** 
+37 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-447.st447
+ -> Original Size = 19681 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-447.st447.gz
+ -> Zip Size = 162 
+ -> Win : 442261
+ *********************** 
+38 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-276.st276
+ -> Original Size = 12157 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-276.st276.gz
+ -> Zip Size = 139 
+ -> Win : 454279
+ *********************** 
+39 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-227.st227
+ -> Original Size = 10001 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-227.st227.gz
+ -> Zip Size = 134 
+ -> Win : 464146
+ *********************** 
+40 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-435.st435
+ -> Original Size = 19153 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-435.st435.gz
+ -> Zip Size = 159 
+ -> Win : 483140
+ *********************** 
+41 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-373.st373
+ -> Original Size = 16425 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-373.st373.gz
+ -> Zip Size = 153 
+ -> Win : 499412
+ *********************** 
+42 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-6.st6
+ -> Original Size = 277 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-6.st6.gz
+ -> Zip Size = 82 
+ -> Win : 499607
+ *********************** 
+43 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-386.st386
+ -> Original Size = 16997 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-386.st386.gz
+ -> Zip Size = 154 
+ -> Win : 516450
+ *********************** 
+44 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-105.st105
+ -> Original Size = 4633 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-105.st105.gz
+ -> Zip Size = 119 
+ -> Win : 520964
+ *********************** 
+45 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-265.st265
+ -> Original Size = 11673 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-265.st265.gz
+ -> Zip Size = 138 
+ -> Win : 532499
+ *********************** 
+46 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-261.st261
+ -> Original Size = 11497 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-261.st261.gz
+ -> Zip Size = 138 
+ -> Win : 543858
+ *********************** 
+47 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-215.st215
+ -> Original Size = 9473 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-215.st215.gz
+ -> Zip Size = 132 
+ -> Win : 553199
+ *********************** 
+48 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-17.st17
+ -> Original Size = 761 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-17.st17.gz
+ -> Zip Size = 88 
+ -> Win : 553872
+ *********************** 
+49 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-226.st226
+ -> Original Size = 9957 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-226.st226.gz
+ -> Zip Size = 134 
+ -> Win : 563695
+ *********************** 
+50 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-207.st207
+ -> Original Size = 9121 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-207.st207.gz
+ -> Zip Size = 131 
+ -> Win : 572685
+ *********************** 
+51 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-89.st89
+ -> Original Size = 3929 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-89.st89.gz
+ -> Zip Size = 113 
+ -> Win : 576501
+ *********************** 
+52 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-487.st487
+ -> Original Size = 21441 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-487.st487.gz
+ -> Zip Size = 166 
+ -> Win : 597776
+ *********************** 
+53 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-3.st3
+ -> Original Size = 145 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-3.st3.gz
+ -> Zip Size = 81 
+ -> Win : 597840
+ *********************** 
+54 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-302.st302
+ -> Original Size = 13301 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-302.st302.gz
+ -> Zip Size = 144 
+ -> Win : 610997
+ *********************** 
+55 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-378.st378
+ -> Original Size = 16645 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-378.st378.gz
+ -> Zip Size = 153 
+ -> Win : 627489
+ *********************** 
+56 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-61.st61
+ -> Original Size = 2697 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-61.st61.gz
+ -> Zip Size = 105 
+ -> Win : 630081
+ *********************** 
+57 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-372.st372
+ -> Original Size = 16381 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-372.st372.gz
+ -> Zip Size = 153 
+ -> Win : 646309
+ *********************** 
+58 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-185.st185
+ -> Original Size = 8153 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-185.st185.gz
+ -> Zip Size = 129 
+ -> Win : 654333
+ *********************** 
+59 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-172.st172
+ -> Original Size = 7581 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-172.st172.gz
+ -> Zip Size = 127 
+ -> Win : 661787
+ *********************** 
+60 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-267.st267
+ -> Original Size = 11761 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-267.st267.gz
+ -> Zip Size = 139 
+ -> Win : 673409
+ *********************** 
+61 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-324.st324
+ -> Original Size = 14269 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-324.st324.gz
+ -> Zip Size = 146 
+ -> Win : 687532
+ *********************** 
+62 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-279.st279
+ -> Original Size = 12289 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-279.st279.gz
+ -> Zip Size = 141 
+ -> Win : 699680
+ *********************** 
+63 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-121.st121
+ -> Original Size = 5337 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-121.st121.gz
+ -> Zip Size = 122 
+ -> Win : 704895
+ *********************** 
+64 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-144.st144
+ -> Original Size = 6349 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-144.st144.gz
+ -> Zip Size = 125 
+ -> Win : 711119
+ *********************** 
+65 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-413.st413
+ -> Original Size = 18185 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-413.st413.gz
+ -> Zip Size = 158 
+ -> Win : 729146
+ *********************** 
+66 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-272.st272
+ -> Original Size = 11981 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-272.st272.gz
+ -> Zip Size = 140 
+ -> Win : 740987
+ *********************** 
+67 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-239.st239
+ -> Original Size = 10529 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-239.st239.gz
+ -> Zip Size = 136 
+ -> Win : 751380
+ *********************** 
+68 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-469.st469
+ -> Original Size = 20649 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-469.st469.gz
+ -> Zip Size = 164 
+ -> Win : 771865
+ *********************** 
+69 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-162.st162
+ -> Original Size = 7141 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-162.st162.gz
+ -> Zip Size = 128 
+ -> Win : 778878
+ *********************** 
+70 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-155.st155
+ -> Original Size = 6833 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-155.st155.gz
+ -> Zip Size = 127 
+ -> Win : 785584
+ *********************** 
+71 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-439.st439
+ -> Original Size = 19329 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-439.st439.gz
+ -> Zip Size = 161 
+ -> Win : 804752
+ *********************** 
+72 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-170.st170
+ -> Original Size = 7493 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-170.st170.gz
+ -> Zip Size = 128 
+ -> Win : 812117
+ *********************** 
+73 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-289.st289
+ -> Original Size = 12729 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-289.st289.gz
+ -> Zip Size = 142 
+ -> Win : 824704
+ *********************** 
+74 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-165.st165
+ -> Original Size = 7273 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-165.st165.gz
+ -> Zip Size = 127 
+ -> Win : 831850
+ *********************** 
+75 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-30.st30
+ -> Original Size = 1333 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-30.st30.gz
+ -> Zip Size = 92 
+ -> Win : 833091
+ *********************** 
+76 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-113.st113
+ -> Original Size = 4985 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-113.st113.gz
+ -> Zip Size = 120 
+ -> Win : 837956
+ *********************** 
+77 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-431.st431
+ -> Original Size = 18977 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-431.st431.gz
+ -> Zip Size = 160 
+ -> Win : 856773
+ *********************** 
+78 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-335.st335
+ -> Original Size = 14753 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-335.st335.gz
+ -> Zip Size = 147 
+ -> Win : 871379
+ *********************** 
+79 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-390.st390
+ -> Original Size = 17173 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-390.st390.gz
+ -> Zip Size = 155 
+ -> Win : 888397
+ *********************** 
+80 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-184.st184
+ -> Original Size = 8109 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-184.st184.gz
+ -> Zip Size = 129 
+ -> Win : 896377
+ *********************** 
+81 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-471.st471
+ -> Original Size = 20737 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-471.st471.gz
+ -> Zip Size = 165 
+ -> Win : 916949
+ *********************** 
+82 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-149.st149
+ -> Original Size = 6569 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-149.st149.gz
+ -> Zip Size = 126 
+ -> Win : 923392
+ *********************** 
+83 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-338.st338
+ -> Original Size = 14885 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-338.st338.gz
+ -> Zip Size = 148 
+ -> Win : 938129
+ *********************** 
+84 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-160.st160
+ -> Original Size = 7053 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-160.st160.gz
+ -> Zip Size = 127 
+ -> Win : 945055
+ *********************** 
+85 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-228.st228
+ -> Original Size = 10045 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-228.st228.gz
+ -> Zip Size = 134 
+ -> Win : 954966
+ *********************** 
+86 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-153.st153
+ -> Original Size = 6745 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-153.st153.gz
+ -> Zip Size = 125 
+ -> Win : 961586
+ *********************** 
+87 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-368.st368
+ -> Original Size = 16205 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-368.st368.gz
+ -> Zip Size = 152 
+ -> Win : 977639
+ *********************** 
+88 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-314.st314
+ -> Original Size = 13829 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-314.st314.gz
+ -> Zip Size = 145 
+ -> Win : 991323
+ *********************** 
+89 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-336.st336
+ -> Original Size = 14797 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-336.st336.gz
+ -> Zip Size = 148 
+ -> Win : 1005972
+ *********************** 
+90 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-392.st392
+ -> Original Size = 17261 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-392.st392.gz
+ -> Zip Size = 155 
+ -> Win : 1023078
+ *********************** 
+91 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-224.st224
+ -> Original Size = 9869 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-224.st224.gz
+ -> Zip Size = 133 
+ -> Win : 1032814
+ *********************** 
+92 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-103.st103
+ -> Original Size = 4545 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-103.st103.gz
+ -> Zip Size = 119 
+ -> Win : 1037240
+ *********************** 
+93 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-483.st483
+ -> Original Size = 21265 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-483.st483.gz
+ -> Zip Size = 167 
+ -> Win : 1058338
+ *********************** 
+94 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-164.st164
+ -> Original Size = 7229 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-164.st164.gz
+ -> Zip Size = 127 
+ -> Win : 1065440
+ *********************** 
+95 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-344.st344
+ -> Original Size = 15149 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-344.st344.gz
+ -> Zip Size = 149 
+ -> Win : 1080440
+ *********************** 
+96 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-256.st256
+ -> Original Size = 11277 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-256.st256.gz
+ -> Zip Size = 138 
+ -> Win : 1091579
+ *********************** 
+97 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-443.st443
+ -> Original Size = 19505 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-443.st443.gz
+ -> Zip Size = 162 
+ -> Win : 1110922
+ *********************** 
+98 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-362.st362
+ -> Original Size = 15941 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-362.st362.gz
+ -> Zip Size = 151 
+ -> Win : 1126712
+ *********************** 
+99 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-329.st329
+ -> Original Size = 14489 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-329.st329.gz
+ -> Zip Size = 146 
+ -> Win : 1141055
+ *********************** 
+100 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-342.st342
+ -> Original Size = 15061 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-342.st342.gz
+ -> Zip Size = 149 
+ -> Win : 1155967
+ *********************** 
+101 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-404.st404
+ -> Original Size = 17789 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-404.st404.gz
+ -> Zip Size = 156 
+ -> Win : 1173600
+ *********************** 
+102 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-137.st137
+ -> Original Size = 6041 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-137.st137.gz
+ -> Zip Size = 124 
+ -> Win : 1179517
+ *********************** 
+103 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-190.st190
+ -> Original Size = 8373 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-190.st190.gz
+ -> Zip Size = 129 
+ -> Win : 1187761
+ *********************** 
+104 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-375.st375
+ -> Original Size = 16513 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-375.st375.gz
+ -> Zip Size = 152 
+ -> Win : 1204122
+ *********************** 
+105 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-474.st474
+ -> Original Size = 20869 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-474.st474.gz
+ -> Zip Size = 165 
+ -> Win : 1224826
+ *********************** 
+106 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-288.st288
+ -> Original Size = 12685 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-288.st288.gz
+ -> Zip Size = 141 
+ -> Win : 1237370
+ *********************** 
+107 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-90.st90
+ -> Original Size = 3973 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-90.st90.gz
+ -> Zip Size = 115 
+ -> Win : 1241228
+ *********************** 
+108 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-299.st299
+ -> Original Size = 13169 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-299.st299.gz
+ -> Zip Size = 142 
+ -> Win : 1254255
+ *********************** 
+109 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-234.st234
+ -> Original Size = 10309 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-234.st234.gz
+ -> Zip Size = 134 
+ -> Win : 1264430
+ *********************** 
+110 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-396.st396
+ -> Original Size = 17437 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-396.st396.gz
+ -> Zip Size = 156 
+ -> Win : 1281711
+ *********************** 
+111 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-166.st166
+ -> Original Size = 7317 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-166.st166.gz
+ -> Zip Size = 128 
+ -> Win : 1288900
+ *********************** 
+112 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-73.st73
+ -> Original Size = 3225 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-73.st73.gz
+ -> Zip Size = 109 
+ -> Win : 1292016
+ *********************** 
+113 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-371.st371
+ -> Original Size = 16337 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-371.st371.gz
+ -> Zip Size = 152 
+ -> Win : 1308201
+ *********************** 
+114 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-183.st183
+ -> Original Size = 8065 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-183.st183.gz
+ -> Zip Size = 128 
+ -> Win : 1316138
+ *********************** 
+115 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-472.st472
+ -> Original Size = 20781 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-472.st472.gz
+ -> Zip Size = 165 
+ -> Win : 1336754
+ *********************** 
+116 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-423.st423
+ -> Original Size = 18625 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-423.st423.gz
+ -> Zip Size = 158 
+ -> Win : 1355221
+ *********************** 
+117 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-497.st497
+ -> Original Size = 21881 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-497.st497.gz
+ -> Zip Size = 169 
+ -> Win : 1376933
+ *********************** 
+118 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-442.st442
+ -> Original Size = 19461 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-442.st442.gz
+ -> Zip Size = 162 
+ -> Win : 1396232
+ *********************** 
+119 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-47.st47
+ -> Original Size = 2081 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-47.st47.gz
+ -> Zip Size = 99 
+ -> Win : 1398214
+ *********************** 
+120 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-427.st427
+ -> Original Size = 18801 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-427.st427.gz
+ -> Zip Size = 159 
+ -> Win : 1416856
+ *********************** 
+121 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-348.st348
+ -> Original Size = 15325 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-348.st348.gz
+ -> Zip Size = 150 
+ -> Win : 1432031
+ *********************** 
+122 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-244.st244
+ -> Original Size = 10749 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-244.st244.gz
+ -> Zip Size = 136 
+ -> Win : 1442644
+ *********************** 
+123 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-434.st434
+ -> Original Size = 19109 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-434.st434.gz
+ -> Zip Size = 160 
+ -> Win : 1461593
+ *********************** 
+124 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-27.st27
+ -> Original Size = 1201 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-27.st27.gz
+ -> Zip Size = 92 
+ -> Win : 1462702
+ *********************** 
+125 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-268.st268
+ -> Original Size = 11805 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-268.st268.gz
+ -> Zip Size = 139 
+ -> Win : 1474368
+ *********************** 
+126 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-24.st24
+ -> Original Size = 1069 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-24.st24.gz
+ -> Zip Size = 90 
+ -> Win : 1475347
+ *********************** 
+127 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-194.st194
+ -> Original Size = 8549 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-194.st194.gz
+ -> Zip Size = 129 
+ -> Win : 1483767
+ *********************** 
+128 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-208.st208
+ -> Original Size = 9165 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-208.st208.gz
+ -> Zip Size = 132 
+ -> Win : 1492800
+ *********************** 
+129 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-498.st498
+ -> Original Size = 21925 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-498.st498.gz
+ -> Zip Size = 168 
+ -> Win : 1514557
+ *********************** 
+130 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-317.st317
+ -> Original Size = 13961 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-317.st317.gz
+ -> Zip Size = 144 
+ -> Win : 1528374
+ *********************** 
+131 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-94.st94
+ -> Original Size = 4149 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-94.st94.gz
+ -> Zip Size = 115 
+ -> Win : 1532408
+ *********************** 
+132 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-217.st217
+ -> Original Size = 9561 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-217.st217.gz
+ -> Zip Size = 132 
+ -> Win : 1541837
+ *********************** 
+133 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-259.st259
+ -> Original Size = 11409 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-259.st259.gz
+ -> Zip Size = 136 
+ -> Win : 1553110
+ *********************** 
+134 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-35.st35
+ -> Original Size = 1553 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-35.st35.gz
+ -> Zip Size = 94 
+ -> Win : 1554569
+ *********************** 
+135 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-178.st178
+ -> Original Size = 7845 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-178.st178.gz
+ -> Zip Size = 128 
+ -> Win : 1562286
+ *********************** 
+136 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-433.st433
+ -> Original Size = 19065 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-433.st433.gz
+ -> Zip Size = 160 
+ -> Win : 1581191
+ *********************** 
+137 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-365.st365
+ -> Original Size = 16073 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-365.st365.gz
+ -> Zip Size = 152 
+ -> Win : 1597112
+ *********************** 
+138 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-251.st251
+ -> Original Size = 11057 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-251.st251.gz
+ -> Zip Size = 137 
+ -> Win : 1608032
+ *********************** 
+139 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-257.st257
+ -> Original Size = 11321 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-257.st257.gz
+ -> Zip Size = 137 
+ -> Win : 1619216
+ *********************** 
+140 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-415.st415
+ -> Original Size = 18273 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-415.st415.gz
+ -> Zip Size = 158 
+ -> Win : 1637331
+ *********************** 
+141 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-203.st203
+ -> Original Size = 8945 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-203.st203.gz
+ -> Zip Size = 131 
+ -> Win : 1646145
+ *********************** 
+142 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-285.st285
+ -> Original Size = 12553 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-285.st285.gz
+ -> Zip Size = 141 
+ -> Win : 1658557
+ *********************** 
+143 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-419.st419
+ -> Original Size = 18449 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-419.st419.gz
+ -> Zip Size = 159 
+ -> Win : 1676847
+ *********************** 
+144 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-464.st464
+ -> Original Size = 20429 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-464.st464.gz
+ -> Zip Size = 163 
+ -> Win : 1697113
+ *********************** 
+145 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-248.st248
+ -> Original Size = 10925 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-248.st248.gz
+ -> Zip Size = 137 
+ -> Win : 1707901
+ *********************** 
+146 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-337.st337
+ -> Original Size = 14841 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-337.st337.gz
+ -> Zip Size = 148 
+ -> Win : 1722594
+ *********************** 
+147 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-383.st383
+ -> Original Size = 16865 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-383.st383.gz
+ -> Zip Size = 154 
+ -> Win : 1739305
+ *********************** 
+148 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-171.st171
+ -> Original Size = 7537 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-171.st171.gz
+ -> Zip Size = 128 
+ -> Win : 1746714
+ *********************** 
+149 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-54.st54
+ -> Original Size = 2389 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-54.st54.gz
+ -> Zip Size = 102 
+ -> Win : 1749001
+ *********************** 
+150 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-398.st398
+ -> Original Size = 17525 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-398.st398.gz
+ -> Zip Size = 155 
+ -> Win : 1766371
+ *********************** 
+151 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-70.st70
+ -> Original Size = 3093 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-70.st70.gz
+ -> Zip Size = 107 
+ -> Win : 1769357
+ *********************** 
+152 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-127.st127
+ -> Original Size = 5601 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-127.st127.gz
+ -> Zip Size = 122 
+ -> Win : 1774836
+ *********************** 
+153 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-449.st449
+ -> Original Size = 19769 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-449.st449.gz
+ -> Zip Size = 162 
+ -> Win : 1794443
+ *********************** 
+154 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-145.st145
+ -> Original Size = 6393 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-145.st145.gz
+ -> Zip Size = 125 
+ -> Win : 1800711
+ *********************** 
+155 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-495.st495
+ -> Original Size = 21793 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-495.st495.gz
+ -> Zip Size = 168 
+ -> Win : 1822336
+ *********************** 
+156 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-204.st204
+ -> Original Size = 8989 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-204.st204.gz
+ -> Zip Size = 131 
+ -> Win : 1831194
+ *********************** 
+157 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-141.st141
+ -> Original Size = 6217 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-141.st141.gz
+ -> Zip Size = 124 
+ -> Win : 1837287
+ *********************** 
+158 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-328.st328
+ -> Original Size = 14445 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-328.st328.gz
+ -> Zip Size = 146 
+ -> Win : 1851586
+ *********************** 
+159 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-202.st202
+ -> Original Size = 8901 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-202.st202.gz
+ -> Zip Size = 131 
+ -> Win : 1860356
+ *********************** 
+160 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-181.st181
+ -> Original Size = 7977 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-181.st181.gz
+ -> Zip Size = 128 
+ -> Win : 1868205
+ *********************** 
+161 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-148.st148
+ -> Original Size = 6525 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-148.st148.gz
+ -> Zip Size = 126 
+ -> Win : 1874604
+ *********************** 
+162 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-291.st291
+ -> Original Size = 12817 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-291.st291.gz
+ -> Zip Size = 142 
+ -> Win : 1887279
+ *********************** 
+163 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-91.st91
+ -> Original Size = 4017 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-91.st91.gz
+ -> Zip Size = 115 
+ -> Win : 1891181
+ *********************** 
+164 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-122.st122
+ -> Original Size = 5381 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-122.st122.gz
+ -> Zip Size = 121 
+ -> Win : 1896441
+ *********************** 
+165 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-282.st282
+ -> Original Size = 12421 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-282.st282.gz
+ -> Zip Size = 140 
+ -> Win : 1908722
+ *********************** 
+166 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-323.st323
+ -> Original Size = 14225 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-323.st323.gz
+ -> Zip Size = 145 
+ -> Win : 1922802
+ *********************** 
+167 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-140.st140
+ -> Original Size = 6173 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-140.st140.gz
+ -> Zip Size = 124 
+ -> Win : 1928851
+ *********************** 
+168 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-114.st114
+ -> Original Size = 5029 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-114.st114.gz
+ -> Zip Size = 121 
+ -> Win : 1933759
+ *********************** 
+169 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-270.st270
+ -> Original Size = 11893 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-270.st270.gz
+ -> Zip Size = 139 
+ -> Win : 1945513
+ *********************** 
+170 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-139.st139
+ -> Original Size = 6129 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-139.st139.gz
+ -> Zip Size = 124 
+ -> Win : 1951518
+ *********************** 
+171 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-159.st159
+ -> Original Size = 7009 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-159.st159.gz
+ -> Zip Size = 126 
+ -> Win : 1958401
+ *********************** 
+172 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-333.st333
+ -> Original Size = 14665 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-333.st333.gz
+ -> Zip Size = 148 
+ -> Win : 1972918
+ *********************** 
+173 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-292.st292
+ -> Original Size = 12861 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-292.st292.gz
+ -> Zip Size = 142 
+ -> Win : 1985637
+ *********************** 
+174 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-156.st156
+ -> Original Size = 6877 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-156.st156.gz
+ -> Zip Size = 127 
+ -> Win : 1992387
+ *********************** 
+175 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-9.st9
+ -> Original Size = 409 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-9.st9.gz
+ -> Zip Size = 84 
+ -> Win : 1992712
+ *********************** 
+176 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-75.st75
+ -> Original Size = 3313 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-75.st75.gz
+ -> Zip Size = 109 
+ -> Win : 1995916
+ *********************** 
+177 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-31.st31
+ -> Original Size = 1377 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-31.st31.gz
+ -> Zip Size = 94 
+ -> Win : 1997199
+ *********************** 
+178 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-454.st454
+ -> Original Size = 19989 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-454.st454.gz
+ -> Zip Size = 163 
+ -> Win : 2017025
+ *********************** 
+179 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-310.st310
+ -> Original Size = 13653 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-310.st310.gz
+ -> Zip Size = 144 
+ -> Win : 2030534
+ *********************** 
+180 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-462.st462
+ -> Original Size = 20341 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-462.st462.gz
+ -> Zip Size = 164 
+ -> Win : 2050711
+ *********************** 
+181 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-416.st416
+ -> Original Size = 18317 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-416.st416.gz
+ -> Zip Size = 157 
+ -> Win : 2068871
+ *********************** 
+182 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-367.st367
+ -> Original Size = 16161 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-367.st367.gz
+ -> Zip Size = 152 
+ -> Win : 2084880
+ *********************** 
+183 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-271.st271
+ -> Original Size = 11937 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-271.st271.gz
+ -> Zip Size = 139 
+ -> Win : 2096678
+ *********************** 
+184 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-241.st241
+ -> Original Size = 10617 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-241.st241.gz
+ -> Zip Size = 135 
+ -> Win : 2107160
+ *********************** 
+185 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-277.st277
+ -> Original Size = 12201 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-277.st277.gz
+ -> Zip Size = 140 
+ -> Win : 2119221
+ *********************** 
+186 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-58.st58
+ -> Original Size = 2565 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-58.st58.gz
+ -> Zip Size = 103 
+ -> Win : 2121683
+ *********************** 
+187 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-38.st38
+ -> Original Size = 1685 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-38.st38.gz
+ -> Zip Size = 96 
+ -> Win : 2123272
+ *********************** 
+188 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-81.st81
+ -> Original Size = 3577 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-81.st81.gz
+ -> Zip Size = 111 
+ -> Win : 2126738
+ *********************** 
+189 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-405.st405
+ -> Original Size = 17833 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-405.st405.gz
+ -> Zip Size = 156 
+ -> Win : 2144415
+ *********************** 
+190 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-79.st79
+ -> Original Size = 3489 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-79.st79.gz
+ -> Zip Size = 111 
+ -> Win : 2147793
+ *********************** 
+191 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-187.st187
+ -> Original Size = 8241 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-187.st187.gz
+ -> Zip Size = 128 
+ -> Win : 2155906
+ *********************** 
+192 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-128.st128
+ -> Original Size = 5645 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-128.st128.gz
+ -> Zip Size = 122 
+ -> Win : 2161429
+ *********************** 
+193 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-400.st400
+ -> Original Size = 17613 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-400.st400.gz
+ -> Zip Size = 156 
+ -> Win : 2178886
+ *********************** 
+194 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-131.st131
+ -> Original Size = 5777 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-131.st131.gz
+ -> Zip Size = 123 
+ -> Win : 2184540
+ *********************** 
+195 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-284.st284
+ -> Original Size = 12509 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-284.st284.gz
+ -> Zip Size = 141 
+ -> Win : 2196908
+ *********************** 
+196 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-32.st32
+ -> Original Size = 1421 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-32.st32.gz
+ -> Zip Size = 94 
+ -> Win : 2198235
+ *********************** 
+197 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-15.st15
+ -> Original Size = 673 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-15.st15.gz
+ -> Zip Size = 88 
+ -> Win : 2198820
+ *********************** 
+198 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-432.st432
+ -> Original Size = 19021 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-432.st432.gz
+ -> Zip Size = 160 
+ -> Win : 2217681
+ *********************** 
+199 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-445.st445
+ -> Original Size = 19593 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-445.st445.gz
+ -> Zip Size = 161 
+ -> Win : 2237113
+ *********************** 
+200 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-222.st222
+ -> Original Size = 9781 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-222.st222.gz
+ -> Zip Size = 133 
+ -> Win : 2246761
+ *********************** 
+201 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-304.st304
+ -> Original Size = 13389 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-304.st304.gz
+ -> Zip Size = 143 
+ -> Win : 2260007
+ *********************** 
+202 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-14.st14
+ -> Original Size = 629 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-14.st14.gz
+ -> Zip Size = 88 
+ -> Win : 2260548
+ *********************** 
+203 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-254.st254
+ -> Original Size = 11189 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-254.st254.gz
+ -> Zip Size = 138 
+ -> Win : 2271599
+ *********************** 
+204 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-28.st28
+ -> Original Size = 1245 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-28.st28.gz
+ -> Zip Size = 92 
+ -> Win : 2272752
+ *********************** 
+205 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-278.st278
+ -> Original Size = 12245 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-278.st278.gz
+ -> Zip Size = 141 
+ -> Win : 2284856
+ *********************** 
+206 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-213.st213
+ -> Original Size = 9385 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-213.st213.gz
+ -> Zip Size = 132 
+ -> Win : 2294109
+ *********************** 
+207 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-8.st8
+ -> Original Size = 365 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-8.st8.gz
+ -> Zip Size = 83 
+ -> Win : 2294391
+ *********************** 
+208 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-118.st118
+ -> Original Size = 5205 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-118.st118.gz
+ -> Zip Size = 120 
+ -> Win : 2299476
+ *********************** 
+209 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-331.st331
+ -> Original Size = 14577 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-331.st331.gz
+ -> Zip Size = 147 
+ -> Win : 2313906
+ *********************** 
+210 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-169.st169
+ -> Original Size = 7449 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-169.st169.gz
+ -> Zip Size = 128 
+ -> Win : 2321227
+ *********************** 
+211 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-147.st147
+ -> Original Size = 6481 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-147.st147.gz
+ -> Zip Size = 124 
+ -> Win : 2327584
+ *********************** 
+212 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-123.st123
+ -> Original Size = 5425 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-123.st123.gz
+ -> Zip Size = 121 
+ -> Win : 2332888
+ *********************** 
+213 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-7.st7
+ -> Original Size = 321 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-7.st7.gz
+ -> Zip Size = 83 
+ -> Win : 2333126
+ *********************** 
+214 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-243.st243
+ -> Original Size = 10705 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-243.st243.gz
+ -> Zip Size = 136 
+ -> Win : 2343695
+ *********************** 
+215 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-388.st388
+ -> Original Size = 17085 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-388.st388.gz
+ -> Zip Size = 152 
+ -> Win : 2360628
+ *********************** 
+216 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-322.st322
+ -> Original Size = 14181 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-322.st322.gz
+ -> Zip Size = 146 
+ -> Win : 2374663
+ *********************** 
+217 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-465.st465
+ -> Original Size = 20473 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-465.st465.gz
+ -> Zip Size = 164 
+ -> Win : 2394972
+ *********************** 
+218 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-78.st78
+ -> Original Size = 3445 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-78.st78.gz
+ -> Zip Size = 111 
+ -> Win : 2398306
+ *********************** 
+219 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-135.st135
+ -> Original Size = 5953 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-135.st135.gz
+ -> Zip Size = 123 
+ -> Win : 2404136
+ *********************** 
+220 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-316.st316
+ -> Original Size = 13917 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-316.st316.gz
+ -> Zip Size = 145 
+ -> Win : 2417908
+ *********************** 
+221 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-358.st358
+ -> Original Size = 15765 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-358.st358.gz
+ -> Zip Size = 150 
+ -> Win : 2433523
+ *********************** 
+222 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-249.st249
+ -> Original Size = 10969 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-249.st249.gz
+ -> Zip Size = 137 
+ -> Win : 2444355
+ *********************** 
+223 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-218.st218
+ -> Original Size = 9605 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-218.st218.gz
+ -> Zip Size = 133 
+ -> Win : 2453827
+ *********************** 
+224 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-188.st188
+ -> Original Size = 8285 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-188.st188.gz
+ -> Zip Size = 128 
+ -> Win : 2461984
+ *********************** 
+225 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-177.st177
+ -> Original Size = 7801 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-177.st177.gz
+ -> Zip Size = 126 
+ -> Win : 2469659
+ *********************** 
+226 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-46.st46
+ -> Original Size = 2037 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-46.st46.gz
+ -> Zip Size = 99 
+ -> Win : 2471597
+ *********************** 
+227 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-93.st93
+ -> Original Size = 4105 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-93.st93.gz
+ -> Zip Size = 115 
+ -> Win : 2475587
+ *********************** 
+228 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-246.st246
+ -> Original Size = 10837 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-246.st246.gz
+ -> Zip Size = 136 
+ -> Win : 2486288
+ *********************** 
+229 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-260.st260
+ -> Original Size = 11453 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-260.st260.gz
+ -> Zip Size = 138 
+ -> Win : 2497603
+ *********************** 
+230 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-293.st293
+ -> Original Size = 12905 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-293.st293.gz
+ -> Zip Size = 142 
+ -> Win : 2510366
+ *********************** 
+231 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-327.st327
+ -> Original Size = 14401 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-327.st327.gz
+ -> Zip Size = 147 
+ -> Win : 2524620
+ *********************** 
+232 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-395.st395
+ -> Original Size = 17393 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-395.st395.gz
+ -> Zip Size = 156 
+ -> Win : 2541857
+ *********************** 
+233 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-124.st124
+ -> Original Size = 5469 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-124.st124.gz
+ -> Zip Size = 121 
+ -> Win : 2547205
+ *********************** 
+234 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-410.st410
+ -> Original Size = 18053 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-410.st410.gz
+ -> Zip Size = 157 
+ -> Win : 2565101
+ *********************** 
+235 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-366.st366
+ -> Original Size = 16117 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-366.st366.gz
+ -> Zip Size = 152 
+ -> Win : 2581066
+ *********************** 
+236 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-296.st296
+ -> Original Size = 13037 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-296.st296.gz
+ -> Zip Size = 143 
+ -> Win : 2593960
+ *********************** 
+237 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-470.st470
+ -> Original Size = 20693 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-470.st470.gz
+ -> Zip Size = 164 
+ -> Win : 2614489
+ *********************** 
+238 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-161.st161
+ -> Original Size = 7097 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-161.st161.gz
+ -> Zip Size = 128 
+ -> Win : 2621458
+ *********************** 
+239 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-67.st67
+ -> Original Size = 2961 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-67.st67.gz
+ -> Zip Size = 107 
+ -> Win : 2624312
+ *********************** 
+240 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-88.st88
+ -> Original Size = 3885 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-88.st88.gz
+ -> Zip Size = 113 
+ -> Win : 2628084
+ *********************** 
+241 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-230.st230
+ -> Original Size = 10133 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-230.st230.gz
+ -> Zip Size = 134 
+ -> Win : 2638083
+ *********************** 
+242 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-340.st340
+ -> Original Size = 14973 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-340.st340.gz
+ -> Zip Size = 148 
+ -> Win : 2652908
+ *********************** 
+243 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-44.st44
+ -> Original Size = 1949 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-44.st44.gz
+ -> Zip Size = 98 
+ -> Win : 2654759
+ *********************** 
+244 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-409.st409
+ -> Original Size = 18009 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-409.st409.gz
+ -> Zip Size = 157 
+ -> Win : 2672611
+ *********************** 
+245 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-467.st467
+ -> Original Size = 20561 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-467.st467.gz
+ -> Zip Size = 165 
+ -> Win : 2693007
+ *********************** 
+246 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-461.st461
+ -> Original Size = 20297 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-461.st461.gz
+ -> Zip Size = 164 
+ -> Win : 2713140
+ *********************** 
+247 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-496.st496
+ -> Original Size = 21837 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-496.st496.gz
+ -> Zip Size = 168 
+ -> Win : 2734809
+ *********************** 
+248 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-281.st281
+ -> Original Size = 12377 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-281.st281.gz
+ -> Zip Size = 140 
+ -> Win : 2747046
+ *********************** 
+249 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-334.st334
+ -> Original Size = 14709 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-334.st334.gz
+ -> Zip Size = 147 
+ -> Win : 2761608
+ *********************** 
+250 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-346.st346
+ -> Original Size = 15237 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-346.st346.gz
+ -> Zip Size = 148 
+ -> Win : 2776697
+ *********************** 
+251 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-478.st478
+ -> Original Size = 21045 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-478.st478.gz
+ -> Zip Size = 166 
+ -> Win : 2797576
+ *********************** 
+252 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-12.st12
+ -> Original Size = 541 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-12.st12.gz
+ -> Zip Size = 86 
+ -> Win : 2798031
+ *********************** 
+253 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-180.st180
+ -> Original Size = 7933 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-180.st180.gz
+ -> Zip Size = 128 
+ -> Win : 2805836
+ *********************** 
+254 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-64.st64
+ -> Original Size = 2829 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-64.st64.gz
+ -> Zip Size = 105 
+ -> Win : 2808560
+ *********************** 
+255 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-201.st201
+ -> Original Size = 8857 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-201.st201.gz
+ -> Zip Size = 131 
+ -> Win : 2817286
+ *********************** 
+256 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-421.st421
+ -> Original Size = 18537 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-421.st421.gz
+ -> Zip Size = 159 
+ -> Win : 2835664
+ *********************** 
+257 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-21.st21
+ -> Original Size = 937 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-21.st21.gz
+ -> Zip Size = 90 
+ -> Win : 2836511
+ *********************** 
+258 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-56.st56
+ -> Original Size = 2477 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-56.st56.gz
+ -> Zip Size = 103 
+ -> Win : 2838885
+ *********************** 
+259 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-219.st219
+ -> Original Size = 9649 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-219.st219.gz
+ -> Zip Size = 133 
+ -> Win : 2848401
+ *********************** 
+260 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-125.st125
+ -> Original Size = 5513 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-125.st125.gz
+ -> Zip Size = 122 
+ -> Win : 2853792
+ *********************** 
+261 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-482.st482
+ -> Original Size = 21221 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-482.st482.gz
+ -> Zip Size = 166 
+ -> Win : 2874847
+ *********************** 
+262 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-238.st238
+ -> Original Size = 10485 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-238.st238.gz
+ -> Zip Size = 135 
+ -> Win : 2885197
+ *********************** 
+263 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-499.st499
+ -> Original Size = 21969 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-499.st499.gz
+ -> Zip Size = 168 
+ -> Win : 2906998
+ *********************** 
+264 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-353.st353
+ -> Original Size = 15545 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-353.st353.gz
+ -> Zip Size = 149 
+ -> Win : 2922394
+ *********************** 
+265 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-236.st236
+ -> Original Size = 10397 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-236.st236.gz
+ -> Zip Size = 135 
+ -> Win : 2932656
+ *********************** 
+266 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-233.st233
+ -> Original Size = 10265 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-233.st233.gz
+ -> Zip Size = 135 
+ -> Win : 2942786
+ *********************** 
+267 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-437.st437
+ -> Original Size = 19241 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-437.st437.gz
+ -> Zip Size = 161 
+ -> Win : 2961866
+ *********************** 
+268 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-253.st253
+ -> Original Size = 11145 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-253.st253.gz
+ -> Zip Size = 136 
+ -> Win : 2972875
+ *********************** 
+269 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-294.st294
+ -> Original Size = 12949 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-294.st294.gz
+ -> Zip Size = 141 
+ -> Win : 2985683
+ *********************** 
+270 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-343.st343
+ -> Original Size = 15105 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-343.st343.gz
+ -> Zip Size = 149 
+ -> Win : 3000639
+ *********************** 
+271 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-450.st450
+ -> Original Size = 19813 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-450.st450.gz
+ -> Zip Size = 163 
+ -> Win : 3020289
+ *********************** 
+272 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-352.st352
+ -> Original Size = 15501 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-352.st352.gz
+ -> Zip Size = 149 
+ -> Win : 3035641
+ *********************** 
+273 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-108.st108
+ -> Original Size = 4765 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-108.st108.gz
+ -> Zip Size = 120 
+ -> Win : 3040286
+ *********************** 
+274 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-473.st473
+ -> Original Size = 20825 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-473.st473.gz
+ -> Zip Size = 165 
+ -> Win : 3060946
+ *********************** 
+275 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-430.st430
+ -> Original Size = 18933 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-430.st430.gz
+ -> Zip Size = 160 
+ -> Win : 3079719
+ *********************** 
+276 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-43.st43
+ -> Original Size = 1905 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-43.st43.gz
+ -> Zip Size = 98 
+ -> Win : 3081526
+ *********************** 
+277 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-407.st407
+ -> Original Size = 17921 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-407.st407.gz
+ -> Zip Size = 157 
+ -> Win : 3099290
+ *********************** 
+278 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-119.st119
+ -> Original Size = 5249 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-119.st119.gz
+ -> Zip Size = 121 
+ -> Win : 3104418
+ *********************** 
+279 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-45.st45
+ -> Original Size = 1993 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-45.st45.gz
+ -> Zip Size = 98 
+ -> Win : 3106313
+ *********************** 
+280 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-1.st1
+ -> Original Size = 57 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-1.st1.gz
+ -> Zip Size = 79 
+ -> Win : 3106291
+ *********************** 
+281 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-102.st102
+ -> Original Size = 4501 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-102.st102.gz
+ -> Zip Size = 119 
+ -> Win : 3110673
+ *********************** 
+282 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-51.st51
+ -> Original Size = 2257 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-51.st51.gz
+ -> Zip Size = 101 
+ -> Win : 3112829
+ *********************** 
+283 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-179.st179
+ -> Original Size = 7889 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-179.st179.gz
+ -> Zip Size = 128 
+ -> Win : 3120590
+ *********************** 
+284 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-138.st138
+ -> Original Size = 6085 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-138.st138.gz
+ -> Zip Size = 124 
+ -> Win : 3126551
+ *********************** 
+285 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-229.st229
+ -> Original Size = 10089 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-229.st229.gz
+ -> Zip Size = 133 
+ -> Win : 3136507
+ *********************** 
+286 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-134.st134
+ -> Original Size = 5909 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-134.st134.gz
+ -> Zip Size = 123 
+ -> Win : 3142293
+ *********************** 
+287 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-168.st168
+ -> Original Size = 7405 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-168.st168.gz
+ -> Zip Size = 129 
+ -> Win : 3149569
+ *********************** 
+288 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-214.st214
+ -> Original Size = 9429 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-214.st214.gz
+ -> Zip Size = 132 
+ -> Win : 3158866
+ *********************** 
+289 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-68.st68
+ -> Original Size = 3005 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-68.st68.gz
+ -> Zip Size = 107 
+ -> Win : 3161764
+ *********************** 
+290 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-453.st453
+ -> Original Size = 19945 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-453.st453.gz
+ -> Zip Size = 163 
+ -> Win : 3181546
+ *********************** 
+291 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-18.st18
+ -> Original Size = 805 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-18.st18.gz
+ -> Zip Size = 88 
+ -> Win : 3182263
+ *********************** 
+292 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-414.st414
+ -> Original Size = 18229 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-414.st414.gz
+ -> Zip Size = 158 
+ -> Win : 3200334
+ *********************** 
+293 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-481.st481
+ -> Original Size = 21177 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-481.st481.gz
+ -> Zip Size = 166 
+ -> Win : 3221345
+ *********************** 
+294 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-83.st83
+ -> Original Size = 3665 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-83.st83.gz
+ -> Zip Size = 111 
+ -> Win : 3224899
+ *********************** 
+295 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-142.st142
+ -> Original Size = 6261 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-142.st142.gz
+ -> Zip Size = 124 
+ -> Win : 3231036
+ *********************** 
+296 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-359.st359
+ -> Original Size = 15809 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-359.st359.gz
+ -> Zip Size = 151 
+ -> Win : 3246694
+ *********************** 
+297 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-402.st402
+ -> Original Size = 17701 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-402.st402.gz
+ -> Zip Size = 156 
+ -> Win : 3264239
+ *********************** 
+298 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-441.st441
+ -> Original Size = 19417 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-441.st441.gz
+ -> Zip Size = 161 
+ -> Win : 3283495
+ *********************** 
+299 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-485.st485
+ -> Original Size = 21353 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-485.st485.gz
+ -> Zip Size = 167 
+ -> Win : 3304681
+ *********************** 
+300 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-111.st111
+ -> Original Size = 4897 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-111.st111.gz
+ -> Zip Size = 119 
+ -> Win : 3309459
+ *********************** 
+301 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-387.st387
+ -> Original Size = 17041 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-387.st387.gz
+ -> Zip Size = 154 
+ -> Win : 3326346
+ *********************** 
+302 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-192.st192
+ -> Original Size = 8461 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-192.st192.gz
+ -> Zip Size = 130 
+ -> Win : 3334677
+ *********************** 
+303 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-286.st286
+ -> Original Size = 12597 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-286.st286.gz
+ -> Zip Size = 142 
+ -> Win : 3347132
+ *********************** 
+304 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-42.st42
+ -> Original Size = 1861 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-42.st42.gz
+ -> Zip Size = 96 
+ -> Win : 3348897
+ *********************** 
+305 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-477.st477
+ -> Original Size = 21001 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-477.st477.gz
+ -> Zip Size = 166 
+ -> Win : 3369732
+ *********************** 
+306 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-143.st143
+ -> Original Size = 6305 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-143.st143.gz
+ -> Zip Size = 125 
+ -> Win : 3375912
+ *********************** 
+307 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-274.st274
+ -> Original Size = 12069 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-274.st274.gz
+ -> Zip Size = 140 
+ -> Win : 3387841
+ *********************** 
+308 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-403.st403
+ -> Original Size = 17745 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-403.st403.gz
+ -> Zip Size = 157 
+ -> Win : 3405429
+ *********************** 
+309 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-175.st175
+ -> Original Size = 7713 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-175.st175.gz
+ -> Zip Size = 127 
+ -> Win : 3413015
+ *********************** 
+310 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-287.st287
+ -> Original Size = 12641 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-287.st287.gz
+ -> Zip Size = 141 
+ -> Win : 3425515
+ *********************** 
+311 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-444.st444
+ -> Original Size = 19549 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-444.st444.gz
+ -> Zip Size = 162 
+ -> Win : 3444902
+ *********************** 
+312 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-489.st489
+ -> Original Size = 21529 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-489.st489.gz
+ -> Zip Size = 168 
+ -> Win : 3466263
+ *********************** 
+313 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-109.st109
+ -> Original Size = 4809 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-109.st109.gz
+ -> Zip Size = 120 
+ -> Win : 3470952
+ *********************** 
+314 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-199.st199
+ -> Original Size = 8769 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-199.st199.gz
+ -> Zip Size = 130 
+ -> Win : 3479591
+ *********************** 
+315 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-198.st198
+ -> Original Size = 8725 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-198.st198.gz
+ -> Zip Size = 130 
+ -> Win : 3488186
+ *********************** 
+316 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-369.st369
+ -> Original Size = 16249 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-369.st369.gz
+ -> Zip Size = 151 
+ -> Win : 3504284
+ *********************** 
+317 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-456.st456
+ -> Original Size = 20077 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-456.st456.gz
+ -> Zip Size = 163 
+ -> Win : 3524198
+ *********************** 
+318 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-339.st339
+ -> Original Size = 14929 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-339.st339.gz
+ -> Zip Size = 148 
+ -> Win : 3538979
+ *********************** 
+319 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-136.st136
+ -> Original Size = 5997 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-136.st136.gz
+ -> Zip Size = 123 
+ -> Win : 3544853
+ *********************** 
+320 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-205.st205
+ -> Original Size = 9033 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-205.st205.gz
+ -> Zip Size = 130 
+ -> Win : 3553756
+ *********************** 
+321 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-98.st98
+ -> Original Size = 4325 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-98.st98.gz
+ -> Zip Size = 116 
+ -> Win : 3557965
+ *********************** 
+322 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-100.st100
+ -> Original Size = 4413 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-100.st100.gz
+ -> Zip Size = 117 
+ -> Win : 3562261
+ *********************** 
+323 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-112.st112
+ -> Original Size = 4941 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-112.st112.gz
+ -> Zip Size = 119 
+ -> Win : 3567083
+ *********************** 
+324 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-347.st347
+ -> Original Size = 15281 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-347.st347.gz
+ -> Zip Size = 149 
+ -> Win : 3582215
+ *********************** 
+325 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-86.st86
+ -> Original Size = 3797 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-86.st86.gz
+ -> Zip Size = 113 
+ -> Win : 3585899
+ *********************** 
+326 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-82.st82
+ -> Original Size = 3621 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-82.st82.gz
+ -> Zip Size = 111 
+ -> Win : 3589409
+ *********************** 
+327 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-216.st216
+ -> Original Size = 9517 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-216.st216.gz
+ -> Zip Size = 132 
+ -> Win : 3598794
+ *********************** 
+328 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-115.st115
+ -> Original Size = 5073 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-115.st115.gz
+ -> Zip Size = 121 
+ -> Win : 3603746
+ *********************** 
+329 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-269.st269
+ -> Original Size = 11849 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-269.st269.gz
+ -> Zip Size = 139 
+ -> Win : 3615456
+ *********************** 
+330 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-129.st129
+ -> Original Size = 5689 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-129.st129.gz
+ -> Zip Size = 122 
+ -> Win : 3621023
+ *********************** 
+331 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-182.st182
+ -> Original Size = 8021 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-182.st182.gz
+ -> Zip Size = 127 
+ -> Win : 3628917
+ *********************** 
+332 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-438.st438
+ -> Original Size = 19285 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-438.st438.gz
+ -> Zip Size = 161 
+ -> Win : 3648041
+ *********************** 
+333 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-351.st351
+ -> Original Size = 15457 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-351.st351.gz
+ -> Zip Size = 149 
+ -> Win : 3663349
+ *********************** 
+334 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-301.st301
+ -> Original Size = 13257 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-301.st301.gz
+ -> Zip Size = 144 
+ -> Win : 3676462
+ *********************** 
+335 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-303.st303
+ -> Original Size = 13345 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-303.st303.gz
+ -> Zip Size = 144 
+ -> Win : 3689663
+ *********************** 
+336 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-451.st451
+ -> Original Size = 19857 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-451.st451.gz
+ -> Zip Size = 162 
+ -> Win : 3709358
+ *********************** 
+337 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-63.st63
+ -> Original Size = 2785 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-63.st63.gz
+ -> Zip Size = 105 
+ -> Win : 3712038
+ *********************** 
+338 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-376.st376
+ -> Original Size = 16557 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-376.st376.gz
+ -> Zip Size = 152 
+ -> Win : 3728443
+ *********************** 
+339 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-332.st332
+ -> Original Size = 14621 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-332.st332.gz
+ -> Zip Size = 147 
+ -> Win : 3742917
+ *********************** 
+340 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-356.st356
+ -> Original Size = 15677 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-356.st356.gz
+ -> Zip Size = 151 
+ -> Win : 3758443
+ *********************** 
+341 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-448.st448
+ -> Original Size = 19725 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-448.st448.gz
+ -> Zip Size = 162 
+ -> Win : 3778006
+ *********************** 
+342 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-320.st320
+ -> Original Size = 14093 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-320.st320.gz
+ -> Zip Size = 146 
+ -> Win : 3791953
+ *********************** 
+343 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-397.st397
+ -> Original Size = 17481 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-397.st397.gz
+ -> Zip Size = 156 
+ -> Win : 3809278
+ *********************** 
+344 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-29.st29
+ -> Original Size = 1289 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-29.st29.gz
+ -> Zip Size = 92 
+ -> Win : 3810475
+ *********************** 
+345 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-266.st266
+ -> Original Size = 11717 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-266.st266.gz
+ -> Zip Size = 139 
+ -> Win : 3822053
+ *********************** 
+346 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-41.st41
+ -> Original Size = 1817 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-41.st41.gz
+ -> Zip Size = 96 
+ -> Win : 3823774
+ *********************** 
+347 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-158.st158
+ -> Original Size = 6965 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-158.st158.gz
+ -> Zip Size = 126 
+ -> Win : 3830613
+ *********************** 
+348 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-76.st76
+ -> Original Size = 3357 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-76.st76.gz
+ -> Zip Size = 109 
+ -> Win : 3833861
+ *********************** 
+349 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-210.st210
+ -> Original Size = 9253 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-210.st210.gz
+ -> Zip Size = 131 
+ -> Win : 3842983
+ *********************** 
+350 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-341.st341
+ -> Original Size = 15017 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-341.st341.gz
+ -> Zip Size = 147 
+ -> Win : 3857853
+ *********************** 
+351 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-22.st22
+ -> Original Size = 981 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-22.st22.gz
+ -> Zip Size = 90 
+ -> Win : 3858744
+ *********************** 
+352 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-350.st350
+ -> Original Size = 15413 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-350.st350.gz
+ -> Zip Size = 150 
+ -> Win : 3874007
+ *********************** 
+353 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-52.st52
+ -> Original Size = 2301 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-52.st52.gz
+ -> Zip Size = 101 
+ -> Win : 3876207
+ *********************** 
+354 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-49.st49
+ -> Original Size = 2169 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-49.st49.gz
+ -> Zip Size = 100 
+ -> Win : 3878276
+ *********************** 
+355 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-424.st424
+ -> Original Size = 18669 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-424.st424.gz
+ -> Zip Size = 159 
+ -> Win : 3896786
+ *********************** 
+356 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-99.st99
+ -> Original Size = 4369 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-99.st99.gz
+ -> Zip Size = 116 
+ -> Win : 3901039
+ *********************** 
+357 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-223.st223
+ -> Original Size = 9825 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-223.st223.gz
+ -> Zip Size = 133 
+ -> Win : 3910731
+ *********************** 
+358 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-275.st275
+ -> Original Size = 12113 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-275.st275.gz
+ -> Zip Size = 140 
+ -> Win : 3922704
+ *********************** 
+359 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-157.st157
+ -> Original Size = 6921 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-157.st157.gz
+ -> Zip Size = 127 
+ -> Win : 3929498
+ *********************** 
+360 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-53.st53
+ -> Original Size = 2345 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-53.st53.gz
+ -> Zip Size = 101 
+ -> Win : 3931742
+ *********************** 
+361 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-500.st500
+ -> Original Size = 22013 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-500.st500.gz
+ -> Zip Size = 169 
+ -> Win : 3953586
+ *********************** 
+362 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-361.st361
+ -> Original Size = 15897 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-361.st361.gz
+ -> Zip Size = 151 
+ -> Win : 3969332
+ *********************** 
+363 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-426.st426
+ -> Original Size = 18757 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-426.st426.gz
+ -> Zip Size = 159 
+ -> Win : 3987930
+ *********************** 
+364 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-399.st399
+ -> Original Size = 17569 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-399.st399.gz
+ -> Zip Size = 155 
+ -> Win : 4005344
+ *********************** 
+365 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-242.st242
+ -> Original Size = 10661 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-242.st242.gz
+ -> Zip Size = 136 
+ -> Win : 4015869
+ *********************** 
+366 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-72.st72
+ -> Original Size = 3181 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-72.st72.gz
+ -> Zip Size = 109 
+ -> Win : 4018941
+ *********************** 
+367 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-417.st417
+ -> Original Size = 18361 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-417.st417.gz
+ -> Zip Size = 157 
+ -> Win : 4037145
+ *********************** 
+368 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-23.st23
+ -> Original Size = 1025 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-23.st23.gz
+ -> Zip Size = 90 
+ -> Win : 4038080
+ *********************** 
+369 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-40.st40
+ -> Original Size = 1773 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-40.st40.gz
+ -> Zip Size = 96 
+ -> Win : 4039757
+ *********************** 
+370 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-311.st311
+ -> Original Size = 13697 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-311.st311.gz
+ -> Zip Size = 144 
+ -> Win : 4053310
+ *********************** 
+371 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-235.st235
+ -> Original Size = 10353 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-235.st235.gz
+ -> Zip Size = 134 
+ -> Win : 4063529
+ *********************** 
+372 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-309.st309
+ -> Original Size = 13609 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-309.st309.gz
+ -> Zip Size = 145 
+ -> Win : 4076993
+ *********************** 
+373 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-374.st374
+ -> Original Size = 16469 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-374.st374.gz
+ -> Zip Size = 153 
+ -> Win : 4093309
+ *********************** 
+374 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-104.st104
+ -> Original Size = 4589 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-104.st104.gz
+ -> Zip Size = 119 
+ -> Win : 4097779
+ *********************** 
+375 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-463.st463
+ -> Original Size = 20385 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-463.st463.gz
+ -> Zip Size = 163 
+ -> Win : 4118001
+ *********************** 
+376 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-132.st132
+ -> Original Size = 5821 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-132.st132.gz
+ -> Zip Size = 123 
+ -> Win : 4123699
+ *********************** 
+377 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-492.st492
+ -> Original Size = 21661 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-492.st492.gz
+ -> Zip Size = 167 
+ -> Win : 4145193
+ *********************** 
+378 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-92.st92
+ -> Original Size = 4061 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-92.st92.gz
+ -> Zip Size = 115 
+ -> Win : 4149139
+ *********************** 
+379 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-420.st420
+ -> Original Size = 18493 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-420.st420.gz
+ -> Zip Size = 159 
+ -> Win : 4167473
+ *********************** 
+380 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-252.st252
+ -> Original Size = 11101 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-252.st252.gz
+ -> Zip Size = 136 
+ -> Win : 4178438
+ *********************** 
+381 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-486.st486
+ -> Original Size = 21397 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-486.st486.gz
+ -> Zip Size = 167 
+ -> Win : 4199668
+ *********************** 
+382 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-62.st62
+ -> Original Size = 2741 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-62.st62.gz
+ -> Zip Size = 105 
+ -> Win : 4202304
+ *********************** 
+383 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-146.st146
+ -> Original Size = 6437 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-146.st146.gz
+ -> Zip Size = 125 
+ -> Win : 4208616
+ *********************** 
+384 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-412.st412
+ -> Original Size = 18141 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-412.st412.gz
+ -> Zip Size = 158 
+ -> Win : 4226599
+ *********************** 
+385 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-428.st428
+ -> Original Size = 18845 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-428.st428.gz
+ -> Zip Size = 159 
+ -> Win : 4245285
+ *********************** 
+386 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-280.st280
+ -> Original Size = 12333 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-280.st280.gz
+ -> Zip Size = 141 
+ -> Win : 4257477
+ *********************** 
+387 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-380.st380
+ -> Original Size = 16733 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-380.st380.gz
+ -> Zip Size = 153 
+ -> Win : 4274057
+ *********************** 
+388 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-133.st133
+ -> Original Size = 5865 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-133.st133.gz
+ -> Zip Size = 123 
+ -> Win : 4279799
+ *********************** 
+389 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-33.st33
+ -> Original Size = 1465 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-33.st33.gz
+ -> Zip Size = 94 
+ -> Win : 4281170
+ *********************** 
+390 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-97.st97
+ -> Original Size = 4281 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-97.st97.gz
+ -> Zip Size = 116 
+ -> Win : 4285335
+ *********************** 
+391 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-490.st490
+ -> Original Size = 21573 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-490.st490.gz
+ -> Zip Size = 168 
+ -> Win : 4306740
+ *********************** 
+392 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-74.st74
+ -> Original Size = 3269 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-74.st74.gz
+ -> Zip Size = 109 
+ -> Win : 4309900
+ *********************** 
+393 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-250.st250
+ -> Original Size = 11013 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-250.st250.gz
+ -> Zip Size = 137 
+ -> Win : 4320776
+ *********************** 
+394 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-406.st406
+ -> Original Size = 17877 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-406.st406.gz
+ -> Zip Size = 157 
+ -> Win : 4338496
+ *********************** 
+395 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-4.st4
+ -> Original Size = 189 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-4.st4.gz
+ -> Zip Size = 82 
+ -> Win : 4338603
+ *********************** 
+396 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-71.st71
+ -> Original Size = 3137 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-71.st71.gz
+ -> Zip Size = 107 
+ -> Win : 4341633
+ *********************** 
+397 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-436.st436
+ -> Original Size = 19197 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-436.st436.gz
+ -> Zip Size = 161 
+ -> Win : 4360669
+ *********************** 
+398 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-494.st494
+ -> Original Size = 21749 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-494.st494.gz
+ -> Zip Size = 168 
+ -> Win : 4382250
+ *********************** 
+399 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-173.st173
+ -> Original Size = 7625 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-173.st173.gz
+ -> Zip Size = 127 
+ -> Win : 4389748
+ *********************** 
+400 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-491.st491
+ -> Original Size = 21617 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-491.st491.gz
+ -> Zip Size = 168 
+ -> Win : 4411197
+ *********************** 
+401 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-196.st196
+ -> Original Size = 8637 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-196.st196.gz
+ -> Zip Size = 130 
+ -> Win : 4419704
+ *********************** 
+402 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-225.st225
+ -> Original Size = 9913 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-225.st225.gz
+ -> Zip Size = 134 
+ -> Win : 4429483
+ *********************** 
+403 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-116.st116
+ -> Original Size = 5117 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-116.st116.gz
+ -> Zip Size = 121 
+ -> Win : 4434479
+ *********************** 
+404 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-212.st212
+ -> Original Size = 9341 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-212.st212.gz
+ -> Zip Size = 131 
+ -> Win : 4443689
+ *********************** 
+405 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-106.st106
+ -> Original Size = 4677 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-106.st106.gz
+ -> Zip Size = 118 
+ -> Win : 4448248
+ *********************** 
+406 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-174.st174
+ -> Original Size = 7669 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-174.st174.gz
+ -> Zip Size = 127 
+ -> Win : 4455790
+ *********************** 
+407 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-37.st37
+ -> Original Size = 1641 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-37.st37.gz
+ -> Zip Size = 96 
+ -> Win : 4457335
+ *********************** 
+408 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-209.st209
+ -> Original Size = 9209 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-209.st209.gz
+ -> Zip Size = 132 
+ -> Win : 4466412
+ *********************** 
+409 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-298.st298
+ -> Original Size = 13125 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-298.st298.gz
+ -> Zip Size = 143 
+ -> Win : 4479394
+ *********************** 
+410 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-315.st315
+ -> Original Size = 13873 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-315.st315.gz
+ -> Zip Size = 145 
+ -> Win : 4493122
+ *********************** 
+411 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-408.st408
+ -> Original Size = 17965 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-408.st408.gz
+ -> Zip Size = 157 
+ -> Win : 4510930
+ *********************** 
+412 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-117.st117
+ -> Original Size = 5161 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-117.st117.gz
+ -> Zip Size = 120 
+ -> Win : 4515971
+ *********************** 
+413 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-325.st325
+ -> Original Size = 14313 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-325.st325.gz
+ -> Zip Size = 147 
+ -> Win : 4530137
+ *********************** 
+414 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-258.st258
+ -> Original Size = 11365 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-258.st258.gz
+ -> Zip Size = 137 
+ -> Win : 4541365
+ *********************** 
+415 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-80.st80
+ -> Original Size = 3533 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-80.st80.gz
+ -> Zip Size = 111 
+ -> Win : 4544787
+ *********************** 
+416 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-95.st95
+ -> Original Size = 4193 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-95.st95.gz
+ -> Zip Size = 114 
+ -> Win : 4548866
+ *********************** 
+417 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-110.st110
+ -> Original Size = 4853 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-110.st110.gz
+ -> Zip Size = 120 
+ -> Win : 4553599
+ *********************** 
+418 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-326.st326
+ -> Original Size = 14357 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-326.st326.gz
+ -> Zip Size = 147 
+ -> Win : 4567809
+ *********************** 
+419 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-394.st394
+ -> Original Size = 17349 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-394.st394.gz
+ -> Zip Size = 154 
+ -> Win : 4585004
+ *********************** 
+420 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-393.st393
+ -> Original Size = 17305 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-393.st393.gz
+ -> Zip Size = 154 
+ -> Win : 4602155
+ *********************** 
+421 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-152.st152
+ -> Original Size = 6701 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-152.st152.gz
+ -> Zip Size = 126 
+ -> Win : 4608730
+ *********************** 
+422 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-364.st364
+ -> Original Size = 16029 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-364.st364.gz
+ -> Zip Size = 150 
+ -> Win : 4624609
+ *********************** 
+423 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-191.st191
+ -> Original Size = 8417 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-191.st191.gz
+ -> Zip Size = 129 
+ -> Win : 4632897
+ *********************** 
+424 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-493.st493
+ -> Original Size = 21705 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-493.st493.gz
+ -> Zip Size = 167 
+ -> Win : 4654435
+ *********************** 
+425 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-357.st357
+ -> Original Size = 15721 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-357.st357.gz
+ -> Zip Size = 150 
+ -> Win : 4670006
+ *********************** 
+426 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-411.st411
+ -> Original Size = 18097 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-411.st411.gz
+ -> Zip Size = 156 
+ -> Win : 4687947
+ *********************** 
+427 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-167.st167
+ -> Original Size = 7361 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-167.st167.gz
+ -> Zip Size = 129 
+ -> Win : 4695179
+ *********************** 
+428 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-455.st455
+ -> Original Size = 20033 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-455.st455.gz
+ -> Zip Size = 163 
+ -> Win : 4715049
+ *********************** 
+429 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-446.st446
+ -> Original Size = 19637 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-446.st446.gz
+ -> Zip Size = 161 
+ -> Win : 4734525
+ *********************** 
+430 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-186.st186
+ -> Original Size = 8197 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-186.st186.gz
+ -> Zip Size = 129 
+ -> Win : 4742593
+ *********************** 
+431 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-354.st354
+ -> Original Size = 15589 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-354.st354.gz
+ -> Zip Size = 150 
+ -> Win : 4758032
+ *********************** 
+432 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-5.st5
+ -> Original Size = 233 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-5.st5.gz
+ -> Zip Size = 82 
+ -> Win : 4758183
+ *********************** 
+433 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-36.st36
+ -> Original Size = 1597 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-36.st36.gz
+ -> Zip Size = 94 
+ -> Win : 4759686
+ *********************** 
+434 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-69.st69
+ -> Original Size = 3049 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-69.st69.gz
+ -> Zip Size = 107 
+ -> Win : 4762628
+ *********************** 
+435 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-308.st308
+ -> Original Size = 13565 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-308.st308.gz
+ -> Zip Size = 144 
+ -> Win : 4776049
+ *********************** 
+436 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-87.st87
+ -> Original Size = 3841 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-87.st87.gz
+ -> Zip Size = 113 
+ -> Win : 4779777
+ *********************** 
+437 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-232.st232
+ -> Original Size = 10221 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-232.st232.gz
+ -> Zip Size = 135 
+ -> Win : 4789863
+ *********************** 
+438 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-382.st382
+ -> Original Size = 16821 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-382.st382.gz
+ -> Zip Size = 153 
+ -> Win : 4806531
+ *********************** 
+439 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-262.st262
+ -> Original Size = 11541 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-262.st262.gz
+ -> Zip Size = 139 
+ -> Win : 4817933
+ *********************** 
+440 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-479.st479
+ -> Original Size = 21089 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-479.st479.gz
+ -> Zip Size = 166 
+ -> Win : 4838856
+ *********************** 
+441 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-263.st263
+ -> Original Size = 11585 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-263.st263.gz
+ -> Zip Size = 138 
+ -> Win : 4850303
+ *********************** 
+442 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-389.st389
+ -> Original Size = 17129 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-389.st389.gz
+ -> Zip Size = 155 
+ -> Win : 4867277
+ *********************** 
+443 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-377.st377
+ -> Original Size = 16601 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-377.st377.gz
+ -> Zip Size = 153 
+ -> Win : 4883725
+ *********************** 
+444 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-283.st283
+ -> Original Size = 12465 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-283.st283.gz
+ -> Zip Size = 141 
+ -> Win : 4896049
+ *********************** 
+445 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-345.st345
+ -> Original Size = 15193 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-345.st345.gz
+ -> Zip Size = 149 
+ -> Win : 4911093
+ *********************** 
+446 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-154.st154
+ -> Original Size = 6789 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-154.st154.gz
+ -> Zip Size = 127 
+ -> Win : 4917755
+ *********************** 
+447 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-39.st39
+ -> Original Size = 1729 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-39.st39.gz
+ -> Zip Size = 96 
+ -> Win : 4919388
+ *********************** 
+448 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-120.st120
+ -> Original Size = 5293 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-120.st120.gz
+ -> Zip Size = 122 
+ -> Win : 4924559
+ *********************** 
+449 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-360.st360
+ -> Original Size = 15853 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-360.st360.gz
+ -> Zip Size = 151 
+ -> Win : 4940261
+ *********************** 
+450 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-151.st151
+ -> Original Size = 6657 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-151.st151.gz
+ -> Zip Size = 126 
+ -> Win : 4946792
+ *********************** 
+451 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-381.st381
+ -> Original Size = 16777 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-381.st381.gz
+ -> Zip Size = 153 
+ -> Win : 4963416
+ *********************** 
+452 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-2.st2
+ -> Original Size = 101 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-2.st2.gz
+ -> Zip Size = 81 
+ -> Win : 4963436
+ *********************** 
+453 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-312.st312
+ -> Original Size = 13741 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-312.st312.gz
+ -> Zip Size = 144 
+ -> Win : 4977033
+ *********************** 
+454 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-484.st484
+ -> Original Size = 21309 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-484.st484.gz
+ -> Zip Size = 167 
+ -> Win : 4998175
+ *********************** 
+455 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-221.st221
+ -> Original Size = 9737 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-221.st221.gz
+ -> Zip Size = 133 
+ -> Win : 5007779
+ *********************** 
+456 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-163.st163
+ -> Original Size = 7185 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-163.st163.gz
+ -> Zip Size = 128 
+ -> Win : 5014836
+ *********************** 
+457 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-25.st25
+ -> Original Size = 1113 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-25.st25.gz
+ -> Zip Size = 92 
+ -> Win : 5015857
+ *********************** 
+458 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-197.st197
+ -> Original Size = 8681 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-197.st197.gz
+ -> Zip Size = 130 
+ -> Win : 5024408
+ *********************** 
+459 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-429.st429
+ -> Original Size = 18889 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-429.st429.gz
+ -> Zip Size = 159 
+ -> Win : 5043138
+ *********************** 
+460 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-59.st59
+ -> Original Size = 2609 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-59.st59.gz
+ -> Zip Size = 103 
+ -> Win : 5045644
+ *********************** 
+461 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-107.st107
+ -> Original Size = 4721 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-107.st107.gz
+ -> Zip Size = 120 
+ -> Win : 5050245
+ *********************** 
+462 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-290.st290
+ -> Original Size = 12773 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-290.st290.gz
+ -> Zip Size = 142 
+ -> Win : 5062876
+ *********************** 
+463 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-370.st370
+ -> Original Size = 16293 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-370.st370.gz
+ -> Zip Size = 151 
+ -> Win : 5079018
+ *********************** 
+464 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-468.st468
+ -> Original Size = 20605 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-468.st468.gz
+ -> Zip Size = 164 
+ -> Win : 5099459
+ *********************** 
+465 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-150.st150
+ -> Original Size = 6613 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-150.st150.gz
+ -> Zip Size = 126 
+ -> Win : 5105946
+ *********************** 
+466 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-10.st10
+ -> Original Size = 453 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-10.st10.gz
+ -> Zip Size = 86 
+ -> Win : 5106313
+ *********************** 
+467 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-77.st77
+ -> Original Size = 3401 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-77.st77.gz
+ -> Zip Size = 109 
+ -> Win : 5109605
+ *********************** 
+468 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-13.st13
+ -> Original Size = 585 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-13.st13.gz
+ -> Zip Size = 87 
+ -> Win : 5110103
+ *********************** 
+469 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-247.st247
+ -> Original Size = 10881 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-247.st247.gz
+ -> Zip Size = 135 
+ -> Win : 5120849
+ *********************** 
+470 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-65.st65
+ -> Original Size = 2873 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-65.st65.gz
+ -> Zip Size = 105 
+ -> Win : 5123617
+ *********************** 
+471 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-130.st130
+ -> Original Size = 5733 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-130.st130.gz
+ -> Zip Size = 120 
+ -> Win : 5129230
+ *********************** 
+472 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-297.st297
+ -> Original Size = 13081 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-297.st297.gz
+ -> Zip Size = 143 
+ -> Win : 5142168
+ *********************** 
+473 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-195.st195
+ -> Original Size = 8593 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-195.st195.gz
+ -> Zip Size = 130 
+ -> Win : 5150631
+ *********************** 
+474 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-385.st385
+ -> Original Size = 16953 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-385.st385.gz
+ -> Zip Size = 154 
+ -> Win : 5167430
+ *********************** 
+475 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-330.st330
+ -> Original Size = 14533 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-330.st330.gz
+ -> Zip Size = 147 
+ -> Win : 5181816
+ *********************** 
+476 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-60.st60
+ -> Original Size = 2653 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-60.st60.gz
+ -> Zip Size = 104 
+ -> Win : 5184365
+ *********************** 
+477 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-189.st189
+ -> Original Size = 8329 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-189.st189.gz
+ -> Zip Size = 129 
+ -> Win : 5192565
+ *********************** 
+478 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-452.st452
+ -> Original Size = 19901 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-452.st452.gz
+ -> Zip Size = 162 
+ -> Win : 5212304
+ *********************** 
+479 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-85.st85
+ -> Original Size = 3753 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-85.st85.gz
+ -> Zip Size = 113 
+ -> Win : 5215944
+ *********************** 
+480 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-96.st96
+ -> Original Size = 4237 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-96.st96.gz
+ -> Zip Size = 116 
+ -> Win : 5220065
+ *********************** 
+481 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-418.st418
+ -> Original Size = 18405 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-418.st418.gz
+ -> Zip Size = 158 
+ -> Win : 5238312
+ *********************** 
+482 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-193.st193
+ -> Original Size = 8505 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-193.st193.gz
+ -> Zip Size = 129 
+ -> Win : 5246688
+ *********************** 
+483 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-176.st176
+ -> Original Size = 7757 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-176.st176.gz
+ -> Zip Size = 127 
+ -> Win : 5254318
+ *********************** 
+484 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-391.st391
+ -> Original Size = 17217 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-391.st391.gz
+ -> Zip Size = 155 
+ -> Win : 5271380
+ *********************** 
+485 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-55.st55
+ -> Original Size = 2433 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-55.st55.gz
+ -> Zip Size = 102 
+ -> Win : 5273711
+ *********************** 
+486 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-476.st476
+ -> Original Size = 20957 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-476.st476.gz
+ -> Zip Size = 166 
+ -> Win : 5294502
+ *********************** 
+487 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-231.st231
+ -> Original Size = 10177 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-231.st231.gz
+ -> Zip Size = 135 
+ -> Win : 5304544
+ *********************** 
+488 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-401.st401
+ -> Original Size = 17657 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-401.st401.gz
+ -> Zip Size = 156 
+ -> Win : 5322045
+ *********************** 
+489 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-295.st295
+ -> Original Size = 12993 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-295.st295.gz
+ -> Zip Size = 143 
+ -> Win : 5334895
+ *********************** 
+490 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-349.st349
+ -> Original Size = 15369 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-349.st349.gz
+ -> Zip Size = 150 
+ -> Win : 5350114
+ *********************** 
+491 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-319.st319
+ -> Original Size = 14049 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-319.st319.gz
+ -> Zip Size = 146 
+ -> Win : 5364017
+ *********************** 
+492 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-240.st240
+ -> Original Size = 10573 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-240.st240.gz
+ -> Zip Size = 135 
+ -> Win : 5374455
+ *********************** 
+493 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-321.st321
+ -> Original Size = 14137 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-321.st321.gz
+ -> Zip Size = 146 
+ -> Win : 5388446
+ *********************** 
+494 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-245.st245
+ -> Original Size = 10793 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-245.st245.gz
+ -> Zip Size = 136 
+ -> Win : 5399103
+ *********************** 
+495 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-363.st363
+ -> Original Size = 15985 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-363.st363.gz
+ -> Zip Size = 151 
+ -> Win : 5414937
+ *********************** 
+496 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-459.st459
+ -> Original Size = 20209 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-459.st459.gz
+ -> Zip Size = 164 
+ -> Win : 5434982
+ *********************** 
+497 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-211.st211
+ -> Original Size = 9297 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-211.st211.gz
+ -> Zip Size = 131 
+ -> Win : 5444148
+ *********************** 
+498 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-84.st84
+ -> Original Size = 3709 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-84.st84.gz
+ -> Zip Size = 113 
+ -> Win : 5447744
+ *********************** 
+499 : FileName : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-57.st57
+ -> Original Size = 2521 
+ -> New Zip Name : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/Storage2/storage2-57.st57.gz
+ -> Zip Size = 103 
+ -> Win : 5450162
+-------------------------------------------------------------------------
+Glückwunsch,5450162 freie Speicherkapazität gewonnen. 
+Anzahl der ZipFile : 500
+-------------------------------------------------------------------------

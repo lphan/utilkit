@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#Compress one File
+/home/irobot/Desktop/iRODS/clients/icommands/bin/./irule -F /home/irobot/Dropbox/DA/Themen/Thema\ Verwaltung\ verteilter\ Speicherkapazität\ für\ wissenschaftliche\ Daten\ mit\ iRODS/Implementierung/rules3.0/compressOneFile.r > /home/irobot/Desktop/Evaluierung/test-onefile.txt
+
+#Compress more Files
+/home/irobot/Desktop/iRODS/clients/icommands/bin/./irule -F /home/irobot/Dropbox/DA/Themen/Thema\ Verwaltung\ verteilter\ Speicherkapazität\ für\ wissenschaftliche\ Daten\ mit\ iRODS/Implementierung/rules3.0/compressMoreFile.r > /home/irobot/Desktop/Evaluierung/test-morefile.txt
+
+#Delete Replication 
+/home/irobot/Desktop/iRODS/clients/icommands/bin/./irule -F /home/irobot/Dropbox/DA/Themen/Thema\ Verwaltung\ verteilter\ Speicherkapazität\ für\ wissenschaftliche\ Daten\ mit\ iRODS/Implementierung/rules3.0/deleteReplication.r > /home/irobot/Desktop/Evaluierung/test-deleteReplication.txt
+
+#Move all Files till used memory capacity 
+#time /home/irobot/Desktop/iRODS/clients/icommands/bin/./irule -F /home/irobot/Dropbox/DA/Themen/Thema\ Verwaltung\ verteilter\ Speicherkapazität\ für\ wissenschaftliche\ Daten\ mit\ iRODS/Implementierung/rules3.0/moveMoreFileQuota.r > /home/irobot/Desktop/Evaluierung/test-moveMoreFileQuota.txt
+
+#Move all Files till used memory capacity with better condition for avoiding overload at quota
+time /home/irobot/Desktop/iRODS/clients/icommands/bin/./irule -F /home/irobot/Dropbox/DA/Themen/Thema\ Verwaltung\ verteilter\ Speicherkapazität\ für\ wissenschaftliche\ Daten\ mit\ iRODS/Implementierung/rules3.0/moveMoreFileQuotaOpt.r > /home/irobot/Desktop/Evaluierung/test-moveMoreFileQuotaOpt.txt

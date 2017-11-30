@@ -55,5 +55,5 @@ Flood prediction
 - Call program
     > python3 floodpred.py
 
-- Update data between csv-file and Database
+- Update data between csv-file and Database (need to install mongodb first)
     > python3 dbconn.py

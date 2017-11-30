@@ -1,0 +1,66 @@
+#!/bin/bash
+# ----------------------------------------------1Verbesserungsansatz -----------------------------------------------------------#
+# |			mit Speicheranforderung X, komprimiert die Datei bis X erfüllt ist.					|
+# |				Auflisten alle Dateien aus Input Pfade ( mit command ls)					|
+# |					/home/irobot/Desktop/TestOrdner/							|
+# |			Voraussetzung: read (Variable memRe) muss mit Nummer eingegeben werden.					|
+# ------------------------------------------------------------------------------------------------------------------------------#
+#read -p "Bedarf nach freier Speicherkapazität : " memRe
+#echo " Speicheranforderung $memRe"	
+#read -p "Pfade von Collection / Datei zur Komprimierung : " Path
+echo " .......... Komprimierungsprozess beginn ............ "
+
+#Beispiel mit find : find $Path -size +1'M'
+# ------------------------------------------------------- BEGIN Programm -------------------------------------------------
+memRe=1500000
+Path="/home/irobot/Desktop/FTPSource/home/irods/FTPResc2/"
+
+# Schritt 1 : Listet Datei nacheinander und weist die Größe der Datei dem Variable zu und gibt sie aus.
+
+declare -i win
+win=0
+
+# declaration of variable origsize and zipsize
+declare -i origsize
+declare -i zipsize
+sumfile=0
+temp='.gz'	
+# search all file and execute compress file after file
+for f in $(find $Path -iname '*.*' )
+do
+	# compare won capacity with memory request
+	if test $win -lt $memRe
+		then	
+			echo " *********************** "
+			echo "$sumfile : FileName : $f"
+	# get origsize
+			let origsize=`stat -c "%s" $f`
+			echo " -> Original Size = $origsize "
+	# zip file with gzip
+			gzip $f
+	# get zipsize
+			echo " -> New Zip Name : $f$temp"
+			let zipsize=`stat -c "%s" $f$temp`
+			echo " -> Zip Size = $zipsize " 
+	# calculate new won capacity
+			let "win += origsize - zipsize"
+			echo " -> Win : $win"
+	# sum of all executed (compressed) files
+			let sumfile++
+	fi
+done
+
+if test $win -lt $memRe 
+	then	
+		let "fehlt = memRe - win"
+		echo "-------------------------------------------------------------------------"
+		echo "Leider, $win freie Speicherkapazität geschafft. Es fehlt noch $fehlt Byte"
+		echo "Anzahl der ZipFile : $sumfile"
+		echo "-------------------------------------------------------------------------"
+	else 
+		echo "-------------------------------------------------------------------------"
+		echo "Glückwunsch,$win freie Speicherkapazität gewonnen. "
+		echo "Anzahl der ZipFile : $sumfile"
+		echo "-------------------------------------------------------------------------"
+fi
+

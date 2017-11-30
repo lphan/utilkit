@@ -1,0 +1,122 @@
+File with Namme storage3-1.txt has copy at GridResc2
+---> The replica of file storage3-1.txt at StorageResc2 is deleted
+---> Win free memory : 56
+File with Namme storage3-10.txt has copy at GridResc2
+---> The replica of file storage3-10.txt at StorageResc2 is deleted
+---> Win free memory : 443
+File with Namme storage3-11.txt has copy at GridResc2
+---> The replica of file storage3-11.txt at StorageResc2 is deleted
+---> Win free memory : 486
+File with Namme storage3-12.txt has copy at GridResc2
+---> The replica of file storage3-12.txt at StorageResc2 is deleted
+---> Win free memory : 529
+File with Namme storage3-13.txt has copy at GridResc2
+---> The replica of file storage3-13.txt at StorageResc2 is deleted
+---> Win free memory : 572
+File with Namme storage3-14.txt has copy at GridResc2
+---> The replica of file storage3-14.txt at StorageResc2 is deleted
+---> Win free memory : 615
+File with Namme storage3-15.txt has copy at GridResc2
+---> The replica of file storage3-15.txt at StorageResc2 is deleted
+---> Win free memory : 658
+File with Namme storage3-16.txt has copy at GridResc2
+---> The replica of file storage3-16.txt at StorageResc2 is deleted
+---> Win free memory : 701
+File with Namme storage3-17.txt has copy at GridResc2
+---> The replica of file storage3-17.txt at StorageResc2 is deleted
+---> Win free memory : 744
+File with Namme storage3-18.txt has copy at GridResc2
+---> The replica of file storage3-18.txt at StorageResc2 is deleted
+---> Win free memory : 787
+File with Namme storage3-19.txt has copy at GridResc2
+---> The replica of file storage3-19.txt at StorageResc2 is deleted
+---> Win free memory : 830
+File with Namme storage3-2.txt has copy at GridResc2
+---> The replica of file storage3-2.txt at StorageResc2 is deleted
+---> Win free memory : 99
+File with Namme storage3-20.txt has copy at GridResc2
+---> The replica of file storage3-20.txt at StorageResc2 is deleted
+---> Win free memory : 873
+File with Namme storage3-21.txt has copy at FTPResc2
+---> The replica of file storage3-21.txt at StorageResc2 is deleted
+---> Win free memory : 916
+File with Namme storage3-22.txt has copy at FTPResc2
+---> The replica of file storage3-22.txt at StorageResc2 is deleted
+---> Win free memory : 959
+File with Namme storage3-23.txt has copy at FTPResc2
+---> The replica of file storage3-23.txt at StorageResc2 is deleted
+---> Win free memory : 1002
+File with Namme storage3-24.txt has copy at FTPResc2
+---> The replica of file storage3-24.txt at StorageResc2 is deleted
+---> Win free memory : 1045
+File with Namme storage3-25.txt has copy at FTPResc2
+---> The replica of file storage3-25.txt at StorageResc2 is deleted
+---> Win free memory : 1088
+File with Namme storage3-26.txt has copy at FTPResc2
+---> The replica of file storage3-26.txt at StorageResc2 is deleted
+---> Win free memory : 1131
+File with Namme storage3-27.txt has copy at FTPResc2
+---> The replica of file storage3-27.txt at StorageResc2 is deleted
+---> Win free memory : 1174
+File with Namme storage3-28.txt has copy at FTPResc2
+---> The replica of file storage3-28.txt at StorageResc2 is deleted
+---> Win free memory : 1217
+File with Namme storage3-29.txt has copy at FTPResc2
+---> The replica of file storage3-29.txt at StorageResc2 is deleted
+---> Win free memory : 1260
+File with Namme storage3-3.txt has copy at GridResc2
+---> The replica of file storage3-3.txt at StorageResc2 is deleted
+---> Win free memory : 142
+File with Namme storage3-30.txt has copy at FTPResc2
+---> The replica of file storage3-30.txt at StorageResc2 is deleted
+---> Win free memory : 1303
+File with Namme storage3-31.txt has copy at FTPResc2
+---> The replica of file storage3-31.txt at StorageResc2 is deleted
+---> Win free memory : 1346
+File with Namme storage3-32.txt has copy at FTPResc2
+---> The replica of file storage3-32.txt at StorageResc2 is deleted
+---> Win free memory : 1389
+File with Namme storage3-33.txt has copy at FTPResc2
+---> The replica of file storage3-33.txt at StorageResc2 is deleted
+---> Win free memory : 1432
+File with Namme storage3-34.txt has copy at FTPResc2
+---> The replica of file storage3-34.txt at StorageResc2 is deleted
+---> Win free memory : 1475
+File with Namme storage3-35.txt has copy at FTPResc2
+---> The replica of file storage3-35.txt at StorageResc2 is deleted
+---> Win free memory : 1518
+File with Namme storage3-36.txt has copy at FTPResc2
+---> The replica of file storage3-36.txt at StorageResc2 is deleted
+---> Win free memory : 1561
+File with Namme storage3-37.txt has copy at FTPResc2
+---> The replica of file storage3-37.txt at StorageResc2 is deleted
+---> Win free memory : 1604
+File with Namme storage3-38.txt has copy at FTPResc2
+---> The replica of file storage3-38.txt at StorageResc2 is deleted
+---> Win free memory : 1647
+File with Namme storage3-39.txt has copy at FTPResc2
+---> The replica of file storage3-39.txt at StorageResc2 is deleted
+---> Win free memory : 1690
+File with Namme storage3-4.txt has copy at GridResc2
+---> The replica of file storage3-4.txt at StorageResc2 is deleted
+---> Win free memory : 185
+File with Namme storage3-40.txt has copy at FTPResc2
+---> The replica of file storage3-40.txt at StorageResc2 is deleted
+---> Win free memory : 1733
+File with Namme storage3-5.txt has copy at GridResc2
+---> The replica of file storage3-5.txt at StorageResc2 is deleted
+---> Win free memory : 228
+File with Namme storage3-6.txt has copy at GridResc2
+---> The replica of file storage3-6.txt at StorageResc2 is deleted
+---> Win free memory : 271
+File with Namme storage3-7.txt has copy at GridResc2
+---> The replica of file storage3-7.txt at StorageResc2 is deleted
+---> Win free memory : 314
+File with Namme storage3-8.txt has copy at GridResc2
+---> The replica of file storage3-8.txt at StorageResc2 is deleted
+---> Win free memory : 357
+File with Namme storage3-9.txt has copy at GridResc2
+---> The replica of file storage3-9.txt at StorageResc2 is deleted
+---> Win free memory : 400
+Sum of deleted files : 40
+Sum of free memory : 35780 Byte

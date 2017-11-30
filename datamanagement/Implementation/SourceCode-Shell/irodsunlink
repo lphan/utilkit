@@ -1,0 +1,34 @@
+#!/bin/bash
+# Unlink all files
+/home/irobot/Desktop/iRODS/clients/icommands/bin/./irm -r -U /tempZone2/home/irods/GridResc2
+/home/irobot/Desktop/iRODS/clients/icommands/bin/./irm -r -U /tempZone2/home/irods/StorageResc2
+/home/irobot/Desktop/iRODS/clients/icommands/bin/./irm -r -U /tempZone2/home/irods/FTPResc2
+echo "Unlink finished"
+echo "Begin to delete physical files"
+
+# Delete all physical files
+rm -r /home/irobot/Desktop/GridSource/home/irods/
+rm -r /home/irobot/Desktop/FTPSource/home/irods/
+rm -r /home/irobot/Desktop/iRODS/Vault/home/irods/
+echo "Delete physical files finished"
+echo "Begin to make new irods Directories"
+
+# make new irods Directories
+mkdir /home/irobot/Desktop/GridSource/home/irods/
+mkdir /home/irobot/Desktop/FTPSource/home/irods/
+mkdir /home/irobot/Desktop/iRODS/Vault/home/irods/
+echo "Make new iRODS directories finished"
+echo "Begin copy source files"
+
+# Copy source files
+cp -r /home/irobot/Desktop/BackupFile/GridResc2 /home/irobot/Desktop/GridSource/home/irods/GridResc2
+cp -r /home/irobot/Desktop/BackupFile/FTPResc2 /home/irobot/Desktop/FTPSource/home/irods/FTPResc2
+cp -r /home/irobot/Desktop/BackupFile/StorageResc2 /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2
+echo "Copy source files finished"
+echo "Begin registry new files"
+
+# registry new files
+/home/irobot/Desktop/iRODS/clients/icommands/bin/./ireg -R GridResc2 -C /home/irobot/Desktop/GridSource/home/irods/GridResc2 /tempZone2/home/irods/GridResc2
+/home/irobot/Desktop/iRODS/clients/icommands/bin/./ireg -R FTPResc2 -C /home/irobot/Desktop/FTPSource/home/irods/FTPResc2 /tempZone2/home/irods/FTPResc2
+/home/irobot/Desktop/iRODS/clients/icommands/bin/./ireg -R StorageResc2 -C /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2 /tempZone2/home/irods/StorageResc2
+

@@ -1,0 +1,35 @@
+" Organization Resources :"
+
+1.Resource :
+	StorageResc2	/ bigfile.big (1.5MB)
+			/ Storage1 / Archiv1 (500 files)  : not important Data (*)
+			/ Storage1 / Archiv2 (1000 files) : not important Data (*)
+			/ Storage2 (500 files) : less important Data (**)			
+			/ Storage3 (100 files) : most important Data (***) get replication at GridResc2/Grid3 (1-20 files) and FTPResc2/FTP2 (21-40 files)
+2.Resource :
+	GridResc2 	/ Grid1 ( 200 files)
+			/ Grid2 ( 400 files)
+			/ Grid3 ( 500 files)
+3.Resource :
+	FTPResc2	/ FTP1 ( 300 files)
+			/ FTP2 ( 400 files)
+
+//mit iRODS
+"Test 1 :" Correctness ( memory capacity neccessary implizit 15.000.000 oder 20.000.000 )
+Target : get enough free memory capacity but this methode were not efficiency
+
+	Step 1 : compress one big file (bigfile.big) (Storage1)
+	Step 2 : compress all files (completely Storage2) (500 files)
+	Step 3 : delete replication (Storage3) (40files) -> after that, storage3 still has 60 files.
+	Step 4 : move files (mostly Storage1) but cause overload at quota (FTPResc2, GridResc2 )
+
+"Test 2 :" Efficiency  ( memory capacity neccessary explizit 15.000.000 oder 20.000.000 )
+Target : get enough free memory capacity and this methode were efficiency
+
+	Step 1 : define explicitely memory capacity of user (compress FTPResc2 with defined memory capacity )
+		-> with iRODS and Shell
+	Step 2 : support method with sort-function	(continue test with FTPResc2)
+		-> with iRODS and Shell
+	Step 3 : support move data with quota without overload
+		3.2 solve overload problem at quota (FTPResc2, GridResc2)
+

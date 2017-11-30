@@ -1,0 +1,13 @@
+Collection is /tempZone2/home/irods/StorageResc2 and file is bigfile.big
+1. Physical Path is /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/bigfile.big
+2. Original Size is 1572853
+3. iRODS Path is /tempZone2/home/irods/StorageResc2/bigfile.big
+4. DATA ID = 227114 
+Compression successfull
+********** BEGIN CHECK ZIP FILES ************
+-> New iRODS Path .gz : /tempZone2/home/irods/StorageResc2/bigfile.big.gz
+-> New physical Path .gz : /home/irobot/Desktop/iRODS/Vault/home/irods/StorageResc2/bigfile.big.gz
+-> New Name .gz : bigfile.big.gz
+-> New DATA ID = 227115 
+Zip Size is 3175
+Moment WIN Capacity is 1569678

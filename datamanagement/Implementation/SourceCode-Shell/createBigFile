@@ -1,0 +1,19 @@
+#!/bin/bash
+echo " .......... Creating prozess begins ............ "
+
+# create file with command : > filename
+declare -i j=0
+text='Hallo World'
+echo > /home/irobot/Desktop/BackupFile/StorageResc2/bigfile.big
+echo "file bigfile.big has been created"
+
+while [[ $j -le 16 ]]; do	
+# insert text into file with command : echo text >> filename
+	echo "insert content for file bigfile.big"
+	echo $text >> /home/irobot/Desktop/BackupFile/StorageResc2/bigfile.big
+	text=$text' '$text
+	let j++
+done
+
+
+

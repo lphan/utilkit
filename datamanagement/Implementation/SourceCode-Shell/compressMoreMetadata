@@ -1,0 +1,226 @@
+#!/bin/bash
+# Verbesserung Ansatz 
+# Auflisten alle Dateien aus Input Pfade (rekursiv laufen mit find)
+# find search all of files with condition ( type,size,date,... ) and do actions on output-files.
+# Suche die Daten mit mehren Eigenschaften : find $Path -iname '*.pdf' -o -iname '*.txt' -> http://www.linux-praxis.de/linux1/man/find.html
+# -o : OR, -a : AND
+# Beispiel : 
+# Ausdruck = /home/Desktop/Testordner/ -iname 'test.*' -o -iname 'Diplom.*' -a -iname '*.pdf' -o -iname '*.txt' -
+# ------------------------------------------------------- BEGIN Programm -------------------------------------------------
+
+# Schritt 1 : Aufbau der gesamte Anfrage (loop read)
+read -p "Pfade von Collection / Datei zu komprimieren : " Path
+
+#Path="/home/irobot/Desktop/TestOrdner/"
+
+# ------------------------ Aufbau des Ausdruck aus Eigenschaften : ----------------------------------------
+#
+# [Name X OR Name Y] AND/OR [Format A OR Format B] AND/OR [Größe C OR Größe D] AND/OR [Datum d1 OR Datum d2] 
+#
+# ------------------------ 1.Aufbau Anfragesfolge nach Name
+# Beispiel $Anfragen1 : -iname test.* -o -iname testfile.* -o -iname index.* -o -iname maps.* 
+
+suffix='.*'
+anfragen1=''
+while :
+do
+	read -p " Choose Name ( Type n to quit or other character to continue ):" loop
+	if [ $loop == 'n' ]
+	then
+		break
+	fi
+	read -p " Input Name : " Name
+	if [ "$Name" == "" ] 
+	then 
+		# falls der Name leer eingegeben wurde
+		anfragen1=$anfragen1''	
+	elif [ "$anfragen1" == "" ]
+		then
+			# anfragen1 ist noch leer, daher wird neuer Name anfang eingebaut.
+			anfragen1=' -iname '$Name$suffix''
+		else
+			# anfragen1 hat schon Name vorhanden, neuer Name wird dahinter eingebaut.
+			anfragen1=$anfragen1' -o -iname '$Name$suffix''
+	fi	
+done
+echo "User-Query about files with name: $anfragen1"
+
+#------------------------ 2.Aufbau Anfragesfolge nach Format 
+# Beispiel $Anfragen2 : -iname *.pdf -o -iname *.txt -o -iname *.html  
+prefix='*.'
+anfragen2=''
+while :
+do
+	read -p " Choose Format. ( Type n to quit or other character to continue) :" loop
+	if [ $loop == 'n' ]
+	then
+		break
+	fi
+	read -p " Additional New Format : " Format
+	if [ "$Format" == "" ]
+	then
+		# falls das Format leer eingegeben wurde
+		anfragen2=$anfragen2''
+	elif [ "$anfragen2" == "" ]
+		then
+			anfragen2=' -iname '$prefix$Format''
+		else
+			anfragen2=$anfragen2' -o -iname '$prefix$Format''
+	fi
+done
+echo "User-Query about files with format: $anfragen2"
+
+#------------------------ 3.Aufbau Anfragesfolge nach Größe 
+# Beispiel : find /home/irobot/Desktop/TestOrdner/ -type f -size +100b (-type f means Type file)
+# Oder : find /home/irobot/Desktop/TestOrdner/ -size +100c -a -size -10000c ( dh. 100 Byte < size < 10000 Byte )
+# Expression : (-a : AND , -o : OR ) ( + : >, - : <,  : = )
+
+anfragen3=''
+while :
+do
+	if [ "$anfragen3" == "" ]
+	then 
+		# Neuer Ausdruck.		
+		read -p " Choose Size. ( Type n to quit or other character to continue) :" loop
+		if [ $loop == 'n' ]
+		then
+			break
+		fi
+	else
+		read -p "Choose logic operator. Type AND or OR ( Type n to quit or continue with next expression) : " Exp
+		case "$Exp" in
+			AND|And|and) 	Exp='-a' 	
+					;;
+			OR|Or|or) 	Exp='-o'
+					;;
+			n|N) 		echo "Abbruch"
+					anfragen3=$anfragen3
+					break
+					;;	
+				*) 	echo "Unbekannter Parameter $Exp. Default Parameter : -o"
+					Exp='-o'
+					;;
+		esac
+		anfragen3=$anfragen3' '$Exp' '			
+	fi
+	
+	# *************** Ausdruck  ***************
+	read -p "New Expression. Choose Size (Byte) : " Size
+	read -p "New Expression. Choose Operator, type '>' or '<' or '=' : " Op
+	if [ "$Op" == ">" ] 
+		then
+			Size='-size +'$Size'c'
+	elif [ "$Op" == "<" ] 
+		then
+			Size='-size -'$Size'c'
+	elif [ "$Op" == "=" ] 
+		then
+			Size='-size '$Size'c'
+	else
+		echo "Unbekannter Parameter $Op. Zum Default Parameter -leer- umgewandelt"
+		Size=$Size
+	fi
+
+	# kombiniert die Anfrage mit der Parameter Größe, leeres Zeichen dahinter um nächste Ausdruck zu unterscheiden.
+	anfragen3=$anfragen3' '$Size' '
+
+done
+echo "Userdefined-Query about files with Size: $anfragen3"
+
+#------------------------ 4.Aufbau Anfragesfolge nach Datum 
+echo -e	" Choose time \nType -atime n to search file was last accessed n*24 hours ago.\nType -mtime n to search file was last modified n*24 hours ago.\n+7 = more than 7 days ago\n 2 = between 2 and 3 days ago\n-2 = within the past 2 days\n+1 = more than 1 day old\n 1 = between 1 and 2 days ago\n-1 = within the past 1 day\n 0 = within the past 1 day (Quell: http://ss64.com/bash/find.html )\ or type Enter to cancel this step ) :"
+read -p " Time : " ModDate     	    		
+anfragen4=$ModDate		
+
+#------------------------ 5.Zusammenfügen allen Anfragen1, Anfragen2, Anfragen3, Anfragen4 zusammen.
+
+if [ "$anfragen1" == "" -a "$anfragen2" == "" -a "$anfragen3" == "" -a "$anfragen4" == "" ]
+	then 
+		anfragen=""
+elif [ "$anfragen1" == "" -a "$anfragen2" == "" -a "$anfragen3" == "" ]
+	then 
+		anfragen=$anfragen4
+elif [ "$anfragen1" == "" -a "$anfragen2" == "" -a "$anfragen4" == "" ]
+	then 
+		anfragen=$anfragen3
+elif [ "$anfragen1" == "" -a "$anfragen2" == "" ]
+	then 
+		read -p "Input -o (OR) or -a (AND) : combine express between $anfragen3 ... $anfragen4 " com
+		anfragen=$anfragen3" "$com" "$anfragen4
+elif [ "$anfragen1" == "" -a "$anfragen3" == "" -a "$anfragen4" == "" ]
+	then 
+		anfragen=$anfragen2
+elif [ "$anfragen1" == "" -a "$anfragen3" == "" ]
+	then 
+		read -p "Input -o (OR) or -a (AND) : combine express between $anfragen2 ... $anfragen4 " com
+		anfragen=$anfragen2" "$com" "$anfragen4
+elif [ "$anfragen1" == "" -a "$anfragen4" == "" ]
+	then 
+		read -p "Input -o (OR) or -a (AND) : combine express between $anfragen2 ... $anfragen3 " com
+		anfragen=$anfragen2" "$com" "$anfragen3
+elif [ "$anfragen1" == "" ]
+	then 
+		read -p "Input -o (OR) or -a (AND) : combine express between $anfragen2 ... $anfragen3 " com1
+		read -p "Input -o (OR) or -a (AND) : combine express between $anfragen3 ... $anfragen4 " com2
+		anfragen=$anfragen2" "$com1" "$anfragen3" "$com2" "$anfragen4
+#-------------------------******************************-----------------------------------
+elif [ "$anfragen2" == "" -a "$anfragen3" == "" -a "$anfragen4" == "" ]
+	then 
+		anfragen=$anfragen1
+elif [ "$anfragen2" == "" -a "$anfragen3" == "" ]
+	then 
+		read -p "Input -o (OR) or -a (AND) : combine express between $anfragen1 ... $anfragen4 " com
+		anfragen=$anfragen1" "$com" "$anfragen4
+elif [ "$anfragen2" == "" -a "$anfragen4" == "" ]
+	then 
+		read -p "Input -o (OR) or -a (AND) : combine express between $anfragen1 ... $anfragen3 " com
+		anfragen=$anfragen1" "$com" "$anfragen3
+elif [ "$anfragen2" == "" ]
+	then 
+		read -p "Input -o (OR) or -a (AND) : combine express between $anfragen1 ... $anfragen3 " com1
+		read -p "Input -o (OR) or -a (AND) : combine express between $anfragen3 ... $anfragen4 " com2
+		anfragen=$anfragen1" "$com1" "$anfragen3" "$com2" "$anfragen4
+elif [ "$anfragen3" == "" -a "$anfragen4" == "" ]
+	then 
+		read -p "Input -o (OR) or -a (AND) : combine express between $anfragen1 ... $anfragen2 " com
+		anfragen=$anfragen1" "$com" "$anfragen2
+elif [ "$anfragen3" == "" ]
+	then 
+		read -p "Input -o (OR) or -a (AND) : combine express between $anfragen1 ... $anfragen2 " com1
+		read -p "Input -o (OR) or -a (AND) : combine express between $anfragen2 ... $anfragen4 " com2
+		anfragen=$anfragen1" "$com1" "$anfragen2" "$com2" "$anfragen4
+elif [ "$anfragen4" == "" ]
+	then 
+		read -p "Input -o (OR) or -a (AND) : combine express between $anfragen1 ... $anfragen2 " com1
+		read -p "Input -o (OR) or -a (AND) : combine express between $anfragen2 ... $anfragen3 " com2
+		anfragen=$anfragen1" "$com1" "$anfragen2" "$com2" "$anfragen3
+else	
+	read -p "Input -o (OR) or -a (AND) : combine express between $anfragen1 ... $anfragen2 " com1
+	read -p "Input -o (OR) or -a (AND) : combine express between $anfragen2 ... $anfragen3 " com2
+	read -p "Input -o (OR) or -a (AND) : combine express between $anfragen3 ... $anfragen4 " com3
+	anfragen=$anfragen1" "$com1" "$anfragen2" "$com2" "$anfragen3" "$com3" "$anfragen4
+fi
+
+echo "Total Query is : $anfragen"
+echo " .......... Komprimierungsprozess beginn ............ "
+
+# Schritt 2 : Listet Datei nacheinander und weist die Größe der Datei dem Variable zu und gibt sie aus.
+#ausdruck="-iname $derFormat -o -iname '*.txt'"
+temp='.gz'
+fileset=`find $Path -type f $anfragen`
+for f in $fileset
+do
+		echo " Name : $f"
+		echo " Size : `stat -c "%s" $f` "
+		read -p " Type 'y' to compress this file, others to cancel " execute
+		if [ $execute == 'y' ]
+		then
+			gzip $f
+			echo " -> New Zip Name : $f$temp"
+			let zipsize=`stat -c "%s" $f$temp`
+			echo " -> Zip Size = $zipsize "
+			let sumfile++
+		fi
+done
+echo "Number of zip files : $sumfile"
+

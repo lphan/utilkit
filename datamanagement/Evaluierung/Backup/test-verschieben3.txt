@@ -1,0 +1,1312 @@
+Speicheranforderung : 15000000
+1. StorageResc2 benutzte Speicherkapazität = 34662212
+---> StorageResc2 freie Speicherkapazität = -4662212
+2. FTPResc2 benutzte Speicherkapazität =   2059850
+---> FTPResc2 freie Speicherkapazität = 7940150
+3. GridResc2 benutzte Speicherkapazität = 3848250
+---> GridResc2 freie Speicherkapazität = 6151750
+----------------------------- Beginne mit TargetResource 1 ------------------------------
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-1000.1000 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 52013
+--> Sum: 52013
+--> TargetResource1 noch : 7888137
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-999.999 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 51961
+--> Sum: 103974
+--> TargetResource1 noch : 7836176
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-998.998 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 51909
+--> Sum: 155883
+--> TargetResource1 noch : 7784267
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-997.997 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 51857
+--> Sum: 207740
+--> TargetResource1 noch : 7732410
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-996.996 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 51805
+--> Sum: 259545
+--> TargetResource1 noch : 7680605
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-995.995 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 51753
+--> Sum: 311298
+--> TargetResource1 noch : 7628852
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-994.994 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 51701
+--> Sum: 362999
+--> TargetResource1 noch : 7577151
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-993.993 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 51649
+--> Sum: 414648
+--> TargetResource1 noch : 7525502
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-992.992 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 51597
+--> Sum: 466245
+--> TargetResource1 noch : 7473905
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-991.991 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 51545
+--> Sum: 517790
+--> TargetResource1 noch : 7422360
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-990.990 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 51493
+--> Sum: 569283
+--> TargetResource1 noch : 7370867
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-989.989 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 51441
+--> Sum: 620724
+--> TargetResource1 noch : 7319426
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-988.988 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 51389
+--> Sum: 672113
+--> TargetResource1 noch : 7268037
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-987.987 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 51337
+--> Sum: 723450
+--> TargetResource1 noch : 7216700
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-986.986 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 51285
+--> Sum: 774735
+--> TargetResource1 noch : 7165415
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-985.985 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 51233
+--> Sum: 825968
+--> TargetResource1 noch : 7114182
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-984.984 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 51181
+--> Sum: 877149
+--> TargetResource1 noch : 7063001
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-983.983 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 51129
+--> Sum: 928278
+--> TargetResource1 noch : 7011872
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-982.982 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 51077
+--> Sum: 979355
+--> TargetResource1 noch : 6960795
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-981.981 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 51025
+--> Sum: 1030380
+--> TargetResource1 noch : 6909770
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-980.980 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 50973
+--> Sum: 1081353
+--> TargetResource1 noch : 6858797
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-979.979 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 50921
+--> Sum: 1132274
+--> TargetResource1 noch : 6807876
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-978.978 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 50869
+--> Sum: 1183143
+--> TargetResource1 noch : 6757007
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-977.977 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 50817
+--> Sum: 1233960
+--> TargetResource1 noch : 6706190
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-976.976 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 50765
+--> Sum: 1284725
+--> TargetResource1 noch : 6655425
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-975.975 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 50713
+--> Sum: 1335438
+--> TargetResource1 noch : 6604712
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-974.974 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 50661
+--> Sum: 1386099
+--> TargetResource1 noch : 6554051
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-973.973 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 50609
+--> Sum: 1436708
+--> TargetResource1 noch : 6503442
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-972.972 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 50557
+--> Sum: 1487265
+--> TargetResource1 noch : 6452885
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-971.971 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 50505
+--> Sum: 1537770
+--> TargetResource1 noch : 6402380
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-970.970 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 50453
+--> Sum: 1588223
+--> TargetResource1 noch : 6351927
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-969.969 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 50401
+--> Sum: 1638624
+--> TargetResource1 noch : 6301526
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-968.968 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 50349
+--> Sum: 1688973
+--> TargetResource1 noch : 6251177
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-967.967 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 50297
+--> Sum: 1739270
+--> TargetResource1 noch : 6200880
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-966.966 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 50245
+--> Sum: 1789515
+--> TargetResource1 noch : 6150635
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-965.965 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 50193
+--> Sum: 1839708
+--> TargetResource1 noch : 6100442
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-964.964 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 50141
+--> Sum: 1889849
+--> TargetResource1 noch : 6050301
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-963.963 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 50089
+--> Sum: 1939938
+--> TargetResource1 noch : 6000212
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-962.962 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 50037
+--> Sum: 1989975
+--> TargetResource1 noch : 5950175
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-961.961 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 49985
+--> Sum: 2039960
+--> TargetResource1 noch : 5900190
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-960.960 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 49933
+--> Sum: 2089893
+--> TargetResource1 noch : 5850257
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-959.959 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 49881
+--> Sum: 2139774
+--> TargetResource1 noch : 5800376
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-958.958 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 49829
+--> Sum: 2189603
+--> TargetResource1 noch : 5750547
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-957.957 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 49777
+--> Sum: 2239380
+--> TargetResource1 noch : 5700770
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-956.956 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 49725
+--> Sum: 2289105
+--> TargetResource1 noch : 5651045
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-955.955 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 49673
+--> Sum: 2338778
+--> TargetResource1 noch : 5601372
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-954.954 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 49621
+--> Sum: 2388399
+--> TargetResource1 noch : 5551751
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-953.953 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 49569
+--> Sum: 2437968
+--> TargetResource1 noch : 5502182
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-952.952 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 49517
+--> Sum: 2487485
+--> TargetResource1 noch : 5452665
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-951.951 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 49465
+--> Sum: 2536950
+--> TargetResource1 noch : 5403200
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-950.950 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 49413
+--> Sum: 2586363
+--> TargetResource1 noch : 5353787
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-949.949 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 49361
+--> Sum: 2635724
+--> TargetResource1 noch : 5304426
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-948.948 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 49309
+--> Sum: 2685033
+--> TargetResource1 noch : 5255117
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-947.947 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 49257
+--> Sum: 2734290
+--> TargetResource1 noch : 5205860
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-946.946 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 49205
+--> Sum: 2783495
+--> TargetResource1 noch : 5156655
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-945.945 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 49153
+--> Sum: 2832648
+--> TargetResource1 noch : 5107502
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-944.944 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 49101
+--> Sum: 2881749
+--> TargetResource1 noch : 5058401
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-943.943 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 49049
+--> Sum: 2930798
+--> TargetResource1 noch : 5009352
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-942.942 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 48997
+--> Sum: 2979795
+--> TargetResource1 noch : 4960355
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-941.941 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 48945
+--> Sum: 3028740
+--> TargetResource1 noch : 4911410
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-940.940 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 48893
+--> Sum: 3077633
+--> TargetResource1 noch : 4862517
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-939.939 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 48841
+--> Sum: 3126474
+--> TargetResource1 noch : 4813676
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-938.938 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 48789
+--> Sum: 3175263
+--> TargetResource1 noch : 4764887
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-937.937 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 48737
+--> Sum: 3224000
+--> TargetResource1 noch : 4716150
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-936.936 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 48685
+--> Sum: 3272685
+--> TargetResource1 noch : 4667465
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-935.935 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 48633
+--> Sum: 3321318
+--> TargetResource1 noch : 4618832
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-934.934 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 48581
+--> Sum: 3369899
+--> TargetResource1 noch : 4570251
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-933.933 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 48529
+--> Sum: 3418428
+--> TargetResource1 noch : 4521722
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-932.932 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 48477
+--> Sum: 3466905
+--> TargetResource1 noch : 4473245
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-931.931 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 48425
+--> Sum: 3515330
+--> TargetResource1 noch : 4424820
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-930.930 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 48373
+--> Sum: 3563703
+--> TargetResource1 noch : 4376447
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-929.929 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 48321
+--> Sum: 3612024
+--> TargetResource1 noch : 4328126
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-928.928 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 48269
+--> Sum: 3660293
+--> TargetResource1 noch : 4279857
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-927.927 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 48217
+--> Sum: 3708510
+--> TargetResource1 noch : 4231640
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-926.926 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 48165
+--> Sum: 3756675
+--> TargetResource1 noch : 4183475
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-925.925 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 48113
+--> Sum: 3804788
+--> TargetResource1 noch : 4135362
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-924.924 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 48061
+--> Sum: 3852849
+--> TargetResource1 noch : 4087301
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-923.923 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 48009
+--> Sum: 3900858
+--> TargetResource1 noch : 4039292
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-922.922 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 47957
+--> Sum: 3948815
+--> TargetResource1 noch : 3991335
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-921.921 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 47905
+--> Sum: 3996720
+--> TargetResource1 noch : 3943430
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-920.920 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 47853
+--> Sum: 4044573
+--> TargetResource1 noch : 3895577
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-919.919 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 47801
+--> Sum: 4092374
+--> TargetResource1 noch : 3847776
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-918.918 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 47749
+--> Sum: 4140123
+--> TargetResource1 noch : 3800027
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-917.917 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 47697
+--> Sum: 4187820
+--> TargetResource1 noch : 3752330
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-916.916 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 47645
+--> Sum: 4235465
+--> TargetResource1 noch : 3704685
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-915.915 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 47593
+--> Sum: 4283058
+--> TargetResource1 noch : 3657092
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-914.914 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 47541
+--> Sum: 4330599
+--> TargetResource1 noch : 3609551
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-913.913 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 47489
+--> Sum: 4378088
+--> TargetResource1 noch : 3562062
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-912.912 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 47437
+--> Sum: 4425525
+--> TargetResource1 noch : 3514625
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-911.911 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 47385
+--> Sum: 4472910
+--> TargetResource1 noch : 3467240
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-910.910 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 47333
+--> Sum: 4520243
+--> TargetResource1 noch : 3419907
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-909.909 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 47281
+--> Sum: 4567524
+--> TargetResource1 noch : 3372626
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-908.908 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 47229
+--> Sum: 4614753
+--> TargetResource1 noch : 3325397
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-907.907 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 47177
+--> Sum: 4661930
+--> TargetResource1 noch : 3278220
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-906.906 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 47125
+--> Sum: 4709055
+--> TargetResource1 noch : 3231095
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-905.905 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 47073
+--> Sum: 4756128
+--> TargetResource1 noch : 3184022
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-904.904 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 47021
+--> Sum: 4803149
+--> TargetResource1 noch : 3137001
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-903.903 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 46969
+--> Sum: 4850118
+--> TargetResource1 noch : 3090032
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-902.902 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 46917
+--> Sum: 4897035
+--> TargetResource1 noch : 3043115
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-901.901 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 46865
+--> Sum: 4943900
+--> TargetResource1 noch : 2996250
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-900.900 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 46813
+--> Sum: 4990713
+--> TargetResource1 noch : 2949437
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-899.899 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 46761
+--> Sum: 5037474
+--> TargetResource1 noch : 2902676
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-898.898 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 46709
+--> Sum: 5084183
+--> TargetResource1 noch : 2855967
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-897.897 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 46657
+--> Sum: 5130840
+--> TargetResource1 noch : 2809310
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-896.896 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 46605
+--> Sum: 5177445
+--> TargetResource1 noch : 2762705
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-895.895 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 46553
+--> Sum: 5223998
+--> TargetResource1 noch : 2716152
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-894.894 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 46501
+--> Sum: 5270499
+--> TargetResource1 noch : 2669651
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-893.893 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 46449
+--> Sum: 5316948
+--> TargetResource1 noch : 2623202
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-892.892 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 46397
+--> Sum: 5363345
+--> TargetResource1 noch : 2576805
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-891.891 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 46345
+--> Sum: 5409690
+--> TargetResource1 noch : 2530460
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-890.890 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 46293
+--> Sum: 5455983
+--> TargetResource1 noch : 2484167
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-889.889 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 46241
+--> Sum: 5502224
+--> TargetResource1 noch : 2437926
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-888.888 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 46189
+--> Sum: 5548413
+--> TargetResource1 noch : 2391737
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-887.887 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 46137
+--> Sum: 5594550
+--> TargetResource1 noch : 2345600
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-886.886 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 46085
+--> Sum: 5640635
+--> TargetResource1 noch : 2299515
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-885.885 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 46033
+--> Sum: 5686668
+--> TargetResource1 noch : 2253482
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-884.884 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 45981
+--> Sum: 5732649
+--> TargetResource1 noch : 2207501
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-883.883 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 45929
+--> Sum: 5778578
+--> TargetResource1 noch : 2161572
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-882.882 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 45877
+--> Sum: 5824455
+--> TargetResource1 noch : 2115695
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-881.881 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 45825
+--> Sum: 5870280
+--> TargetResource1 noch : 2069870
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-880.880 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 45773
+--> Sum: 5916053
+--> TargetResource1 noch : 2024097
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-879.879 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 45721
+--> Sum: 5961774
+--> TargetResource1 noch : 1978376
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-878.878 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 45669
+--> Sum: 6007443
+--> TargetResource1 noch : 1932707
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-877.877 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 45617
+--> Sum: 6053060
+--> TargetResource1 noch : 1887090
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-876.876 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 45565
+--> Sum: 6098625
+--> TargetResource1 noch : 1841525
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-875.875 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 45513
+--> Sum: 6144138
+--> TargetResource1 noch : 1796012
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-874.874 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 45461
+--> Sum: 6189599
+--> TargetResource1 noch : 1750551
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-873.873 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 45409
+--> Sum: 6235008
+--> TargetResource1 noch : 1705142
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-872.872 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 45357
+--> Sum: 6280365
+--> TargetResource1 noch : 1659785
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-871.871 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 45305
+--> Sum: 6325670
+--> TargetResource1 noch : 1614480
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-870.870 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 45253
+--> Sum: 6370923
+--> TargetResource1 noch : 1569227
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-869.869 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 45201
+--> Sum: 6416124
+--> TargetResource1 noch : 1524026
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-868.868 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 45149
+--> Sum: 6461273
+--> TargetResource1 noch : 1478877
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-867.867 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 45097
+--> Sum: 6506370
+--> TargetResource1 noch : 1433780
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-866.866 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 45045
+--> Sum: 6551415
+--> TargetResource1 noch : 1388735
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-865.865 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 44993
+--> Sum: 6596408
+--> TargetResource1 noch : 1343742
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-864.864 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 44941
+--> Sum: 6641349
+--> TargetResource1 noch : 1298801
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-863.863 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 44889
+--> Sum: 6686238
+--> TargetResource1 noch : 1253912
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-862.862 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 44837
+--> Sum: 6731075
+--> TargetResource1 noch : 1209075
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-861.861 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 44785
+--> Sum: 6775860
+--> TargetResource1 noch : 1164290
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-860.860 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 44733
+--> Sum: 6820593
+--> TargetResource1 noch : 1119557
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-859.859 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 44681
+--> Sum: 6865274
+--> TargetResource1 noch : 1074876
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-858.858 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 44629
+--> Sum: 6909903
+--> TargetResource1 noch : 1030247
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-857.857 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 44577
+--> Sum: 6954480
+--> TargetResource1 noch : 985670
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-856.856 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 44525
+--> Sum: 6999005
+--> TargetResource1 noch : 941145
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-855.855 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 44473
+--> Sum: 7043478
+--> TargetResource1 noch : 896672
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-854.854 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 44421
+--> Sum: 7087899
+--> TargetResource1 noch : 852251
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-853.853 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 44369
+--> Sum: 7132268
+--> TargetResource1 noch : 807882
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-852.852 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 44317
+--> Sum: 7176585
+--> TargetResource1 noch : 763565
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-851.851 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 44265
+--> Sum: 7220850
+--> TargetResource1 noch : 719300
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-850.850 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 44213
+--> Sum: 7265063
+--> TargetResource1 noch : 675087
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-849.849 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 44161
+--> Sum: 7309224
+--> TargetResource1 noch : 630926
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-848.848 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 44109
+--> Sum: 7353333
+--> TargetResource1 noch : 586817
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-847.847 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 44057
+--> Sum: 7397390
+--> TargetResource1 noch : 542760
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-846.846 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 44005
+--> Sum: 7441395
+--> TargetResource1 noch : 498755
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-845.845 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 43953
+--> Sum: 7485348
+--> TargetResource1 noch : 454802
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-844.844 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 43901
+--> Sum: 7529249
+--> TargetResource1 noch : 410901
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-843.843 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 43849
+--> Sum: 7573098
+--> TargetResource1 noch : 367052
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-842.842 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 43797
+--> Sum: 7616895
+--> TargetResource1 noch : 323255
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-841.841 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 43745
+--> Sum: 7660640
+--> TargetResource1 noch : 279510
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-840.840 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 43693
+--> Sum: 7704333
+--> TargetResource1 noch : 235817
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-839.839 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 43641
+--> Sum: 7747974
+--> TargetResource1 noch : 192176
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-838.838 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 43589
+--> Sum: 7791563
+--> TargetResource1 noch : 148587
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-837.837 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 43537
+--> Sum: 7835100
+--> TargetResource1 noch : 105050
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-836.836 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 43485
+--> Sum: 7878585
+--> TargetResource1 noch : 61565
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-835.835 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 43433
+--> Sum: 7922018
+--> TargetResource1 noch : 18132
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-834.834 ist schon an StorageResource GridResc2 verschoben
+--> Win: 43381
+--> Sum: 7965399
+--> TargetResource2 noch : 6108369
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-833.833 ist schon an StorageResource GridResc2 verschoben
+--> Win: 43329
+--> Sum: 8008728
+--> TargetResource2 noch : 6065040
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-832.832 ist schon an StorageResource GridResc2 verschoben
+--> Win: 43277
+--> Sum: 8052005
+--> TargetResource2 noch : 6021763
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-831.831 ist schon an StorageResource GridResc2 verschoben
+--> Win: 43225
+--> Sum: 8095230
+--> TargetResource2 noch : 5978538
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-830.830 ist schon an StorageResource GridResc2 verschoben
+--> Win: 43173
+--> Sum: 8138403
+--> TargetResource2 noch : 5935365
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-829.829 ist schon an StorageResource GridResc2 verschoben
+--> Win: 43121
+--> Sum: 8181524
+--> TargetResource2 noch : 5892244
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-828.828 ist schon an StorageResource GridResc2 verschoben
+--> Win: 43069
+--> Sum: 8224593
+--> TargetResource2 noch : 5849175
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-827.827 ist schon an StorageResource GridResc2 verschoben
+--> Win: 43017
+--> Sum: 8267610
+--> TargetResource2 noch : 5806158
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-826.826 ist schon an StorageResource GridResc2 verschoben
+--> Win: 42965
+--> Sum: 8310575
+--> TargetResource2 noch : 5763193
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-825.825 ist schon an StorageResource GridResc2 verschoben
+--> Win: 42913
+--> Sum: 8353488
+--> TargetResource2 noch : 5720280
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-824.824 ist schon an StorageResource GridResc2 verschoben
+--> Win: 42861
+--> Sum: 8396349
+--> TargetResource2 noch : 5677419
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-823.823 ist schon an StorageResource GridResc2 verschoben
+--> Win: 42809
+--> Sum: 8439158
+--> TargetResource2 noch : 5634610
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-822.822 ist schon an StorageResource GridResc2 verschoben
+--> Win: 42757
+--> Sum: 8481915
+--> TargetResource2 noch : 5591853
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-821.821 ist schon an StorageResource GridResc2 verschoben
+--> Win: 42705
+--> Sum: 8524620
+--> TargetResource2 noch : 5549148
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-820.820 ist schon an StorageResource GridResc2 verschoben
+--> Win: 42653
+--> Sum: 8567273
+--> TargetResource2 noch : 5506495
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-819.819 ist schon an StorageResource GridResc2 verschoben
+--> Win: 42601
+--> Sum: 8609874
+--> TargetResource2 noch : 5463894
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-818.818 ist schon an StorageResource GridResc2 verschoben
+--> Win: 42549
+--> Sum: 8652423
+--> TargetResource2 noch : 5421345
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-817.817 ist schon an StorageResource GridResc2 verschoben
+--> Win: 42497
+--> Sum: 8694920
+--> TargetResource2 noch : 5378848
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-816.816 ist schon an StorageResource GridResc2 verschoben
+--> Win: 42445
+--> Sum: 8737365
+--> TargetResource2 noch : 5336403
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-815.815 ist schon an StorageResource GridResc2 verschoben
+--> Win: 42393
+--> Sum: 8779758
+--> TargetResource2 noch : 5294010
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-814.814 ist schon an StorageResource GridResc2 verschoben
+--> Win: 42341
+--> Sum: 8822099
+--> TargetResource2 noch : 5251669
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-813.813 ist schon an StorageResource GridResc2 verschoben
+--> Win: 42289
+--> Sum: 8864388
+--> TargetResource2 noch : 5209380
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-812.812 ist schon an StorageResource GridResc2 verschoben
+--> Win: 42237
+--> Sum: 8906625
+--> TargetResource2 noch : 5167143
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-811.811 ist schon an StorageResource GridResc2 verschoben
+--> Win: 42185
+--> Sum: 8948810
+--> TargetResource2 noch : 5124958
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-810.810 ist schon an StorageResource GridResc2 verschoben
+--> Win: 42133
+--> Sum: 8990943
+--> TargetResource2 noch : 5082825
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-809.809 ist schon an StorageResource GridResc2 verschoben
+--> Win: 42081
+--> Sum: 9033024
+--> TargetResource2 noch : 5040744
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-808.808 ist schon an StorageResource GridResc2 verschoben
+--> Win: 42029
+--> Sum: 9075053
+--> TargetResource2 noch : 4998715
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-807.807 ist schon an StorageResource GridResc2 verschoben
+--> Win: 41977
+--> Sum: 9117030
+--> TargetResource2 noch : 4956738
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-806.806 ist schon an StorageResource GridResc2 verschoben
+--> Win: 41925
+--> Sum: 9158955
+--> TargetResource2 noch : 4914813
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-805.805 ist schon an StorageResource GridResc2 verschoben
+--> Win: 41873
+--> Sum: 9200828
+--> TargetResource2 noch : 4872940
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-804.804 ist schon an StorageResource GridResc2 verschoben
+--> Win: 41821
+--> Sum: 9242649
+--> TargetResource2 noch : 4831119
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-803.803 ist schon an StorageResource GridResc2 verschoben
+--> Win: 41769
+--> Sum: 9284418
+--> TargetResource2 noch : 4789350
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-802.802 ist schon an StorageResource GridResc2 verschoben
+--> Win: 41717
+--> Sum: 9326135
+--> TargetResource2 noch : 4747633
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-801.801 ist schon an StorageResource GridResc2 verschoben
+--> Win: 41665
+--> Sum: 9367800
+--> TargetResource2 noch : 4705968
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-800.800 ist schon an StorageResource GridResc2 verschoben
+--> Win: 41613
+--> Sum: 9409413
+--> TargetResource2 noch : 4664355
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-799.799 ist schon an StorageResource GridResc2 verschoben
+--> Win: 41561
+--> Sum: 9450974
+--> TargetResource2 noch : 4622794
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-798.798 ist schon an StorageResource GridResc2 verschoben
+--> Win: 41509
+--> Sum: 9492483
+--> TargetResource2 noch : 4581285
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-797.797 ist schon an StorageResource GridResc2 verschoben
+--> Win: 41457
+--> Sum: 9533940
+--> TargetResource2 noch : 4539828
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-796.796 ist schon an StorageResource GridResc2 verschoben
+--> Win: 41405
+--> Sum: 9575345
+--> TargetResource2 noch : 4498423
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-795.795 ist schon an StorageResource GridResc2 verschoben
+--> Win: 41353
+--> Sum: 9616698
+--> TargetResource2 noch : 4457070
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-794.794 ist schon an StorageResource GridResc2 verschoben
+--> Win: 41301
+--> Sum: 9657999
+--> TargetResource2 noch : 4415769
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-793.793 ist schon an StorageResource GridResc2 verschoben
+--> Win: 41249
+--> Sum: 9699248
+--> TargetResource2 noch : 4374520
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-792.792 ist schon an StorageResource GridResc2 verschoben
+--> Win: 41197
+--> Sum: 9740445
+--> TargetResource2 noch : 4333323
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-791.791 ist schon an StorageResource GridResc2 verschoben
+--> Win: 41145
+--> Sum: 9781590
+--> TargetResource2 noch : 4292178
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-790.790 ist schon an StorageResource GridResc2 verschoben
+--> Win: 41093
+--> Sum: 9822683
+--> TargetResource2 noch : 4251085
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-789.789 ist schon an StorageResource GridResc2 verschoben
+--> Win: 41041
+--> Sum: 9863724
+--> TargetResource2 noch : 4210044
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-788.788 ist schon an StorageResource GridResc2 verschoben
+--> Win: 40989
+--> Sum: 9904713
+--> TargetResource2 noch : 4169055
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-787.787 ist schon an StorageResource GridResc2 verschoben
+--> Win: 40937
+--> Sum: 9945650
+--> TargetResource2 noch : 4128118
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-786.786 ist schon an StorageResource GridResc2 verschoben
+--> Win: 40885
+--> Sum: 9986535
+--> TargetResource2 noch : 4087233
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-785.785 ist schon an StorageResource GridResc2 verschoben
+--> Win: 40833
+--> Sum: 10027368
+--> TargetResource2 noch : 4046400
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-784.784 ist schon an StorageResource GridResc2 verschoben
+--> Win: 40781
+--> Sum: 10068149
+--> TargetResource2 noch : 4005619
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-783.783 ist schon an StorageResource GridResc2 verschoben
+--> Win: 40729
+--> Sum: 10108878
+--> TargetResource2 noch : 3964890
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-782.782 ist schon an StorageResource GridResc2 verschoben
+--> Win: 40677
+--> Sum: 10149555
+--> TargetResource2 noch : 3924213
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-781.781 ist schon an StorageResource GridResc2 verschoben
+--> Win: 40625
+--> Sum: 10190180
+--> TargetResource2 noch : 3883588
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-780.780 ist schon an StorageResource GridResc2 verschoben
+--> Win: 40573
+--> Sum: 10230753
+--> TargetResource2 noch : 3843015
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-779.779 ist schon an StorageResource GridResc2 verschoben
+--> Win: 40521
+--> Sum: 10271274
+--> TargetResource2 noch : 3802494
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-778.778 ist schon an StorageResource GridResc2 verschoben
+--> Win: 40469
+--> Sum: 10311743
+--> TargetResource2 noch : 3762025
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-777.777 ist schon an StorageResource GridResc2 verschoben
+--> Win: 40417
+--> Sum: 10352160
+--> TargetResource2 noch : 3721608
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-776.776 ist schon an StorageResource GridResc2 verschoben
+--> Win: 40365
+--> Sum: 10392525
+--> TargetResource2 noch : 3681243
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-775.775 ist schon an StorageResource GridResc2 verschoben
+--> Win: 40313
+--> Sum: 10432838
+--> TargetResource2 noch : 3640930
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-774.774 ist schon an StorageResource GridResc2 verschoben
+--> Win: 40261
+--> Sum: 10473099
+--> TargetResource2 noch : 3600669
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-773.773 ist schon an StorageResource GridResc2 verschoben
+--> Win: 40209
+--> Sum: 10513308
+--> TargetResource2 noch : 3560460
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-772.772 ist schon an StorageResource GridResc2 verschoben
+--> Win: 40157
+--> Sum: 10553465
+--> TargetResource2 noch : 3520303
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-771.771 ist schon an StorageResource GridResc2 verschoben
+--> Win: 40105
+--> Sum: 10593570
+--> TargetResource2 noch : 3480198
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-770.770 ist schon an StorageResource GridResc2 verschoben
+--> Win: 40053
+--> Sum: 10633623
+--> TargetResource2 noch : 3440145
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-769.769 ist schon an StorageResource GridResc2 verschoben
+--> Win: 40001
+--> Sum: 10673624
+--> TargetResource2 noch : 3400144
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-768.768 ist schon an StorageResource GridResc2 verschoben
+--> Win: 39949
+--> Sum: 10713573
+--> TargetResource2 noch : 3360195
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-767.767 ist schon an StorageResource GridResc2 verschoben
+--> Win: 39897
+--> Sum: 10753470
+--> TargetResource2 noch : 3320298
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-766.766 ist schon an StorageResource GridResc2 verschoben
+--> Win: 39845
+--> Sum: 10793315
+--> TargetResource2 noch : 3280453
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-765.765 ist schon an StorageResource GridResc2 verschoben
+--> Win: 39793
+--> Sum: 10833108
+--> TargetResource2 noch : 3240660
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-764.764 ist schon an StorageResource GridResc2 verschoben
+--> Win: 39741
+--> Sum: 10872849
+--> TargetResource2 noch : 3200919
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-763.763 ist schon an StorageResource GridResc2 verschoben
+--> Win: 39689
+--> Sum: 10912538
+--> TargetResource2 noch : 3161230
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-762.762 ist schon an StorageResource GridResc2 verschoben
+--> Win: 39637
+--> Sum: 10952175
+--> TargetResource2 noch : 3121593
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-761.761 ist schon an StorageResource GridResc2 verschoben
+--> Win: 39585
+--> Sum: 10991760
+--> TargetResource2 noch : 3082008
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-760.760 ist schon an StorageResource GridResc2 verschoben
+--> Win: 39533
+--> Sum: 11031293
+--> TargetResource2 noch : 3042475
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-759.759 ist schon an StorageResource GridResc2 verschoben
+--> Win: 39481
+--> Sum: 11070774
+--> TargetResource2 noch : 3002994
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-758.758 ist schon an StorageResource GridResc2 verschoben
+--> Win: 39429
+--> Sum: 11110203
+--> TargetResource2 noch : 2963565
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-757.757 ist schon an StorageResource GridResc2 verschoben
+--> Win: 39377
+--> Sum: 11149580
+--> TargetResource2 noch : 2924188
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-756.756 ist schon an StorageResource GridResc2 verschoben
+--> Win: 39325
+--> Sum: 11188905
+--> TargetResource2 noch : 2884863
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-755.755 ist schon an StorageResource GridResc2 verschoben
+--> Win: 39273
+--> Sum: 11228178
+--> TargetResource2 noch : 2845590
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-754.754 ist schon an StorageResource GridResc2 verschoben
+--> Win: 39221
+--> Sum: 11267399
+--> TargetResource2 noch : 2806369
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-753.753 ist schon an StorageResource GridResc2 verschoben
+--> Win: 39169
+--> Sum: 11306568
+--> TargetResource2 noch : 2767200
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-752.752 ist schon an StorageResource GridResc2 verschoben
+--> Win: 39117
+--> Sum: 11345685
+--> TargetResource2 noch : 2728083
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-751.751 ist schon an StorageResource GridResc2 verschoben
+--> Win: 39065
+--> Sum: 11384750
+--> TargetResource2 noch : 2689018
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-750.750 ist schon an StorageResource GridResc2 verschoben
+--> Win: 39013
+--> Sum: 11423763
+--> TargetResource2 noch : 2650005
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-749.749 ist schon an StorageResource GridResc2 verschoben
+--> Win: 38961
+--> Sum: 11462724
+--> TargetResource2 noch : 2611044
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-748.748 ist schon an StorageResource GridResc2 verschoben
+--> Win: 38909
+--> Sum: 11501633
+--> TargetResource2 noch : 2572135
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-747.747 ist schon an StorageResource GridResc2 verschoben
+--> Win: 38857
+--> Sum: 11540490
+--> TargetResource2 noch : 2533278
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-746.746 ist schon an StorageResource GridResc2 verschoben
+--> Win: 38805
+--> Sum: 11579295
+--> TargetResource2 noch : 2494473
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-745.745 ist schon an StorageResource GridResc2 verschoben
+--> Win: 38753
+--> Sum: 11618048
+--> TargetResource2 noch : 2455720
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-744.744 ist schon an StorageResource GridResc2 verschoben
+--> Win: 38701
+--> Sum: 11656749
+--> TargetResource2 noch : 2417019
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-743.743 ist schon an StorageResource GridResc2 verschoben
+--> Win: 38649
+--> Sum: 11695398
+--> TargetResource2 noch : 2378370
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-742.742 ist schon an StorageResource GridResc2 verschoben
+--> Win: 38597
+--> Sum: 11733995
+--> TargetResource2 noch : 2339773
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-741.741 ist schon an StorageResource GridResc2 verschoben
+--> Win: 38545
+--> Sum: 11772540
+--> TargetResource2 noch : 2301228
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-740.740 ist schon an StorageResource GridResc2 verschoben
+--> Win: 38493
+--> Sum: 11811033
+--> TargetResource2 noch : 2262735
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-739.739 ist schon an StorageResource GridResc2 verschoben
+--> Win: 38441
+--> Sum: 11849474
+--> TargetResource2 noch : 2224294
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-738.738 ist schon an StorageResource GridResc2 verschoben
+--> Win: 38389
+--> Sum: 11887863
+--> TargetResource2 noch : 2185905
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-737.737 ist schon an StorageResource GridResc2 verschoben
+--> Win: 38337
+--> Sum: 11926200
+--> TargetResource2 noch : 2147568
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-736.736 ist schon an StorageResource GridResc2 verschoben
+--> Win: 38285
+--> Sum: 11964485
+--> TargetResource2 noch : 2109283
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-735.735 ist schon an StorageResource GridResc2 verschoben
+--> Win: 38233
+--> Sum: 12002718
+--> TargetResource2 noch : 2071050
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-734.734 ist schon an StorageResource GridResc2 verschoben
+--> Win: 38181
+--> Sum: 12040899
+--> TargetResource2 noch : 2032869
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-733.733 ist schon an StorageResource GridResc2 verschoben
+--> Win: 38129
+--> Sum: 12079028
+--> TargetResource2 noch : 1994740
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-732.732 ist schon an StorageResource GridResc2 verschoben
+--> Win: 38077
+--> Sum: 12117105
+--> TargetResource2 noch : 1956663
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-731.731 ist schon an StorageResource GridResc2 verschoben
+--> Win: 38025
+--> Sum: 12155130
+--> TargetResource2 noch : 1918638
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-730.730 ist schon an StorageResource GridResc2 verschoben
+--> Win: 37973
+--> Sum: 12193103
+--> TargetResource2 noch : 1880665
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-729.729 ist schon an StorageResource GridResc2 verschoben
+--> Win: 37921
+--> Sum: 12231024
+--> TargetResource2 noch : 1842744
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-728.728 ist schon an StorageResource GridResc2 verschoben
+--> Win: 37869
+--> Sum: 12268893
+--> TargetResource2 noch : 1804875
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-727.727 ist schon an StorageResource GridResc2 verschoben
+--> Win: 37817
+--> Sum: 12306710
+--> TargetResource2 noch : 1767058
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-726.726 ist schon an StorageResource GridResc2 verschoben
+--> Win: 37765
+--> Sum: 12344475
+--> TargetResource2 noch : 1729293
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-725.725 ist schon an StorageResource GridResc2 verschoben
+--> Win: 37713
+--> Sum: 12382188
+--> TargetResource2 noch : 1691580
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-724.724 ist schon an StorageResource GridResc2 verschoben
+--> Win: 37661
+--> Sum: 12419849
+--> TargetResource2 noch : 1653919
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-723.723 ist schon an StorageResource GridResc2 verschoben
+--> Win: 37609
+--> Sum: 12457458
+--> TargetResource2 noch : 1616310
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-722.722 ist schon an StorageResource GridResc2 verschoben
+--> Win: 37557
+--> Sum: 12495015
+--> TargetResource2 noch : 1578753
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-721.721 ist schon an StorageResource GridResc2 verschoben
+--> Win: 37505
+--> Sum: 12532520
+--> TargetResource2 noch : 1541248
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-720.720 ist schon an StorageResource GridResc2 verschoben
+--> Win: 37453
+--> Sum: 12569973
+--> TargetResource2 noch : 1503795
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-719.719 ist schon an StorageResource GridResc2 verschoben
+--> Win: 37401
+--> Sum: 12607374
+--> TargetResource2 noch : 1466394
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-718.718 ist schon an StorageResource GridResc2 verschoben
+--> Win: 37349
+--> Sum: 12644723
+--> TargetResource2 noch : 1429045
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-717.717 ist schon an StorageResource GridResc2 verschoben
+--> Win: 37297
+--> Sum: 12682020
+--> TargetResource2 noch : 1391748
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-716.716 ist schon an StorageResource GridResc2 verschoben
+--> Win: 37245
+--> Sum: 12719265
+--> TargetResource2 noch : 1354503
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-715.715 ist schon an StorageResource GridResc2 verschoben
+--> Win: 37193
+--> Sum: 12756458
+--> TargetResource2 noch : 1317310
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-714.714 ist schon an StorageResource GridResc2 verschoben
+--> Win: 37141
+--> Sum: 12793599
+--> TargetResource2 noch : 1280169
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-713.713 ist schon an StorageResource GridResc2 verschoben
+--> Win: 37089
+--> Sum: 12830688
+--> TargetResource2 noch : 1243080
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-712.712 ist schon an StorageResource GridResc2 verschoben
+--> Win: 37037
+--> Sum: 12867725
+--> TargetResource2 noch : 1206043
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-711.711 ist schon an StorageResource GridResc2 verschoben
+--> Win: 36985
+--> Sum: 12904710
+--> TargetResource2 noch : 1169058
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-710.710 ist schon an StorageResource GridResc2 verschoben
+--> Win: 36933
+--> Sum: 12941643
+--> TargetResource2 noch : 1132125
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-709.709 ist schon an StorageResource GridResc2 verschoben
+--> Win: 36881
+--> Sum: 12978524
+--> TargetResource2 noch : 1095244
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-708.708 ist schon an StorageResource GridResc2 verschoben
+--> Win: 36829
+--> Sum: 13015353
+--> TargetResource2 noch : 1058415
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-707.707 ist schon an StorageResource GridResc2 verschoben
+--> Win: 36777
+--> Sum: 13052130
+--> TargetResource2 noch : 1021638
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-706.706 ist schon an StorageResource GridResc2 verschoben
+--> Win: 36725
+--> Sum: 13088855
+--> TargetResource2 noch : 984913
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-705.705 ist schon an StorageResource GridResc2 verschoben
+--> Win: 36673
+--> Sum: 13125528
+--> TargetResource2 noch : 948240
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-704.704 ist schon an StorageResource GridResc2 verschoben
+--> Win: 36621
+--> Sum: 13162149
+--> TargetResource2 noch : 911619
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-703.703 ist schon an StorageResource GridResc2 verschoben
+--> Win: 36569
+--> Sum: 13198718
+--> TargetResource2 noch : 875050
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-702.702 ist schon an StorageResource GridResc2 verschoben
+--> Win: 36517
+--> Sum: 13235235
+--> TargetResource2 noch : 838533
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-701.701 ist schon an StorageResource GridResc2 verschoben
+--> Win: 36465
+--> Sum: 13271700
+--> TargetResource2 noch : 802068
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-700.700 ist schon an StorageResource GridResc2 verschoben
+--> Win: 36413
+--> Sum: 13308113
+--> TargetResource2 noch : 765655
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-699.699 ist schon an StorageResource GridResc2 verschoben
+--> Win: 36361
+--> Sum: 13344474
+--> TargetResource2 noch : 729294
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-698.698 ist schon an StorageResource GridResc2 verschoben
+--> Win: 36309
+--> Sum: 13380783
+--> TargetResource2 noch : 692985
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-697.697 ist schon an StorageResource GridResc2 verschoben
+--> Win: 36257
+--> Sum: 13417040
+--> TargetResource2 noch : 656728
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-696.696 ist schon an StorageResource GridResc2 verschoben
+--> Win: 36205
+--> Sum: 13453245
+--> TargetResource2 noch : 620523
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-695.695 ist schon an StorageResource GridResc2 verschoben
+--> Win: 36153
+--> Sum: 13489398
+--> TargetResource2 noch : 584370
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-694.694 ist schon an StorageResource GridResc2 verschoben
+--> Win: 36101
+--> Sum: 13525499
+--> TargetResource2 noch : 548269
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-693.693 ist schon an StorageResource GridResc2 verschoben
+--> Win: 36049
+--> Sum: 13561548
+--> TargetResource2 noch : 512220
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-692.692 ist schon an StorageResource GridResc2 verschoben
+--> Win: 35997
+--> Sum: 13597545
+--> TargetResource2 noch : 476223
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-691.691 ist schon an StorageResource GridResc2 verschoben
+--> Win: 35945
+--> Sum: 13633490
+--> TargetResource2 noch : 440278
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-690.690 ist schon an StorageResource GridResc2 verschoben
+--> Win: 35893
+--> Sum: 13669383
+--> TargetResource2 noch : 404385
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-689.689 ist schon an StorageResource GridResc2 verschoben
+--> Win: 35841
+--> Sum: 13705224
+--> TargetResource2 noch : 368544
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-688.688 ist schon an StorageResource GridResc2 verschoben
+--> Win: 35789
+--> Sum: 13741013
+--> TargetResource2 noch : 332755
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-687.687 ist schon an StorageResource GridResc2 verschoben
+--> Win: 35737
+--> Sum: 13776750
+--> TargetResource2 noch : 297018
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-686.686 ist schon an StorageResource GridResc2 verschoben
+--> Win: 35685
+--> Sum: 13812435
+--> TargetResource2 noch : 261333
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-685.685 ist schon an StorageResource GridResc2 verschoben
+--> Win: 35633
+--> Sum: 13848068
+--> TargetResource2 noch : 225700
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-684.684 ist schon an StorageResource GridResc2 verschoben
+--> Win: 35581
+--> Sum: 13883649
+--> TargetResource2 noch : 190119
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-683.683 ist schon an StorageResource GridResc2 verschoben
+--> Win: 35529
+--> Sum: 13919178
+--> TargetResource2 noch : 154590
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-682.682 ist schon an StorageResource GridResc2 verschoben
+--> Win: 35477
+--> Sum: 13954655
+--> TargetResource2 noch : 119113
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-681.681 ist schon an StorageResource GridResc2 verschoben
+--> Win: 35425
+--> Sum: 13990080
+--> TargetResource2 noch : 83688
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-680.680 ist schon an StorageResource GridResc2 verschoben
+--> Win: 35373
+--> Sum: 14025453
+--> TargetResource2 noch : 48315
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-679.679 ist schon an StorageResource GridResc2 verschoben
+--> Win: 35321
+--> Sum: 14060774
+--> TargetResource2 noch : 12994
+Die Datei /tempZone2/home/irods/StorageResc2/Storage1/Archiv2/archiv2-348.348 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 18109
+--> Sum: 14078883
+--> TargetResource1 noch : 23
+Die Datei /tempZone2/home/irods/StorageResc2/Storage2/storage2-295.st295 ist schon an StorageResource GridResc2 verschoben
+--> Win: 12993
+--> Sum: 14091876
+--> TargetResource2 noch : 1
+Die Datei /tempZone2/home/irods/StorageResc2/Storage2/storage2-0.st0 ist schon an StorageResource FTPResc2 verschoben
+--> Win: 12
+--> Sum: 14091888
+--> TargetResource1 noch : 11
+Leider wurde nur 14091888 freie Speicherkapazität geschafft.
+insgesamt : 14091888 an FTPResc2 verschoben 
+insgesamt : 6151749 an GridResc2 verschoben 
+die Anzahl der verschobene Dateien an FTPResc2 ist 168, an GridResc2 ist 157 

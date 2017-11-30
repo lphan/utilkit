@@ -1,0 +1,1728 @@
+ .......... Komprimierungsprozess beginn ............ 
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-400.fp400
+  Original Size = 6413 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-400.fp400.gz
+  Zip Size = 93 
+  Win : 6320
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-399.fp399
+  Original Size = 6397 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-399.fp399.gz
+  Zip Size = 93 
+  Win : 12624
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-398.fp398
+  Original Size = 6381 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-398.fp398.gz
+  Zip Size = 93 
+  Win : 18912
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-397.fp397
+  Original Size = 6365 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-397.fp397.gz
+  Zip Size = 93 
+  Win : 25184
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-396.fp396
+  Original Size = 6349 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-396.fp396.gz
+  Zip Size = 93 
+  Win : 31440
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-395.fp395
+  Original Size = 6333 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-395.fp395.gz
+  Zip Size = 93 
+  Win : 37680
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-394.fp394
+  Original Size = 6317 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-394.fp394.gz
+  Zip Size = 93 
+  Win : 43904
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-393.fp393
+  Original Size = 6301 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-393.fp393.gz
+  Zip Size = 93 
+  Win : 50112
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-392.fp392
+  Original Size = 6285 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-392.fp392.gz
+  Zip Size = 93 
+  Win : 56304
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-391.fp391
+  Original Size = 6269 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-391.fp391.gz
+  Zip Size = 93 
+  Win : 62480
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-390.fp390
+  Original Size = 6253 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-390.fp390.gz
+  Zip Size = 94 
+  Win : 68639
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-389.fp389
+  Original Size = 6237 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-389.fp389.gz
+  Zip Size = 93 
+  Win : 74783
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-388.fp388
+  Original Size = 6221 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-388.fp388.gz
+  Zip Size = 91 
+  Win : 80913
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-387.fp387
+  Original Size = 6205 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-387.fp387.gz
+  Zip Size = 92 
+  Win : 87026
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-386.fp386
+  Original Size = 6189 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-386.fp386.gz
+  Zip Size = 93 
+  Win : 93122
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-385.fp385
+  Original Size = 6173 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-385.fp385.gz
+  Zip Size = 93 
+  Win : 99202
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-384.fp384
+  Original Size = 6157 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-384.fp384.gz
+  Zip Size = 93 
+  Win : 105266
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-383.fp383
+  Original Size = 6141 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-383.fp383.gz
+  Zip Size = 93 
+  Win : 111314
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-382.fp382
+  Original Size = 6125 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-382.fp382.gz
+  Zip Size = 93 
+  Win : 117346
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-381.fp381
+  Original Size = 6109 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-381.fp381.gz
+  Zip Size = 93 
+  Win : 123362
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-380.fp380
+  Original Size = 6093 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-380.fp380.gz
+  Zip Size = 93 
+  Win : 129362
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-379.fp379
+  Original Size = 6077 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-379.fp379.gz
+  Zip Size = 93 
+  Win : 135346
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-378.fp378
+  Original Size = 6061 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-378.fp378.gz
+  Zip Size = 93 
+  Win : 141314
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-377.fp377
+  Original Size = 6045 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-377.fp377.gz
+  Zip Size = 93 
+  Win : 147266
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-376.fp376
+  Original Size = 6029 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-376.fp376.gz
+  Zip Size = 93 
+  Win : 153202
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-375.fp375
+  Original Size = 6013 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-375.fp375.gz
+  Zip Size = 93 
+  Win : 159122
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-374.fp374
+  Original Size = 5997 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-374.fp374.gz
+  Zip Size = 93 
+  Win : 165026
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-373.fp373
+  Original Size = 5981 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-373.fp373.gz
+  Zip Size = 92 
+  Win : 170915
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-372.fp372
+  Original Size = 5965 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-372.fp372.gz
+  Zip Size = 90 
+  Win : 176790
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-371.fp371
+  Original Size = 5949 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-371.fp371.gz
+  Zip Size = 92 
+  Win : 182647
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-370.fp370
+  Original Size = 5933 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-370.fp370.gz
+  Zip Size = 92 
+  Win : 188488
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-369.fp369
+  Original Size = 5917 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-369.fp369.gz
+  Zip Size = 92 
+  Win : 194313
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-368.fp368
+  Original Size = 5901 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-368.fp368.gz
+  Zip Size = 92 
+  Win : 200122
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-367.fp367
+  Original Size = 5885 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-367.fp367.gz
+  Zip Size = 92 
+  Win : 205915
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-366.fp366
+  Original Size = 5869 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-366.fp366.gz
+  Zip Size = 92 
+  Win : 211692
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-365.fp365
+  Original Size = 5853 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-365.fp365.gz
+  Zip Size = 92 
+  Win : 217453
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-364.fp364
+  Original Size = 5837 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-364.fp364.gz
+  Zip Size = 92 
+  Win : 223198
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-363.fp363
+  Original Size = 5821 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-363.fp363.gz
+  Zip Size = 92 
+  Win : 228927
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-362.fp362
+  Original Size = 5805 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-362.fp362.gz
+  Zip Size = 92 
+  Win : 234640
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-361.fp361
+  Original Size = 5789 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-361.fp361.gz
+  Zip Size = 92 
+  Win : 240337
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-360.fp360
+  Original Size = 5773 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-360.fp360.gz
+  Zip Size = 92 
+  Win : 246018
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-359.fp359
+  Original Size = 5757 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-359.fp359.gz
+  Zip Size = 92 
+  Win : 251683
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-358.fp358
+  Original Size = 5741 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-358.fp358.gz
+  Zip Size = 93 
+  Win : 257331
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-357.fp357
+  Original Size = 5725 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-357.fp357.gz
+  Zip Size = 92 
+  Win : 262964
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-356.fp356
+  Original Size = 5709 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-356.fp356.gz
+  Zip Size = 91 
+  Win : 268582
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-355.fp355
+  Original Size = 5693 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-355.fp355.gz
+  Zip Size = 91 
+  Win : 274184
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-354.fp354
+  Original Size = 5677 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-354.fp354.gz
+  Zip Size = 91 
+  Win : 279770
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-353.fp353
+  Original Size = 5661 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-353.fp353.gz
+  Zip Size = 92 
+  Win : 285339
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-352.fp352
+  Original Size = 5645 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-352.fp352.gz
+  Zip Size = 92 
+  Win : 290892
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-351.fp351
+  Original Size = 5629 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-351.fp351.gz
+  Zip Size = 92 
+  Win : 296429
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-350.fp350
+  Original Size = 5613 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-350.fp350.gz
+  Zip Size = 92 
+  Win : 301950
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-349.fp349
+  Original Size = 5597 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-349.fp349.gz
+  Zip Size = 92 
+  Win : 307455
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-348.fp348
+  Original Size = 5581 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-348.fp348.gz
+  Zip Size = 92 
+  Win : 312944
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-347.fp347
+  Original Size = 5565 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-347.fp347.gz
+  Zip Size = 92 
+  Win : 318417
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-346.fp346
+  Original Size = 5549 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-346.fp346.gz
+  Zip Size = 92 
+  Win : 323874
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-345.fp345
+  Original Size = 5533 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-345.fp345.gz
+  Zip Size = 92 
+  Win : 329315
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-344.fp344
+  Original Size = 5517 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-344.fp344.gz
+  Zip Size = 92 
+  Win : 334740
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-343.fp343
+  Original Size = 5501 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-343.fp343.gz
+  Zip Size = 92 
+  Win : 340149
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-342.fp342
+  Original Size = 5485 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-342.fp342.gz
+  Zip Size = 92 
+  Win : 345542
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-341.fp341
+  Original Size = 5469 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-341.fp341.gz
+  Zip Size = 92 
+  Win : 350919
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-340.fp340
+  Original Size = 5453 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-340.fp340.gz
+  Zip Size = 91 
+  Win : 356281
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-339.fp339
+  Original Size = 5437 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-339.fp339.gz
+  Zip Size = 91 
+  Win : 361627
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-338.fp338
+  Original Size = 5421 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-338.fp338.gz
+  Zip Size = 91 
+  Win : 366957
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-337.fp337
+  Original Size = 5405 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-337.fp337.gz
+  Zip Size = 91 
+  Win : 372271
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-336.fp336
+  Original Size = 5389 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-336.fp336.gz
+  Zip Size = 91 
+  Win : 377569
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-335.fp335
+  Original Size = 5373 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-335.fp335.gz
+  Zip Size = 91 
+  Win : 382851
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-334.fp334
+  Original Size = 5357 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-334.fp334.gz
+  Zip Size = 91 
+  Win : 388117
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-333.fp333
+  Original Size = 5341 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-333.fp333.gz
+  Zip Size = 91 
+  Win : 393367
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-332.fp332
+  Original Size = 5325 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-332.fp332.gz
+  Zip Size = 91 
+  Win : 398601
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-331.fp331
+  Original Size = 5309 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-331.fp331.gz
+  Zip Size = 91 
+  Win : 403819
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-330.fp330
+  Original Size = 5293 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-330.fp330.gz
+  Zip Size = 91 
+  Win : 409021
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-329.fp329
+  Original Size = 5277 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-329.fp329.gz
+  Zip Size = 91 
+  Win : 414207
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-328.fp328
+  Original Size = 5261 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-328.fp328.gz
+  Zip Size = 91 
+  Win : 419377
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-327.fp327
+  Original Size = 5245 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-327.fp327.gz
+  Zip Size = 91 
+  Win : 424531
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-326.fp326
+  Original Size = 5229 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-326.fp326.gz
+  Zip Size = 92 
+  Win : 429668
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-325.fp325
+  Original Size = 5213 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-325.fp325.gz
+  Zip Size = 91 
+  Win : 434790
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-324.fp324
+  Original Size = 5197 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-324.fp324.gz
+  Zip Size = 91 
+  Win : 439896
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-323.fp323
+  Original Size = 5181 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-323.fp323.gz
+  Zip Size = 90 
+  Win : 444987
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-322.fp322
+  Original Size = 5165 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-322.fp322.gz
+  Zip Size = 90 
+  Win : 450062
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-321.fp321
+  Original Size = 5149 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-321.fp321.gz
+  Zip Size = 91 
+  Win : 455120
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-320.fp320
+  Original Size = 5133 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-320.fp320.gz
+  Zip Size = 91 
+  Win : 460162
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-319.fp319
+  Original Size = 5117 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-319.fp319.gz
+  Zip Size = 91 
+  Win : 465188
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-300.ft300
+  Original Size = 5113 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-300.ft300.gz
+  Zip Size = 92 
+  Win : 470209
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-318.fp318
+  Original Size = 5101 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-318.fp318.gz
+  Zip Size = 91 
+  Win : 475219
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-299.ft299
+  Original Size = 5096 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-299.ft299.gz
+  Zip Size = 92 
+  Win : 480223
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-317.fp317
+  Original Size = 5085 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-317.fp317.gz
+  Zip Size = 91 
+  Win : 485217
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-298.ft298
+  Original Size = 5079 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-298.ft298.gz
+  Zip Size = 92 
+  Win : 490204
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-316.fp316
+  Original Size = 5069 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-316.fp316.gz
+  Zip Size = 91 
+  Win : 495182
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-297.ft297
+  Original Size = 5062 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-297.ft297.gz
+  Zip Size = 92 
+  Win : 500152
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-315.fp315
+  Original Size = 5053 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-315.fp315.gz
+  Zip Size = 91 
+  Win : 505114
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-296.ft296
+  Original Size = 5045 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-296.ft296.gz
+  Zip Size = 92 
+  Win : 510067
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-314.fp314
+  Original Size = 5037 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-314.fp314.gz
+  Zip Size = 91 
+  Win : 515013
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-295.ft295
+  Original Size = 5028 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-295.ft295.gz
+  Zip Size = 92 
+  Win : 519949
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-313.fp313
+  Original Size = 5021 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-313.fp313.gz
+  Zip Size = 91 
+  Win : 524879
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-294.ft294
+  Original Size = 5011 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-294.ft294.gz
+  Zip Size = 92 
+  Win : 529798
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-312.fp312
+  Original Size = 5005 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-312.fp312.gz
+  Zip Size = 91 
+  Win : 534712
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-293.ft293
+  Original Size = 4994 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-293.ft293.gz
+  Zip Size = 92 
+  Win : 539614
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-311.fp311
+  Original Size = 4989 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-311.fp311.gz
+  Zip Size = 91 
+  Win : 544512
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-292.ft292
+  Original Size = 4977 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-292.ft292.gz
+  Zip Size = 92 
+  Win : 549397
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-310.fp310
+  Original Size = 4973 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-310.fp310.gz
+  Zip Size = 91 
+  Win : 554279
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-291.ft291
+  Original Size = 4960 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-291.ft291.gz
+  Zip Size = 92 
+  Win : 559147
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-309.fp309
+  Original Size = 4957 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-309.fp309.gz
+  Zip Size = 91 
+  Win : 564013
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-290.ft290
+  Original Size = 4943 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-290.ft290.gz
+  Zip Size = 92 
+  Win : 568864
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-308.fp308
+  Original Size = 4941 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-308.fp308.gz
+  Zip Size = 90 
+  Win : 573715
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-289.ft289
+  Original Size = 4926 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-289.ft289.gz
+  Zip Size = 91 
+  Win : 578550
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-307.fp307
+  Original Size = 4925 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-307.fp307.gz
+  Zip Size = 90 
+  Win : 583385
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-306.fp306
+  Original Size = 4909 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-306.fp306.gz
+  Zip Size = 90 
+  Win : 588204
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-288.ft288
+  Original Size = 4909 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-288.ft288.gz
+  Zip Size = 91 
+  Win : 593022
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-305.fp305
+  Original Size = 4893 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-305.fp305.gz
+  Zip Size = 90 
+  Win : 597825
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-287.ft287
+  Original Size = 4892 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-287.ft287.gz
+  Zip Size = 91 
+  Win : 602626
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-304.fp304
+  Original Size = 4877 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-304.fp304.gz
+  Zip Size = 90 
+  Win : 607413
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-286.ft286
+  Original Size = 4875 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-286.ft286.gz
+  Zip Size = 91 
+  Win : 612197
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-303.fp303
+  Original Size = 4861 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-303.fp303.gz
+  Zip Size = 90 
+  Win : 616968
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-285.ft285
+  Original Size = 4858 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-285.ft285.gz
+  Zip Size = 91 
+  Win : 621735
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-302.fp302
+  Original Size = 4845 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-302.fp302.gz
+  Zip Size = 90 
+  Win : 626490
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-284.ft284
+  Original Size = 4841 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-284.ft284.gz
+  Zip Size = 91 
+  Win : 631240
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-301.fp301
+  Original Size = 4829 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-301.fp301.gz
+  Zip Size = 90 
+  Win : 635979
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-283.ft283
+  Original Size = 4824 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-283.ft283.gz
+  Zip Size = 92 
+  Win : 640711
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-300.fp300
+  Original Size = 4813 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-300.fp300.gz
+  Zip Size = 90 
+  Win : 645434
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-282.ft282
+  Original Size = 4807 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-282.ft282.gz
+  Zip Size = 92 
+  Win : 650149
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-299.fp299
+  Original Size = 4797 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-299.fp299.gz
+  Zip Size = 90 
+  Win : 654856
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-281.ft281
+  Original Size = 4790 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-281.ft281.gz
+  Zip Size = 91 
+  Win : 659555
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-298.fp298
+  Original Size = 4781 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-298.fp298.gz
+  Zip Size = 90 
+  Win : 664246
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-280.ft280
+  Original Size = 4773 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-280.ft280.gz
+  Zip Size = 91 
+  Win : 668928
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-297.fp297
+  Original Size = 4765 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-297.fp297.gz
+  Zip Size = 90 
+  Win : 673603
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-279.ft279
+  Original Size = 4756 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-279.ft279.gz
+  Zip Size = 91 
+  Win : 678268
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-296.fp296
+  Original Size = 4749 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-296.fp296.gz
+  Zip Size = 90 
+  Win : 682927
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-278.ft278
+  Original Size = 4739 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-278.ft278.gz
+  Zip Size = 91 
+  Win : 687575
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-295.fp295
+  Original Size = 4733 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-295.fp295.gz
+  Zip Size = 90 
+  Win : 692218
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-277.ft277
+  Original Size = 4722 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-277.ft277.gz
+  Zip Size = 91 
+  Win : 696849
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-294.fp294
+  Original Size = 4717 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-294.fp294.gz
+  Zip Size = 90 
+  Win : 701476
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-276.ft276
+  Original Size = 4705 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-276.ft276.gz
+  Zip Size = 92 
+  Win : 706089
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-293.fp293
+  Original Size = 4701 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-293.fp293.gz
+  Zip Size = 91 
+  Win : 710699
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-275.ft275
+  Original Size = 4688 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-275.ft275.gz
+  Zip Size = 91 
+  Win : 715296
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-292.fp292
+  Original Size = 4685 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-292.fp292.gz
+  Zip Size = 90 
+  Win : 719891
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-274.ft274
+  Original Size = 4671 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-274.ft274.gz
+  Zip Size = 90 
+  Win : 724472
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-291.fp291
+  Original Size = 4669 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-291.fp291.gz
+  Zip Size = 89 
+  Win : 729052
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-273.ft273
+  Original Size = 4654 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-273.ft273.gz
+  Zip Size = 90 
+  Win : 733616
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-290.fp290
+  Original Size = 4653 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-290.fp290.gz
+  Zip Size = 89 
+  Win : 738180
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-289.fp289
+  Original Size = 4637 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-289.fp289.gz
+  Zip Size = 90 
+  Win : 742727
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-272.ft272
+  Original Size = 4637 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-272.ft272.gz
+  Zip Size = 91 
+  Win : 747273
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-288.fp288
+  Original Size = 4621 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-288.fp288.gz
+  Zip Size = 90 
+  Win : 751804
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-271.ft271
+  Original Size = 4620 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-271.ft271.gz
+  Zip Size = 91 
+  Win : 756333
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-287.fp287
+  Original Size = 4605 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-287.fp287.gz
+  Zip Size = 90 
+  Win : 760848
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-270.ft270
+  Original Size = 4603 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-270.ft270.gz
+  Zip Size = 91 
+  Win : 765360
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-286.fp286
+  Original Size = 4589 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-286.fp286.gz
+  Zip Size = 90 
+  Win : 769859
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-269.ft269
+  Original Size = 4586 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-269.ft269.gz
+  Zip Size = 91 
+  Win : 774354
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-285.fp285
+  Original Size = 4573 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-285.fp285.gz
+  Zip Size = 90 
+  Win : 778837
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-268.ft268
+  Original Size = 4569 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-268.ft268.gz
+  Zip Size = 91 
+  Win : 783315
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-284.fp284
+  Original Size = 4557 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-284.fp284.gz
+  Zip Size = 90 
+  Win : 787782
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-267.ft267
+  Original Size = 4552 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-267.ft267.gz
+  Zip Size = 91 
+  Win : 792243
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-283.fp283
+  Original Size = 4541 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-283.fp283.gz
+  Zip Size = 90 
+  Win : 796694
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-266.ft266
+  Original Size = 4535 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-266.ft266.gz
+  Zip Size = 91 
+  Win : 801138
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-282.fp282
+  Original Size = 4525 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-282.fp282.gz
+  Zip Size = 90 
+  Win : 805573
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-265.ft265
+  Original Size = 4518 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-265.ft265.gz
+  Zip Size = 91 
+  Win : 810000
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-281.fp281
+  Original Size = 4509 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-281.fp281.gz
+  Zip Size = 90 
+  Win : 814419
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-264.ft264
+  Original Size = 4501 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-264.ft264.gz
+  Zip Size = 91 
+  Win : 818829
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-280.fp280
+  Original Size = 4493 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-280.fp280.gz
+  Zip Size = 90 
+  Win : 823232
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-263.ft263
+  Original Size = 4484 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-263.ft263.gz
+  Zip Size = 91 
+  Win : 827625
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-279.fp279
+  Original Size = 4477 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-279.fp279.gz
+  Zip Size = 90 
+  Win : 832012
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-262.ft262
+  Original Size = 4467 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-262.ft262.gz
+  Zip Size = 91 
+  Win : 836388
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-278.fp278
+  Original Size = 4461 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-278.fp278.gz
+  Zip Size = 90 
+  Win : 840759
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-261.ft261
+  Original Size = 4450 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-261.ft261.gz
+  Zip Size = 91 
+  Win : 845118
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-277.fp277
+  Original Size = 4445 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-277.fp277.gz
+  Zip Size = 90 
+  Win : 849473
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-260.ft260
+  Original Size = 4433 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-260.ft260.gz
+  Zip Size = 90 
+  Win : 853816
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-276.fp276
+  Original Size = 4429 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-276.fp276.gz
+  Zip Size = 89 
+  Win : 858156
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-259.ft259
+  Original Size = 4416 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-259.ft259.gz
+  Zip Size = 87 
+  Win : 862485
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-275.fp275
+  Original Size = 4413 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-275.fp275.gz
+  Zip Size = 89 
+  Win : 866809
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-258.ft258
+  Original Size = 4399 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-258.ft258.gz
+  Zip Size = 90 
+  Win : 871118
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-274.fp274
+  Original Size = 4397 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-274.fp274.gz
+  Zip Size = 89 
+  Win : 875426
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-257.ft257
+  Original Size = 4382 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-257.ft257.gz
+  Zip Size = 90 
+  Win : 879718
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-273.fp273
+  Original Size = 4381 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-273.fp273.gz
+  Zip Size = 89 
+  Win : 884010
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-272.fp272
+  Original Size = 4365 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-272.fp272.gz
+  Zip Size = 89 
+  Win : 888286
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-256.ft256
+  Original Size = 4365 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-256.ft256.gz
+  Zip Size = 90 
+  Win : 892561
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-271.fp271
+  Original Size = 4349 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-271.fp271.gz
+  Zip Size = 89 
+  Win : 896821
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-255.ft255
+  Original Size = 4348 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-255.ft255.gz
+  Zip Size = 90 
+  Win : 901079
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-270.fp270
+  Original Size = 4333 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-270.fp270.gz
+  Zip Size = 89 
+  Win : 905323
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-254.ft254
+  Original Size = 4331 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-254.ft254.gz
+  Zip Size = 90 
+  Win : 909564
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-269.fp269
+  Original Size = 4317 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-269.fp269.gz
+  Zip Size = 89 
+  Win : 913792
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-253.ft253
+  Original Size = 4314 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-253.ft253.gz
+  Zip Size = 90 
+  Win : 918016
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-268.fp268
+  Original Size = 4301 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-268.fp268.gz
+  Zip Size = 89 
+  Win : 922228
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-252.ft252
+  Original Size = 4297 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-252.ft252.gz
+  Zip Size = 90 
+  Win : 926435
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-267.fp267
+  Original Size = 4285 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-267.fp267.gz
+  Zip Size = 89 
+  Win : 930631
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-251.ft251
+  Original Size = 4280 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-251.ft251.gz
+  Zip Size = 90 
+  Win : 934821
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-266.fp266
+  Original Size = 4269 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-266.fp266.gz
+  Zip Size = 89 
+  Win : 939001
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-250.ft250
+  Original Size = 4263 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-250.ft250.gz
+  Zip Size = 90 
+  Win : 943174
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-265.fp265
+  Original Size = 4253 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-265.fp265.gz
+  Zip Size = 89 
+  Win : 947338
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-249.ft249
+  Original Size = 4246 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-249.ft249.gz
+  Zip Size = 90 
+  Win : 951494
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-264.fp264
+  Original Size = 4237 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-264.fp264.gz
+  Zip Size = 89 
+  Win : 955642
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-248.ft248
+  Original Size = 4229 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-248.ft248.gz
+  Zip Size = 90 
+  Win : 959781
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-263.fp263
+  Original Size = 4221 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-263.fp263.gz
+  Zip Size = 89 
+  Win : 963913
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-247.ft247
+  Original Size = 4212 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-247.ft247.gz
+  Zip Size = 90 
+  Win : 968035
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-262.fp262
+  Original Size = 4205 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-262.fp262.gz
+  Zip Size = 89 
+  Win : 972151
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-246.ft246
+  Original Size = 4195 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-246.ft246.gz
+  Zip Size = 91 
+  Win : 976255
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-261.fp261
+  Original Size = 4189 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-261.fp261.gz
+  Zip Size = 89 
+  Win : 980355
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-245.ft245
+  Original Size = 4178 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-245.ft245.gz
+  Zip Size = 90 
+  Win : 984443
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-260.fp260
+  Original Size = 4173 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-260.fp260.gz
+  Zip Size = 89 
+  Win : 988527
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-244.ft244
+  Original Size = 4161 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-244.ft244.gz
+  Zip Size = 89 
+  Win : 992599
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-259.fp259
+  Original Size = 4157 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-259.fp259.gz
+  Zip Size = 87 
+  Win : 996669
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-243.ft243
+  Original Size = 4144 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-243.ft243.gz
+  Zip Size = 90 
+  Win : 1000723
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-258.fp258
+  Original Size = 4141 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-258.fp258.gz
+  Zip Size = 88 
+  Win : 1004776
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-242.ft242
+  Original Size = 4127 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-242.ft242.gz
+  Zip Size = 90 
+  Win : 1008813
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-257.fp257
+  Original Size = 4125 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-257.fp257.gz
+  Zip Size = 88 
+  Win : 1012850
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-241.ft241
+  Original Size = 4110 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-241.ft241.gz
+  Zip Size = 90 
+  Win : 1016870
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-256.fp256
+  Original Size = 4109 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-256.fp256.gz
+  Zip Size = 88 
+  Win : 1020891
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-255.fp255
+  Original Size = 4093 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-255.fp255.gz
+  Zip Size = 88 
+  Win : 1024896
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-240.ft240
+  Original Size = 4093 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-240.ft240.gz
+  Zip Size = 90 
+  Win : 1028899
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-254.fp254
+  Original Size = 4077 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-254.fp254.gz
+  Zip Size = 88 
+  Win : 1032888
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-239.ft239
+  Original Size = 4076 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-239.ft239.gz
+  Zip Size = 90 
+  Win : 1036874
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-253.fp253
+  Original Size = 4061 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-253.fp253.gz
+  Zip Size = 88 
+  Win : 1040847
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-238.ft238
+  Original Size = 4059 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-238.ft238.gz
+  Zip Size = 90 
+  Win : 1044816
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-252.fp252
+  Original Size = 4045 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-252.fp252.gz
+  Zip Size = 88 
+  Win : 1048773
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-237.ft237
+  Original Size = 4042 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-237.ft237.gz
+  Zip Size = 90 
+  Win : 1052725
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-251.fp251
+  Original Size = 4029 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-251.fp251.gz
+  Zip Size = 88 
+  Win : 1056666
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-236.ft236
+  Original Size = 4025 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-236.ft236.gz
+  Zip Size = 90 
+  Win : 1060601
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-250.fp250
+  Original Size = 4013 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-250.fp250.gz
+  Zip Size = 88 
+  Win : 1064526
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-235.ft235
+  Original Size = 4008 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-235.ft235.gz
+  Zip Size = 90 
+  Win : 1068444
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-249.fp249
+  Original Size = 3997 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-249.fp249.gz
+  Zip Size = 88 
+  Win : 1072353
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-234.ft234
+  Original Size = 3991 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-234.ft234.gz
+  Zip Size = 90 
+  Win : 1076254
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-248.fp248
+  Original Size = 3981 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-248.fp248.gz
+  Zip Size = 88 
+  Win : 1080147
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-233.ft233
+  Original Size = 3974 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-233.ft233.gz
+  Zip Size = 90 
+  Win : 1084031
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-247.fp247
+  Original Size = 3965 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-247.fp247.gz
+  Zip Size = 87 
+  Win : 1087909
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-232.ft232
+  Original Size = 3957 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-232.ft232.gz
+  Zip Size = 90 
+  Win : 1091776
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-246.fp246
+  Original Size = 3949 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-246.fp246.gz
+  Zip Size = 87 
+  Win : 1095638
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-231.ft231
+  Original Size = 3940 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-231.ft231.gz
+  Zip Size = 90 
+  Win : 1099488
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-245.fp245
+  Original Size = 3933 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-245.fp245.gz
+  Zip Size = 87 
+  Win : 1103334
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-230.ft230
+  Original Size = 3923 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-230.ft230.gz
+  Zip Size = 90 
+  Win : 1107167
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-244.fp244
+  Original Size = 3917 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-244.fp244.gz
+  Zip Size = 87 
+  Win : 1110997
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-229.ft229
+  Original Size = 3906 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-229.ft229.gz
+  Zip Size = 89 
+  Win : 1114814
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-243.fp243
+  Original Size = 3901 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-243.fp243.gz
+  Zip Size = 87 
+  Win : 1118628
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-228.ft228
+  Original Size = 3889 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-228.ft228.gz
+  Zip Size = 89 
+  Win : 1122428
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-242.fp242
+  Original Size = 3885 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-242.fp242.gz
+  Zip Size = 86 
+  Win : 1126227
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-227.ft227
+  Original Size = 3872 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-227.ft227.gz
+  Zip Size = 89 
+  Win : 1130010
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-241.fp241
+  Original Size = 3869 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-241.fp241.gz
+  Zip Size = 86 
+  Win : 1133793
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-226.ft226
+  Original Size = 3855 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-226.ft226.gz
+  Zip Size = 89 
+  Win : 1137559
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-240.fp240
+  Original Size = 3853 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-240.fp240.gz
+  Zip Size = 86 
+  Win : 1141326
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-225.ft225
+  Original Size = 3838 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-225.ft225.gz
+  Zip Size = 89 
+  Win : 1145075
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-239.fp239
+  Original Size = 3837 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-239.fp239.gz
+  Zip Size = 86 
+  Win : 1148826
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-238.fp238
+  Original Size = 3821 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-238.fp238.gz
+  Zip Size = 86 
+  Win : 1152561
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-224.ft224
+  Original Size = 3821 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-224.ft224.gz
+  Zip Size = 89 
+  Win : 1156293
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-237.fp237
+  Original Size = 3805 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-237.fp237.gz
+  Zip Size = 86 
+  Win : 1160012
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-223.ft223
+  Original Size = 3804 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-223.ft223.gz
+  Zip Size = 89 
+  Win : 1163727
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-236.fp236
+  Original Size = 3789 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-236.fp236.gz
+  Zip Size = 86 
+  Win : 1167430
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-222.ft222
+  Original Size = 3787 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-222.ft222.gz
+  Zip Size = 89 
+  Win : 1171128
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-235.fp235
+  Original Size = 3773 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-235.fp235.gz
+  Zip Size = 86 
+  Win : 1174815
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-221.ft221
+  Original Size = 3770 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-221.ft221.gz
+  Zip Size = 89 
+  Win : 1178496
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-234.fp234
+  Original Size = 3757 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-234.fp234.gz
+  Zip Size = 86 
+  Win : 1182167
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-220.ft220
+  Original Size = 3753 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-220.ft220.gz
+  Zip Size = 89 
+  Win : 1185831
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-233.fp233
+  Original Size = 3741 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-233.fp233.gz
+  Zip Size = 86 
+  Win : 1189486
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-219.ft219
+  Original Size = 3736 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-219.ft219.gz
+  Zip Size = 89 
+  Win : 1193133
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-232.fp232
+  Original Size = 3725 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-232.fp232.gz
+  Zip Size = 86 
+  Win : 1196772
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-218.ft218
+  Original Size = 3719 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-218.ft218.gz
+  Zip Size = 89 
+  Win : 1200402
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-231.fp231
+  Original Size = 3709 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-231.fp231.gz
+  Zip Size = 86 
+  Win : 1204025
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-217.ft217
+  Original Size = 3702 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-217.ft217.gz
+  Zip Size = 88 
+  Win : 1207639
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-230.fp230
+  Original Size = 3693 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-230.fp230.gz
+  Zip Size = 86 
+  Win : 1211246
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-216.ft216
+  Original Size = 3685 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-216.ft216.gz
+  Zip Size = 88 
+  Win : 1214843
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-229.fp229
+  Original Size = 3677 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-229.fp229.gz
+  Zip Size = 86 
+  Win : 1218434
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-215.ft215
+  Original Size = 3668 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-215.ft215.gz
+  Zip Size = 88 
+  Win : 1222014
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-228.fp228
+  Original Size = 3661 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-228.fp228.gz
+  Zip Size = 85 
+  Win : 1225590
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-214.ft214
+  Original Size = 3651 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-214.ft214.gz
+  Zip Size = 88 
+  Win : 1229153
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-227.fp227
+  Original Size = 3645 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-227.fp227.gz
+  Zip Size = 85 
+  Win : 1232713
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-213.ft213
+  Original Size = 3634 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-213.ft213.gz
+  Zip Size = 87 
+  Win : 1236260
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-226.fp226
+  Original Size = 3629 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-226.fp226.gz
+  Zip Size = 84 
+  Win : 1239805
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-212.ft212
+  Original Size = 3617 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-212.ft212.gz
+  Zip Size = 87 
+  Win : 1243335
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-225.fp225
+  Original Size = 3613 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-225.fp225.gz
+  Zip Size = 84 
+  Win : 1246864
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-211.ft211
+  Original Size = 3600 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-211.ft211.gz
+  Zip Size = 87 
+  Win : 1250377
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-224.fp224
+  Original Size = 3597 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-224.fp224.gz
+  Zip Size = 84 
+  Win : 1253890
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-210.ft210
+  Original Size = 3583 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-210.ft210.gz
+  Zip Size = 87 
+  Win : 1257386
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-223.fp223
+  Original Size = 3581 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-223.fp223.gz
+  Zip Size = 84 
+  Win : 1260883
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-209.ft209
+  Original Size = 3566 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-209.ft209.gz
+  Zip Size = 87 
+  Win : 1264362
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-222.fp222
+  Original Size = 3565 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-222.fp222.gz
+  Zip Size = 84 
+  Win : 1267843
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-221.fp221
+  Original Size = 3549 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-221.fp221.gz
+  Zip Size = 84 
+  Win : 1271308
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-208.ft208
+  Original Size = 3549 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-208.ft208.gz
+  Zip Size = 87 
+  Win : 1274770
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-220.fp220
+  Original Size = 3533 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-220.fp220.gz
+  Zip Size = 84 
+  Win : 1278219
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-207.ft207
+  Original Size = 3532 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-207.ft207.gz
+  Zip Size = 87 
+  Win : 1281664
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-219.fp219
+  Original Size = 3517 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-219.fp219.gz
+  Zip Size = 84 
+  Win : 1285097
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-206.ft206
+  Original Size = 3515 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-206.ft206.gz
+  Zip Size = 87 
+  Win : 1288525
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-218.fp218
+  Original Size = 3501 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-218.fp218.gz
+  Zip Size = 84 
+  Win : 1291942
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-205.ft205
+  Original Size = 3498 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-205.ft205.gz
+  Zip Size = 87 
+  Win : 1295353
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-217.fp217
+  Original Size = 3485 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-217.fp217.gz
+  Zip Size = 84 
+  Win : 1298754
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-204.ft204
+  Original Size = 3481 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-204.ft204.gz
+  Zip Size = 87 
+  Win : 1302148
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-216.fp216
+  Original Size = 3469 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-216.fp216.gz
+  Zip Size = 84 
+  Win : 1305533
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-203.ft203
+  Original Size = 3464 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-203.ft203.gz
+  Zip Size = 87 
+  Win : 1308910
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-215.fp215
+  Original Size = 3453 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-215.fp215.gz
+  Zip Size = 84 
+  Win : 1312279
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-202.ft202
+  Original Size = 3447 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-202.ft202.gz
+  Zip Size = 86 
+  Win : 1315640
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-214.fp214
+  Original Size = 3437 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-214.fp214.gz
+  Zip Size = 84 
+  Win : 1318993
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-201.ft201
+  Original Size = 3430 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-201.ft201.gz
+  Zip Size = 86 
+  Win : 1322337
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-213.fp213
+  Original Size = 3421 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-213.fp213.gz
+  Zip Size = 84 
+  Win : 1325674
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-200.ft200
+  Original Size = 3413 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-200.ft200.gz
+  Zip Size = 86 
+  Win : 1329001
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-212.fp212
+  Original Size = 3405 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-212.fp212.gz
+  Zip Size = 84 
+  Win : 1332322
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-199.ft199
+  Original Size = 3396 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-199.ft199.gz
+  Zip Size = 86 
+  Win : 1335632
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-211.fp211
+  Original Size = 3389 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-211.fp211.gz
+  Zip Size = 83 
+  Win : 1338938
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-198.ft198
+  Original Size = 3379 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-198.ft198.gz
+  Zip Size = 85 
+  Win : 1342232
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-210.fp210
+  Original Size = 3373 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-210.fp210.gz
+  Zip Size = 82 
+  Win : 1345523
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-197.ft197
+  Original Size = 3362 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-197.ft197.gz
+  Zip Size = 85 
+  Win : 1348800
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-209.fp209
+  Original Size = 3357 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-209.fp209.gz
+  Zip Size = 82 
+  Win : 1352075
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-196.ft196
+  Original Size = 3345 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-196.ft196.gz
+  Zip Size = 85 
+  Win : 1355335
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-208.fp208
+  Original Size = 3341 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-208.fp208.gz
+  Zip Size = 82 
+  Win : 1358594
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-195.ft195
+  Original Size = 3328 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-195.ft195.gz
+  Zip Size = 85 
+  Win : 1361837
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-207.fp207
+  Original Size = 3325 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-207.fp207.gz
+  Zip Size = 82 
+  Win : 1365080
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-194.ft194
+  Original Size = 3311 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-194.ft194.gz
+  Zip Size = 85 
+  Win : 1368306
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-206.fp206
+  Original Size = 3309 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-206.fp206.gz
+  Zip Size = 82 
+  Win : 1371533
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-193.ft193
+  Original Size = 3294 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-193.ft193.gz
+  Zip Size = 85 
+  Win : 1374742
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-205.fp205
+  Original Size = 3293 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-205.fp205.gz
+  Zip Size = 82 
+  Win : 1377953
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-204.fp204
+  Original Size = 3277 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-204.fp204.gz
+  Zip Size = 82 
+  Win : 1381148
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-192.ft192
+  Original Size = 3277 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-192.ft192.gz
+  Zip Size = 85 
+  Win : 1384340
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-203.fp203
+  Original Size = 3261 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-203.fp203.gz
+  Zip Size = 82 
+  Win : 1387519
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-191.ft191
+  Original Size = 3260 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-191.ft191.gz
+  Zip Size = 85 
+  Win : 1390694
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-202.fp202
+  Original Size = 3245 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-202.fp202.gz
+  Zip Size = 82 
+  Win : 1393857
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-190.ft190
+  Original Size = 3243 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-190.ft190.gz
+  Zip Size = 85 
+  Win : 1397015
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-201.fp201
+  Original Size = 3229 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-201.fp201.gz
+  Zip Size = 82 
+  Win : 1400162
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-189.ft189
+  Original Size = 3226 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-189.ft189.gz
+  Zip Size = 85 
+  Win : 1403303
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-200.fp200
+  Original Size = 3213 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-200.fp200.gz
+  Zip Size = 82 
+  Win : 1406434
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-188.ft188
+  Original Size = 3209 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-188.ft188.gz
+  Zip Size = 85 
+  Win : 1409558
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-199.fp199
+  Original Size = 3197 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-199.fp199.gz
+  Zip Size = 82 
+  Win : 1412673
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-187.ft187
+  Original Size = 3192 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-187.ft187.gz
+  Zip Size = 84 
+  Win : 1415781
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-198.fp198
+  Original Size = 3181 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-198.fp198.gz
+  Zip Size = 82 
+  Win : 1418880
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-186.ft186
+  Original Size = 3175 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-186.ft186.gz
+  Zip Size = 84 
+  Win : 1421971
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-197.fp197
+  Original Size = 3165 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-197.fp197.gz
+  Zip Size = 82 
+  Win : 1425054
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-185.ft185
+  Original Size = 3158 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-185.ft185.gz
+  Zip Size = 84 
+  Win : 1428128
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-196.fp196
+  Original Size = 3149 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-196.fp196.gz
+  Zip Size = 82 
+  Win : 1431195
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-184.ft184
+  Original Size = 3141 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-184.ft184.gz
+  Zip Size = 84 
+  Win : 1434252
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-195.fp195
+  Original Size = 3133 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-195.fp195.gz
+  Zip Size = 81 
+  Win : 1437304
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-183.ft183
+  Original Size = 3124 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-183.ft183.gz
+  Zip Size = 83 
+  Win : 1440345
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-194.fp194
+  Original Size = 3117 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-194.fp194.gz
+  Zip Size = 80 
+  Win : 1443382
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-182.ft182
+  Original Size = 3107 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-182.ft182.gz
+  Zip Size = 83 
+  Win : 1446406
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-193.fp193
+  Original Size = 3101 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-193.fp193.gz
+  Zip Size = 80 
+  Win : 1449427
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-181.ft181
+  Original Size = 3090 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-181.ft181.gz
+  Zip Size = 83 
+  Win : 1452434
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-192.fp192
+  Original Size = 3085 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-192.fp192.gz
+  Zip Size = 80 
+  Win : 1455439
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-180.ft180
+  Original Size = 3073 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-180.ft180.gz
+  Zip Size = 83 
+  Win : 1458429
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-191.fp191
+  Original Size = 3069 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-191.fp191.gz
+  Zip Size = 80 
+  Win : 1461418
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-179.ft179
+  Original Size = 3056 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-179.ft179.gz
+  Zip Size = 83 
+  Win : 1464391
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-190.fp190
+  Original Size = 3053 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-190.fp190.gz
+  Zip Size = 80 
+  Win : 1467364
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-178.ft178
+  Original Size = 3039 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-178.ft178.gz
+  Zip Size = 83 
+  Win : 1470320
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-189.fp189
+  Original Size = 3037 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-189.fp189.gz
+  Zip Size = 80 
+  Win : 1473277
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-177.ft177
+  Original Size = 3022 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-177.ft177.gz
+  Zip Size = 83 
+  Win : 1476216
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-188.fp188
+  Original Size = 3021 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-188.fp188.gz
+  Zip Size = 80 
+  Win : 1479157
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-187.fp187
+  Original Size = 3005 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-187.fp187.gz
+  Zip Size = 80 
+  Win : 1482082
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-176.ft176
+  Original Size = 3005 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-176.ft176.gz
+  Zip Size = 83 
+  Win : 1485004
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-186.fp186
+  Original Size = 2989 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-186.fp186.gz
+  Zip Size = 80 
+  Win : 1487913
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-175.ft175
+  Original Size = 2988 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-175.ft175.gz
+  Zip Size = 83 
+  Win : 1490818
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-185.fp185
+  Original Size = 2973 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-185.fp185.gz
+  Zip Size = 80 
+  Win : 1493711
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-174.ft174
+  Original Size = 2971 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-174.ft174.gz
+  Zip Size = 83 
+  Win : 1496599
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-184.fp184
+  Original Size = 2957 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP2/ftp2-184.fp184.gz
+  Zip Size = 80 
+  Win : 1499476
+FileName : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-173.ft173
+  Original Size = 2954 
+  New Zip Name : /home/irobot/Desktop/FTPSource/home/irods/FTPResc2/FTP1/ftp1-173.ft173.gz
+  Zip Size = 83 
+  Win : 1502347
+Glückwunsch,1502347 freie Speicherkapazität gewonnen. 
+Anzahl der ZipFile : 345

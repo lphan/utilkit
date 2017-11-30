@@ -1,0 +1,26 @@
+#!/bin/bash
+#Hallo Welt Skript
+#Auflisten alle Dateien aus Input Pfade ( mit command ls) und komprimieren sie mit gzip
+#Path = /home/irobot/Desktop/TestOrdner
+read -p "Pfade von Collection / Datei zur Komprimierung : " Path
+echo " .......... Komprimierungsprozess beginn ............ "
+
+# ------------------------------------------------------- BEGIN Programm -------------------------------------------------
+
+echo "-------------------- SHELL mit ls -R ---------------------------- "
+# list all of files with ls
+
+
+for file in `rm -r $Path` ; do
+	echo $file
+done
+
+echo "Die Liste nach der Komprimierung"
+
+for file in `ls -R $Path` ; do
+	echo $file
+done
+
+
+
+
