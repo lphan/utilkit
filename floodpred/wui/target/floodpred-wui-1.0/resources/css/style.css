@@ -1,0 +1,30 @@
+.colour{
+    color:orange;
+    height: 30px;
+}
+.form{
+    border: thin solid lightskyblue;
+    font-family: Helvetica, verdana, sans-serif;
+    font-size: small;
+    background: powderblue;
+}
+.table {
+    border: thin solid lightskyblue;
+    font-family: Helvetica, verdana, sans-serif;
+    font-size: small;
+}
+.table-header {
+    text-align: center;
+    font-style: italic;
+    color: whitesmoke;
+    background: darkcyan;
+}
+.table-odd-row {
+    height: 25px;
+    text-align: center;
+    background: MediumTurquoise;
+}
+.table-even-row {
+    text-align: center;
+    background: PowderBlue;
+}

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>FloodPred JSF</title>
+    </h:head>
+
+    <h:body>
+        <h:outputStylesheet library="css" name="style.css" />
+
+        <div class="colour" >Flood Prediction Interface </div>
+
+        <h:form>
+            <h:panelGrid columns="2" styleClass="form">
+                <h:outputLabel>Water level</h:outputLabel> <h:inputText value="#{floodpredService.floodPred.waterLevel}" />
+                <h:outputLabel>Current time</h:outputLabel> <h:inputText value="#{floodpredService.floodPred.start_time}" />
+                <h:outputLabel>Predict hours</h:outputLabel> <h:inputText value="#{floodpredService.floodPred.predictHours}" />
+            </h:panelGrid>
+            <p>
+                <h:commandButton actionListener="#{floodpredService.compute()}" styleClass="buttons" value="Data Refresh" />
+            </p>
+        </h:form>
+
+        <h:form id="view">
+            <h:outputLabel value="Display the computed Data" style="font-weight:bold"/>
+            <h:inputText value="#{floodpredService.query}" />
+            <h:commandButton actionListener="#{floodpredService.find()}" styleClass="buttons" value="Filter result" />
+            <br />
+
+            <h:panelGrid>
+                <!--
+                QUESTION: where is object dataFloodPred and all its attributes being found ???
+                ANSWER: they are defined as get-methods in FloodPred.java -->
+
+                <!--
+                TODO:
+                Data on FrontEnd are not getting updated with data in Database, only update after new
+                deployment
+                -->
+
+                <h:dataTable value="#{floodpredService.objFloodPred}"
+                             var="d"
+                             styleClass="table"
+                             headerClass="table-header"
+                             rowClasses="table-odd-row,table-even-row">
+                    <h:column>
+                        <f:facet name="header">ID</f:facet>
+                        <h:outputText value="#{d.id}" />
+                    </h:column>
+
+                    <h:column>
+                        <f:facet name="header">datetime</f:facet>
+                        <h:outputText value="#{d.dateTime}" />
+                    </h:column>
+
+                    <h:column>
+                        <f:facet name="header">start_time</f:facet>
+                        <h:outputText value="#{d.start_time}" />
+                    </h:column>
+
+                    <h:column>
+                        <f:facet name="header">Waterlevel</f:facet>
+                        <h:outputText value="#{d.waterLevel}" />
+                    </h:column>
+
+                    <h:column>
+                        <f:facet name="header">Predict hour</f:facet>
+                        <h:outputText value="#{d.predictHours}" />
+                    </h:column>
+
+                    <h:column>
+                        <f:facet name="header">Predict result</f:facet>
+                        <h:outputText value="#{d.predict_result}" />
+                    </h:column>
+
+                    <h:column>
+                        <f:facet name="header">Artificial result</f:facet>
+                        <h:outputText value="#{d.artificial_result}" />
+                    </h:column>
+
+                    <h:column>
+                        <f:facet name="header">Figure</f:facet>
+                        <h:outputText value="#{d.figure_name}" />
+                    </h:column>
+
+                    <!-- TODO: zoom out images as click-thumbnail or create button to display image -->
+                    <h:column>
+                        <f:facet name="header">Image</f:facet>
+                        <h:graphicImage library="images" name="#{d.figure_name}" />
+                    </h:column>
+
+                    <h:column>
+                        <h:commandButton actionListener="#{floodpredService.displayvisual()}" styleClass="buttons"
+                                         value="Display visual result" />
+                    </h:column>
+                </h:dataTable>
+            </h:panelGrid>
+        </h:form>
+    </h:body>
+</html>
