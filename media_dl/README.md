@@ -1,20 +1,23 @@
 Download Media Files (images, video files, documents) 
 =
 
-### Others
+### Start
 (1) start.py
 - This file is a start-script, contains parameters (path to textfile and save location), input by Users.
 
 (2) setup.py
 - This file is used to install all dependencies using python3 setup.py install
 
-(3) log folder
+(3) download.py
+- Interface (root) of all download-functions 
+
+(4) log folder
 - This folder contains all logging-information of all activities
 
 
 ### Images
 ----------------- 
-(1) downloadImg2.py 
+(1) downloadImg.py 
 - This file contains core-functions to parse textfile.txt and download images from links.
 
 (2) textfile.txt
@@ -36,6 +39,11 @@ Download Media Files (images, video files, documents)
 ### (Documents) 
 (1) tbd...
  
+
+### Others 
+(1) util.py
+- contains implementation of log-setting and other utilities functions
+
 
 ### Preparation
 ---------------
@@ -65,19 +73,6 @@ Download Media Files (images, video files, documents)
     
 ### Run the script 
 ------------------
+	> give information to config-file config.ini
+        > python3 start.py 
 
-    - get help information
-        > ./start.py -h   
-
-    - run script, example:
-        > ./start.py -links path_to_text_file.txt -save path_to_save_location   
-        > (example: ./start.py -links /home/lphan/textfile.txt -save ../localsave/ )
-
-        > ./start.py -u url_link_of_image -save path_to_save_location
-        > (example: ./start.py -u http://link.jpg -save ../localsave/ )
-
-        > ./start.py -w url_webpage -save path_to_save_location
-        > (example: ./start.py -w 'http://www.domaintest.com' -s '../localsave/ )
-
-        > python3 multiDownloadYT.py 
-        > (file youtube.txt must be at the same location as multiDownloadYT.py containing video-urls) 

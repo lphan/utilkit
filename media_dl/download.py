@@ -1,0 +1,291 @@
+#!/usr/bin/env python
+#
+# Copyright (c) 2014-2015 SUSE LLC
+#
+# This software is licensed to you under the GNU General Public License,
+# version 2 (GPLv2). There is NO WARRANTY for this software, express or
+# implied, including the implied warranties of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. You should have received a copy of GPLv2
+# along with this software; if not, see
+# http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt.
+#
+
+__author__ = 'Long Phan'
+'''
+Description: Top Class download Media data
+'''
+
+import urllib.parse as up
+import os
+# import pycurl
+# import multiprocessing
+
+from src.others.util import MetaLog, Singleton
+from src.imgdl.downloadImg import DownloadImg
+from multiprocessing import Process, Queue
+from queue import Empty
+
+import logging.handlers
+
+# ----------------- Logging Setting ---------------------------------
+LOG_FILENAME = './log/downloadMedia.log'
+logging.basicConfig(level=logging.DEBUG,
+                    format='%(asctime)s-%(name)s-%(levelname)-8s %(message)s',
+                    datefmt='%a, %d %b %Y %H:%M:%S',
+                    filename=LOG_FILENAME, filemode='w')
+
+console = logging.StreamHandler()
+console.setLevel(logging.INFO)
+formatter = logging.Formatter(' %(levelname)-8s %(message)s')
+console.setFormatter(formatter)
+logger = logging.getLogger('DownloadMedia')
+logger.addHandler(console)
+# -------------------------------------------------------------------
+
+
+class DownloadMedia(object):
+    def __init__(self, args_vid, args_img, args_doc, **kwargs):
+        '''
+        args_vid : bool type of vid_dl (True = download)
+        args_img : bool type of img_dl
+        args_doc : bool type of doc_dl
+        **kwargs : dictionary type containing configuration information
+        save_location: location where document will be saved
+        '''
+        self.dl_vid = args_vid
+        if self.dl_vid:
+            self.vid_url = kwargs["vid_url"]
+            self.vid_txt_file = kwargs["vid_txt_file"]
+            self.vid_html_link = kwargs["vid_html_link"]
+
+        self.dl_img = args_img
+        if self.dl_img:
+            self.img_url = kwargs["img_url"]
+            self.img_txt_file = kwargs["img_txt_file"]
+            self.img_html_link = kwargs["img_html_link"]
+
+        self.dl_doc = args_doc
+        if self.dl_doc:
+            self.doc_url = kwargs["doc_url"]
+            self.doc_txt_file = kwargs["doc_txt_file"]
+            self.doc_html_link = kwargs["doc_html_link"]
+
+        self.save_location = kwargs["save_location"]
+
+        # self.metadata = []
+
+        # call logging-function from util
+        # ml = Singleton(MetaLog, func_name='logging-url')
+        # # self.metaactive = ml.getMetaLogStatus()
+        # self.fn = ml.getFuncName()
+        # self.logger = ml.getLogger()
+        logger.info('Init DownloadImg')
+
+    def getMetaData(self):
+        """ get list all Metadata for URLs """
+        return self.metadata
+
+    def parallelTask(self, work_queue, cpu_cores):
+        """ run parallel processes """
+        def do_work(q):
+            while True:
+                try:
+                    # queue_size = q.qsize()
+                    # self.logger.info(queue_size)
+                    link = q.get(block=False)
+                    validlink = []
+                    validlink.append(link)
+                    self.__downloadfile(validlink)
+                except Empty:
+                    break
+
+        processes = [Process(target=do_work, args=(work_queue,))
+                     for i in range(cpu_cores)]
+
+        for p in processes:
+            p.start()
+        for p in processes:
+            p.join()
+
+    def download_task(self):
+        def preprocessing(url, txt_path, html_link):
+            if txt_path is not None:
+                try:
+                    openfile = open(txt_path, 'rb')
+                    lines = openfile.readlines()
+                    openfile.close()
+                except IOError as e:
+                    self.logger.error('I/O Error (Errno %d) : %s', e.errno,
+                                      e.strerror)
+                    import sys
+                    sys.exit()
+                # check empty file (file without any links/ lines)
+                if len(lines) == 0:
+                    self.logger.warn('Empty File. Exit!')
+                    return
+                else:
+                    self.__download_from_file(lines)
+
+            # else: TODO: again for url and html_link
+            #     self.__download_from_url(self.media_url)
+
+        if self.dl_vid:
+            preprocessing(self.vid_url, self.vid_txt_file, self.vid_html_link)
+
+        if self.dl_img:
+            preprocessing(self.img_url, self.img_txt_file, self.img_html_link)
+
+        if self.dl_doc:
+            preprocessing(self.doc_url, self.doc_txt_file, self.doc_html_link)
+
+    def __download_from_url(self, media_url):
+        valid, datatype = self.__validateURLFormat(media_url)
+        if valid:
+            self.logger.info('......... Result: Valid link ')
+            if datatype == 'img':
+                print ("DOWNLOAD jpg")  # self.__downloadfile([self.doc_url])
+            elif datatype == 'doc':
+                print ("DOWNLOAD pdf")  # self.__downloadfile([self.doc_url])
+
+        else:
+            self.logger.warning('......... Result: NOT valid ')
+            return
+
+    # Download from file in format csv
+    # CSV: url (webpage), file format
+    # e.g.
+    #   www.abc.com, pdf, doc
+    #   www.def.com, jpg, tif
+    #   www.gfh.com, mp4, mp3
+    def __download_from_file(self, lines):
+        links = []
+
+        if self.dl_img:
+            for idx, line in enumerate(lines):
+                logger.info('Validation link: (%d) %s', idx, line)
+                if idx == len(lines) - 1:
+                    # in case last line is '\n'
+                    if line == '\n':
+                        pass
+                    else:
+                        # last line is link, append '\n' to last line
+                        if not (line[-1] == '\n'):
+                            line = str(line) + '\n'
+                valid = self.__validateURLFormat(line)
+                if valid:
+                    self.logger.info('......... Result: Valid link ')
+                    links.append(line)
+
+                else:
+                    self.logger.warning('......... Result: NOT valid ')
+
+            img = DownloadImg(links)
+            img.__download_file()
+
+            # # Check parallel-condition (at least 2 cores)
+            # cpu_cores = multiprocessing.cpu_count()
+            # if cpu_cores > 1:
+            #     work_queue = Queue()
+            #     for l in validlinks:
+            #         work_queue.put(l)
+
+            # if work_queue.qsize() > 0:
+            #     # call multiple processes
+            #     self.parallelTask(work_queue, cpu_cores)
+            # else:
+            #     # single process
+            #     self.__downloadfile(validlinks)
+
+        elif self.dl_vid:
+            links = lines
+            vid = DownloadVid('', links)
+            vid.download_links()
+
+        elif self.dl_doc:
+            doc = DownloadDoc(links)
+            doc.__download_file()
+
+        else:
+            self.logger.warning('No valid links to download')
+            return
+
+    # Validate format of URLs (protocol) inside file
+    def __validateURLFormat(self, url):
+        '''
+        Validate format of url
+        Valid link must be in format http:// or https://.../file.jpg
+        '''
+
+        scheme, netloc, path, query, fragment = up.urlsplit(url)
+        filename = os.path.basename(path)
+        img = filename.split('.')[-1]
+
+        # url="^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$"
+        # TODO: use Regular expression to check validity of url
+        # in all types images, video and documents
+        if (scheme == 'http' or scheme == 'https') and \
+                (img[:-1] in ['jpg', 'JPG', 'png', 'PNG', 'gif'] or
+                 img in ['jpg', 'JPG', 'png', 'PNG', 'gif']):
+            img = 'img'
+            return True, img
+
+        elif (scheme == 'http' or scheme == 'https') and \
+                (img[:-1] in ['pdf', 'PDF', 'doc', 'DOC'] or
+                 img in ['pdf', 'PDF', 'doc', 'DOC']):
+            pdf = 'doc'
+            return True, pdf
+
+        else:
+            return False
+
+    # get Name from link
+    def __getNameFile(self, url):
+        scheme, netloc, path, query, fragment = up.urlsplit(url)
+        filename = os.path.basename(path)
+        if "\n" in filename[len(filename)-1]:
+            return filename[:-1]
+        else:
+            return filename
+
+    # get Meta Information from Header
+    def __getMetaHeader(self, connection):
+        meta = connection.info()
+        meta_header = meta.getheaders if hasattr(meta, 'getheaders') else \
+            meta.get_all
+        return meta_header
+
+
+class DownloadImg(DownloadMedia):
+    def __init__(self, imglinks):
+        self.imglinks = imglinks
+
+    # Execute Download action & check status-code
+    def __downloadfile(self):
+        # call module downloadimg.py
+        # import imgdl.downloadImg
+        pass
+
+
+class DownloadDoc(DownloadMedia):
+    def __init__(self, doclinks):
+        self.doclinks = doclinks
+
+    def __downloadfile(self):
+        # call module downloaddoc.py
+        pass
+
+
+from src.viddl.multiDownloadYT import MultiDownloadYT
+
+class DownloadVid(DownloadMedia):
+    def __init__(self, vid_url, vid_links):
+        self.vid_url = vid_url
+        self.vid_links = vid_links
+
+    def download_links(self):
+        dl = MultiDownloadYT('', self.vid_links, mt=False, mp=True)
+        dl.dl_from_file()
+
+    def download_url(self):
+        dl = MultiDownloadYT(self.vid_url, '', mt=False, mp=True)
+        dl.dl_from_file()

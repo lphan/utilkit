@@ -5,15 +5,8 @@ import re
 import multiprocessing
 from multiprocessing import Process, Queue
 from threading import Thread, activeCount
+from queue import Empty
 
-PY3 = sys.version_info[0] > 2
-
-if PY3:
-    # detect Python version 3
-    from queue import Empty
-else:
-    # detect Python version 2
-    from Queue import Empty
 
 MULTI_THREADING_pos = True  # positive as true
 MULTI_PROCESSING_pos = True
@@ -24,8 +17,6 @@ MULTI_PROCESSING_neg = False
 class Test:
     def __init__(self):
         self.contents = ''
-        if PY3:
-            self.contents = self.contents.encode('ascii')
 
     def body_callback(self, buf):
         self.contents = self.contents + buf
@@ -34,8 +25,8 @@ class Test:
 class MultiDownloadYT(object):
 
     def __init__(self, url, lines, folder='', mt=False, mp=True):
-        self.multithreading = mt
-        self.multiprocessing = mp
+        self.mt_threading = mt
+        self.mt_processing = mp
         self.url = url
         self.lines = lines
         self.folder = folder
@@ -46,9 +37,9 @@ class MultiDownloadYT(object):
         for line in enumerate(self.lines):
             work_queue.put(line[1])
         # print ("Size of queue = ", work_queue.qsize())
-        if self.multiprocessing:
+        if self.mt_processing:
             self.taskProcesses(work_queue)
-        elif self.multithreading:
+        elif self.mt_threading:
             self.taskThreads(work_queue)
         else:
             # print ("Invalid option ...")
@@ -83,9 +74,9 @@ class MultiDownloadYT(object):
             work_queue.put(url[1])
 
         # print ("Size of queue = ", work_queue.qsize())
-        if self.multiprocessing:
+        if self.mt_processing:
             self.taskProcesses(work_queue)
-        elif self.multithreading:
+        elif self.mt_threading:
             self.taskThreads(work_queue)
         else:
             # print ("Invalid option ...")
