@@ -22,6 +22,7 @@ import os
 
 from src.others.util import MetaLog, Singleton
 from src.imgdl.downloadImg import DownloadImg
+from src.viddl.multiDownloadYT import MultiDownloadYT
 from multiprocessing import Process, Queue
 from queue import Empty
 
@@ -81,11 +82,11 @@ class DownloadMedia(object):
         # self.logger = ml.getLogger()
         logger.info('Init DownloadImg')
 
-    def getMetaData(self):
+    def get_metadata(self):
         """ get list all Metadata for URLs """
         return self.metadata
 
-    def parallelTask(self, work_queue, cpu_cores):
+    def parallel_task(self, work_queue, cpu_cores):
         """ run parallel processes """
         def do_work(q):
             while True:
@@ -139,7 +140,7 @@ class DownloadMedia(object):
             preprocessing(self.doc_url, self.doc_txt_file, self.doc_html_link)
 
     def __download_from_url(self, media_url):
-        valid, datatype = self.__validateURLFormat(media_url)
+        valid, datatype = self.__validate_url_format(media_url)
         if valid:
             self.logger.info('......... Result: Valid link ')
             if datatype == 'img':
@@ -171,7 +172,7 @@ class DownloadMedia(object):
                         # last line is link, append '\n' to last line
                         if not (line[-1] == '\n'):
                             line = str(line) + '\n'
-                valid = self.__validateURLFormat(line)
+                valid = self.__validate_url_format(line)
                 if valid:
                     self.logger.info('......... Result: Valid link ')
                     links.append(line)
@@ -180,7 +181,7 @@ class DownloadMedia(object):
                     self.logger.warning('......... Result: NOT valid ')
 
             img = DownloadImg(links)
-            img.__download_file()
+            img.download()
 
             # # Check parallel-condition (at least 2 cores)
             # cpu_cores = multiprocessing.cpu_count()
@@ -197,24 +198,24 @@ class DownloadMedia(object):
             #     self.__downloadfile(validlinks)
 
         elif self.dl_vid:
-            links = lines
-            vid = DownloadVid('', links)
-            vid.download_links()
+            vd = DownloadVid(self.vid_url, lines)
+            vd.download()
 
         elif self.dl_doc:
             doc = DownloadDoc(links)
-            doc.__download_file()
+            doc.download()
 
         else:
             self.logger.warning('No valid links to download')
             return
 
     # Validate format of URLs (protocol) inside file
-    def __validateURLFormat(self, url):
-        '''
+    @staticmethod
+    def __validate_url_format(url):
+        """
         Validate format of url
         Valid link must be in format http:// or https://.../file.jpg
-        '''
+        """
 
         scheme, netloc, path, query, fragment = up.urlsplit(url)
         filename = os.path.basename(path)
@@ -239,7 +240,8 @@ class DownloadMedia(object):
             return False
 
     # get Name from link
-    def __getNameFile(self, url):
+    @staticmethod
+    def __get_name_file(url):
         scheme, netloc, path, query, fragment = up.urlsplit(url)
         filename = os.path.basename(path)
         if "\n" in filename[len(filename)-1]:
@@ -248,7 +250,8 @@ class DownloadMedia(object):
             return filename
 
     # get Meta Information from Header
-    def __getMetaHeader(self, connection):
+    @staticmethod
+    def __get_meta_header(connection):
         meta = connection.info()
         meta_header = meta.getheaders if hasattr(meta, 'getheaders') else \
             meta.get_all
@@ -259,8 +262,7 @@ class DownloadImg(DownloadMedia):
     def __init__(self, imglinks):
         self.imglinks = imglinks
 
-    # Execute Download action & check status-code
-    def __downloadfile(self):
+    def download(self):
         # call module downloadimg.py
         # import imgdl.downloadImg
         pass
@@ -270,22 +272,16 @@ class DownloadDoc(DownloadMedia):
     def __init__(self, doclinks):
         self.doclinks = doclinks
 
-    def __downloadfile(self):
+    def download(self):
         # call module downloaddoc.py
         pass
 
-
-from src.viddl.multiDownloadYT import MultiDownloadYT
 
 class DownloadVid(DownloadMedia):
     def __init__(self, vid_url, vid_links):
         self.vid_url = vid_url
         self.vid_links = vid_links
 
-    def download_links(self):
-        dl = MultiDownloadYT('', self.vid_links, mt=False, mp=True)
-        dl.dl_from_file()
-
-    def download_url(self):
-        dl = MultiDownloadYT(self.vid_url, '', mt=False, mp=True)
+    def download(self):
+        dl = MultiDownloadYT(self.vid_url, self.vid_links, mt=False, mp=True)
         dl.dl_from_file()

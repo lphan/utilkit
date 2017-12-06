@@ -38,9 +38,9 @@ class MultiDownloadYT(object):
             work_queue.put(line[1])
         # print ("Size of queue = ", work_queue.qsize())
         if self.mt_processing:
-            self.taskProcesses(work_queue)
+            self.run_multi_processes(work_queue)
         elif self.mt_threading:
-            self.taskThreads(work_queue)
+            self.run_multi_threads(work_queue)
         else:
             # print ("Invalid option ...")
             sys.exit()
@@ -63,7 +63,7 @@ class MultiDownloadYT(object):
 
         obj = t.contents
         # convert byte-like obj into string-obj
-        urls = self.__parseURL(str(obj))
+        urls = self.__parse_url(str(obj))
 
         # print ("URL List")
         # print (urls)
@@ -75,50 +75,50 @@ class MultiDownloadYT(object):
 
         # print ("Size of queue = ", work_queue.qsize())
         if self.mt_processing:
-            self.taskProcesses(work_queue)
+            self.run_multi_processes(work_queue)
         elif self.mt_threading:
-            self.taskThreads(work_queue)
+            self.run_multi_threads(work_queue)
         else:
             # print ("Invalid option ...")
             sys.exit()
 
     # TODO: parse webpage downloaded by curl to get list of urls
-    # @staticmethod
-    def __parseURL(self, content):
-        ''' Parse content to get a list of URLs '''
-        # vidpattern = "(<a\s[a-zA-Z0-9=:_.-/ \'\"]+>.+<\/a>)"
-        # # print (content)
-        vidpattern = ".*(<a\s.+>.+<\/a>).*"
-        vidobj = re.compile(vidpattern)
+    @staticmethod
+    def __parse_url(content):
+        """ Parse content to get a list of URLs """
+        # url_pattern1 = "(<a\s[a-zA-Z0-9=:_.-/ \'\"]+>.+<\/a>)"
+        # print (content)
+        url_pattern1 = ".*(<a\s.+>.+<\/a>).*"
+        url_obj = re.compile(url_pattern1)
         # find all substring where RE matches and return them as a list
-        vidlist = vidobj.findall(content)
+        url_list = url_obj.findall(content)
 
-        # # print (vidlist)
-        # # print ("vidlist length: ", len(vidlist))
+        # # print (url_list)
+        # # print ("url_list length: ", len(url_list))
 
-        vidpattern2 = "<a\s.*\s(title=\".*\")\s.*\s(href=\"\/watch\?v=.*\").*>(.*)<\/a>"
-        vidobj2 = re.compile(vidpattern2)
+        url_pattern2 = "<a\s.*\s(title=\".*\")\s.*\s(href=\"\/watch\?v=.*\").*>(.*)<\/a>"
+        url_obj2 = re.compile(url_pattern2)
         urls = []
-        tempurls = []
-        for elem in vidlist:
+        temp_urls = []
+        for elem in url_list:
             # print (elem)
             if 'title' in elem:
-                tempurls.append(elem)
+                temp_urls.append(elem)
 
-        # # print ("temp urls length: ", len(tempurls))
+        # # print ("temp urls length: ", len(temp_urls))
 
-        for elem in tempurls:
+        for elem in temp_urls:
             # # print (elem)
-            vidlink = vidobj2.findall(elem)
+            url_link = url_obj2.findall(elem)
 
-            if len(vidlink) > 0:
-                # print ("vidlink =", vidlink)
-                link = vidlink[0][1].split("href=")[1]
+            if len(url_link) > 0:
+                # print ("url_link =", url_link)
+                link = url_link[0][1].split("href=")[1]
                 # # print (str(link))
                 # dllink = "http://www.youtube.com"+str(link)
                 # # print (dllink)
                 # urls.append(dllink)
-                # # print vidlink[0][1]
+                # # print url_link[0][1]
                 urls.append("http://www.youtube.com"+str(link))
             else:
                 # # print ("No suitable link has been found")
@@ -129,16 +129,17 @@ class MultiDownloadYT(object):
         # # print (len(urls))
         return urls
 
-    def __validlink(url):
-        ''' check whether url is a valid link to download
+    def __valid_link(self, url):
+        """ check whether url is a valid link to download
         After combining with root-url: 'http://www.youtube.com' and
         fixed pattern: '/watch?='
         it must have in format:
             http://www.youtube.com/watch?v=EKeb48qYS3A
-        '''
+        """
         pass
 
-    def taskProcesses(self, work_queue):
+    @staticmethod
+    def run_multi_processes(work_queue):
         cpu_cores = multiprocessing.cpu_count()
         # cpu_cores = 2, will run with 2 processes
 
@@ -150,7 +151,9 @@ class MultiDownloadYT(object):
         for p in processes:
             p.join()
 
-    def taskThreads(self, work_queue):
+    @staticmethod
+    def run_multi_threads(work_queue):
+        # no need self-param, can be chosen as staticmethod
         threads = activeCount()
 
         threads = [Thread(target=MultiDownloadYT._do_work, args=(work_queue,))
@@ -172,30 +175,30 @@ class MultiDownloadYT(object):
         # TODO: currently set forder does not work.
         folder = ""
         if len(folder) > 0:
-            prog = "youtube-dl -o " + folder + " -f bestvideo+bestaudio "
+            command = "youtube-dl -o " + folder + " -f bestvideo+bestaudio "
         else:
-            prog = "youtube-dl -f bestvideo+bestaudio --verbose "
+            command = "youtube-dl -f bestvideo+bestaudio --verbose "
         while True:
             try:
                 queue_size = q.qsize()
                 print ("Length of queue: ", queue_size)
                 result = q.get(block=False)
-                if (sys.version_info > (3, 0)):
+                if sys.version_info > (3, 0):
                     # convert byte to string in Python3
                     result = result.decode('UTF-8')
                     # print ('Result: ', str(result))
 
                 if len(options) > 0:
-                    command = prog + options + str(result)
+                    command = command + options + str(result)
                 else:
-                    command = prog + str(result)
+                    command = command + str(result)
                 # print ('Command: ', str(command))
 
                 # obsolete: if os.system(command) == 0:
                 if subprocess.call([command], shell=True) == 0:
-                    print ("Successful download file ", str(result))
+                    print("Successful download file ", str(result))
                 else:
-                    print ("Download FAILED ", result)
+                    print("Download FAILED ", result)
             except Empty:
                 break
 
@@ -210,8 +213,9 @@ class MultiDownloadYT(object):
     type(info)	# dict
     '''
 
+
+# Run test with download from file
 if __name__ == '__main__':
-    # Run test with download from file
     # INPUT: path to file
     path_file = './txt/youtube.txt'
     # INPUT: youtube-url
