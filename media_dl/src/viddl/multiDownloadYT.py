@@ -24,12 +24,11 @@ class Test:
 
 class MultiDownloadYT(object):
 
-    def __init__(self, url, lines, folder='', mt=False, mp=True):
+    def __init__(self, url, lines, mt=False, mp=True):
         self.mt_threading = mt
         self.mt_processing = mp
         self.url = url
         self.lines = lines
-        self.folder = folder
 
     # download by giving input as txt-file from command line
     def dl_from_file(self):
@@ -163,35 +162,25 @@ class MultiDownloadYT(object):
         for t in threads:
             t.join()
 
-    # @staticmethod
-    # def __getfoldername(self):
-    #     return self.folder
-
     @staticmethod
     def _do_work(q):
-        # options = "--playlist-items 3,4,5 "
-        options = "--playlist-start 1 --playlist-end 2 "
-        # folder = MultiDownloadYT.__getfoldername()
-        # TODO: currently set forder does not work.
-        folder = ""
-        if len(folder) > 0:
-            command = "youtube-dl -o " + folder + " -f bestvideo+bestaudio "
-        else:
-            command = "youtube-dl -f bestvideo+bestaudio --verbose "
+        # customize file youtube-dl.conf to configure further options
+        command = "youtube-dl -f bestvideo+bestaudio --config-location youtube-dl.conf --verbose "
+        # options = " --playlist-start 1 --playlist-end 5 "
+
+        # command = "youtube-dl -f bestvideo+bestaudio --verbose "
+
         while True:
             try:
                 queue_size = q.qsize()
-                print ("Length of queue: ", queue_size)
+                print("Length of queue: ", queue_size)
                 result = q.get(block=False)
                 if sys.version_info > (3, 0):
                     # convert byte to string in Python3
                     result = result.decode('UTF-8')
-                    # print ('Result: ', str(result))
+                    print('Result: ', str(result))
 
-                if len(options) > 0:
-                    command = command + options + str(result)
-                else:
-                    command = command + str(result)
+                command = command + str(result)
                 # print ('Command: ', str(command))
 
                 # obsolete: if os.system(command) == 0:
@@ -212,28 +201,3 @@ class MultiDownloadYT(object):
     info = ydl.extract_info(url, download=False)
     type(info)	# dict
     '''
-
-
-# Run test with download from file
-if __name__ == '__main__':
-    # INPUT: path to file
-    path_file = './txt/youtube.txt'
-    # INPUT: youtube-url
-    src = "https://www.youtube.com/user/ncarucar/videos"
-    # TODO:
-    # change config-file and create folder accordingly to the link
-    # to save files downloaded.
-    # foldername = "/media/sf_Desktop/Filme/Video"
-
-    try:
-        openfile = open(path_file, 'rb')
-        lines = openfile.readlines()
-        dl = MultiDownloadYT(src, lines, mt=MULTI_THREADING_neg,
-                             mp=MULTI_PROCESSING_pos)
-
-        dl.dl_from_file()
-        # dl.dl_from_url()
-
-    except IOError:
-        # print ("Error IO")
-        sys.exit

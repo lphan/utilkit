@@ -15,8 +15,8 @@ __author__ = 'Long Phan'
 Description: others download media-data
 '''
 import configparser
-import json
-import io
+# import json
+# import io
 from src.others.util import Singleton, MetaLog
 from download import DownloadMedia, DownloadImg, DownloadDoc, DownloadVid
 
@@ -95,4 +95,4 @@ if __name__ == '__main__':
     #     mf.readDataCSV(args.links, ops='read_data')
 
     if not args_doc and not args_img and not args_vid:
-        print ('\nWARNING: NO download decisions are given')
+        print('\nWARNING: NO download decisions are given')

@@ -17,11 +17,13 @@ Description: Top Class download Media data
 
 import urllib.parse as up
 import os
+import re
 # import pycurl
 # import multiprocessing
 
 from src.others.util import MetaLog, Singleton
 from src.imgdl.downloadImg import DownloadImg
+from src.imgdl.multiDownloadImg import MultiDownload
 from src.viddl.multiDownloadYT import MultiDownloadYT
 from multiprocessing import Process, Queue
 from queue import Empty
@@ -46,13 +48,14 @@ logger.addHandler(console)
 
 class DownloadMedia(object):
     def __init__(self, args_vid, args_img, args_doc, **kwargs):
-        '''
+        """
         args_vid : bool type of vid_dl (True = download)
         args_img : bool type of img_dl
         args_doc : bool type of doc_dl
         **kwargs : dictionary type containing configuration information
         save_location: location where document will be saved
-        '''
+        """
+
         self.dl_vid = args_vid
         if self.dl_vid:
             self.vid_url = kwargs["vid_url"]
@@ -73,14 +76,9 @@ class DownloadMedia(object):
 
         self.save_location = kwargs["save_location"]
 
-        # self.metadata = []
-
-        # call logging-function from util
-        # ml = Singleton(MetaLog, func_name='logging-url')
-        # # self.metaactive = ml.getMetaLogStatus()
-        # self.fn = ml.getFuncName()
-        # self.logger = ml.getLogger()
-        logger.info('Init DownloadImg')
+        mf = Singleton(MetaLog, func_name='logging-DownloadMedia')
+        self.logger = mf.getLogger()
+        self.logger.info('Logger: Starting download')
 
     def get_metadata(self):
         """ get list all Metadata for URLs """
@@ -94,9 +92,9 @@ class DownloadMedia(object):
                     # queue_size = q.qsize()
                     # self.logger.info(queue_size)
                     link = q.get(block=False)
-                    validlink = []
-                    validlink.append(link)
-                    self.__downloadfile(validlink)
+                    # validlink = []
+                    # validlink.append(link)
+                    self.__downloadfile([link])
                 except Empty:
                     break
 
@@ -109,7 +107,7 @@ class DownloadMedia(object):
             p.join()
 
     def download_task(self):
-        def preprocessing(url, txt_path, html_link):
+        def pre_processing(url, txt_path, html_link):
             if txt_path is not None:
                 try:
                     openfile = open(txt_path, 'rb')
@@ -122,7 +120,7 @@ class DownloadMedia(object):
                     sys.exit()
                 # check empty file (file without any links/ lines)
                 if len(lines) == 0:
-                    self.logger.warn('Empty File. Exit!')
+                    self.logger.error('Empty File. Exit!')
                     return
                 else:
                     self.__download_from_file(lines)
@@ -131,39 +129,41 @@ class DownloadMedia(object):
             #     self.__download_from_url(self.media_url)
 
         if self.dl_vid:
-            preprocessing(self.vid_url, self.vid_txt_file, self.vid_html_link)
+            pre_processing(self.vid_url, self.vid_txt_file, self.vid_html_link)
 
         if self.dl_img:
-            preprocessing(self.img_url, self.img_txt_file, self.img_html_link)
+            pre_processing(self.img_url, self.img_txt_file, self.img_html_link)
 
         if self.dl_doc:
-            preprocessing(self.doc_url, self.doc_txt_file, self.doc_html_link)
+            pre_processing(self.doc_url, self.doc_txt_file, self.doc_html_link)
 
     def __download_from_url(self, media_url):
         valid, datatype = self.__validate_url_format(media_url)
         if valid:
             self.logger.info('......... Result: Valid link ')
             if datatype == 'img':
-                print ("DOWNLOAD jpg")  # self.__downloadfile([self.doc_url])
+                self.logger.info("DOWNLOAD jpg")  # self.__downloadfile([self.doc_url])
             elif datatype == 'doc':
-                print ("DOWNLOAD pdf")  # self.__downloadfile([self.doc_url])
+                self.logger.info("DOWNLOAD pdf")  # self.__downloadfile([self.doc_url])
 
         else:
             self.logger.warning('......... Result: NOT valid ')
             return
 
-    # Download from file in format csv
-    # CSV: url (webpage), file format
-    # e.g.
-    #   www.abc.com, pdf, doc
-    #   www.def.com, jpg, tif
-    #   www.gfh.com, mp4, mp3
+    """
+    Download from file in format csv
+    CSV: url (webpage), file format
+    e.g.
+       www.abc.com, pdf, doc
+       www.def.com, jpg, tif
+       www.gfh.com, mp4, mp3
+    """
     def __download_from_file(self, lines):
         links = []
 
         if self.dl_img:
             for idx, line in enumerate(lines):
-                logger.info('Validation link: (%d) %s', idx, line)
+                self.logger.info('Validation link: (%d) %s', idx, line)
                 if idx == len(lines) - 1:
                     # in case last line is '\n'
                     if line == '\n':
@@ -180,7 +180,8 @@ class DownloadMedia(object):
                 else:
                     self.logger.warning('......... Result: NOT valid ')
 
-            img = DownloadImg(links)
+            print(self.img_url, self.img_txt_file, self.img_html_link, self.save_location)
+            img = DownloadImg(self.img_url, self.img_txt_file, self.img_html_link, self.save_location)
             img.download()
 
             # # Check parallel-condition (at least 2 cores)
@@ -218,11 +219,16 @@ class DownloadMedia(object):
         """
 
         scheme, netloc, path, query, fragment = up.urlsplit(url)
-        filename = os.path.basename(path)
+        filename = str(os.path.basename(path))
+        # print (filename)
+        # print (type(filename))
         img = filename.split('.')[-1]
 
-        # url="^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$"
-        # TODO: use Regular expression to check validity of url
+        # filename_pattern = "([\da-zA-Z0-9=:_\.\/-]+.[(jpg)|(jpeg)|(JPG)|(png)|(gif)]+\w)"
+        # filename_obj = re.compile(filename_pattern)
+        # valid_filename = filename_obj.findall(filename)
+
+        # TODO: use Regular expression to check validity of url-filename in format .jpg
         # in all types images, video and documents
         if (scheme == 'http' or scheme == 'https') and \
                 (img[:-1] in ['jpg', 'JPG', 'png', 'PNG', 'gif'] or
@@ -259,18 +265,18 @@ class DownloadMedia(object):
 
 
 class DownloadImg(DownloadMedia):
-    def __init__(self, imglinks):
-        self.imglinks = imglinks
+    def __init__(self, img_url, img_links):
+        self.img_url = img_url
+        self.img_links = img_links
 
     def download(self):
-        # call module downloadimg.py
-        # import imgdl.downloadImg
-        pass
+        dl = MultiDownload(self.img_url, self.img_links)
+        dl.download_task()
 
 
 class DownloadDoc(DownloadMedia):
-    def __init__(self, doclinks):
-        self.doclinks = doclinks
+    def __init__(self, doc_links):
+        self.doc_links = doc_links
 
     def download(self):
         # call module downloaddoc.py
