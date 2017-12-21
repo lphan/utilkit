@@ -3,6 +3,7 @@ __author__ = 'Long Phan'
 # import csv
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
 import predict
 import logging
 import datetime
@@ -321,7 +322,7 @@ class FloodPred(object):
     """
     def _visualroc(self):
         fig = plt.figure()
-        plt.xlabel('Time from 0:00 to 24:00')
+        plt.xlabel('From 0:00 to 24:00, time step in 15 minutes')
         plt.ylabel('High water level (normalized)')
 
         # Visual all days (total: 181 days)
@@ -336,7 +337,7 @@ class FloodPred(object):
     def _visualmeanroc(self):
         fig = plt.figure()
 
-        plt.xlabel('Time from 0:00 to 24:00')
+        plt.xlabel('From 0:00 to 24:00, time step in 15 minutes')
         plt.ylabel('High water level (normalized)')
 
         for lr in self.list_roc:
@@ -362,6 +363,7 @@ class FloodPred(object):
                
             plt.plot(x, y, color='blue', marker='.')
         plt.gcf().autofmt_xdate()
+        plt.gca().xaxis.set_major_locator(mdates.HourLocator())
 
 
         # Visualize the current water level at time_now
@@ -399,8 +401,10 @@ class FloodPred(object):
         g_ax = np.asarray([elem[1] for elem in self.green_array])
         g_ay = np.asarray([elem[3] for elem in self.green_array])
 
-        plt.xlabel('Time from 0:00 to 24:00')
+        plt.xlabel('From 0:00 to 24:00, time step in 15 minutes')
         plt.ylabel('High water level (normalized)')
+        # plt.xticks(np.arange(0, 96, 10))
+
 
         # Visualize the classified water level
         plt.scatter([str(r) for r in r_ax], r_ay, color='Red', marker='.', label='Alarm level')
@@ -430,6 +434,7 @@ class FloodPred(object):
 
         plt.legend(loc='upper left')
         plt.gcf().autofmt_xdate()
+        plt.gca().xaxis.set_major_locator(mdates.HourLocator())
 
         self.figname2 = 'Figure2_predictedwaterlevel_'+self.datetime
         fig.savefig(self.imagepath+self.figname2+'.png', dpi=fig.dpi)
