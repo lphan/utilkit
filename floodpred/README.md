@@ -36,7 +36,7 @@ Flood prediction
 
 (1) Prerequisites:
 - pip (check version of pip and upgrade it if possible)        
-    > pip --version
+    > pip --version 
     > pip install --upgrade pip
 
 - it's recommended to test this script in virtual environment:
