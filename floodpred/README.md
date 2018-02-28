@@ -57,3 +57,11 @@ Flood prediction
 
 - Update data between csv-file and Database (need to install mongodb first)
     > python3 dbconn.py
+	
+### Notice
+----------
+Newer version, please visit code at https://github.com/lphan/ML-Practices/tree/master/Entry/floodpredict
+
+### Reference
+-------------
+- http://www.noaa.gov/media-release/noaa-launches-america-s-first-national-water-forecast-model

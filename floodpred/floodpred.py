@@ -83,7 +83,8 @@ class FloodPred(object):
         self.roc, self.x_roc, self.y_roc, self.list_roc = [], [], [], []
 
         self.datetime = dt.split()[0]+'_'+dt.split()[1]
-        self.imagepath = './wui/src/main/webapp/resources/images/'
+        # self.imagepath = './wui/src/main/webapp/resources/images/'
+        self.imagepath = './images/'
 
     # TODO:
     # review norm-techniques of z-score & min-max
