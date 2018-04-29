@@ -12,88 +12,92 @@
 __author__ = 'Long Phan'
 
 '''
-Description: others download media-data
+Description: Start main_function to download media data (Vid, Img, Doc) 
 '''
 import configparser
-# import json
-# import io
-from src.others.util import Singleton, MetaLog
-# from utilkit.others.util import Singleton, MetaLog
 from download import DownloadMedia, DownloadImg, DownloadDoc, DownloadVid
+import logging.handlers
+
+
+def set_logger():
+    log_filename = './log/downloadStart.log'
+    logging.basicConfig(level=logging.DEBUG,
+                        format='%(asctime)s-%(name)s-%(levelname)-8s %(message)s',
+                        datefmt='%a, %d %b %Y %H:%M:%S',
+                        filename=log_filename, filemode='w')
+
+    console = logging.StreamHandler()
+    console.setLevel(logging.INFO)
+    formatter = logging.Formatter(' %(levelname)-8s %(message)s')
+    console.setFormatter(formatter)
+    log = logging.getLogger('Download_Start')
+    log.addHandler(console)
+    return log
 
 
 if __name__ == '__main__':
+    logger = set_logger()
 
     # Load the configuration file
-    # TODO: exeception
-    config = configparser.ConfigParser()
-    config.read('config.ini')
 
-    args_vid = config.getboolean('media', 'viddl')
-    args_img = config.getboolean('media', 'imgdl')
-    args_doc = config.getboolean('media', 'docdl')
+    try:
+        config = configparser.ConfigParser()
+        config.read('config.ini')
+    except IOError:
+        set_logger().info("IO Error, check config.ini file")
+        import sys
+        sys.exit()
+
+    args_vid = config.getboolean('media', 'vid_dl')
+    args_img = config.getboolean('media', 'img_dl')
+    args_doc = config.getboolean('media', 'doc_dl')
+    log_loc = config['others']['log_loc']
 
     vid, img, doc = [], [], []
 
     if args_vid:
-        mf = Singleton(MetaLog, func_name='logging-vid')
-        logger = mf.getLogger()
         logger.info('Logger: Starting download video(s)')
 
-        # dl = DownloadImg(**kwargs)
-        # dl.download_task()
-        vid_url = config['viddl']['vid_url']
-        vid_txt = config['viddl']['vid_txt_file']
-        vid_wp = config['viddl']['vid_html_link']
-        vid = [vid_url, vid_txt, vid_wp]
+        vid_url = config['vid_dl']['vid_url']
+        vid_txt = config['vid_dl']['vid_txt_file']
+        vid_wp = config['vid_dl']['vid_html_link']
+        vid_loc = config['others']['save_vid_loc']
+        vid = [vid_url, vid_txt, vid_wp, vid_loc]
     else:
-        vid = ['', '', '']
+        vid = ['', '', '', '']
 
     if args_img:
-        mf = Singleton(MetaLog, func_name='logging-img')
-        logger = mf.getLogger()
         logger.info('Logger: Starting download image(s)')
 
-        # dl = DownloadImg(**kwargs)
-        # dl.download_task()
-        img_url = config['imgdl']['img_url']
-        img_txt = config['imgdl']['img_txt_file']
-        img_wp = config['imgdl']['img_html_link']
-        img = [img_url, img_txt, img_wp]
+        img_url = config['img_dl']['img_url']
+        img_txt = config['img_dl']['img_txt_file']
+        img_wp = config['img_dl']['img_html_link']
+        img_loc = config['others']['save_img_loc']
+        img = [img_url, img_txt, img_wp, img_loc]
     else:
-        img = ['', '', '']
+        img = ['', '', '', '']
 
     if args_doc:
-        # TODO: input-argument to set METALOG_active value TRUE| FALSE
-        mf = Singleton(MetaLog, func_name='logging-doc', metalog_active=True)
-        logger = mf.getLogger()
         logger.info('Logger: Starting download document(s)')
 
-        # dl = MultiDownload(metalog_active=True, **kwargs)
-        # dl.download_task()
-        doc_url = config['docdl']['doc_url']
-        doc_txt = config['docdl']['doc_txt_file']
-        doc_wp = config['docdl']['doc_html_link']
-        doc = [doc_url, doc_txt, doc_wp]
+        doc_url = config['doc_dl']['doc_url']
+        doc_txt = config['doc_dl']['doc_txt_file']
+        doc_wp = config['doc_dl']['doc_html_link']
+        doc_loc = config['others']['save_doc_loc']
+        doc = [doc_url, doc_txt, doc_wp, doc_loc]
     else:
-        doc = ['', '', '']
+        doc = ['', '', '', '']
 
-    sl = config['others']['save_location']
+    kwargs = {"args_vid": args_vid, "args_img": args_img, "args_doc": args_doc,
+              "vid_url": vid[0], "vid_txt_file": vid[1], "vid_html_link": vid[2], "vid_loc": vid[3],
+              "img_url": img[0], "img_txt_file": img[1], "img_html_link": img[2], "img_loc": img[3],
+              "doc_url": doc[0], "doc_txt_file": doc[1], "doc_html_link": doc[2], "doc_loc": doc[3],
+              }
 
-    kwargs = {"vid_url": vid[0], "vid_txt_file": vid[1], "vid_html_link": vid[2],
-              "img_url": img[0], "img_txt_file": img[1], "img_html_link": img[2],
-              "doc_url": doc[0], "doc_txt_file": doc[1], "doc_html_link": doc[2],
-              "save_location": sl}
+    logger.info(kwargs["vid_txt_file"])
 
-    # print(kwargs["vid_txt_file"])
-    d = DownloadMedia(args_vid, args_img, args_doc, **kwargs)
-    d.download_task()
-
-    # elif (args.links and args.save):
-    #     # TODO: check format whether file is csv
-    #     print "PRINT: analyse CSV_DATA"
-    #     mf = Singleton(MetaLog, func_name='analyse', metalog_active=False)
-    #     mf.readDataCSV(args.links, ops='read_data')
+    dm = DownloadMedia(**kwargs)
+    dm.download_task()
 
     if not args_doc and not args_img and not args_vid:
-        print('\nWARNING: NO download decisions are given')
+        logger.info('\nWARNING: NO download decisions are given')

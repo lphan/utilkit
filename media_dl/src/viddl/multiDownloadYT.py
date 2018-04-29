@@ -6,6 +6,8 @@ import multiprocessing
 from multiprocessing import Process, Queue
 from threading import Thread, activeCount
 from queue import Empty
+# from start import set_logger as logger
+# import start
 
 
 MULTI_THREADING_pos = True  # positive as true
@@ -33,15 +35,17 @@ class MultiDownloadYT(object):
     # download by giving input as txt-file from command line
     def dl_from_file(self):
         work_queue = Queue()
-        for line in enumerate(self.lines):
-            work_queue.put(line[1])
-        # print ("Size of queue = ", work_queue.qsize())
+        # for line in enumerate(self.lines):
+        #     print(line[1])
+        work_queue.put(self.lines)
+
+        # logger.info ("Size of queue = ", work_queue.qsize())
         if self.mt_processing:
             self.run_multi_processes(work_queue)
         elif self.mt_threading:
             self.run_multi_threads(work_queue)
         else:
-            # print ("Invalid option ...")
+            # logger.info ("Invalid option ...")
             sys.exit()
 
     # download by giving input web-url from command line
@@ -53,7 +57,6 @@ class MultiDownloadYT(object):
     def dl_from_url(self):
         t = Test()
 
-        # TODO: understand pycurl and its setoption-function
         c = pycurl.Curl()
         c.setopt(c.URL, self.url)
         c.setopt(c.WRITEFUNCTION, t.body_callback)
@@ -64,21 +67,17 @@ class MultiDownloadYT(object):
         # convert byte-like obj into string-obj
         urls = self.__parse_url(str(obj))
 
-        # print ("URL List")
-        # print (urls)
-
         # add url into work_queue
         work_queue = Queue()
         for url in enumerate(urls):
             work_queue.put(url[1])
 
-        # print ("Size of queue = ", work_queue.qsize())
         if self.mt_processing:
             self.run_multi_processes(work_queue)
         elif self.mt_threading:
             self.run_multi_threads(work_queue)
         else:
-            # print ("Invalid option ...")
+            # logger.info ("Invalid option ...")
             sys.exit()
 
     # TODO: parse webpage downloaded by curl to get list of urls
@@ -86,46 +85,46 @@ class MultiDownloadYT(object):
     def __parse_url(content):
         """ Parse content to get a list of URLs """
         # url_pattern1 = "(<a\s[a-zA-Z0-9=:_.-/ \'\"]+>.+<\/a>)"
-        # print (content)
+        # logger.info (content)
         url_pattern1 = ".*(<a\s.+>.+<\/a>).*"
         url_obj = re.compile(url_pattern1)
         # find all substring where RE matches and return them as a list
         url_list = url_obj.findall(content)
 
-        # # print (url_list)
-        # # print ("url_list length: ", len(url_list))
+        # # logger.info (url_list)
+        # # logger.info ("url_list length: ", len(url_list))
 
         url_pattern2 = "<a\s.*\s(title=\".*\")\s.*\s(href=\"\/watch\?v=.*\").*>(.*)<\/a>"
         url_obj2 = re.compile(url_pattern2)
         urls = []
         temp_urls = []
         for elem in url_list:
-            # print (elem)
+            # logger.info (elem)
             if 'title' in elem:
                 temp_urls.append(elem)
 
-        # # print ("temp urls length: ", len(temp_urls))
+        # # logger.info ("temp urls length: ", len(temp_urls))
 
         for elem in temp_urls:
-            # # print (elem)
+            # # logger.info (elem)
             url_link = url_obj2.findall(elem)
 
             if len(url_link) > 0:
-                # print ("url_link =", url_link)
+                # logger.info ("url_link =", url_link)
                 link = url_link[0][1].split("href=")[1]
-                # # print (str(link))
+                # # logger.info (str(link))
                 # dllink = "http://www.youtube.com"+str(link)
-                # # print (dllink)
+                # # logger.info (dllink)
                 # urls.append(dllink)
-                # # print url_link[0][1]
+                # # logger.info url_link[0][1]
                 urls.append("http://www.youtube.com"+str(link))
             else:
-                # # print ("No suitable link has been found")
+                # # logger.info ("No suitable link has been found")
                 pass
 
-        # # print "List of Download vid-link\n", urls
-        # print
-        # # print (len(urls))
+        # # logger.info "List of Download vid-link\n", urls
+        # logger.info
+        # # logger.info (len(urls))
         return urls
 
     def __valid_link(self, url):
@@ -144,7 +143,7 @@ class MultiDownloadYT(object):
 
         processes = [Process(target=MultiDownloadYT._do_work,
                              args=(work_queue,))
-                     for i in range(cpu_cores)]
+                     for _ in range(cpu_cores)]
         for p in processes:
             p.start()
         for p in processes:
@@ -165,39 +164,38 @@ class MultiDownloadYT(object):
     @staticmethod
     def _do_work(q):
         # customize file youtube-dl.conf to configure further options
-        command = "youtube-dl -f bestvideo+bestaudio --config-location youtube-dl.conf --verbose "
+        # command = "youtube-dl -f bestvideo+bestaudio --config-location youtube-dl.conf --verbose "
         # options = " --playlist-start 1 --playlist-end 5 "
 
-        # command = "youtube-dl -f bestvideo+bestaudio --verbose "
+        command = "youtube-dl -f bestvideo+bestaudio --config-location youtube-dl.conf --verbose "
 
         while True:
             try:
                 queue_size = q.qsize()
-                print("Length of queue: ", queue_size)
+                # start.logger.info("Length of queue: ", queue_size)
                 result = q.get(block=False)
-                if sys.version_info > (3, 0):
-                    # convert byte to string in Python3
-                    result = result.decode('UTF-8')
-                    print('Result: ', str(result))
+                
+                # start.logger.info('Result: ', str(result))
 
                 command = command + str(result)
-                # print ('Command: ', str(command))
+                # logger.info ('Command: ', str(command))
 
                 # obsolete: if os.system(command) == 0:
                 if subprocess.call([command], shell=True) == 0:
-                    print("Successful download file ", str(result))
+                    # start.logger.info("Successful download file ", str(result))
+                    pass
                 else:
-                    print("Download FAILED ", result)
+                    # start.logger.info("Download FAILED ", result)
+                    pass
             except Empty:
                 break
 
-    '''
     # TODO:
     # Get Meta-information from youtube-url
     # Only compatible with python3
-    from youtube_dl import YoutubeDL
-    ydl = YoutubeDL()
-    ydl.add_default_info_extractors()
-    info = ydl.extract_info(url, download=False)
-    type(info)	# dict
-    '''
+    # from youtube_dl import YoutubeDL
+    # ydl = YoutubeDL()
+    # ydl.add_default_info_extractors()
+    # info = ydl.extract_info(url, download=False)
+    # type(info)	# dict
+

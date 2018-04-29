@@ -125,11 +125,6 @@ def goto(x, y):
         print("--> go down")
         goto(x, y - 1)
 
-    # goto(x+1, y)
-    # goto(x, y+1)
-    # goto(x-1, y)
-    # goto(x, y-1)
-
 
 print("list of stone before start: ", st)
 goto(3, 1)

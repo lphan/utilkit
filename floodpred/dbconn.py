@@ -11,7 +11,7 @@ db = client.floodpred
 # a copy
 def updateMongoDB(filepath):
     # connect to Database Host at 'localhost', port 27017
-    mg_client = pymongo.MongoClient('localhost', 27017)
+    mg_client = MongoClient('localhost', 27017)
 
     # database name
     db_name = mg_client['floodpred']
@@ -63,11 +63,9 @@ def updateMongoDB(filepath):
 
         db_cm.insert(data_json)
 
-
 # TODO: sync data between MongoDB and CSV-file
 def syncMongoCSV():
     pass
-
 
 # Read data from MongoDB out
 def read_data():
@@ -82,6 +80,6 @@ def read_data():
 
 
 if __name__ == "__main__":
-    filepath = './wui/src/main/webapp/resources/data.csv'
+    filepath = './data/data.csv'
     updateMongoDB(filepath)
     read_data()
