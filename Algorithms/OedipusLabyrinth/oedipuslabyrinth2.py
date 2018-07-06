@@ -2,15 +2,16 @@ import sys
 # print(sys.getrecursionlimit())
 
 # position of stones
-stone = {'L': (6, 1), 'A': (3, 2), 'I': (6, 5), 'O': (1, 3), 'S': (0, 1)}
+stone = {'L':(1, 5), 'A':(0, 3), 'I':(2, 2), 'O':(5, 2), 'S':(0, 4)}
 st = list(stone.values())
 
 # init path
 path = []
 tmp = []
+result = []
 
 # init obstacles
-obstacle = [(0, 6), (2, 1), (3, 0), (4, 2), (5, 6), (6, 0)]
+obstacle = [(0, 2), (1, 3), (2, 4), (3, 5), (4, 4), (6, 4)]
 
 
 def weight(s1, s2):
@@ -44,9 +45,12 @@ def goto(x, y):
     if invalid(x, y):
         return
 
-    if start in st:
-        print("..... Found STONE at ....", start)
+    if start in st:        
         print("current path: ", path)
+        for k in list(stone.keys()):
+            if stone.get(k) == start:
+                result.append(k)
+                print("..... Found STONE at ....", k," ",start)
 
         # remove the already found stone from list_stone
         st.remove(start)
@@ -127,7 +131,7 @@ def goto(x, y):
 
 
 print("list of stone before start: ", st)
-goto(3, 1)
+goto(1, 0)
 print("---------------------- ")
 print("RESULT: \n")
 print('tmp:', tmp)
@@ -136,3 +140,4 @@ path.append(tmp[0])
 print(path)
 print(len(path))
 print("list of stone after all: ", st)
+print("The order of collected items: ", result)

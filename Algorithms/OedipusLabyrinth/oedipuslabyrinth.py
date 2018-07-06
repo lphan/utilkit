@@ -2,14 +2,15 @@ import sys
 # print(sys.getrecursionlimit())
 
 # position of stones
-stone = {'L':(4, 1), 'A':(2, 6), 'I':(6, 1), 'O':(2, 4), 'S':(1, 6)}
+stone = {'L':(1, 5), 'A':(0, 3), 'I':(2, 2), 'O':(5, 2), 'S':(0, 4)}
 st = list(stone.values())
 
-# init path
+# init path & result
 path = []
+result = []
 
 # init obstacles
-obstacle = [(0, 1), (1, 0), (1, 3), (2, 1), (3, 3), (5, 6)]
+obstacle = [(0, 2), (1, 3), (2, 4), (3, 5), (4, 4), (6, 4)]
 
 
 def invalid(x, y):
@@ -34,8 +35,11 @@ def goto(x, y):
     if invalid(x, y):
         return
 
-    if start in st:
-        print("..... Found STONE at ....", start)
+    if start in st:        
+        for k in list(stone.keys()):
+            if stone.get(k) == start:
+                result.append(k)
+                print("..... Found STONE at ....", k," ",start)
         print("current path: ", path)
 
         # remove the already found stone from list_stone
@@ -43,22 +47,24 @@ def goto(x, y):
         print("list of stones after found: ", st)
     else:
         print("list of stones: ", st)
+        # pass
 
     path.append(start)
     obstacle.append(start)
-
-    goto(x+1, y)
-    goto(x, y+1)
-    goto(x-1, y)
-    goto(x, y-1)
+    
+    goto(x+1, y)  # R
+    goto(x, y+1)  # D
+    goto(x-1, y)  # L    
+    goto(x, y-1)  # U             
 
 
 print("Stone_list before goto: ", st)
-goto(6, 2)
+goto(1, 0)
 print("---------------------- ")
-print("RESULT: \n")
+print("RESULT: \n")  # Result: LSAOI  
 
 # append the first item to the final path and drop all other redundant items because of running recursion
 print(path)
 print(len(path))
 print("Stone_list after goto: ", st)
+print("The order of collected items: ", result)
